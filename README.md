@@ -1,4 +1,4 @@
 # Material do Curso
 
-#Testes/fichas/exercícios
+Testes/fichas/exercícios
 
