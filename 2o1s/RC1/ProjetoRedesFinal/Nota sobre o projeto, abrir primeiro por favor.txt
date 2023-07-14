@@ -1,0 +1,11 @@
+Boa tarde professor, obrigado por ler este documento.
+
+Neste projeto desenvolvemos paginas para todas as empresas porém so utilizamos a pagina dmz.lsdprede.pt por motivos
+de demonstração. Isto dito espero que perceba que fizemos e percebemos tudo pois seria repetir os passos com os
+outros subdominios (defenimo-los no ficheiro db.lsdpredes.pt porém nao dicionamos os ficheiros restantes de modo 
+a ver a pagina html no "ar"). 
+Mesmo assim iremos colocar nesta pasta os ficheiros html criados. 
+Obrigado por ler este ficheiro.
+
+Cumprimentos
+Luis Sousa e David Palricas

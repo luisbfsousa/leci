@@ -1,0 +1,179 @@
+\documentclass{report}
+\usepackage[T1]{fontenc} % Fontes T1
+\usepackage[utf8]{inputenc} % Input UTF8
+\usepackage[backend=biber, style=ieee]{biblatex} % para usar bibliografia
+\usepackage{csquotes}
+\usepackage[portuguese]{babel} %Usar língua portuguesa
+\usepackage{blindtext} % Gerar texto automaticamente
+\usepackage[printonlyused]{acronym}
+\usepackage{hyperref} % para autoref
+\usepackage{graphicx}
+
+\bibliography{bibliografia}
+
+
+\begin{document}
+%%
+% Definições
+%
+\def\titulo{Projeto de LI}
+\def\data{10/07/2022}
+\def\autores{Luis Sousa, Gonçalo Oliveira, Diana Marques, José Silva}
+\def\autorescontactos{(108583) luisbfsousa@ua.pt, (108405) goncalooliveira04@ua.pt, 
+\\(103231) dfcm@ua.pt, (103248) jm.silva@ua.pt}
+\def\versao{FINAL}
+\def\departamento{DETI}
+\def\empresa{https://code.ua.pt/projects/projeto-final-g21-li-21-22}
+\def\logotipo{ua.pdf}
+%
+%%%%%% CAPA %%%%%%
+%
+\begin{titlepage}
+
+\begin{center}
+%
+\vspace*{50mm}
+%
+{\Huge \titulo}\\ 
+%
+\vspace{10mm}
+%
+{\Large \empresa}\\
+%
+\vspace{10mm}
+%
+{\LARGE \autores}\\ 
+%
+\vspace{30mm}
+%
+\begin{figure}[h]
+\center
+\includegraphics{\logotipo}
+\end{figure}
+%
+\vspace{30mm}
+\end{center}
+%
+\begin{flushright}
+\versao
+\end{flushright}
+\end{titlepage}
+
+%%  Página de Título %%
+\title{%
+{\Huge\textbf{\titulo}}\\
+{\Large \departamento\\ \empresa}
+}
+%
+\author{%
+    \autores \\
+    \autorescontactos
+}
+%
+\date{\data}
+%
+\maketitle
+%
+\pagenumbering{roman}
+
+%%%%%% RESUMO %%%%%%
+\begin{abstract}
+
+O objetivo do projeto é desenvolver um sistema de gestão de imagens do estilo caderneta. O sistema deve ser capaz de: Pedir ao utilizador para dar login com a sua conta, se não tiver conta deve existir a opção de criar uma, efetuar o upload de imagens, e gerar uma página de resumo com as imagens que o utilizador tenha feito.
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\pagenumbering{arabic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introdução}
+\label{chapter1} 
+Este projeto, tem como principal objetivo criar uma plataforma digital de colecionismo de imagens digitais, resumidamente, uma caderneta digital de cromos. Este projeto é composto pela parte visual(frontend) utilizando para isso as ferramentas  HyperText Markup Language (HTML), JavaScript (JS) e Cascading Style Sheets (CSS) de modo que seja de facil interação com as várias funcionalidades, já a Backhend é composta por um programa python que tem como objetivo a criação e armazenamento de uma base de dados, criação de métodos que permitem a navegação entre os diversos componentes, irá também fornecer uma interface programática que permita obter informação, ou inseririnformação relativa às imagens, autores e comentários efetuados. Existe também o Processador de imagens, que terá métodos para lidar com as imagens enviadas para o sistema ou a obtenção das mesmas.
+
+
+\chapter{Frontend}
+\label{chapter2}
+
+A pasta HTML, principal base visual, cuja contem todos os ficheiros desse tipo, é composta pelos ficheiros cromo.html, cromos.html, index.html, Register.html e  upload.html. Existem ainda as pastas JavaScript e CSS com o objetivo de criação de gráficos e embelezamento das paginas web, respetivamente.
+
+\renewcommand{\theenumi}{\Roman{enumi}} 
+\section{HTML}
+\renewcommand{\theenumi}{\arabic{enumi}} 
+\begin{enumerate} 
+
+\item\title{\textbf{index.html}} 
+
+Este ficheiro tem como objetivo apresentar uma caixa de login com  um link adicional para uma página dedicada ao registo de novos utilizadores, esta chamada register.html. Trata-se também do ficheiro base, e primeira imagem aquando da abertura do servidor.
+
+\item\title{\textbf{register.html}} 
+
+Tal como descrito acima, o ficheiro register.html serve como uma área dedicada à criação de novos utilizadores caso estes, não existam.
+
+\item\title{\textbf{cromos.html}} 
+
+Este ficheiro tem como objetivo armazenar uma lista de coleções de imagens e ainda a opção de criar uma nova coleção, ação denominada como curador. Estas ações apenas acontecem caso o login tenha sido bem sucedido, caso contrário estas ações serão negadas aquando da tentativa de login na página inicial.
+
+\pagebreak
+
+\item\title{\textbf{upload.html}} 
+
+Esta página web tem como objetivo o upload, tal como o nome indica, de imagens para a coleção criada no ficheiro cromos.html.
+
+\item\title{\textbf{cromo.html}} 
+
+Este ficheiro tem como objetivo servir de ponte entre o cromos.html e o upload.html, de modo que guarde a imagem que a página recebe no upload.html.
+
+\end{enumerate}
+\pagebreak
+
+\chapter{Backend}
+\label{chapter3}
+
+Na Backend, trabalhada através de ficheiros javaScript e python, está o cérebro da máquina, desde deixar funcional a parte de registo e logins, como guardar estes dados, caso válidos, numa base de dados, bem como o próprio tratamento de upload de imagens.
+
+\renewcommand{\theenumi}{\Roman{enumi}} 
+\section{JavaScript}
+\renewcommand{\theenumi}{\arabic{enumi}} 
+\begin{enumerate} 
+
+\item\title{\textbf{login.js}} 
+
+Este ficheiro tem como objetivo tratar de deixar funcional a ideia do ficheiro index.html, isto é, recebe um nome de utilizador e uma palavra passe e averigua se estes estão válidos, isto é, se o utilizador está previamente registado.
+
+\item\title{\textbf{register.js}}
+
+O objetivo deste ficheiro é criar o registo de novos utilizadores, caso estes não existam e depois redirecionar para o ficheiro login.js para permitir o login de modo a obter acesso às várias funcionalidades do servidor.
+
+\item\title{\textbf{cromos.js}}
+
+O objetivo deste programa é possibilitar a ideia desenvolvida no ficheiro upload.html de tal modo que cria uma janela com acesso ao explorador de ficheiros para poder escolher uma imagem, que ficará guardada na parte da caderneta no ficheiro cromos.html.
+
+\item\title{\textbf{cromo.js}}
+
+O cromo.js é feito à base de 2 query's, uma com o objetivo de ir buscar o nome da collection e o nome do owner, a outra query para ir buscar a tabela com a data, o dono anterior e o novo dono. Este programa também adiciona ao URL o path da imagem, que também vem da base de dados.
+
+\end{enumerate}
+\pagebreak
+
+\renewcommand{\theenumi}{\Roman{enumi}} 
+\section{Python}
+\renewcommand{\theenumi}{\arabic{enumi}} 
+\begin{enumerate} 
+
+\item\title{\textbf{basedados.py}} 
+
+Este programa cria uma base de dados especifica para guardar todos os dados dos utilizadores, para depois facilitar o acesso através de outros programas, além de servir como registo de quem dá login e o que faz.
+
+\item\title{\textbf{app.py}} 
+
+Este programa tem como objetivo pedir um nome de utilizador e uma password, que através de cherrypy são escritos numa tabela na base de dados, atribuído um id a cada utilizador. Além disso, tem também uma funcionalidade usada na página login.html, cujo objetivo é, assim que esta recebe uma password e um utilizador, através do cherrypy, este acede à base de dados e confirma se o utilizador e a password correspondem um ao outro, caso isto aconteça, o programa dá a instrução de mudança de página.
+
+\end{enumerate}
+
+
+\chapter*{Contribuições dos autores}
+Todos os autores colaboraram equitativamente para a elaboração deste trabalho tanto na parte visual (HTML) como na parte funcional do programa.
+
+\end{document}

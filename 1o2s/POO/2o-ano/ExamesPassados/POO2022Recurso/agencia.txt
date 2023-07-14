@@ -1,0 +1,13 @@
+P:Montanha,5,200
+P:Picos e Vales,3,500
+P:Ilhas de Sol,7,350
+P:Praia Ativa,7,270
+P:Mergulhos Infinitos,4,480
+P:Diversão em Família,5,320
+P:Spa Real,3,610
+R:Montanha,4
+R:Ilhas de Sol,3
+R:Mergulhos Infinitos,2
+R:Diversão em Família,6
+R:Mergulhos Infinitos,4
+R:Montanha,2

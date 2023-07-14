@@ -1,0 +1,31 @@
+Leitor Joao (1231245):
+        "The Yellow Wallpaper", by Charlotte Perkins Gilman (721) (1 vezes)
+        "Frankenstein", by Mary Wollstonecraft Shelley (975) (1 vezes)
+        "The answer", by George O. Smith (588) (1 vezes)
+        "The Strange Case of Dr. Jekyll and Mr. Hyde", by Robert Louis Stevenson (424) (2 vezes)
+        "Noli Me Tangere", by José Rizal (632) (2 vezes)
+        "War and Peace", by Leo Tolstoy (394) (1 vezes)
+Leitor Ricardo (786675):
+        "Pride and Prejudice", by Jane Austen (1670) (1 vezes)
+        "Japanese Girls and Women", by Alice Mabel Bacon (404) (1 vezes)
+        "A Doll's House : a play", by Henrik Ibsen (431) (1 vezes)
+        "The Strange Case of Dr. Jekyll and Mr. Hyde", by Robert Louis Stevenson (424) (1 vezes)
+        "Great Expectations", by Charles Dickens (423) (1 vezes)
+Leitor Paula (65423):
+        "The Yellow Wallpaper", by Charlotte Perkins Gilman (721) (1 vezes)
+        "Frankenstein", by Mary Wollstonecraft Shelley (975) (1 vezes)
+        "The Picture of Dorian Gray", by Oscar Wilde (533) (1 vezes)
+        "Friendly counsels for freedmen", by Jared Bell Waterbury (393) (1 vezes)
+        "The Adventures of Sherlock Holmes", by Arthur Conan Doyle (851) (1 vezes)
+Leitor Carlos (23424):
+        "Pride and Prejudice", by Jane Austen (1670) (2 vezes)
+        "Frankenstein", by Mary Wollstonecraft Shelley (975) (1 vezes)
+        "A Doll's House : a play", by Henrik Ibsen (431) (1 vezes)
+        "Moby Dick", by Herman Melville (787) (1 vezes)
+        "War and Peace", by Leo Tolstoy (394) (1 vezes)
+        "Alice's Adventures in Wonderland", by Lewis Carroll (927) (1 vezes)
+Leitor Marta (3423):
+        "Pride and Prejudice", by Jane Austen (1670) (1 vezes)
+        "The answer", by George O. Smith (588) (1 vezes)
+        "The Picture of Dorian Gray", by Oscar Wilde (533) (2 vezes)
+        "The Great Gatsby", by F. Scott Fitzgerald (627) (1 vezes)

@@ -1,0 +1,4 @@
+set pcname MarketingPublico
+ip 198.135.108.130 198.135.108.129 27
+ip 2abc:8875:0:3::2/64
+ip auto

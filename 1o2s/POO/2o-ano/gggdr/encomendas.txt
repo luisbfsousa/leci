@@ -1,0 +1,31 @@
+ID da encomenda; Peso do pacote; Remetente; Destino
+1; 23.75; Longjing, China; Lome, Togo
+2; 3.28; Shenzhen, China; Manila, Philippines
+3; 28.87; Taipei, Taiwan; Bogota, Colombia
+4; 11.64; Durban, South Africa; Munich, Germany
+5; 18.43; Stockholm, Sweden; Bangkok, Thailand
+6; 1.16; Hamburg, Germany; Luanda, Angola
+7; 24.50; Montreal, Canada; Bucharest, Romania
+8; 17.81; Jakarta, Indonesia; Barcelona, Spain
+9; 10.35; Dar es Salaam, Tanzania; Athens, Greece
+10; 28.21; Oslo, Norway; Istanbul, Turkey
+11; 5.69; Dublin, Ireland; Colombo, Sri Lanka
+12; 3.11; Fukuoka, Japan; Cairo, Egypt
+13; 4.39; Amsterdam, Netherlands; Nairobi, Kenya
+14; 0.12; Stuttgart, Germany; Asuncion, Paraguay
+15; 13.62; Brisbane, Australia; Santiago, Chile
+16; 15.08; Tehran, Iran; Guadalajara, Mexico
+17; 7.39; Auckland, New Zealand; Mumbai, India
+18; 25.20; Edmonton, Canada; Hanoi, Vietnam
+19; 16.67; Rome, Italy; Johannesburg, South Africa
+20; 12.03; Perth, Australia; Casablanca, Morocco
+21; 2.09; Seoul, South Korea; Kiev, Ukraine
+22; 27.17; Helsinki, Finland; Rio de Janeiro, Brazil
+23; 21.72; Vancouver, Canada; Dhaka, Bangladesh
+24; 26.90; Calgary, Canada; Moscow, Russia
+25; 6.85; Zurich, Switzerland; Manila, Philippines
+26; 19.59; Vienna, Austria; Lima, Peru
+27; 9.53; Sydney, Australia; Belgrade, Serbia
+28; 22.23; San Francisco, USA; Osaka, Japan
+29; 14.55; Madrid, Spain; Karachi, Pakistan
+30; 0.69; Seattle, USA; Ho Chi Minh City, Vietnam

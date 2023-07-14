@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jun 21 03:38:20 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Tennis
+Top-level Entity Name : bdfteste
+Family : Cyclone IV E
+Total logic elements : 685
+    Total combinational functions : 682
+    Dedicated logic registers : 102
+Total registers : 102
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,45 @@
+Escreva um programa que modele um sistema de encomendas usando java. Cada encomenda no sistema é representada por um objeto package. O programa deve utilizar java collections para gerir as encomendas cada encomenda deve conter os atributos:
+
+identificador unico (int)
+automaticamente incrementado
+peso da encomenda (double)
+destino (string)
+remetente (string)
+
+Deve incluir as seguintes interfaces e classes
+-package é a classe principal das encomendas, deve ter os atributos mencionados acima, um construtor, função toString e os setters e getters apropriados.
+
+-shippingCostCalculator uma interface que define o comportamento dos objetos que podem calcular o custo de envio das encomendas, deve conter o seguinte método.
+	-calculateShippingCost (Package pkg)  retorna o custo do envio de um pacote em específico
+	-Pode usar o ficheiro shippingCostCalculator.java e fazer as alterações necessárias.
+
+-standardShippingCostCalculator: uma classe que implementa a interface shippingCostCalculator, o custo de envio da encomenda é obtido com base no peso da encomenda, da seguinte forma:
+	-1 euro por quilo para encomendas inferiores a 5 quilos;
+	-2 euros por quilo para encomendas entre 5 a 10 quilos;
+	-3 euros por quilo para encomendas superiores a 10 quilos;
+
+-PackageManager: uma classe que gere as encomendas. A classe deve usar java collections para guardar e gerir as encomendas. A classe deve oferecer os seguintes métodos:
+	-addPackage(Package pkg) Adiciona uma nova encomenda ao sistema.
+	
+	-removePackage(String id): remove uma encomenda do sistema usando o identificador da encomenda.
+
+	-searchPackage(String id):procura uma encomenda no sistema com base no identificador. Retorna a encomenda ou null se a encomenda não 					  existir.
+
+	-calculateShippingCost(String id): calcula o custo, no caso de não existir a encomenda, retorna -1
+
+	-printAllPackages(): Imprime a informação de todas as encomendas que estão no sistema.
+
+O programa deve incluir uma função main na classe PackagingTester que demonstra o uso da classe PackageManager com as seguintes tarefas:
+	-Cria uma nova instância de PackageManager;
+	-Adiciona encomendas ao sistema;
+	-Remove encomendas do sistema;
+	-Lê a partir de um ficheiro os dados referentes a várias encomendas.
+		-O programa deve ser capaz de ler o ficheiro encomendas.txt ;
+	-Procura uma encomenda em específico;
+	-Imprime a informação de todas as encomendas no sistema;
+	-Calcula o custo de envio de uma encomenda;
+	-Imprime para um ficheiro a lista de encomendas existentes no PackageManager. O ficheiro deve ter os dados separados por ";" e 		 incluir em cada linha a seguinte informação para cada encomenda:
+		-Remetente;
+		-Destino;
+		-Peso da encomenda;
+		-Preço da encomenda;

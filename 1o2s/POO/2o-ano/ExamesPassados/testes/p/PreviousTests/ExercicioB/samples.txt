@@ -1,0 +1,17 @@
+Tipo	Título	Editora	Autor(es)	ISBN/ISSN
+1	Papillon	Amadora: Bertrand	Henri Charrière	n/a
+2	Revista municipal	Aveiro: C.M.A.		0874-727X
+1	História da Europa	Lisboa: Dom Quixote	Jean-Baptiste Duroselle	972-20-0824-2
+1	Branca de neve e os sete anões	Abril Morumbi	Jacob Grimm; Wilhelm Grimm	n/a
+2	Rodapé	Beja: C.M.B.		0874-8721
+1	O Talismã	Mem Martins: Europa-América	Stephen King; Peter Straub	n/a
+2	Dunas: Temas & Perspectivas	Ovar: C.M.O.		1645-2097
+1	A Queda dos Gigantes	Barcarena: Presença	Ken Follett	978-972-23-4428-9
+1	Mensagem	Porto: Porto Editora	Fernando Pessoa	978-972-0-04975-9
+1	A menina do mar	Lisboa: Texto Editora	Sofia de Melo Breyner Andresen	972-47-0756-3
+2	Boca do Inferno	Cascais: C.M.C.		873-223X
+1	Conto com Fada	Lisboa: Texto Editora	Cristina Malaquias	n/a
+1	O Símbolo Perdido	Lisboa: Bertrand	Dan Brown	978-972-25-2014-0
+1	Histórias daqui e dali	Porto: Porto Editora	Luis Sepúlveda	978-972-0-04312-2
+1	A guerra do silêncio	Lisboa: Bertrand	Kim Philiby	n/a
+2	Pontes & vírgulas	Aveiro: C.M.A.		1646-382X

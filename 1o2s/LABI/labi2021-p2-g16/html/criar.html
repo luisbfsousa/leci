@@ -1,0 +1,428 @@
+<html>
+    <head>
+        <title></title>
+        <script src="../js/criar.js"></script>
+    </head>
+    <script type="text/javascript">
+        var button = document.getElementById("submit_gerar");
+
+        function gerar_alert(){
+
+            var alert_box = document.getElementById("alert_box");
+
+            alert_box.style.display = "block";
+        }
+
+    </script>
+    <style>
+    .titles{
+        color: rgb(46, 46, 46);
+        font-size: 12px;
+        font-family: "Roboto", Helvetica, sans-serif;
+    }
+
+    select{
+        background-color: #3082c5;
+        border:none;
+        text-decoration: none;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+    #refresh {
+        float: left;
+        width: 16px;
+        height: 16px;
+        background: url('../img/rotate.png') no-repeat;
+        filter: invert(100%) sepia(6%) saturate(7461%) hue-rotate(173deg) brightness(129%) contrast(113%);
+        margin-right: 10px;
+    }
+
+    @Keyframes rotating {
+        from{
+            -webkit-transform: rotate(0deg);
+        }
+        to{
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    .rotating {
+        -webkit-animation: rotating 2s linear infinite;
+    }
+    #alert_box{
+        display: none;
+    }
+
+    .nome_musica{
+        padding: 5px;
+        border: 1px rgb(179, 179, 179) solid;
+        border-radius: 5px;
+        margin-left: 2px;
+        outline: none;
+        color: rgb(92, 90, 90);
+
+    }
+
+    #submit_gerar{
+        padding: 10px 20px;
+        color: white;
+        border: none;
+        background-color: yellowgreen;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        float: right;
+    }
+
+    </style>
+    <body>
+        <div style="width: 760px; margin: 0 auto;">
+        <form action="/put" method="post" style="align-content: center;">
+            <div id="alert_box" style="border-radius:  5px;padding: 20px; background-color: #f44336; color:white;">
+             <span style="float: right; cursor: pointer; color:white;font-size: 22px;line-height:20px;transition: 0.3s;" onclick="this.parentElement.style.display='none';">&times;</span>
+             <div id='refresh' class='rotating'></div>
+                A música está a ser gerada!
+            </div>
+            <!-- titulos que aparecem em cima da tabela -->
+            <table style="margin-top: -10px;">
+            <tr class="titles">
+                <th>Samples</th>
+                <th>01</th>
+                <th>02</th>
+                <th>03</th>
+                <th>04</th>
+                <th>05</th>
+                <th>06</th>
+                <th>07</th>
+                <th>08</th>
+                <th>09</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>Efeitos</th>
+                <th>Volume(o efeito volume deve estar selecionado)</th>
+                <br>
+            </tr>
+            <!-- LINHA 0 -->
+            <tr>
+                <td><label><select name="s0">
+                    <option value="none">none</option>
+                    <option value="sample1">sample1</option>
+                    <option value="sample2">sample2</option>
+                    <option value="sample3">sample3</option>
+                    <option value="sample4">sample4</option>
+                    <option value="sample5">sample5</option>
+                </label></select></td>
+                    <td><input type="checkbox" name="c0000"></label></td>
+                    <td><input type="checkbox" name="c0001"></label></td>
+                    <td><input type="checkbox" name="c0002"></label></td>
+                    <td><input type="checkbox" name="c0003"></label></td>
+                    <td><input type="checkbox" name="c0004"></label></td>
+                    <td><input type="checkbox" name="c0005"></label></td>
+                    <td><input type="checkbox" name="c0006"></label></td>
+                    <td><input type="checkbox" name="c0007"></label></td>
+                    <td><input type="checkbox" name="c0008"></label></td>
+                    <td><input type="checkbox" name="c0009"></label></td>
+                    <td><input type="checkbox" name="c0010"></label></td>
+                    <td><input type="checkbox" name="c0011"></label></td>
+                    <td><input type="checkbox" name="c0012"></label></td>
+                    <td><input type="checkbox" name="c0013"></label></td>
+                    <td><input type="checkbox" name="c0014"></label></td>
+                    <td><input type="checkbox" name="c0015"></label></td>
+
+                <td>
+                    <select name="e0">
+                    <option value="none">none</option>
+                    <option value="fadein">Fade In</option>
+                    <option value="fadeout">Fade Out</option>
+                    <option value="normalize">Normalizado</option>
+                    <option value="modulation">Modulação</option>
+                    <option value="volume">Volume</option>
+                </label></select></td>
+                <td><input type="range" name="vol0" min="0" max="10"></td>
+            </tr>
+
+            <!-- LINHA 1 -->
+            <tr>
+                <td><label><select name="s1">
+                    <option value="none">none</option>
+                    <option value="sample1">sample1</option>
+                    <option value="sample2">sample2</option>
+                    <option value="sample3">sample3</option>
+                    <option value="sample4">sample4</option>
+                    <option value="sample5">sample5</option>
+                </label></select></td>
+                    <td><input type="checkbox" name="c0100"></label></td>
+                    <td><input type="checkbox" name="c0101"></label></td>
+                    <td><input type="checkbox" name="c0102"></label></td>
+                    <td><input type="checkbox" name="c0103"></label></td>
+                    <td><input type="checkbox" name="c0104"></label></td>
+                    <td><input type="checkbox" name="c0105"></label></td>
+                    <td><input type="checkbox" name="c0106"></label></td>
+                    <td><input type="checkbox" name="c0107"></label></td>
+                    <td><input type="checkbox" name="c0108"></label></td>
+                    <td><input type="checkbox" name="c0109"></label></td>
+                    <td><input type="checkbox" name="c0110"></label></td>
+                    <td><input type="checkbox" name="c0111"></label></td>
+                    <td><input type="checkbox" name="c0112"></label></td>
+                    <td><input type="checkbox" name="c0113"></label></td>
+                    <td><input type="checkbox" name="c0114"></label></td>
+                    <td><input type="checkbox" name="c0115"></label></td>
+
+                <td>
+                    <select name="e1">
+                    <option value="none">none</option>
+                    <option value="fadein">Fade In</option>
+                    <option value="fadeout">Fade Out</option>
+                    <option value="normalize">Normalizado</option>
+                    <option value="modulation">Modulação</option>
+                    <option value="volume">Volume</option>
+                </label></select></td>
+                <td><input type="range" name="vol1" min="0" max="10"></td>
+            </tr>
+
+            <!-- LINHA 2 -->
+            <tr>
+                <td><label><select name="s2">
+                    <option value="none">none</option>
+                    <option value="sample1">sample1</option>
+                    <option value="sample2">sample2</option>
+                    <option value="sample3">sample3</option>
+                    <option value="sample4">sample4</option>
+                    <option value="sample5">sample5</option>
+                </label></select></td>
+                    <td><input type="checkbox" name="c0200"></label></td>
+                    <td><input type="checkbox" name="c0201"></label></td>
+                    <td><input type="checkbox" name="c0202"></label></td>
+                    <td><input type="checkbox" name="c0203"></label></td>
+                    <td><input type="checkbox" name="c0204"></label></td>
+                    <td><input type="checkbox" name="c0205"></label></td>
+                    <td><input type="checkbox" name="c0206"></label></td>
+                    <td><input type="checkbox" name="c0207"></label></td>
+                    <td><input type="checkbox" name="c0208"></label></td>
+                    <td><input type="checkbox" name="c0209"></label></td>
+                    <td><input type="checkbox" name="c0210"></label></td>
+                    <td><input type="checkbox" name="c0211"></label></td>
+                    <td><input type="checkbox" name="c0212"></label></td>
+                    <td><input type="checkbox" name="c0213"></label></td>
+                    <td><input type="checkbox" name="c0214"></label></td>
+                    <td><input type="checkbox" name="c0215"></label></td>
+
+                <td>
+                    <select name="e2">
+                    <option value="none">none</option>
+                    <option value="fadein">Fade In</option>
+                    <option value="fadeout">Fade Out</option>
+                    <option value="normalize">Normalizado</option>
+                    <option value="modulation">Modulação</option>
+                    <option value="volume">Volume</option>
+                </label></select></td>
+                <td><input type="range" name="vol2" min="0" max="10"></td>
+            </tr>
+
+            <!-- LINHA 3 -->
+            <tr>
+                <td><label><select name="s3">
+                    <option value="none">none</option>
+                    <option value="sample1">sample1</option>
+                    <option value="sample2">sample2</option>
+                    <option value="sample3">sample3</option>
+                    <option value="sample4">sample4</option>
+                    <option value="sample5">sample5</option>
+                </label></select></td>
+                    <td><input type="checkbox" name="c0300"></label></td>
+                    <td><input type="checkbox" name="c0301"></label></td>
+                    <td><input type="checkbox" name="c0302"></label></td>
+                    <td><input type="checkbox" name="c0303"></label></td>
+                    <td><input type="checkbox" name="c0304"></label></td>
+                    <td><input type="checkbox" name="c0305"></label></td>
+                    <td><input type="checkbox" name="c0306"></label></td>
+                    <td><input type="checkbox" name="c0307"></label></td>
+                    <td><input type="checkbox" name="c0308"></label></td>
+                    <td><input type="checkbox" name="c0309"></label></td>
+                    <td><input type="checkbox" name="c0310"></label></td>
+                    <td><input type="checkbox" name="c0311"></label></td>
+                    <td><input type="checkbox" name="c0312"></label></td>
+                    <td><input type="checkbox" name="c0313"></label></td>
+                    <td><input type="checkbox" name="c0314"></label></td>
+                    <td><input type="checkbox" name="c0315"></label></td>
+
+                <td>
+                    <select name="e3">
+                    <option value="none">none</option>
+                    <option value="fadein">Fade In</option>
+                    <option value="fadeout">Fade Out</option>
+                    <option value="normalize">Normalizado</option>
+                    <option value="modulation">Modulação</option>
+                    <option value="volume">Volume</option>
+                </label></select></td>
+                <td><input type="range" name="vol3" min="0" max="10"></td>
+            </tr>
+
+            <!-- LINHA 4 -->
+            <tr>
+                <td><label><select name="s4">
+                    <option value="none">none</option>
+                    <option value="sample1">sample1</option>
+                    <option value="sample2">sample2</option>
+                    <option value="sample3">sample3</option>
+                    <option value="sample4">sample4</option>
+                    <option value="sample5">sample5</option>
+                </label></select></td>
+                    <td><input type="checkbox" name="c0400"></label></td>
+                    <td><input type="checkbox" name="c0401"></label></td>
+                    <td><input type="checkbox" name="c0402"></label></td>
+                    <td><input type="checkbox" name="c0403"></label></td>
+                    <td><input type="checkbox" name="c0404"></label></td>
+                    <td><input type="checkbox" name="c0405"></label></td>
+                    <td><input type="checkbox" name="c0406"></label></td>
+                    <td><input type="checkbox" name="c0407"></label></td>
+                    <td><input type="checkbox" name="c0408"></label></td>
+                    <td><input type="checkbox" name="c0409"></label></td>
+                    <td><input type="checkbox" name="c0410"></label></td>
+                    <td><input type="checkbox" name="c0411"></label></td>
+                    <td><input type="checkbox" name="c0412"></label></td>
+                    <td><input type="checkbox" name="c0413"></label></td>
+                    <td><input type="checkbox" name="c0414"></label></td>
+                    <td><input type="checkbox" name="c0415"></label></td>
+
+                <td>
+                    <select name="e4">
+                    <option value="none">none</option>
+                    <option value="fadein">Fade In</option>
+                    <option value="fadeout">Fade Out</option>
+                    <option value="normalize">Normalizado</option>
+                    <option value="modulation">Modulação</option>
+                    <option value="volume">Volume</option>
+                </label></select></td>
+                <td><input type="range" name="vol4" min="0" max="10"></td>
+            </tr>
+
+            <!-- LINHA 5 -->
+            <tr>
+                <td><label><select name="s5">
+                    <option value="none">none</option>
+                    <option value="sample1">sample1</option>
+                    <option value="sample2">sample2</option>
+                    <option value="sample3">sample3</option>
+                    <option value="sample4">sample4</option>
+                    <option value="sample5">sample5</option>
+                </label></select></td>
+                    <td><input type="checkbox" name="c0500"></label></td>
+                    <td><input type="checkbox" name="c0501"></label></td>
+                    <td><input type="checkbox" name="c0502"></label></td>
+                    <td><input type="checkbox" name="c0503"></label></td>
+                    <td><input type="checkbox" name="c0504"></label></td>
+                    <td><input type="checkbox" name="c0505"></label></td>
+                    <td><input type="checkbox" name="c0506"></label></td>
+                    <td><input type="checkbox" name="c0507"></label></td>
+                    <td><input type="checkbox" name="c0508"></label></td>
+                    <td><input type="checkbox" name="c0509"></label></td>
+                    <td><input type="checkbox" name="c0510"></label></td>
+                    <td><input type="checkbox" name="c0511"></label></td>
+                    <td><input type="checkbox" name="c0512"></label></td>
+                    <td><input type="checkbox" name="c0513"></label></td>
+                    <td><input type="checkbox" name="c0514"></label></td>
+                    <td><input type="checkbox" name="c0515"></label></td>
+
+                <td>
+                    <select name="e5">
+                    <option value="none">none</option>
+                    <option value="fadein">Fade In</option>
+                    <option value="fadeout">Fade Out</option>
+                    <option value="normalize">Normalizado</option>
+                    <option value="modulation">Modulação</option>
+                    <option value="volume">Volume</option>
+                </label></select></td>
+                <td><input type="range" name="vol5" min="0" max="10"></td>
+            </tr>
+
+            <!-- LINHA 6 -->
+            <tr>
+                <td><label><select name="s6">
+                    <option value="none">none</option>
+                    <option value="sample1">sample1</option>
+                    <option value="sample2">sample2</option>
+                    <option value="sample3">sample3</option>
+                    <option value="sample4">sample4</option>
+                    <option value="sample5">sample5</option>
+                </label></select></td>
+                    <td><input type="checkbox" name="c0600"></label></td>
+                    <td><input type="checkbox" name="c0601"></label></td>
+                    <td><input type="checkbox" name="c0602"></label></td>
+                    <td><input type="checkbox" name="c0603"></label></td>
+                    <td><input type="checkbox" name="c0604"></label></td>
+                    <td><input type="checkbox" name="c0605"></label></td>
+                    <td><input type="checkbox" name="c0606"></label></td>
+                    <td><input type="checkbox" name="c0607"></label></td>
+                    <td><input type="checkbox" name="c0608"></label></td>
+                    <td><input type="checkbox" name="c0609"></label></td>
+                    <td><input type="checkbox" name="c0610"></label></td>
+                    <td><input type="checkbox" name="c0611"></label></td>
+                    <td><input type="checkbox" name="c0612"></label></td>
+                    <td><input type="checkbox" name="c0613"></label></td>
+                    <td><input type="checkbox" name="c0614"></label></td>
+                    <td><input type="checkbox" name="c0615"></label></td>
+                <td>
+                    <select name="e6">
+                    <option value="none">none</option>
+                    <option value="fadein">Fade In</option>
+                    <option value="fadeout">Fade Out</option>
+                    <option value="normalize">Normalizado</option>
+                    <option value="modulation">Modulação</option>
+                    <option value="volume">Volume</option>
+                </label></select></td>
+                <td><input type="range" name="vol6" min="0" max="10"></td>
+            </tr>
+
+            <!-- LINHA 7 -->
+            <tr>
+                <td><label><select name="s7">
+                    <option value="none">none</option>
+                    <option value="sample1">sample1</option>
+                    <option value="sample2">sample2</option>
+                    <option value="sample3">sample3</option>
+                    <option value="sample4">sample4</option>
+                    <option value="sample5">sample5</option>
+                </label></select></td>
+                    <td><input type="checkbox" name="c0700"></label></td>
+                    <td><input type="checkbox" name="c0701"></label></td>
+                    <td><input type="checkbox" name="c0702"></label></td>
+                    <td><input type="checkbox" name="c0703"></label></td>
+                    <td><input type="checkbox" name="c0704"></label></td>
+                    <td><input type="checkbox" name="c0705"></label></td>
+                    <td><input type="checkbox" name="c0706"></label></td>
+                    <td><input type="checkbox" name="c0707"></label></td>
+                    <td><input type="checkbox" name="c0708"></label></td>
+                    <td><input type="checkbox" name="c0709"></label></td>
+                    <td><input type="checkbox" name="c0710"></label></td>
+                    <td><input type="checkbox" name="c0711"></label></td>
+                    <td><input type="checkbox" name="c0712"></label></td>
+                    <td><input type="checkbox" name="c0713"></label></td>
+                    <td><input type="checkbox" name="c0714"></label></td>
+                    <td><input type="checkbox" name="c0715"></label></td>
+                <td>
+                    <select name="e7">
+                    <option value="none">none</option>
+                    <option value="fadein">Fade In</option>
+                    <option value="fadeout">Fade Out</option>
+                    <option value="normalize">Normalizado</option>
+                    <option value="modulation">Modulação</option>
+                    <option value="volume">Volume</option>
+                </label></select></td>
+                <td><input type="range" name="vol7" min="0" max="10"></td>
+            </tr>
+        </table>
+			<input type="text" name="name" value="Nome da música" class="nome_musica">
+            <input onclick="gerar_alert()" id="submit_gerar" type="submit" value="Gerar">
+        </form>
+    </div>
+    </body>
+</html>

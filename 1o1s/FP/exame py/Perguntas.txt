@@ -1,0 +1,29 @@
+Escreva um programa que calcule o imposto sobre rendimento de vários contribuintes. Use a instrução dada para pedir o rendimento anual e calcule o imposto através da fórmula:
+
+\text{Imposto} = T \times \text{Rendimento} - D,
+
+onde T é a taxa de imposto e D é a dedução, que dependem do rendimento segundo a tabela seguinte.
+
+Rendimento       T: Taxa de Imposto     D: Dedução
+até 10000.00 €    5%    0.00 €
+entre 10000.00 e 20000.00 €    10%    500.00 €
+mais que 20000.00 €    15%    1500.00 €
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Complete numberOfDigits(n) para devolver o número de dígitos do número inteiro n. A solução tem de ser recursiva e não pode usar strings nem ciclos. Note que o resto da divisão por dez dá o dígito menos significativo (1234%10 → 4) e o quociente tem os restantes dígitos (1234//10 → 123).
+-----------------------------------------------------------------------------------------------------------------------------------------------
+No jogo Bulls-and-Cows, o jogador tenta descobir um código secreto composto por N símbolos de um alfabeto pequeno, por exemplo algarismos ou letras. Em cada tentativa, o jogador introduz N símbolos e o computador dá uma pontuação que indica quantos símbolos estão certos na posição certa (os Bulls) e quantos estão certos, mas na posição errada (as Cows). Por exemplo, se o segredo for '4271', a tentativa '1234' tem uma pontuação de 1 Bull (o ‘2’) e 2 Cows (‘1’ e ‘4’).
+
+Complete a função score(guess, secret) para devolver a pontuação de uma tentativa. Por exemplo, score('1234', '4271') decve devolver (1, 2).
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Neste programa, countries é uma lista com dados de vários países. Cada elemento da lista é um tuplo com o nome do país, o código do continente, a área e a população. A variável countries2 contém outra lista do mesmo tipo.
+
+Complete a função morePop(countries, N) para devolver uma lista com os pares (área, nome) dos países com mais do que N habitantes. Pressione Codecheck para conferir o resultado esperado.
+nao consigo copiar tudo mas tenho a lista por odem (nome,continente,area,populacao) tens q fzr sort para a populacao
+
+!!EXEMPLO!!
+nome, continente, area, populacao
+   ("Grenada", "Na", 344.0, 108825)
+dps tem mais 4
+# Complete...
+   lst2 = ...
+

@@ -1,0 +1,95 @@
+Hora	Voo	Origem	Atraso
+00:50	TP 1944	Lisboa	
+07:00	AEA1147	Madrid	
+07:35	IB 8720	Madrid	00:25
+07:35	TO 3408	Paris, Orly	
+07:40	FR 5451	Faro	
+07:55	EZY3771	Paris, Ch. de Gaulle	00:33
+08:05	TP 459	Paris, Orly	00:13
+08:15	FR 1386	Brussels, Charleroi	
+08:20	FR 4171	Frankfurt, Hahn	
+08:30	S4 370	Toronto, Pearson	00:35
+08:45	TP 080	São Paulo, Guarulhos	
+08:50	FR 2094	Lisboa	
+09:00	TP 1718	Madeira	
+09:15	TP 1922	Lisboa	
+09:35	FR 5482	Madrid	
+09:40	TP 1003	Madrid	00:34
+09:50	EZY1989	Manchester	00:28
+10:05	TP 1926	Lisboa	
+10:55	FR 4585	Barcelona	
+11:10	LH 1176	Frankfurt	00:03
+11:25	TP 451	Paris, Orly	00:16
+11:30	EZY1451	Geneva	
+11:35	FR 9134	Paris, Beauvais	00:24
+11:40	TP 1924	Lisboa	
+11:45	IB 8726	Madrid	
+11:50	FR 8343	London, Stansted	00:31
+12:05	SN 3811	Brussels	
+12:15	FR 4702	Milan/Bergamo	
+12:40	EZY1131	Basel	00:48
+12:40	TO 3409	Madeira	00:29
+13:00	TP 1031	Barcelona	
+13:10	VY 8962	Brussels	00:47
+13:30	FR 1671	Lisboa	
+14:00	TO 3410	Paris, Orly	00:29
+14:05	VY 1985	Paris, Orly	00:05
+14:10	TP 331	London, Gatwick	00:23
+14:10	TP 851	Rome, Fiumicino	
+14:20	TK 1449	Istanbul, Ataturk	
+14:25	EZY2097	London, Luton	
+14:35	EZS1133	Basel	00:33
+14:35	TP 1930	Lisboa	00:32
+14:50	FR 7473	Eindhoven	00:10
+14:55	FR 7228	Valencia	
+15:00	TP 939	Geneva	
+15:10	TP 823	Milan, Malpensa	
+15:15	EZY8497	London, Gatwick	
+15:20	FR 2928	Brussels	
+15:20	LH 1178	Frankfurt	
+15:35	AEA1143	Madrid	
+15:40	TP 603	Brussels	
+15:45	FR 2632	Ponta Delgada	00:20
+15:50	TP 1932	Lisboa	
+15:50	TP 453	Paris, Orly	
+16:10	A5 9740	Clermont-Ferrand	
+16:30	FR 4565	Paris, Vatry	
+16:30	FR 7716	Carcassonne	00:04
+16:30	IB 8722	Madrid	
+16:40	FR 7467	Saint Etienne	00:43
+17:00	EZY4445	Lyon, St. Exupery	
+17:10	EZY1747	Toulouse, Blagnac	
+17:30	ZI 315	Paris, Orly	
+17:50	TP 1934	Lisboa	00:16
+18:10	TP 917	Zurich	
+18:15	FR 6295	Clermont-Ferrand	
+18:35	EVE5704	Palma Mallorca	
+18:35	LG 3767	Luxembourg	
+18:45	DT 654	Luanda	00:10
+18:45	LX 2064	Zurich	
+18:50	EZS1455	Geneva	
+19:05	TO 3411	Madeira	
+19:30	TP 1005	Madrid	00:41
+19:35	LX 2078	Geneva	
+19:35	TP 1033	Barcelona	
+19:45	FR 5429	Tenerife Sur	00:12
+20:00	FR 5484	Madrid	
+20:40	FR 2096	Lisboa	
+20:55	FR 6531	Marseille	00:30
+20:55	TP 651	Amsterdam	
+21:00	TP 457	Paris, Orly	
+21:25	FR 5487	Faro	
+21:45	TP 679	Luxembourg	
+21:45	TP 943	Geneva	
+21:50	TP 1938	Lisboa	00:22
+22:05	TP 821	Milan, Malpensa	00:44
+22:10	FR 4503	Lille	00:21
+22:10	TP 1710	Madeira	
+22:25	EZY3775	Paris, Ch. de Gaulle	00:09
+22:35	FR 9205	Hamburg	
+22:35	LH 1180	Frankfurt	
+22:40	FR 4599	Memmingen	
+22:40	TP 347	London, Gatwick	
+22:45	EZY1457	Geneva	
+22:55	FR 7475	Paris, Beauvais	
+23:20	FR 8347	London, Stansted	

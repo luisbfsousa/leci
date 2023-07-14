@@ -1,0 +1,34 @@
+#define SIZE 8
+
+int main(void)
+{
+   static int list[SIZE];
+   int rv, n;
+   int sum = 0, nit = 0;
+   int *pt;
+
+   for (pt = list; pt < (list + SIZE); pt++) {
+      *pt = read_int();
+   }
+   for (n = 0; n < SIZE; n++) {
+      if (list[n] >= 0) {
+         sum += list[n];
+         nit++;
+      }
+   }
+   if (nit > 0) {
+      print_int10(sum / nit);
+      rv = 0;
+   } else {
+      print_string("Media invalida!\n");
+      rv = -1;
+   }
+   return rv;
+}
+
+# Mapa de registos
+# rv : 
+# n  : 
+# sum: 
+# nit: 
+# pt :

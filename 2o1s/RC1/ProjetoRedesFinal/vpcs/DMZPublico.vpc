@@ -1,0 +1,4 @@
+set pcname DMZPublico
+ip 198.135.108.162 198.135.108.161 27
+ip 2abc:8875:0:4::2/64
+ip auto

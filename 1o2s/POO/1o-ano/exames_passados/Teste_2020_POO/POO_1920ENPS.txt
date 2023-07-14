@@ -1,0 +1,35 @@
+
+Al�nea 1) ----------------------------------
+
+Livro 1 tem 4 autores
+Livro 2 tem 3 autores
+TOTAL DE PRODUTOS DO MERCADO: 0
+Descri��o de electr1 :Frigor�fico:Bosch/XPTO
+AUTORES DE Livro 1: [Autor 1 (2000-), Autor 2 (2000-), Autor 3 (2010-), Autor 4 (2018-)]
+TOTAL DE PRODUTOS DO MERCADO: 557
+Unidades insuficientes! S� tem 2 em stock.
+Vendidos 100 unidades de "Livro 2". Passou a ter 350
+TOTAL DE PRODUTOS DO MERCADO: 457
+
+ePOO -  Loja Online
+    C�digo Produto                          Em Stock        PVP
+     E1016 Frigor�fico:Bosch/XPTO                  0     780,00
+     E1018 Fog�o:AEG/XYZ                           0     423,00
+     E1022 Televisor:LG/MODEL X                    5     450,00
+     L1012 Livro 1                               100      15,00
+     L1014 Livro 2                               350      23,00
+     T1020 Motorola/XWZ Model A                    2     560,00
+
+Informa��o sobre Frigor�fico:
+Electrodomestico [E1016 Frigor�fico Bosch XPTO A 1000.0]
+Informa��o sobre Telem�vel:
+null
+
+Al�nea 2) ----------------------------------
+
+Teste
+    C�digo Produto                          Em Stock        PVP
+
+Lista de Todos os Produtos com PVP superior a 500 Euros:
+Lista de Electrodom�sticos com Classe A:
+[]

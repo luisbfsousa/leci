@@ -1,0 +1,44 @@
+Alínea 1) ----------------------------------
+Adicionado: Pacote Turistico Tranquilidade: 5 noites; 300 E / pessoa / noite 
+Adicionado: Pacote Turistico Relaxer: 7 noites; 800 E / pessoa / noite
+%% Nao pode s entado outro servigo do tipo Voo  
+Adicionado: Pacote Turistico Ferias ativas: 8 noites; 400 E / pessoa / noite 
+%% O Pacote Turistico indicado nAo existe. Reserva nAo efetuada! 
+
+Pacotes turisticos disponiveis: 
+Pacote Turistico Tranquilidade: 5 noites; 300 E / pessoa / noite 
+    ** [V1000] Voo TAP932 em 2022-07-30, classe Turistica 
+    ** [01001] Alojamento B&B com 3 quartos, ocupacao maxima 5 pessoas, em regime de Pequeno-almogo 
+Pacote Turistico Relaxer: 7 noites; 800 E / pessoa / noite 
+    ** [V1002] Voo QTR8OV em 2022-08-02, classe Primeira 
+    ** [01003] Alojamento CoolResort com 2 quartos, ocupagao maxima 4 pessoas, em regime de Tudo 
+Incluido 
+    ** [T1004] Transporte pare 5 ocupantes, Hibrido, Ems maximos: 1000 Pacote Turistico Ferias ativas: 8 noites; 400 E / pessoa / noite 
+    ** [V1005] Voo TAP1477 em 2022-08-10, classe Turistica 
+    ** [A1007] Alojamento GreatPlace com 1 quartos, ocupagao maxima 3 pessoas, em regime de Meia PensAo 
+    ** [T1008] Transports pare 2 ocupantes, Eletrico, Ems maximos: 2000 
+
+Reserves efetuadas: 
+Reserve: Pacote Turistico Tranquilidade: 5 noites; 300 E / pessoa / noite pars 3 pessoas. Valor total: 4500 
+Reserve: Pacote Turistico Relaxer: 7 noites; 800 E / pessoa / noite pare 4 pessoas. Valor total: 20832 
+Reserva: Pacote Turistico Ferias ativas: 8 noites; 400 E / pessoa / felts pars 2 pessoas. Valor total: 6400 
+
+Alínea 2) ----------------------------------
+
+AGENCIA: NovesFora, Porto 
+
+-- LISTA DE PACOTES ORDENADOS E FILTRADOS POR PRECO --
+Pacote Turistico Montanha: 5 noites; 200 C / pessoa / noite 
+Pacote Turistico Praia Ativa: 7 noites; 270 C / Pass°. / noits 
+Pacote Turistico DineoSSo em Familia: 5 noites; 320 C / pessoa / noite 
+Pacote Turistico Ilhas de Sol: 7 noites; 350E / pessoa / noite 
+
+-- LISTA DE RESERVAS ORDENADAS PPR PRECO TOTAL -- 
+Reserva: Pacote Turistico Diversao em Familia: 5 noites; 320 E / pessoa / noite para 6 pessoas. Valor total: 8928 
+Reserva: Pacote Turistico Ilhas de Sol: 7 noites; 352 E / pessoa / noite para 3 pessoas. Valor total: 7350 
+Reserva: Pacote Turistico Mergulhos Infinitos: 4 noites; 480 E / pessoa / noite para 4 pessoas. Valor total: 7142 
+Reserva: Pacote Turistico Mergulhos Infinitos: 4 noites; 480 0 / pessoa / noite para 2 pessoas. Valor total: 3840 
+Reserva: Pacote Turistico Montanha: 5 noites; 200 E / pessoa / noite para 4 pessoas. Valor total: 3719 
+Reserva: Pacote Turistico Montanha: 5 noites; 200 e / pessoa / Dolts para 2 pessoas. Valor total: 2000 
+
+

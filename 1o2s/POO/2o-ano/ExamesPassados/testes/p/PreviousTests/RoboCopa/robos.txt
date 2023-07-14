@@ -1,0 +1,151 @@
+Jogador	Clube/equipa	Posição
+Abel Vagos	Leiria (POR)	Defesa
+Adolfo Teixeira	Differdange (LUX)	Avançado
+Adriana Rodrigues	Portugal WOCO	Médio
+Adrien Silva	Sporting CP (POR) / Portugal	Médio
+Afonso Feteiro	Leiria (POR)	Avançado
+Afonso Taira	Estoril (POR)	Médio
+Alex	Guimarães (POR)	Avançado
+Alex Alfaiate	Benfica (POR)	Defesa
+Alex Soares	Marítimo (POR)	Médio
+Alexandre Silva	Guimarães (POR) / Portugal U19	Avançado
+Alfa Semedo	Benfica (POR)	Defesa
+Alves, Rafael	União (POR)	Guarda-redes
+Amanda Da Costa	Liverpool (ENG) / Portugal WOCO	Médio
+Ana Borges	Chelsea (ENG) / Portugal WOCO	Defesa
+Ana Bral	Benfica (POR)	Médio
+Ana Oliveira	Portugal WU19	Guarda-redes
+Ana Teixeira	Benfica (POR)	Defesa
+Andrade, Rúben	União (POR)	Médio
+André Almeida	Benfica (POR) / Portugal	Defesa
+André André	Porto (POR) / Portugal	Médio
+André Castro	Kasımpaşa (TUR)	Médio
+André Coelho	Portugal FUT	Defesa
+André Ferreira	Benfica (POR)	Guarda-redes
+André Geraldes	Belenenses (POR)	Defesa
+André Gomes	Valencia (ESP) / Portugal	Médio
+André Horta	Setúbal (POR)	Médio
+André Marques	Moreirense (POR)	Defesa
+André Martins	Sporting CP (POR)	Médio
+André Mesquita	Porto (POR)	Avançado
+André Micael	Moreirense (POR)	Defesa
+André Moreira	União (POR) / Portugal U21	Guarda-redes
+André Nabais	Portugal FUT	Defesa
+André Pinto	Braga (POR)	Defesa
+André Ribeiro, André David	Portugal U19	Avançado
+André Silva	Porto (POR) / Portugal U21	Avançado
+André Sousa	Fundão (POR) / Portugal FUT	Guarda-redes
+André Sousa	Belenenses (POR)	Médio
+Andreia Faria	Portugal WU17	Médio
+Andreia Marques	Benfica (POR)	Avançado
+Andreia Norton	Barcelona (ESP)	Avançado
+Andreia Silvia	Benfica (POR) / Portugal WOCO	Avançado
+Andreia Veiga	Benfica (POR) / Portugal WOCO	Médio
+Andrezinho	Paços Ferreira (POR)	Médio
+Aníbal Capela	Rio Ave (POR)	Defesa
+Anilton	Benfica (POR) / Portugal FUT	Avançado
+Antonio Pereira	Differdange (LUX)	Avançado
+Antunes	Dynamo Kyiv (UKR) / Portugal	Defesa
+Areias	Guimarães (POR)	Defesa
+Areias	Guimarães (POR)	Avançado
+Armando Mirra	Servette (SUI)	Médio
+Arnaldo Pereira	White Bear (ENG) / Portugal FUT	Defesa
+Arsenio	Litex (BUL)	Médio
+Artur	Arouca (POR)	Médio
+Artur Jorge	Braga (POR)	Defesa
+Assis	Guimarães (POR)	Guarda-redes
+Aurélio, Luís	Nacional (POR)	Médio
+Baixinho, Marco	Paços Ferreira (POR)	Médio
+Banjaqui, Zidane	Benfica (POR)	Médio
+Bárbara Marques	Portugal WU19	Médio
+Bárbara Marques	Portugal WU17	Guarda-redes
+Bárbara Santos	Ouriense (POR) / Portugal WOCO	Guarda-redes
+Basto, Hugo	Arouca (POR)	Defesa
+Beatriz Vieira	Portugal WU19	Defesa
+Bebe	Benfica (POR) / Portugal FUT	Guarda-redes
+Bernardo Silva	Monaco (FRA) / Portugal	Médio
+Betinho	Belenenses (POR)	Avançado
+Beto	Sevilla (ESP) / Portugal	Guarda-redes
+Borges, Micael	Benfica (POR)	Avançado
+Bosingwa, José	Trabzonspor (TUR) / Portugal	Defesa
+Brandão, Gonçalo	Belenenses (POR)	Defesa
+Brandão, Flávio	Paços Ferreira (POR)	Guarda-redes
+Briguel	Marítimo (POR)	Defesa
+Bruma	Real Sociedad (ESP) / Portugal / Portugal U21	Médio
+Bruna Costa	Portugal WU17	Defesa
+Bruninho	Sant Julià (AND)	Avançado
+Bruno Alves	Fenerbahçe (TUR) / Portugal	Defesa
+Bruno Alves	Guimarães (POR)	Médio
+Bruno Coelho	Benfica (POR) / Portugal FUT	Defesa
+Bruno Costa	Porto (POR)	Avançado
+Bruno Fernandes	Udinese (ITA) / Portugal U21	Médio
+Bruno Gama	Dnipro (UKR)	Médio
+Bruno Graça	Leiria (POR)	Defesa
+Bruno Lourenço	Benfica (POR)	Médio
+Bruno Miguel	Estoril (POR)	Defesa
+Bruno Monteiro	Tondela (POR)	Médio
+Bruno Pereira	Porto (POR)	Defesa
+Bruno Pinto	Benfica (POR)	Avançado
+Bruno Quitério	Leiria (POR)	Médio
+Bruno Sousa	Paços Ferreira (POR)	Defesa
+Bruno Vale	Apollon (CYP)	Guarda-redes
+Bruno Varela	Benfica (POR) / Portugal U21	Guarda-redes
+Bubacar Djaló	Sporting CP (POR) / Portugal U19	Médio
+Buta	Benfica (POR) / Portugal U19	Avançado
+Cafú	Guimarães (POR)	Médio
+Caio, André	Porto (POR)	Guarda-redes
+Camará, Abel	Belenenses (POR)	Avançado
+Camora	CFR Cluj (ROU)	Defesa
+Campos, Ricardo	União (POR)	Guarda-redes
+Cardinal	Portugal FUT	Defesa
+Cardinal	Inter (ESP) / Portugal FUT	Avançado
+Carlitos	Iraklis (GRE)	Defesa
+Carlitos	Sion (SUI)	Avançado
+Carlos Alves	Rio Ave (POR)	Guarda-redes
+Carlos Chaby	União (POR)	Médio
+Carlos Mané	Sporting CP (POR) / Portugal U21	Avançado
+Carlos Martins	Belenenses (POR)	Médio
+Carlos Santos	Boavista (POR)	Defesa
+Carlota Cristo	Portugal WU19	Avançado
+Carole Costa	Portugal WOCO	Defesa
+Carolina Ferreira	Portugal WU19	Médio
+Carolina Mendes	1° Dezembro (POR) / Portugal WOCO	Avançado
+Carolina Rocha	Portugal WU17	Avançado
+Carolina Rosa	Portugal WU17	Defesa
+Carvalho, Ricardo	Monaco (FRA) / Portugal	Defesa
+Catarina Amado	Portugal WU19	Avançado
+Catarina Balão	Portugal WU17	Defesa
+Catarina Carmo	Portugal WU17	Médio
+Catarina Pereira	Portugal WU17	Avançado
+Catarina Realista	Benfica (POR)	Médio
+Catarina Sousa	Portugal WOCO	Defesa
+Cédric	Southampton (ENG) / Portugal	Defesa
+Cerqueira, Mauro	Nacional (POR)	Defesa
+Cesar Ribeiro	Târgu Mureş (ROU)	Defesa
+Claro	Setúbal (POR)	Avançado
+Cláudia Machado	Portugal WU17	Médio
+Cláudia Neto	Linköping (SWE) / Portugal WOCO	Médio
+Cláudio Ramos	Tondela (POR)	Guarda-redes
+Côco	Benfica (POR) / Portugal FUT	Avançado
+Coentrão, Fábio	Monaco (FRA) / Portugal	Defesa
+Costa, Vasco	Setúbal (POR)	Médio
+Cristian	Sporting CP (POR)	Avançado
+Cristiano	Sporting CP (POR) / Portugal FUT	Guarda-redes
+Cristiano Marques	Benfica (POR)	Guarda-redes
+Cristiano Rodrigues	Leiria (POR)	Avançado
+Cristovão	Omonia (CYP)	Médio
+Custódio	Akhisar (TUR)	Médio
+Dálcio Gomes	Belenenses (POR)	Avançado
+Dani	Setúbal (POR)	Médio
+Dani	CFR Cluj (ROU)	Defesa
+Daniel Azevedo	Benfica (POR)	Guarda-redes
+Daniel Carriço	Sevilla (ESP) / Portugal	Médio
+Daniel Esteves	Leiria (POR)	Avançado
+Daniel Podence	Sporting CP (POR)	Médio
+Danilo	Porto (POR) / Portugal	Médio
+Danny	Zenit (RUS) / Portugal	Médio
+Dany Marinho	Servette (SUI)	Defesa
+Dário Marquês	Leiria (POR)	Avançado
+David Sualehe	Porto (POR)	Defesa
+Diana Gomes	Portugal WU19	Defesa
+Diana Silva	Ouriense (POR) / Portugal WOCO	Avançado

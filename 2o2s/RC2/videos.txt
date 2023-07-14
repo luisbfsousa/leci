@@ -1,0 +1,8 @@
+https://youtu.be/dnXu6JucK4Q -> Spanning Tree Protocol (parte 1)
+https://youtu.be/_FyNSVjIDM0 -> Spanning Tree Protocol (parte 2). Exemplo STP.
+https://youtu.be/GnW4RT2Xz7c -> Encaminhamento IPv4 dinâmico (RIPv1, RIPv2 e RIPng)
+https://youtu.be/2onITb7fNqA -> Mini-revisão do RIP. OSPFv2.
+https://youtu.be/pF4ZWul2M8k -> OSPFv3. Interfaces Passivos. Redistribuição de Rotas
+https://youtu.be/S7vSqJYb_24 -> Voice and Video over IP (SIP)
+https://youtu.be/igd2z7Tbo6Y -> Acesso ao meio. Análise de Espetro.
+https://youtu.be/aDS8ZifJFx4 -> Sistemas e Tecnologias de Transmissão (Camada Física)

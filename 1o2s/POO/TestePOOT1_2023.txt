@@ -1,0 +1,111 @@
+In Java, primitive type variables are objects.  False
+-----------------------------
+String type objects are immutable (constant).  True
+-----------------------------
+Instructions within a 'do ... while' cycle are always executed one or more times.  True
+-----------------------------
+In the instruction 'int x = 13% 15;', x is set to zero.  False
+-----------------------------
+In a class (e.g. 'class Drug {...}') it is not possible to define the constructor without arguments (e.g. 'Drug () {...}') because this constructor is automatically created by the Java compiler.  False
+-----------------------------
+The reference this can be used within each object to reference that same object.  True
+-----------------------------
+Consider the classes Figure, Rectangle (extends Figure), Circle (extends Figure), Target (extends Circle).
+The instruction 'Figure f1 = new Circle (/ * constructor parameters * /);' is valid.  True
+-----------------------------
+A base class can have multiple derived classes.  True
+-----------------------------
+A class can have one or more constructors.  True
+-----------------------------
+The instruction 'super (p1, p2);' can be used in the toString() function.  True
+-----------------------------
+If the Drug class is derived from Compound (e.g. 'class Drug extends Compound {...}'), when creating an object of type Drug, the Compound constructor will not be invoked.  False
+-----------------------------
+An interface has no constructor.  True
+-----------------------------
+In addition to the declaration of signatures, we can write methods within an interface (defined with the 'default' attribute)  True
+-----------------------------
+public static void main(String[] args) {
+    String file = "file1.txt";
+    String fileNoExtension = file.[[[substring]]](0, file.[[[lastIndexOf]]]("."));
+
+    if (function1(file)) {
+        System.out.println(fileNoExtension + " is a text file");
+    } else {
+        System.out.println(fileNoExtension + " is not a text file");
+    }
+}
+
+public static boolean function1(String value){
+    return value.[[[endsWith]]](".txt");
+}
+-----------------------------
+public [[[ ]]] class Athlete {
+    private String name;
+    public [[[Athlete]]]([[[String]]] name) {
+        this.name = name;
+    }
+    public [[[String]]] greet() {
+        return "Hello, my name is " + name;
+    }
+    public [[[ ]]]void exercise() {
+        // method implementation here
+    }
+}
+
+public [[[class]]] Runner [[[extends Athlete]]] {
+    public [[[Runner]]]([[[String]]] name) {
+        [[[super]]](name);
+    }
+    public [[[ ]]] void exercise() {
+        // method implementation here
+    }
+}
+-----------------------------
+public class Book {
+    private String title;
+    private int numAut = 0;
+    private String[] authors;
+    private static int books = 0;
+
+    [[[public]]] Book([[[String]]] t, [[[int]]] numAut) {
+        title = t;
+        authors = new String[numAut];
+        books++;
+    }
+
+    public [[[boolean]]] addAuthor(String a) {
+        boolean added = [[[false]]];
+        if (numAut < [[[authors.length]]]) {
+            authors[numAut++] = a;
+            added = true;
+        }
+        return added;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public [[[int]]] getNumAuthors() {
+        return numAut;
+    }
+
+    [[[public static]]]? int getNumBooks() {
+        return books;
+    }
+}
+
+public class MainBook {
+    public static void main(String args[]) {
+        Book b1 = new Book("Livro em branco", 4);
+        String[] a = { "Filipa Martins", "José L Peixoto", "José E Agualusa", "Mia Couto" };
+        for (int k = 0; k < a.length; k++)
+            b1.addAuthor(a[k]);
+        System.out.println(Book.getNumBooks()); // Prints: 1
+
+        Book b2 = new Book("Livro em preto", 1);
+        System.out.println(b1.getNumAuthors()); // Prints: 4
+    }
+}
+

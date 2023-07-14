@@ -1,0 +1,37 @@
+An object of type java.util.List allows the insertion of a maximum of 1248000 elements.
+-----------------------------------------------------------------------------------------------
+Collection<Character> c = new ArrayList<>();
+Após as instruções
+c.add('a');
+c.add('b');
+c.add('a');
+a coleção contém uma só vez o caracter 'a'.
+-----------------------------------------------------------------------------------------------
+We can declare the following reference: List<Integer> lst = Arrays.asList(14, 88, 9, 232, 23 );
+-----------------------------------------------------------------------------------------------
+Map<String, Integer> m = new HashMap<>();
+Após a instrução
+Collection<Integer> values = m.values();
+a coleção referenciada por values nunca pode conter elementos repetidos.
+-----------------------------------------------------------------------------------------------
+A expressão seguinte é válida: 
+TreeMap<String, HashMap<String, ArrayList<Integer>>> oneMap = new HashMap<>();
+-----------------------------------------------------------------------------------------------
+A expressão seguinte é válida: 
+TreeMap<String, HashMap<String, ArrayList<Integer>>> oneMap = new HashMap<>();
+-----------------------------------------------------------------------------------------------
+A expressão lambda
+x -> (x % 2 == 0) && (x > 4)
+determina se um número é múltiplo de 2 e maior do que 4.
+-----------------------------------------------------------------------------------------------
+A Lambda expression enables functions to be passed as an argument or return them as function return values.
+-----------------------------------------------------------------------------------------------
+The functional interface java.util.function.Function can be used to create a lambda that accepts an integer and returns nothing
+-----------------------------------------------------------------------------------------------
+An ArrayList maintains the order of insertion of its elements.
+-----------------------------------------------------------------------------------------------
+A map (java.util.Map) may contain duplicated keys.
+-----------------------------------------------------------------------------------------------
+The classjava.util.Scanner can be used to read, line-by-line, a text file.
+-----------------------------------------------------------------------------------------------
+If col is a reference of type Collection<Person>, we can use  col.stream() to obtain a stream from col. 

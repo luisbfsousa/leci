@@ -1,0 +1,4 @@
+set pcname DMZPrivado
+ip 172.28.4.2 172.28.4.1 24
+ip 2abc:8875:0:4::3/64
+ip auto

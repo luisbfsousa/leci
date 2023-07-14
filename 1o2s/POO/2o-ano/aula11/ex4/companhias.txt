@@ -1,0 +1,16 @@
+Sigla	Companhia
+A5	HOP!
+AE	Air Europa
+DT	TAAG
+EV	Evelop Airlines
+EZ	EasyJet Airlines
+FR	Ryanair
+IB	Iberia
+LG	Luxair
+LH	Lufthansa
+LX	Swiss International
+S4	Sata Internacional
+SN	Brussels Airlines
+TK	Turkish Airlines
+TO	Transavia France
+TP	TAP Portugal

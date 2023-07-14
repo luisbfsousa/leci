@@ -1,0 +1,76 @@
+body{
+	background:none;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+h2{
+  background-color: #FEC601;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 15%), -5px -5px 10px rgb(255 255 255 / 15%);
+  border-radius: 5px;
+}
+
+table{
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  border-radius: 5px;
+}
+
+.modifier1{
+  background-color: #fec701c5;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+#center_list{
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.button_list{
+  letter-spacing: 2px;
+	position: relative;
+	border-radius: 5px;
+	background-color: #02C39A;
+	box-shadow: 2px 2px 5px rgb(0 0 0 / 15%), -5px -5px 10px rgb(255 255 255 / 15%);
+	border: none;
+  color: #fff;
+  font-weight: 300;
+  display: inline-block;
+  line-height: 1.5;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1rem 1.5rem;
+}
+
+.button_list:hover{
+	background-color: #2B3D41;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.likebuttons{
+	padding:10px;
+	cursor:pointer;
+	border:none;
+	border-radius: 5px;
+	background-color: rgb(63, 71, 63);
+  color: #fff;
+}

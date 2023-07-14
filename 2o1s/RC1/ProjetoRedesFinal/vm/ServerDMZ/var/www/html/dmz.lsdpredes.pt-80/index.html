@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Projeto Redes</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      background-color: #474747;
+
+    }
+
+    h1 {
+
+      text-align: center;
+
+      color: rgb(255, 255, 255);
+
+    }
+
+    .container {
+
+      max-width: 800px;
+
+      position:relative;
+
+      top: 150px;
+
+      margin: 0 auto;
+
+      background-color: rgb(100, 100, 100);
+
+      padding: 20px;
+
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .button {
+
+      display: block;
+
+      margin: 0 auto;
+
+      border: none;
+
+      background-color: #3498db;
+
+      color: #fff;
+
+      padding: 10px 20px;
+
+      font-size: 16px;
+
+      border-radius: 4px;
+
+      cursor: pointer;
+
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .button:hover {
+
+      background-color: #2980b9;
+
+    }
+
+
+
+    h2{
+
+        text-align: center;
+
+        color: white;
+
+    }
+
+
+
+    ul {
+
+      text-align: center;
+
+      color: white;
+
+      position: inherit;
+
+      left: -2.5%;
+
+    }
+
+   
+
+    .navbar {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      height: 60px;
+
+      background-color: rgb(100, 100, 100);
+
+      color: #fff;
+
+      font-size: 18px;
+
+    }
+
+    .navbar a {
+
+      text-decoration: none;
+
+      color: #fff;
+
+      padding: 20px;
+
+    }
+
+    .navbar a:hover {
+
+      background-color: rgb(131, 128, 128);
+
+      color: rgb(255, 255, 255);
+
+    }
+
+
+
+    a{font-weight: bolder;}
+
+
+
+    #erro:hover{
+
+      color: red;
+
+    }
+
+    
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="navbar">
+
+    <a href="#" onclick="confirmRedirect()" id="erro">Design</a>
+
+    <a href="#" onclick="confirmRedirect()" id="erro">Admin</a>
+
+    <a href="#" onclick="confirmRedirect()" id="erro">Marketing</a>
+
+    <a href="#" onclick="confirmRedirect2()">DMZ</a>
+
+    <a href="#" onclick="confirmRedirect()" id="erro">DataCenter</a>
+
+  </div>
+
+  <div class="container">
+
+    <h1>Pagina de DMZ</h1>
+
+    <h2 style="opacity: 0;">Projeto de Redes</h2>
+
+    <ul>Se estas a ver esta mensagem entras-te com sucesso na pagina da empresa</ul>
+
+    <ul>Rede Atual: 198.135.108.160/27</ul>
+
+  </div>
+
+</body>
+
+<script>
+
+  function confirmRedirect() {
+
+    if (confirm("A pagina que pretende aceder encontra-se indisponivel de momento." + '\n' + "Deseja antes ir para a pagina inicial?")) {
+
+      window.location.href = "http://lsdpredes.pt";
+
+    }
+
+  }
+
+  function confirmRedirect2() {
+    if (confirm("Ja se encontra na pagina de DMZ" + '\n' + "Deseja antes ir para a pagina inicial?")) {
+      window.location.href = "http://lsdpredes.pt";
+    }
+  }
+
+  </script>
+
+</html>

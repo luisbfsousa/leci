@@ -1,0 +1,19 @@
+Crie uma solução para gestão de um abrigo para animais de companhia, onde são registados
+cães, coelhos ou pássaros.
+
+A solução deve permitir adicionar e remover animais e também associar um padrinho a um
+animal, através do identificador do animal; deverá ser possível procurar um animal, pelo
+nome, e no caso de existir imprimir a sua informação; deverá também ser possivel imprimir as
+informações de todos os animais.
+
+Deve definir as classes, incluindo os construtores e métodos seletores (getters) e/ou
+modificadores (setters) que considere necessários, os métodos toString, equals e hashCode,
+para além dos restantes métodos necessários às funcionalidades, de acordo com as seguintes
+informações:
+• Animal - representa um animal, que pode ser cão (Dog), coelho (Rabbit), ou pássaro
+(Bird), com identificador único e informação de nome, peso, idade, e nome do
+padrinho, se existir;
+• Dog-inclui informação da raça (breed);
+• Rabbit - inclui informação do pelo, que pode ser comprido ou longo:
+.Bird- inclui informação do habitat, que pode ser diurno ou noturno;
+.Pet-shelter-Permite criar e gerir os animais do abrigo.

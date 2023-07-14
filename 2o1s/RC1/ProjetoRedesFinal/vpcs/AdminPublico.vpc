@@ -1,0 +1,4 @@
+set pcname AdminPublico
+ip 198.135.108.66 198.135.108.65 26
+ip 2abc:8875:0:2::2/64
+ip auto

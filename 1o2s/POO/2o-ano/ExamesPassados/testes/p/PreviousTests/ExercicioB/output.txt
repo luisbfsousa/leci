@@ -1,0 +1,10 @@
+Biblioteca: Biblioteca Municipal de Aveiro
+Morada: Largo Dr. Jaime Magalhães Lime, 3800 - 156 Aveiro, Portugal
+
+LIVRO Título: Branca de neve e os sete anões Editora: Abril Morumbi  Autores: [Jacob Grimm; Wilhelm Grimm]
+JORNAL Título: Diário de notícias  Cor: CORES
+LIVRO Título: História da Europa Editora: Lisboa: Dom Quixote  ISBN:  972-20-0824-2 autores:[Jean-Baptiste Duroselle]
+JORNAL Título: O gafanhoto BIMESTRAL
+LIVRO Título: Papillon Editora: Amadora: Bertrand  Autores: [Henri Charrière]
+REVISTA Título: Revista municipal Editora: Aveiro: C.M.A.  ISSN: 0874-727X
+

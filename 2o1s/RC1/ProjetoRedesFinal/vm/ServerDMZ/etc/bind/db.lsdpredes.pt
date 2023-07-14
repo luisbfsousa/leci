@@ -1,0 +1,32 @@
+$TTL 604800
+
+$ORIGIN lsdpredes.pt.
+
+@ 	IN 	SOA 	ns1.lsdpredes.pt. adm.lsdpredes.pt. (
+
+			2 		; Serial
+
+			604800 		; Refresh
+
+			86400 		; Retry
+
+			2419200 	; Expire
+
+			604800) 	; Negative Cache TTL
+
+	IN 	NS 	ns1.lsdpredes.pt.
+
+ns1 	IN 	A 	198.135.108.163
+
+@ 	IN 	A 	198.135.108.163
+
+www 	IN 	A 	198.135.108.163
+
+dmz 	IN 	A 	198.135.108.163
+
+admin   IN 	A 	198.135.108.163
+design  IN 	A 	198.135.108.163
+data    IN 	A 	198.135.108.163
+marketing IN 	A 	198.135.108.163
+
+

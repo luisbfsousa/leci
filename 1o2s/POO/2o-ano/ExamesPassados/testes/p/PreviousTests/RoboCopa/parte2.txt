@@ -1,0 +1,275 @@
+Lista de Equipas (68 equipas)
+Equipa 1° Dezembro (POR) / Portugal WOCO, treinada por unknown (1 jogadores)
+robos= id=Carolina Mendes tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Akhisar (TUR), treinada por unknown (1 jogadores)
+robos= id=Custódio tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Apollon (CYP), treinada por unknown (1 jogadores)
+robos= id=Bruno Vale tipo= GUARDA_REDES *;* 
+Golos marcados= 0
+
+Equipa Arouca (POR), treinada por unknown (2 jogadores)
+robos= id=Basto, Hugo tipo= DEFESA *;* id=Artur tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Barcelona (ESP), treinada por unknown (1 jogadores)
+robos= id=Andreia Norton tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Belenenses (POR), treinada por unknown (7 jogadores)
+robos= id=André Geraldes tipo= DEFESA *;* id=André Sousa tipo= MEDIO *;* id=Carlos Martins tipo= MEDIO *;* id=Brandão, Gonçalo tipo= DEFESA *;* id=Betinho tipo= AVANCADO *;* id=Dálcio Gomes tipo= AVANCADO *;* id=Camará, Abel tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Benfica (POR), treinada por unknown (13 jogadores)
+robos= id=Bruno Pinto tipo= AVANCADO *;* id=Cristiano Marques tipo= GUARDA_REDES *;* id=Bruno Lourenço tipo= MEDIO *;* id=Ana Teixeira tipo= DEFESA *;* id=André Ferreira tipo= GUARDA_REDES *;* id=Alfa Semedo tipo= DEFESA *;* id=Alex Alfaiate tipo= DEFESA *;* id=Ana Bral tipo= MEDIO *;* id=Catarina Realista tipo= MEDIO *;* id=Andreia Marques tipo= AVANCADO *;* id=Banjaqui, Zidane tipo= MEDIO *;* id=Borges, Micael tipo= AVANCADO *;* id=Daniel Azevedo tipo= GUARDA_REDES *;* 
+Golos marcados= 0
+
+Equipa Benfica (POR) / Portugal, treinada por unknown (1 jogadores)
+robos= id=André Almeida tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Benfica (POR) / Portugal FUT, treinada por unknown (4 jogadores)
+robos= id=Bebe tipo= GUARDA_REDES *;* id=Bruno Coelho tipo= DEFESA *;* id=Anilton tipo= AVANCADO *;* id=Côco tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Benfica (POR) / Portugal U19, treinada por unknown (1 jogadores)
+robos= id=Buta tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Benfica (POR) / Portugal U21, treinada por unknown (1 jogadores)
+robos= id=Bruno Varela tipo= GUARDA_REDES *;* 
+Golos marcados= 0
+
+Equipa Benfica (POR) / Portugal WOCO, treinada por unknown (2 jogadores)
+robos= id=Andreia Silvia tipo= AVANCADO *;* id=Andreia Veiga tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Boavista (POR), treinada por unknown (1 jogadores)
+robos= id=Carlos Santos tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Braga (POR), treinada por unknown (2 jogadores)
+robos= id=André Pinto tipo= DEFESA *;* id=Artur Jorge tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa CFR Cluj (ROU), treinada por unknown (2 jogadores)
+robos= id=Dani tipo= DEFESA *;* id=Camora tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Chelsea (ENG) / Portugal WOCO, treinada por unknown (1 jogadores)
+robos= id=Ana Borges tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Differdange (LUX), treinada por unknown (2 jogadores)
+robos= id=Antonio Pereira tipo= AVANCADO *;* id=Adolfo Teixeira tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Dnipro (UKR), treinada por unknown (1 jogadores)
+robos= id=Bruno Gama tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Dynamo Kyiv (UKR) / Portugal, treinada por unknown (1 jogadores)
+robos= id=Antunes tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Estoril (POR), treinada por unknown (2 jogadores)
+robos= id=Bruno Miguel tipo= DEFESA *;* id=Afonso Taira tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Fenerbahçe (TUR) / Portugal, treinada por unknown (1 jogadores)
+robos= id=Bruno Alves tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Fundão (POR) / Portugal FUT, treinada por unknown (1 jogadores)
+robos= id=André Sousa tipo= GUARDA_REDES *;* 
+Golos marcados= 0
+
+Equipa Guimarães (POR), treinada por unknown (6 jogadores)
+robos= id=Areias tipo= DEFESA *;* id=Areias tipo= AVANCADO *;* id=Cafú tipo= MEDIO *;* id=Bruno Alves tipo= MEDIO *;* id=Alex tipo= AVANCADO *;* id=Assis tipo= GUARDA_REDES *;* 
+Golos marcados= 0
+
+Equipa Guimarães (POR) / Portugal U19, treinada por unknown (1 jogadores)
+robos= id=Alexandre Silva tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Inter (ESP) / Portugal FUT, treinada por unknown (1 jogadores)
+robos= id=Cardinal tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Iraklis (GRE), treinada por unknown (1 jogadores)
+robos= id=Carlitos tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Kasımpaşa (TUR), treinada por unknown (1 jogadores)
+robos= id=André Castro tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Leiria (POR), treinada por unknown (7 jogadores)
+robos= id=Bruno Quitério tipo= MEDIO *;* id=Abel Vagos tipo= DEFESA *;* id=Bruno Graça tipo= DEFESA *;* id=Daniel Esteves tipo= AVANCADO *;* id=Dário Marquês tipo= AVANCADO *;* id=Cristiano Rodrigues tipo= AVANCADO *;* id=Afonso Feteiro tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Linköping (SWE) / Portugal WOCO, treinada por unknown (1 jogadores)
+robos= id=Cláudia Neto tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Litex (BUL), treinada por unknown (1 jogadores)
+robos= id=Arsenio tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Liverpool (ENG) / Portugal WOCO, treinada por unknown (1 jogadores)
+robos= id=Amanda Da Costa tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Marítimo (POR), treinada por unknown (2 jogadores)
+robos= id=Alex Soares tipo= MEDIO *;* id=Briguel tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Monaco (FRA) / Portugal, treinada por unknown (3 jogadores)
+robos= id=Bernardo Silva tipo= MEDIO *;* id=Carvalho, Ricardo tipo= DEFESA *;* id=Coentrão, Fábio tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Moreirense (POR), treinada por unknown (2 jogadores)
+robos= id=André Micael tipo= DEFESA *;* id=André Marques tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Nacional (POR), treinada por unknown (2 jogadores)
+robos= id=Aurélio, Luís tipo= MEDIO *;* id=Cerqueira, Mauro tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Omonia (CYP), treinada por unknown (1 jogadores)
+robos= id=Cristovão tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Ouriense (POR) / Portugal WOCO, treinada por unknown (2 jogadores)
+robos= id=Bárbara Santos tipo= GUARDA_REDES *;* id=Diana Silva tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Paços Ferreira (POR), treinada por unknown (4 jogadores)
+robos= id=Brandão, Flávio tipo= GUARDA_REDES *;* id=Andrezinho tipo= MEDIO *;* id=Bruno Sousa tipo= DEFESA *;* id=Baixinho, Marco tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Porto (POR), treinada por unknown (5 jogadores)
+robos= id=Bruno Costa tipo= AVANCADO *;* id=Bruno Pereira tipo= DEFESA *;* id=André Mesquita tipo= AVANCADO *;* id=David Sualehe tipo= DEFESA *;* id=Caio, André tipo= GUARDA_REDES *;* 
+Golos marcados= 0
+
+Equipa Porto (POR) / Portugal, treinada por unknown (2 jogadores)
+robos= id=Danilo tipo= MEDIO *;* id=André André tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Porto (POR) / Portugal U21, treinada por unknown (1 jogadores)
+robos= id=André Silva tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Portugal FUT, treinada por unknown (3 jogadores)
+robos= id=André Nabais tipo= DEFESA *;* id=Cardinal tipo= DEFESA *;* id=André Coelho tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Portugal U19, treinada por unknown (1 jogadores)
+robos= id=André Ribeiro, André David tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Portugal WOCO, treinada por unknown (3 jogadores)
+robos= id=Catarina Sousa tipo= DEFESA *;* id=Carole Costa tipo= DEFESA *;* id=Adriana Rodrigues tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Portugal WU17, treinada por unknown (9 jogadores)
+robos= id=Carolina Rocha tipo= AVANCADO *;* id=Cláudia Machado tipo= MEDIO *;* id=Catarina Balão tipo= DEFESA *;* id=Bárbara Marques tipo= GUARDA_REDES *;* id=Andreia Faria tipo= MEDIO *;* id=Catarina Carmo tipo= MEDIO *;* id=Catarina Pereira tipo= AVANCADO *;* id=Carolina Rosa tipo= DEFESA *;* id=Bruna Costa tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Portugal WU19, treinada por unknown (7 jogadores)
+robos= id=Beatriz Vieira tipo= DEFESA *;* id=Bárbara Marques tipo= MEDIO *;* id=Catarina Amado tipo= AVANCADO *;* id=Carolina Ferreira tipo= MEDIO *;* id=Ana Oliveira tipo= GUARDA_REDES *;* id=Carlota Cristo tipo= AVANCADO *;* id=Diana Gomes tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Real Sociedad (ESP) / Portugal / Portugal U21, treinada por unknown (1 jogadores)
+robos= id=Bruma tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Rio Ave (POR), treinada por unknown (2 jogadores)
+robos= id=Carlos Alves tipo= GUARDA_REDES *;* id=Aníbal Capela tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Sant Julià (AND), treinada por unknown (1 jogadores)
+robos= id=Bruninho tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Servette (SUI), treinada por unknown (2 jogadores)
+robos= id=Dany Marinho tipo= DEFESA *;* id=Armando Mirra tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Setúbal (POR), treinada por unknown (4 jogadores)
+robos= id=André Horta tipo= MEDIO *;* id=Costa, Vasco tipo= MEDIO *;* id=Dani tipo= MEDIO *;* id=Claro tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Sevilla (ESP) / Portugal, treinada por unknown (2 jogadores)
+robos= id=Beto tipo= GUARDA_REDES *;* id=Daniel Carriço tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Sion (SUI), treinada por unknown (1 jogadores)
+robos= id=Carlitos tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Southampton (ENG) / Portugal, treinada por unknown (1 jogadores)
+robos= id=Cédric tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Sporting CP (POR), treinada por unknown (3 jogadores)
+robos= id=André Martins tipo= MEDIO *;* id=Daniel Podence tipo= MEDIO *;* id=Cristian tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Sporting CP (POR) / Portugal, treinada por unknown (1 jogadores)
+robos= id=Adrien Silva tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Sporting CP (POR) / Portugal FUT, treinada por unknown (1 jogadores)
+robos= id=Cristiano tipo= GUARDA_REDES *;* 
+Golos marcados= 0
+
+Equipa Sporting CP (POR) / Portugal U19, treinada por unknown (1 jogadores)
+robos= id=Bubacar Djaló tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Sporting CP (POR) / Portugal U21, treinada por unknown (1 jogadores)
+robos= id=Carlos Mané tipo= AVANCADO *;* 
+Golos marcados= 0
+
+Equipa Tondela (POR), treinada por unknown (2 jogadores)
+robos= id=Cláudio Ramos tipo= GUARDA_REDES *;* id=Bruno Monteiro tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa Trabzonspor (TUR) / Portugal, treinada por unknown (1 jogadores)
+robos= id=Bosingwa, José tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Târgu Mureş (ROU), treinada por unknown (1 jogadores)
+robos= id=Cesar Ribeiro tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Udinese (ITA) / Portugal U21, treinada por unknown (1 jogadores)
+robos= id=Bruno Fernandes tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa União (POR), treinada por unknown (4 jogadores)
+robos= id=Campos, Ricardo tipo= GUARDA_REDES *;* id=Carlos Chaby tipo= MEDIO *;* id=Alves, Rafael tipo= GUARDA_REDES *;* id=Andrade, Rúben tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa União (POR) / Portugal U21, treinada por unknown (1 jogadores)
+robos= id=André Moreira tipo= GUARDA_REDES *;* 
+Golos marcados= 0
+
+Equipa Valencia (ESP) / Portugal, treinada por unknown (1 jogadores)
+robos= id=André Gomes tipo= MEDIO *;* 
+Golos marcados= 0
+
+Equipa White Bear (ENG) / Portugal FUT, treinada por unknown (1 jogadores)
+robos= id=Arnaldo Pereira tipo= DEFESA *;* 
+Golos marcados= 0
+
+Equipa Zenit (RUS) / Portugal, treinada por unknown (1 jogadores)
+robos= id=Danny tipo= MEDIO *;* 
+Golos marcados= 0
+
+Lista de Robos (150 robos)
+[id=Abel Vagos tipo= DEFESA *;* , id=Adolfo Teixeira tipo= AVANCADO *;* , id=Adriana Rodrigues tipo= MEDIO *;* , id=Adrien Silva tipo= MEDIO *;* , id=Afonso Feteiro tipo= AVANCADO *;* , id=Afonso Taira tipo= MEDIO *;* , id=Alex tipo= AVANCADO *;* , id=Alex Alfaiate tipo= DEFESA *;* , id=Alex Soares tipo= MEDIO *;* , id=Alexandre Silva tipo= AVANCADO *;* , id=Alfa Semedo tipo= DEFESA *;* , id=Alves, Rafael tipo= GUARDA_REDES *;* , id=Amanda Da Costa tipo= MEDIO *;* , id=Ana Borges tipo= DEFESA *;* , id=Ana Bral tipo= MEDIO *;* , id=Ana Oliveira tipo= GUARDA_REDES *;* , id=Ana Teixeira tipo= DEFESA *;* , id=Andrade, Rúben tipo= MEDIO *;* , id=André Almeida tipo= DEFESA *;* , id=André André tipo= MEDIO *;* , id=André Castro tipo= MEDIO *;* , id=André Coelho tipo= DEFESA *;* , id=André Ferreira tipo= GUARDA_REDES *;* , id=André Geraldes tipo= DEFESA *;* , id=André Gomes tipo= MEDIO *;* , id=André Horta tipo= MEDIO *;* , id=André Marques tipo= DEFESA *;* , id=André Martins tipo= MEDIO *;* , id=André Mesquita tipo= AVANCADO *;* , id=André Micael tipo= DEFESA *;* , id=André Moreira tipo= GUARDA_REDES *;* , id=André Nabais tipo= DEFESA *;* , id=André Pinto tipo= DEFESA *;* , id=André Ribeiro, André David tipo= AVANCADO *;* , id=André Silva tipo= AVANCADO *;* , id=André Sousa tipo= GUARDA_REDES *;* , id=André Sousa tipo= MEDIO *;* , id=Andreia Faria tipo= MEDIO *;* , id=Andreia Marques tipo= AVANCADO *;* , id=Andreia Norton tipo= AVANCADO *;* , id=Andreia Silvia tipo= AVANCADO *;* , id=Andreia Veiga tipo= MEDIO *;* , id=Andrezinho tipo= MEDIO *;* , id=Aníbal Capela tipo= DEFESA *;* , id=Anilton tipo= AVANCADO *;* , id=Antonio Pereira tipo= AVANCADO *;* , id=Antunes tipo= DEFESA *;* , id=Areias tipo= DEFESA *;* , id=Areias tipo= AVANCADO *;* , id=Armando Mirra tipo= MEDIO *;* , id=Arnaldo Pereira tipo= DEFESA *;* , id=Arsenio tipo= MEDIO *;* , id=Artur tipo= MEDIO *;* , id=Artur Jorge tipo= DEFESA *;* , id=Assis tipo= GUARDA_REDES *;* , id=Aurélio, Luís tipo= MEDIO *;* , id=Baixinho, Marco tipo= MEDIO *;* , id=Banjaqui, Zidane tipo= MEDIO *;* , id=Bárbara Marques tipo= MEDIO *;* , id=Bárbara Marques tipo= GUARDA_REDES *;* , id=Bárbara Santos tipo= GUARDA_REDES *;* , id=Basto, Hugo tipo= DEFESA *;* , id=Beatriz Vieira tipo= DEFESA *;* , id=Bebe tipo= GUARDA_REDES *;* , id=Bernardo Silva tipo= MEDIO *;* , id=Betinho tipo= AVANCADO *;* , id=Beto tipo= GUARDA_REDES *;* , id=Borges, Micael tipo= AVANCADO *;* , id=Bosingwa, José tipo= DEFESA *;* , id=Brandão, Gonçalo tipo= DEFESA *;* , id=Brandão, Flávio tipo= GUARDA_REDES *;* , id=Briguel tipo= DEFESA *;* , id=Bruma tipo= MEDIO *;* , id=Bruna Costa tipo= DEFESA *;* , id=Bruninho tipo= AVANCADO *;* , id=Bruno Alves tipo= DEFESA *;* , id=Bruno Alves tipo= MEDIO *;* , id=Bruno Coelho tipo= DEFESA *;* , id=Bruno Costa tipo= AVANCADO *;* , id=Bruno Fernandes tipo= MEDIO *;* , id=Bruno Gama tipo= MEDIO *;* , id=Bruno Graça tipo= DEFESA *;* , id=Bruno Lourenço tipo= MEDIO *;* , id=Bruno Miguel tipo= DEFESA *;* , id=Bruno Monteiro tipo= MEDIO *;* , id=Bruno Pereira tipo= DEFESA *;* , id=Bruno Pinto tipo= AVANCADO *;* , id=Bruno Quitério tipo= MEDIO *;* , id=Bruno Sousa tipo= DEFESA *;* , id=Bruno Vale tipo= GUARDA_REDES *;* , id=Bruno Varela tipo= GUARDA_REDES *;* , id=Bubacar Djaló tipo= MEDIO *;* , id=Buta tipo= AVANCADO *;* , id=Cafú tipo= MEDIO *;* , id=Caio, André tipo= GUARDA_REDES *;* , id=Camará, Abel tipo= AVANCADO *;* , id=Camora tipo= DEFESA *;* , id=Campos, Ricardo tipo= GUARDA_REDES *;* , id=Cardinal tipo= DEFESA *;* , id=Cardinal tipo= AVANCADO *;* , id=Carlitos tipo= DEFESA *;* , id=Carlitos tipo= AVANCADO *;* , id=Carlos Alves tipo= GUARDA_REDES *;* , id=Carlos Chaby tipo= MEDIO *;* , id=Carlos Mané tipo= AVANCADO *;* , id=Carlos Martins tipo= MEDIO *;* , id=Carlos Santos tipo= DEFESA *;* , id=Carlota Cristo tipo= AVANCADO *;* , id=Carole Costa tipo= DEFESA *;* , id=Carolina Ferreira tipo= MEDIO *;* , id=Carolina Mendes tipo= AVANCADO *;* , id=Carolina Rocha tipo= AVANCADO *;* , id=Carolina Rosa tipo= DEFESA *;* , id=Carvalho, Ricardo tipo= DEFESA *;* , id=Catarina Amado tipo= AVANCADO *;* , id=Catarina Balão tipo= DEFESA *;* , id=Catarina Carmo tipo= MEDIO *;* , id=Catarina Pereira tipo= AVANCADO *;* , id=Catarina Realista tipo= MEDIO *;* , id=Catarina Sousa tipo= DEFESA *;* , id=Cédric tipo= DEFESA *;* , id=Cerqueira, Mauro tipo= DEFESA *;* , id=Cesar Ribeiro tipo= DEFESA *;* , id=Claro tipo= AVANCADO *;* , id=Cláudia Machado tipo= MEDIO *;* , id=Cláudia Neto tipo= MEDIO *;* , id=Cláudio Ramos tipo= GUARDA_REDES *;* , id=Côco tipo= AVANCADO *;* , id=Coentrão, Fábio tipo= DEFESA *;* , id=Costa, Vasco tipo= MEDIO *;* , id=Cristian tipo= AVANCADO *;* , id=Cristiano tipo= GUARDA_REDES *;* , id=Cristiano Marques tipo= GUARDA_REDES *;* , id=Cristiano Rodrigues tipo= AVANCADO *;* , id=Cristovão tipo= MEDIO *;* , id=Custódio tipo= MEDIO *;* , id=Dálcio Gomes tipo= AVANCADO *;* , id=Dani tipo= MEDIO *;* , id=Dani tipo= DEFESA *;* , id=Daniel Azevedo tipo= GUARDA_REDES *;* , id=Daniel Carriço tipo= MEDIO *;* , id=Daniel Esteves tipo= AVANCADO *;* , id=Daniel Podence tipo= MEDIO *;* , id=Danilo tipo= MEDIO *;* , id=Danny tipo= MEDIO *;* , id=Dany Marinho tipo= DEFESA *;* , id=Dário Marquês tipo= AVANCADO *;* , id=David Sualehe tipo= DEFESA *;* , id=Diana Gomes tipo= DEFESA *;* , id=Diana Silva tipo= AVANCADO *;* ]

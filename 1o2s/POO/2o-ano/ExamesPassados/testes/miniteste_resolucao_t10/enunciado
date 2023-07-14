@@ -1,0 +1,5 @@
+enunciado:
+.txt separado por tabs
+fazer programa que sorteia bilhetes para festivais.
+A regra é que cada pessoa nao pode ter mais que 2 bilhetes para o mesmo festival
+O festival.java e o randomtickets.java sao para criar e fazer.

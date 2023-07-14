@@ -1,0 +1,64 @@
+Se Forma for uma interface podemos criar objetos do tipo Forma. Por exemplo: 'Forma f1 = new Forma();'
+false
+--------------------------------------------------------------------------------------------------------------------------------------------
+A classe java.util.HashSet guarda os elementos de uma forma ordenada.
+false
+--------------------------------------------------------------------------------------------------------------------------------------------
+Um conjunto do tipo HashSet guarda a ordem de inserção dos seus elementos
+false
+--------------------------------------------------------------------------------------------------------------------------------------------
+Um objeto do tipo Map<K,V> disponibiliza o método iterator().
+false?
+--------------------------------------------------------------------------------------------------------------------------------------------
+A interface Map (java.util.Map) estende a interface Collection (java.util.Collection), isto é, um Map é um tipo de Collection.
+false
+--------------------------------------------------------------------------------------------------------------------------------------------
+A classe java.util.Scanner pode ser usada para ler, linha a linha, um ficheiro de texto.
+true
+--------------------------------------------------------------------------------------------------------------------------------------------
+Scanner input = new Scanner(new File("data/words.txt"));
+    while (input.hasNextLine()) 
+        System.out.println(input.nextLine());
+    input.close(); escreve tudo?
+O código seguinte escreve no terminal todo o conteúdo do ficheiro words.txt.
+true
+--------------------------------------------------------------------------------------------------------------------------------------------
+If c2 is a reference of type List<String>, we can use c2.forEach(System.out::println); to print all the elements of c2.
+true
+--------------------------------------------------------------------------------------------------------------------------------------------
+The expression SomeFunction n1 = (x, y) -> x*y; is valid is SomeFunction is a funcional interface with the method void met(int n, int m);
+true
+--------------------------------------------------------------------------------------------------------------------------------------------
+Se col for uma referência do tipo Collection<Person>, podemos usar col.stream() para obter uma stream sobre col.
+true
+--------------------------------------------------------------------------------------------------------------------------------------------
+FileWriter carFile = new FileWriter("Cars.txt", true);
+cria o objeto carFile e abre o ficheiro Cars.txt para escrita.
+Se o ficheiro já existir, o seu conteúdo é apagado.
+false
+--------------------------------------------------------------------------------------------------------------------------------------------
+We can define the following functional interface:
+@FunctionalInterface
+public interface Function2<T, U, V> {
+    public V apply(T t, U u);
+    default void count() {
+        // increment counter
+    }
+}
+true?
+--------------------------------------------------------------------------------------------------------------------------------------------
+Map<String, Integer> m = new HashMap<>();
+After the instructions
+m.put("Arnaldo", 1);
+m.put("Bernardo", 1);
+m.put("Arnaldo", 2);
+the value 2 is associated with key "Arnaldo".
+true
+--------------------------------------------------------------------------------------------------------------------------------------------
+Collection<Character> c = new TreeSet<>();
+Após as instruções
+c.add('a');
+c.add('b');
+c.add('a');
+a coleção contém duas vezes o caracter 'a'.
+false

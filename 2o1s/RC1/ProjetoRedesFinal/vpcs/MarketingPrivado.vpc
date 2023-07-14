@@ -1,0 +1,4 @@
+set pcname MarketingPrivado
+ip 2abc:8875:0:3::3/64
+dhcp
+ip auto

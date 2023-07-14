@@ -1,0 +1,10 @@
+LOOP - Loja Orientada a Objetos;www.loop.pt
+TELEM;Apple;iPhone 8;1000;1
+TELEM;Nokia;XXX;700;2
+ELECT;Fogão;Siemens;XPTO;450;3;A
+ELECT;Fogão;Jocel;ASD;270;4;B
+LIVRO;Livro 3;20;5;Autor 1, Autor 2, Autor 3
+LIVRO;Fundamentos de Programação em Java;27;6;António J Mendes, Maria J Marcelino
+LIVRO;Alice no País das Maravilhas;13;7;Autora
+ELECT;Televisor;SONY;KX;400;8;A
+ELECT;Televisor;NO BRAND;YYY;450;9;B

@@ -1,0 +1,4 @@
+set pcname AdminPrivado
+ip 2abc:8875:0:2::3/64
+dhcp
+ip auto

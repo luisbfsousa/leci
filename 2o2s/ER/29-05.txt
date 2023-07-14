@@ -1,0 +1,28 @@
+.3180 a 60 graus
+
+.27,9 (Caso Proposto da demanda de calor)
+
+.Sul
+
+.14
+
+.Circulacao forcada
+
+.14 (vao aparecer dois, saber distinguir)
+
+.2Mil Litros
+
+.33.6m^2 * 10 = 336
+
+.48%
+
+.4453 (diferenca custo gas e do gasoleo)
+
+.31Mil euros
+
+.7
+
+.6,9
+
+.117 743 (vao aparecer os dois numeros, mais 2) (nao é o valor presenste liquido
+

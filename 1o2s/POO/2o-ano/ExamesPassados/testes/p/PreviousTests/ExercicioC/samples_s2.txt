@@ -1,0 +1,16 @@
+Tipo	Título	Professor	Data/hora	Sala(s)
+1	Inglês para Empresas	Anthony Laurel	12.06.2015 15h	15; 22
+3	Italiano Intermédio	Luca Benini	01.06.2015 10h	25
+1	Alemão	Manfred Glesner	12.06.2015 10h	13
+2	Inglês Avançado	Anthony Laurel	05.06.2015 10h	16
+2	Inglês Avançado	Anthony Laurel	12.06.2015 10h	11
+2	Francês	Pierre Dubois	01.06.2015 16h	10; 11
+3	Espanhol Iniciação	Adolfo Mendoza	09.06.2015 11h	5
+1	Russo	Andrey Sokolov	02.06.2015 9h	15; 16; 17
+1	Inglês Iniciação	Mary Evelyn	11.06.2015 17h	3
+2	Chinês	Jin Zhao	05.06.2015 14h	1
+1	Espanhol Intermédio	Adolfo Mendoza	10.06.2015 10h	3; 13
+2	Espanhol Intermédio	Adolfo Mendoza	10.06.2015 14h	3; 13
+3	Inglês Técnico	Mary Evelyn	09.06.2015 11h	21; 25; 30
+1	Japonês	Hikari Fujimoto	03.06.2015 15h	18
+3	Espanhol Elementar	Adolfo Mendoza	01.06.2015 14h	3

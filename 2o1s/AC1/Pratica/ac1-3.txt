@@ -1,0 +1,26 @@
+float func3(float *a, float t, int n)
+{
+   float oldg = -1.0;
+   float g = 1.0;
+   float s = 0.0;
+   int k;
+
+   for (k = 0; k < n; k++) {
+      while ((g - oldg) > t) {
+         oldg = g;
+         g = (g + a[k] / t);
+      }
+      s = s + g;
+      a[k] = g;
+   }
+   return s / (float) n;
+}
+
+# Mapa de registos
+# a:    
+# t:    
+# n:    
+# oldg: 
+# g:    
+# s:    
+# k:

@@ -1,0 +1,31 @@
+ID Cliente;ID loja;Composição;Data e hora;Tipo
+1;101;Café:2.50|Sandes de Queijo:3.00;2023-05-01 09:15;expresso
+2;102;Cappuccino:4.50|Bolo de Chocolate:5.50;2023-05-01 09:30;normal
+3;103;Água Mineral:1.50|Pão Francês:1.00;2023-05-01 10:00;expresso
+4;104;Café com Leite:3.50|Sandes de Presunto:4.00;2023-05-02 08:45;normal
+5;105;Chá de Erva-Cidreira:2.00|Torta de Frango:6.00;2023-05-02 10:30;normal
+6;101;Tosta Mista:5.00|Coca-Cola:3.50;2023-05-03 12:15;expresso
+7;103;Café Expresso:2.50|Sandes de Queijo:3.00;2023-05-03 14:00;normal
+8;102;Cappuccino:4.50|Bolo de Cenoura:5.00;2023-05-04 09:45;expresso
+9;104;Sumo de Laranja:3.00|Salada de Frutas:4.50;2023-05-04 11:30;normal
+10;105;Sandes de Frango:6.50|Refrigerante Guaraná:3.00;2023-05-05 13:00;normal
+11;101;Café com Leite:3.50|Sandes de Queijo:3.00;2023-05-05 15:45;expresso
+12;103;Café Expresso:2.50|Croissant:2.50;2023-05-06 10:15;normal
+13;102;Chá de Hortelã:2.00|Bolo de Chocolate:5.50;2023-05-06 11:45;expresso
+14;104;Água Mineral:1.50|Pão Francês:1.00;2023-05-07 09:30;normal
+15;105;Café:2.50|Sandes de Presunto:4.00;2023-05-07 12:00;expresso
+16;101;Chá de Camomila:2.00|Salgado de Queijo:2.50;2023-05-08 14:30;normal
+17;103;Tosta Mista:5.00|Refrigerante Coca-Cola:3.50;2023-05-08 16:15;normal
+18;102;Café com Leite:3.50|Bolo de Cenoura:5.00;2023-05-09 08:45;expresso
+19;104;Café Expresso:2.50|Sumo de Laranja:3.00;2023-05-09 10:30;expresso
+20;105;Chá de Erva-Cidreira:2.00|Torta de Frango:6.00;2023-
+21;101;Café com Leite:3.50|Sandes de Queijo:3.00|Tosta Mista:5.00|Refrigerante Guaraná:3.00;2023-05-10 12:15;normal
+22;103;Café Expresso:2.50|Croissant:2.50|Água Mineral:1.50|Pão Francês:1.00;2023-05-10 14:00;expresso
+23;102;Cappuccino:4.50|Bolo de Cenoura:5.00|Chá de Hortelã:2.00;2023-05-11 09:45;expresso
+24;104;Sumo de Laranja:3.00|Salada de Frutas:4.50|Sandes de Frango:6.50;2023-05-11 11:30;normal
+25;105;Café:2.50|Sandes de Presunto:4.00;2023-05-12 13:00;expresso
+26;101;Café com Leite:3.50|Sandes de Queijo:3.00|Tosta Mista:5.00|Refrigerante Guaraná:3.00;2023-05-12 15:45;normal
+27;103;Café Expresso:2.50|Croissant:2.50|Água Mineral:1.50|Pão Francês:1.00;2023-05-13 10:15;expresso
+28;102;Cappuccino:4.50|Bolo de Cenoura:5.00|Chá de Hortelã:2.00;2023-05-13 11:45;expresso
+29;104;Sumo de Laranja:3.00|Salada de Frutas:4.50|Sandes de Frango:6.50;2023-05-14 09:30;normal
+30;105;Café:2.50|Sandes de Presunto:4.00|Chá de Erva-Cidreira:2.00|Torta de Frango:6.00;2023-05-14 12:00;expresso

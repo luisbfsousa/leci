@@ -1,0 +1,4 @@
+set pcname DataPublico
+ip 198.135.108.194 198.135.108.193 28
+ip 2abc:8875:0:5::2/64
+ip auto

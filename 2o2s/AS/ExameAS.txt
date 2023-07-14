@@ -1,0 +1,237 @@
+Nos processos de software sequenciais, conduzidos por um plano de projeto detalhado (plan-driven):
+Selecione uma opção de resposta:
+
+a. A evolução do projeto é comparada com o plano; o objetivo é minimizar os desvios ao plano original, especificado com detalhe, para controlar o risco.
+
+b. O projeto define um conjunto de iterações de duração fixa (time-boxed). A evolução do projeto é adaptada de acordo com as prioridades dos stakeholders, reavaliadas regularmente no início de cada iteração. 
+
+c. A evolução do projeto é comparada com o plano inicial; o objetivo é adaptar o plano original, tão cedo quanto possível, para se ajustar à mudança de prioridades.
+
+d. As prioridades do projeto são definidas pelos gestores, sem envolvimento do analista ou stakeholders, o que pode condicionar o sucesso do projeto.
+
+e. Há um grande esforço, no início, para especificar os requisitos do projeto e elaborar um plano detalhado. Depois disso, o projeto é construído de forma iterativa.
+
+------------------------------------------
+
+O Visual Paradigm suporta os diagramas da UML e a sua semântica. Não é apenas uma ferramenta de desenho, mas um ambiente rico de modelação, no qual:
+Selecione uma opção de resposta:
+
+a.Um mesmo elemento de um modelo (e.g.: ator Estudante) pode ser visualizado em diferentes diagramas; apagá-lo de um diagrama não implica apagá-lo de todos.
+
+b.Não deixa criar modelos errados: o Visual Paradigm avisa quando as associações entre os conceitos não são válidas no domínio do problema (e.g.: o ator Estudante especializa o ator Docente).
+
+c.Não é tão prático como outras ferramentas mais livres (e.g. Lucidchart) em que o utilizador tem a facilidade de criar os modelos UML à sua maneira.
+
+d.Quando se elimina um elemento representado num diagrama, esse elemento e todos os relacionamentos a si associados são removidos do projeto de modelação.
+
+e.Cada tipo de elemento de modelação (e.g.: actor, classe) tem associado um tipo específico e exclusivo de diagrama. E.g.: um ator só pode ser visualizado no diagrama de casos de uso, e não é representado em outros tipos de diagramas.
+
+------------------------------------------
+
+Tendo presente o modelo de processo do OpenUp, que serviu de inspiração às atividades de projeto das aulas Práticas, qual o princípio/recomendação que mais importa relevar?
+Selecione uma opção de resposta:
+
+a.Entregas frequentes de acordo com a expetativa dos stakeholders, adaptando, se necessário, a duração das iterações às prioridades do Product Owner.
+
+b.Desenvolvimento conduzido pelos casos de utilização: garantir que, desde o início do projeto, os casos de utilização estão detalhados, para evitar ambiguidades na interpretação dos programadores.
+
+c.Garantir que há testes para o software; a melhor forma, para isso, é adotar o TDD desde o primeiro dia do projeto, começando logo com a escrita de testes.
+
+d.Validar a arquitetura cedo: obter uma arquitetura executável na fase de Elaboração.
+
+e.Trabalhar com prototipagem rápida; para além da validação da arquitetura, o frontend/UI pode ser gerado automaticamente.
+
+------------------------------------------
+
+O método Unified Process prevê quatro fases principais no desenvolvimento do projeto. Cada qual tem um grande marco a atingir (milestone) para se poder avançar, por esta ordem:
+Selecione uma opção de resposta:
+
+a.1/ Preparação do documento de Visão; 2/ Demonstração de protótipos exploratórios; 3/ Produto implementado; 4/ Testes no cliente.
+
+b.1/ Definição das histórias de utilização; 2/ Gestão ativa do backlog; 3/ Arquitetura técnica validada; 4/ Implementação da solução concluída.
+
+c.1/ Decisão de avançar ou parar o projeto; 2/ Arquitetura técnica definida e validada; 3/ Funcionalidades da primeira versão do produto implementadas; 4/ Solução instalada e aceite pelo cliente.
+
+d.1/ Definição dos casos de utilização; 2/ implementação do protótipo exploratório; 3/ definição da arquitetura; 4/ Implementação do produto concluída.
+
+e.1/ Plano para o projeto definido; 2/ Análise de requisitos terminada; 3/ Arquitetura técnica do produto definida; 4/ Implementação da solução concluída.
+
+------------------------------------------
+
+A introdução de tecnologias de informação potencia a reformulação dos processos de trabalho de uma organização. Que modelos, da UML, podem ajudar a comunicar a reengenharia dos processos?
+Selecione uma opção de resposta:
+
+a.Se o processo inclui a alteração de estados de uma entidade (e.g.: pedido de encomenda realizado, em processamento, entregue), então o diagrama mais adequado para representá-lo é o Diagrama de Estados.
+
+b.Se o processo inclui o fluxo de dados (e.g.: uma inscrição, um relatório,...), então deve ser representado num Diagrama de Classes.
+
+c.O analista pode usar o Diagrama de Atividades para representar fluxos de trabalho, incluindo a colaboração entre diferentes papéis desempenhados por pessoas.
+
+d.O Flugrama é útil para ilustrar processos de decisão e o fluxo lógico das tarefas.
+
+e.Um diagrama de interação, como o Diagrama de Sequência, oferece o suporte mais adequado à representação de colaboração entre papéis na organização e a divisão de responsabilidade.
+
+------------------------------------------
+
+Porque é que “a determinação de requisitos (requirements elicitation) é mais que a recolha de requisitos (requirements gathering)”?
+Selecione uma opção de resposta:
+
+a.Na recolha de requisitos são construídos os modelos de casos de utilização gerais; na determinação de requisitos, que sucede àquela, são detalhadas as interações esperadas, com as narrativas estruturadas.
+
+b.O trabalho do analista (na determinação) inclui a avaliação de viabilidade dos requisitos recolhidos, a remoção de ambiguidades e incoerências, e a seleção do âmbito do produto a construir.
+
+c.A determinação de requisitos considera requisitos funcionais e não funcionais; a recolha de requisitos trata dos aspetos funcionais.
+
+d.Os dois termos são designações equivalentes para o trabalho desenvolvido pelo Analista, na investigação das necessidades dos stakeholders e definição de funcionalidades para o produto.
+
+e.Na recolha de requisitos são considerados os inputs dos stakeholders, levantados através de técnicas cooperativas/comunicacionais (e.g.: entrevista, workshops). A determinação implica também a recolha autónoma por parte do Analista (e.g.: estudo de soluções semelhantes; análise de problemas reportados ao helpdesk).
+
+------------------------------------------
+
+Vários autores, como Wiegers, realçam a importância dos requisitos observarem as propriedades "S.M.A.R.T". Segundo esta recomendação:
+Selecione uma opção de resposta:
+
+a.Os requisitos devem ser descritos com modelos (templates) existentes, criando assim especificações mais Seguras, Minimalistas, Abrangentes, Relevantes e Timely (atempadas).
+
+b.A equipa não deve perder demasiado tempo na definição dos requisitos (e, consequentemente, adiando o trabalho de implementação), mas fazer uma gestão mais "inteligente" do plano do projeto.
+
+c.A formulação de um requisito deve ser específica; a partir dessa declaração, deve ser possível dizer mais tarde, com objetividade, se o requisito está ou não presente no produto implementado.
+
+d.O analista deve fazer uma gestão adaptativa do trabalho: concentrar-se na definição dos requisitos que trazem maior valor para o produto, deixando os outros para mais tarde.
+
+e.O Analista devem convocar diferentes pontos de vista para discussão de requisitos, para ter uma visão mais "inteligente" e informada.
+
+------------------------------------------
+
+Os casos de utilização são usados para descrever a interação esperada entre certos papéis diante do sistema, e o sistema sob especificação. Qual a relação dos casos de utilização com os requisitos do sistema?
+Selecione uma opção de resposta:
+
+a.Tanto os Casos de Utilização como os requisitos são listas de caraterísticas que o novo sistema deve apresentar.
+
+b.O modelo de casos de utilização permite construir uma visão geral do que o sistema deve fazer; o detalhe dos requisitos funcionais (nas narrativas estruturadas) pode ser refinado, de forma evolutiva.
+
+c.Os requisitos são desenvolvidos com suporte documental (relatórios); os Casos de Utilização são especificações visuais, com os diagramas da UML.
+
+d.Os requisitos tratam dos aspetos que não são cobertos pelos Casos de Utilização, como, por exemplo, as funcionalidades do novo sistema.
+
+e.São duas técnicas complementares usadas pelo analista: depois de concluir o levantamento e a aprovação dos requisitos, o analista elabora os modelos de casos de utilização.
+
+------------------------------------------
+
+Um ponto importante na etapa de desenho do software é mostrar como é que os objetos (da implementação, em código) irão interagir em conjunto para formar uma colaboração que realiza __.
+Selecione uma opção de resposta:
+
+a.Os processos da organização, em que intervêm diversos atores.
+
+b.O comportamento de sistemas externos que integram com o nosso (e.g.: pagamentos)
+
+c.Os cenários dos casos de utilização. Pode-se ir, caso de utilização a caso de utilização, e planear a solução que o implementa em termos de colaboração entre objetos.
+
+d.O ciclo de vida de um objeto que evolui ao longo de vários estados.
+
+e.As expetativas  dos Atores.
+
+------------------------------------------
+
+Os processos de construção e entrega de software associados às práticas de CI/CD são particularmentes importantes quando a equipa adota o desenvolvimento ágil. Qual a relação entre ambos?
+Selecione uma opção de resposta:
+
+a.No final de cada dia, a equipa entrega um pequeno incremento, testado, dando um ritmo visível ao progresso do projeto.
+
+b.A equipa dá grande importância ao facto de ter o software em condições de ser entregue e à facilidade em integrar incrementos. A solução pode ser  construída e colocada em produção a qualquer altura.
+
+c.As novas funcionalidades podem ser colocadas em produção sem necessidade de interrupção dos serviços, que operam em contínuo (e.g.: atualizações do GMail não interrompem o serviço aos utilizadores).
+
+d.Os programadores integram o seu trabalho com o do resto da equipa no final das iterações, para formar o resultado entregável (e executável) esperado.
+
+e.Sempre que há um incremento na solução, ele é de imediato colocado em produção, para validação por parte dos stakeholders.
+
+------------------------------------------
+
+Na engenharia de software é importante articular os processos construtivos com os processos de garantia de qualidade (QA). Neste contexto, qual das seguintes práticas é recomendável na aplicação de métodos ágeis de desenvolvimento?
+Selecione uma opção de resposta:
+
+a.Os testes devem ser concentrados no final das iterações para garantir a qualidade da entrega.
+
+b.A execução dos testes deve ser suscetível de automação, de modo a que tanto os testes para novos incrementos, como para código anterior, possam ser executados com facilidade.
+
+c.As histórias de utilização incluem cenários exemplificativos que são usados para escrever os testes unitários.
+
+d.O desenvolvimento ágil usa testes de aceitação (das user stories), ao contrário dos processos clássicos (lineares) que combinam diferentes níveis de teste.
+
+e.A escrita dos testes compete a uma equipa separada e o programador não deve ser ocupado com isso.
+
+------------------------------------------
+
+Os métodos ágeis de desenvolvimento minimizam a possibilidade de ocorrer falhas de grande escala no projeto. Um factor que contribui para essa redução do perfil de risco é:
+Selecione uma opção de resposta:
+
+a.Não há necessidade de produzir especificações e a documentação do projeto é substituída por colaboração informal.
+
+b.A ordem dos itens na pilha do backlog é imutável, tornando o projeto mais previsível.
+
+c.Os projetos são mais pequenos e não se gasta tanto tempo em tarefas de coordenação e documentação.
+
+d.A verificação de qualidade (testes) acontece de forma entrelaçada com o desenvolvimento. Se um requisito ou uma opção técnica não forem ajustados, a equipa descobre-o rapidamente.
+
+e.Os incrementos desenvolvidos são imediatamente colocados em produção, acelerando a entrega de novas funcionalidades.
+
+------------------------------------------
+
+Considere a afirmação: "a abordagem linear (Waterfall) tende a mascarar os riscos reais de um projeto até que seja tarde demais para fazer algo significativo sobre eles.” Qual é o principal argumento subjacente?
+Selecione uma opção de resposta:
+
+a.No modelo em cascata, os testes e integração das partes do sistema são deferidos para uma fase avançada do projeto, quando os componentes estiverem prontos. Isso pode levar à descoberta tardia de erros ou defeitos que são caros e demorados para corrigir, ou que exigem grandes alterações no projeto ou na implementação.
+
+b.Para evitar erros numa fase avançada do projeto, há que garantir que os requisitos são muito bem definidos e acordados no início do projeto com os stakeholders, prevenindo, dessa forma, riscos subsequentes.
+
+c.Cada etapa depende da conclusão e aprovação da anterior, e qualquer atraso ou erro pode afetar todo o projeto. Isso pode dificultar a gestão dos recursos, bem como o lidar com incertezas ou contingências.
+
+d.O modelo em cascata pode ser útil para projetos simples e bem definidos que tenham requisitos claros e estáveis, mas falha em projetos grandes.
+
+e.O modelo em cascata não inclui atividades de auscultação dos stakeholders (feedback) que só terão oportunidade de validar o sistema quando o projeto está concluído.
+
+
+------------------------------------------
+
+No SCRUM, o plano de trabalho é conduzido pelo backlog. Neste contexto, o backlog é:
+Selecione uma opção de resposta:
+
+a.Lista dos itens de trabalho relacionados com  novas funcionalidades, alterações ou correções de bugs, selecionados para a equipa desenvolver na iteração (i.e., sprint) seguinte.
+
+b.Uma lista de itens de trabalho, que deve ser reavaliada com regularidade, de modo a confirmar que nela constam os itens apropriados, devidamente prioritizados. 
+
+c.Um registo (log) das user-stories já completadas no projeto e aceites pelo cliente.
+
+d.Uma lista de itens de trabalho, pontuados quanto ao grau de prioridade (quanto mais "story points", mas prioritários).
+
+e.Uma lista de casos de utilização do projeto, que falta implementar, ordenados por prioridade.
+
+------------------------------------------
+
+O "Manifesto para o Desenvolvimento Ágil de Software" apresenta 4 valores, sendo um deles: "Reagir à mudança [está] acima do seguir um plano". Isto significa que na adoção de metodologias ágeis:
+Selecione uma opção de resposta:
+
+a.Não há necessidade de planeamento prévio;  a colaboração informal com o cliente/stakeholder determina as prioridades diárias
+
+b.O plano da iteração deve ser alterado tão cedo quanto possível, de modo a ajustar a duração da iteração para acolher as novas alterações.
+
+c.As alterações devem ser acomodadas, quando trazem mais valor para o projeto.  O backlog pode ser alterado, de iteração para interação, de modo a acomodar funcionalidades prioritárias. 
+
+d.O importante é ter uma equipa bem organizada e reativa, capaz de implementar de imediato as eventuais alterações de requisitos/prioridades.
+
+e.As alterações devem ser evitadas, porque esses desvios do plano original implicam sempre custos e riscos adicionais.
+
+------------------------------------------
+
+«Os Casos de Uso existem há quase 30 anos como uma abordagem de requisitos e têm sido uma parte da inspiração para técnicas mais recentes, como as histórias do utilizador. Agora, a inspiração fluiu na outra direção. O Use-Case 2.0 é a nova geração de desenvolvimento orientado a casos de uso — leve, ágil e “enxuto” — inspirado em histórias do utilizador e nas metodologias ágeis Scrum e Kanban.» [1]
+
+O texto sugere que se pode aprender com a abordagem (clássica) dos casos de utilização, bem como com as abordagens "ágeis", e até combinar de alguma forma essas perspetivas. O que é a abordagem "Use-Case 2.0"? Faz sentido no contexto dos processos de desenvolvimento modernos, focados no desenvolvimento evolutivo? Justifique.
+
+------------------------------------------
+
+"Verdade Universal: Nunca se tem os requisitos na perfeição. […] A busca da perfeição pode levar à paralisia da análise e ter um efeito contrário ao pretendido. Os stakeholders que [já] tiveram experiências negativas em projetos que ficaram atolados[*] em questões de requisitos, por vezes ficam relutantes em investir no desenvolvimento de requisitos no seu próximo projeto. Este é um caminho ainda mais certeiro para o falhanço.” [1]
+
+O autor refere riscos relacionados com a determinação de requisitos num projeto [de desenvolvimento de um sistema]. Que riscos são esses? Qual a abordagem “certa” para os mitigar? Como é que os processos (de desenvolvimento) de software podem ajudar? Desenvolva a sua resposta.
+
+ve o word que mandei ontem

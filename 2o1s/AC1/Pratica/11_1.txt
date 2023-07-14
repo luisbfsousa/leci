@@ -1,0 +1,8 @@
+typedft Struct
+
+{						alinh	size		offset
+unsigned int id_number;		4		4		0
+char first_name[18];		1		18		4
+char last_name[15];			1		15		22
+float grade;				4		4		37 -> 40
+}Student;					4		44

@@ -1,0 +1,18 @@
+Tipo	Nome	Preço	Calorias	Data	Gordura
+1	Iogurte Natural Danone	1.48	56	07.06.2015	4.0
+3	Coca Cola	1.12	300	15.09.2015
+1	Leite UHT Meio Gordo Mimosa	0.64	46	20.06.2015	1.7
+2	Nestlé Fitness	1.59	200	15.09.2015
+1	Iogurte Cremoso Chocolate Adagio	1.99	125	08.06.2015	4.2
+1	Gelado Natural Yogoo	3.59	200	15.06.2015	9.0
+3	Guarana Brasil	1.29	36	11.06.2015
+1	Leite Pasteurizado Gordo Vigor	0.79	58	19.06.2015	2.1
+2	Corn Flakes Choco Kellogg's	2.68	389	06.07.2015
+2	Cereais Golden Grahams Nestlé	2.89	1627	20.06.2015
+3	Ice Tea Manga Lipton	0.94	19	05.10.2015
+3	Pepsi	3.49	44	20.06.2015
+2	Muesli Original Alpen	4.59	365	18.06.2015
+1	Leite UHT Magro Continente	0.72	33	10.06.2015	0.1
+3	Fanta Laranja	0.89	34	21.08.2015
+1	Iogurte Liquido Morango Auchan	1.29	74	19.06.2015	0.7
+2	Cereais All Bran Plus Kellogg's	4.49	334	28.06.2015

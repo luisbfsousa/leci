@@ -1,0 +1,39 @@
+A declaração seguinte é válida: 'String[] vec = { "Aveiro", "Ria", "Mar", "Vento" };'
+--------------------------------------------------------------------------------------------------------------------------------------------
+If the Triangle class extends the abstract Form class, Triangle must implement the abstract methods of Form, or, alternatively, be abstract.
+--------------------------------------------------------------------------------------------------------------------------------------------
+The declaration 'Person [] m = new Person [10];' creates a vector with 10 references of type Person.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Em Java, as variáveis de um tipo primitivo são objetos.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Podemos herdar (extends) de uma classe declarada como final.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Methods declared as private are not inherited.
+--------------------------------------------------------------------------------------------------------------------------------------------
+In Java, primitive type variables are objects.
+--------------------------------------------------------------------------------------------------------------------------------------------
+A method of a class has access to all the information and methods of that class.
+--------------------------------------------------------------------------------------------------------------------------------------------
+When defining a class, the use of 'package' allows to avoid name conflicts.
+--------------------------------------------------------------------------------------------------------------------------------------------
+A derived class can have multiple base classes (i.e. multiple inheritance).
+--------------------------------------------------------------------------------------------------------------------------------------------
+In the implementation of the Student class, derived from Pessoa, we have access to data and methods that are not private in Pessoa.
+--------------------------------------------------------------------------------------------------------------------------------------------
+We can use the reference 'this' within static methods.
+--------------------------------------------------------------------------------------------------------------------------------------------
+In a class, we can define the following methods:
+public void func() {...}'
+public double func() {...}.
+--------------------------------------------------------------------------------------------------------------------------------------------
+If Form is an abstract class we can create references of type Form, for example: 'Form f1;'
+--------------------------------------------------------------------------------------------------------------------------------------------
+The code:
+String s1 = "abcdefg";
+System.out.println (s1.charAt (3));
+prints the 'c' value in the terminal
+--------------------------------------------------------------------------------------------------------------------------------------------
+Consider the classes Figure, Rectangle (extends Figure), Circle (extends Figure), Target (extends Circle). 
+The instruction 'Circle c1 = new Figure(/ * constructor parameters * /);' is valid.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Instructions within a 'do ... while' cycle are always executed one or more times.

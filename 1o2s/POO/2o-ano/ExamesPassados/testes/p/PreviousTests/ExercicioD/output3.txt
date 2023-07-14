@@ -1,0 +1,7 @@
+Nome: Loja do Zé
+Endereço: Rua Domingos Carrancho, 15 , 3800-145 Aveiro
+PRODLACTEO Nome: Iogurte Natural Danone Preço: 1.48 Calorias: 56 Data: 07.06.2020 Gordura: 4.0 TempMin: 4ºC TempMax: 6ºC
+PRODLACTEO Nome: Leite UGT Meio Gordo Mimosa Preço: 0.64 Calorias: 46 Data: 20.06.2020 Gordura: 1.7 TempMin: 0ºC TempMax: 0ºC
+CEREAL Nome: Nestlé Fitness Preço: 1.59 Calorias: 200 Data: 20.09.2020 Comp Cereal: ARROS_TRIGO
+REFRIGERANTE Nome: Coca Cola Preço: 1.12 Calorias: 300 Data: 15.09.2020 TempMin: 0ºC TempMax: 0ºC
+

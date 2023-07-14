@@ -1,0 +1,252 @@
+html{
+	font-family: "Roboto", Helvetica, sans-serif;
+}
+
+body{
+	height: 100%;
+	margin:	0;
+	padding: 0;
+	background-image: radial-gradient(circle, #f8f8f8, #f3f3f3, #ededed, #e8e8e8, #e3e3e3);
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+audio {
+    filter: sepia(40%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+	border-radius: 5px;
+}
+
+.regular-checkbox {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+
+#logo{
+
+	margin: 0 auto;
+	margin-top: 4%;
+	width: fit-content;
+	cursor: pointer;
+}
+
+#logo img {
+	animation: logoAnim 2s ease infinite alternate;
+}
+
+#index{
+	width: fit-content;
+	width: fit-content;
+	margin: 0 auto;
+	display: none;
+
+	width: 760px;
+
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+ 	-ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+ 	transition: opacity 0.3 ease-in-out;
+
+ 	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+
+#musiclab{
+
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+ 	-ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+ 	transition: opacity 0.3 ease-in-out;
+
+	width: 760px;
+	/*background-color: red;*/
+	margin: 0 auto;
+	display: none;
+
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+
+} 	
+#library{
+
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+ 	-ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+ 	transition: opacity 0.3 ease-in-out;
+
+	width: 976px;
+	margin: 0 auto;
+	display: none;
+
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+p{
+	color: #2B3D41;
+}
+#fill{
+	width: fit-content;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+#center{
+	margin: 0 auto;
+	margin-top: 2%;
+	width: fit-content;
+}
+.buttons{
+	letter-spacing: 2px;
+	position: relative;
+	border-radius: 5px;
+	background-color: #02C39A;
+	box-shadow: 2px 2px 5px rgb(0 0 0 / 15%), -5px -5px 10px rgb(255 255 255 / 15%);
+	border: none;
+  color: #fff;
+  font-weight: 300;
+  display: inline-block;
+  line-height: 1.5;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0rem 1.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+.buttons::first-letter {
+  font-size: 110%;
+  color: #fff;
+}
+
+.buttons:nth-child(1){
+	background:  #6A8EAE;
+}
+
+.buttons:nth-child(2){
+	background:  #FEC601;
+}
+
+.buttons:nth-child(3){
+	background:  #02C39A;
+}
+
+.buttons:hover{
+	background-color: #2B3D41;
+	transition: 0.5s ease-in-out;
+	transform: scale(1.1);
+}
+
+/*#logo{
+	width: fit-content;
+	height: fit-content;
+	margin: 0 auto;
+	animation: colorFade 1s ease infinite alternate;
+}
+
+*/
+
+#logotipo:hover{
+	animation-play-state: paused;
+}
+/* PAUta de música */
+
+#pauta{
+	width: fit-content;
+	height: fit-content;
+	margin: 0 auto;
+	position: relative;
+}
+
+.line{
+	background-color: #696969;
+	height: 1px;
+	width: 400px;
+	margin: 1rem;
+	z-index: 0;
+}
+
+.note1{
+	position: absolute;
+	z-index: 10;
+	margin-top: -53px;
+	margin-left: 20px;
+	filter: invert(51%) sepia(96%) saturate(2930%) hue-rotate(318deg) brightness(95%) contrast(93%);
+	animation: scale 2s ease infinite alternate;
+}
+
+.note2{
+	position: absolute;
+	z-index: 10;
+	margin-top: -23px;
+	margin-left: 175px;
+	filter: invert(50%) sepia(86%) saturate(460%) hue-rotate(88deg) brightness(98%) contrast(86%);
+	animation: scale 3.5s ease infinite alternate;
+}
+
+.note3{
+	position: absolute;
+	z-index: 10;
+	margin-top: -48px;
+	margin-left: 320px;
+	filter: invert(65%) sepia(100%) saturate(596%) hue-rotate(360deg) brightness(104%) contrast(103%);
+	animation: scale 3s ease infinite alternate;
+}
+
+
+
+/* CRIAR */
+
+#alerta_gerar{
+	width: 200px;
+	height: 40px;
+	background-color: red;
+}
+
+@keyframes scale {
+	from{
+		transform: scale(0.9);
+	}
+	to{
+		transform: scale(1.08);
+	}
+}
+
+/*@keyframes colorFade {
+	from{
+		filter: brightness(1.0);
+	}
+	to{
+		filter: brightness(1.1);
+	}
+}*/
+
+
+
+@keyframes logoAnim{
+	from{
+		transform: scale(1.0);
+	}
+	to{
+		transform: scale(1.05);
+	}
+}

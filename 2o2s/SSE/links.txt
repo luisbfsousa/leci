@@ -1,0 +1,2 @@
+Aqui estão as soluções desta edição: https://quizlet.com/explanations/textbook-solutions/engineering-circuit-analysis-8th-edition-9780073529578
+Método para dar bypass à paywall do quizlet: https://github.com/rospino74/Quizlet-Bypass

@@ -1,0 +1,3 @@
+Filme{ nome=Deliver Us From Eva; score=61.8; rating=R; genre=comedy; running time=105.0 }
+Filme{ nome=Intolerable Cruelty; score=67.1; rating=PG-13; genre=comedy; running time=100.0 }
+Filme{ nome=Matchstick Men; score=68.9; rating=PG-13; genre=comedy; running time=116.0 }

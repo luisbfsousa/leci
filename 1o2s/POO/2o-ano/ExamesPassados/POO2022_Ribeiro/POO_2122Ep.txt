@@ -1,0 +1,49 @@
+
+Alínea 1) ----------------------------------
+
+Clients:
+The best [Aveiro]
+Team mates [Coimbra]
+Cool bunch [Viseu]
+
+Events:
+The best [Aveiro]
+*** Evento em 2022-06-24, total=610.0 euros
+	Kayak sporting activity with 12 participants.
+	'Full menu' for 10 participants.
+*** Evento em 2022-07-10, total=890.0 euros
+	Hiking sporting activity with 15 participants.
+	Wine tasting with 20 participants.
+Team mates [Coimbra]
+*** Evento em 2022-06-30, total=940.0 euros
+	'Light Bites' for 20 participants.
+	Architectural tour with 10 participants.
+	River tour with 10 participants.
+Cool bunch [Viseu]
+*** Evento em 2022-06-25, total=940.0 euros
+	'Drinks and Snacks' for 20 participants.
+	Art museum with 20 participants.
+
+Alínea 2) ----------------------------------
+
+Funny Sports: CLIENTES COM EVENTOS
+Malta da Ria [Aveiro]
+Tudo Bons Rapazes [Águeda]
+Arrisca Tudo [Costa Nova]
+Régua e Esquadro [Espinho]
+
+Funny Sports: LISTA DE PRÓXIMOS EVENTOS ORDENADOS POR DATA
+*** Evento em 2022-07-01, total=752.0 euros
+	Art museum with 16 participants.
+	'Light Bites' for 16 participants.
+*** Evento em 2022-07-11, total=986.0 euros
+	River tour with 23 participants.
+	Bowling sporting activity with 16 participants.
+*** Evento em 2022-07-13, total=880.0 euros
+	Hiking sporting activity with 16 participants.
+	'Drinks and Snacks' for 16 participants.
+*** Evento em 2022-07-22, total=2045.0 euros
+	Hiking sporting activity with 28 participants.
+	Bike sporting activity with 21 participants.
+	'Drinks and Snacks' for 23 participants.
+

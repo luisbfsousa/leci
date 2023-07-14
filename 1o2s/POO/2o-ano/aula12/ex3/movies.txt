@@ -1,0 +1,20 @@
+name	score	rating	genre	running time
+The League of Extraordinary Gentlemen	43.2	PG-13	action	110
+Old School	54.7	R	comedy	92
+The Recruit	62.6	PG-13	suspense	115
+The Life of David Gale	46.9	R	suspense	130
+House of 1000 Corpses	36.3	R	horror	105
+The Lizze McGuire Movie	57.1	PG	comedy	94
+Wrong Turn	32.6	R	horror	84
+The Hulk	61.0	PG-13	action	138
+Willard	60.3	PG-13	horror	100
+The Hunted	54.0	R	action	94
+Freddy vs. Jason	47.3	R	horror	97
+Deliver Us From Eva	61.8	R	comedy	105
+Matchstick Men	68.9	PG-13	comedy	116
+big fish	78.0	PG-13	drama	125
+The Italian Job	66.5	PG-13	action	111
+Cabin Fever	54.3	R	horror	93
+Intolerable Cruelty	67.1	PG-13	comedy	100
+Duplex	51.3	PG-13	comedy	89
+Lara Croft, Tomb Raider	48.8	PG-13	action	117

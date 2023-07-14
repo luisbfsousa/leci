@@ -1,0 +1,11 @@
+DMZ (server)
+
+sudo ip addr add 198.135.108.163/24 dev enp0s3
+sudo ip route add default via 198.135.108.161
+
+---------------------------------------------
+
+internet (client)
+
+sudo ip addr add 120.100.20.3/24 dev enp0s3
+sudo ip route add default via  120.100.20.1

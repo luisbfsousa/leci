@@ -1,0 +1,4 @@
+set pcname DataPrivado
+ip 172.28.5.2 172.28.5.1 24
+ip 2abc:8875:0:5::3/64
+ip auto

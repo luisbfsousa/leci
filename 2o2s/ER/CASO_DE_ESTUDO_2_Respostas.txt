@@ -1,0 +1,15 @@
+CASO DE ESTUDO 2
+
+qual o consumo diário de AQS considerado no estudo? A que temperatura? 3180 a 60 graus
+Qual o calor necessáro para a produção de AQS anualmante? 27.9
+Qual a orientação dos paineis? Sul
+Quantos paineis solares foram instalados? 14
+Tipo de sistema considerado - Ciculação forçada pq tem uma bomba
+Número de paineis sugeridos pelo retcreen? 14
+Capacidade de armazenamento - 2000 L
+Potencia da bomba circuladora - 10Whatt/m2 * 33.6 m2 = 336Whatt
+Qual a cobertura das necessidades garantida pelo sistema solar? 48%
+Qual a poupança anual associada à a	uisição de combustiveis? custo do gas - custo do gasoleo (4mil e qualquer coisa)
+Qual o investimento previsto? aproximadamente 31K...
+Considerando que 50% do investimento resulta de um emprestimo bancári, qual o tempo necessaário para recuperar o investimento de capital próprio? 6.9 anos
+Qual a riqueza gerada pelo projeto? (em moeda do ano de investimento) 117 743 preço corrente -> preço constante (inicial)

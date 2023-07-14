@@ -1,0 +1,32 @@
+Escreva, em linguagem Assembly, um programa para o PIC32 que, em ciclo infinito, leia o valor presente nos 4 dip-switches (portos RB3 a RB0) e envie para o PC o código ASCII do símbolo hexadecimal correspondente ao complemento lógico do valor binário presente nesses switches (‘0’, ‘1’, ..,’9’, ‘A’, ..’F’) – e.g. se valor dos switches for ”1100” o valor a enviar deve ser o código ASCII de ‘3’.
+
+Sempre que é enviado um carater, o valor do LED ligado ao porto RE7 deve ser complementado.
+
+A verificação do valor presente nos switches e respetivo envio para o PC deve ocorrer 4 vezes por segundo. Para este efeito, escreva, também em Assembly, uma função “delay()” que gere um atraso temporal múltiplo de 2ms e que receba como parâmetro o número de 2 milissegundos a esperar.
+
+Comece por programar adequadamente os portos de entrada/saída necessários à correta execução da tarefa. O valor inicial do porto RE7 deve ser '1'.
+
+Endereço dos portos a usar:
+TRISB: 0xBF886040 PORTB: 0xBF886050 LATB: 0xBF886060
+TRISE: 0xBF886100 PORTE: 0xBF886100 LATE: 0xBF886120
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Escreva um programa em linguagem C que implemente um contador binário crescente módulo 60, visualizado nos 7 LEDs ligados aos portos RE6 a RE0. Adicionalmente, o programa deve, em função do valor lido dos dip-switches DS2 e DS1 (ligados aos portos RB1 e RB0, respetivamente), ter o seguinte comportamento:
+
+00 - os dois displays de sete segmentos da placa estão desligados.
+01 - quando é premida no PC uma tecla que corresponda a um caráter na gama 1 a 9, o símbolo respetivo deve aparecer no display de sete segmentos mais significativo (por exemplo: tecla 4 -> 40); quando é recebido um caráter fora da gama o valor dos displays fica inalterado.
+10 - mantém o comportamento anterior, mas o símbolo correspondente à tecla deve aparecer no display menos significativo (por exemplo: tecla 4 -> 04).
+11 - o valor do contador é visível nos dois displays de sete segmentos (em hexadecimal)).
+A frequência de atualização dos displays deve ser 100 Hz, e a frequência de incremento do contador deve ser 5 Hz (utilize o core timer do PIC32 para gerar as temporizações).
+
+Códigos de 7 segmentos (0 .. F): 0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Escreva um programa, em linguagem C, que converta o sinal na entrada do módulo A/D [0 a 3.3V], a uma frequência de 10 Hz, e que:
+
+envie o resultado da conversão para o PC, em hexadecimal formatado com 3 dígitos;
+mostre no display de 7 segmentos menos significativo o símbolo A (abaixo), se a tensão na entrada do módulo A/D for inferior a 1.2 V;
+mostre no display de 7 segmentos mais significativo o símbolo B (abaixo), se a tensão na entrada do módulo A/D for igual ou superior a 1.2 V.
+O módulo A/D deve ser configurado para efetuar 2 conversões consecutivas (o resultado da conversão é obtido pela média dos valores convertidos). A deteção do fim de conversão deve ser feita por polling.

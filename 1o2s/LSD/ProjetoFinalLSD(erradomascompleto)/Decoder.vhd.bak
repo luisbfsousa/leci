@@ -1,0 +1,155 @@
+luisbfsousa
+#8132
+
+jabacas — Ontem às 18:33
+a
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity ProjFin_FSM is
+Expandir
+message.txt
+3 KB
+jabacas — Hoje às 00:18
+Tipo de arquivo em anexo: archive
+Fase1_1.zip
+6.91 MB
+jabacas — Hoje às 00:52
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity ProjFin_FSM is
+Expandir
+message.txt
+3 KB
+jabacas — Hoje às 01:52
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+
+entity Bin7SegDecoder is
+Expandir
+message.txt
+5 KB
+0
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+
+entity Bin7SegDecoder is
+
+	port(reset : in std_logic;
+		  InputA : in std_logic_vector (6 downto 0);
+		  InputB : in std_logic_vector (6 downto 0);
+		  Input7 : in std_logic_vector (6 downto 0);
+		  Input6 : in std_logic_vector (6 downto 0);
+		  Input5 : in std_logic_vector (6 downto 0);
+		  Input4 : in std_logic_vector (6 downto 0);
+		  OutputHEX4 : out std_logic_vector (6 downto 0);
+		  OutputHEX5 : out std_logic_vector (6 downto 0);
+		  OutputHEX6 : out std_logic_vector (6 downto 0);
+		  OutputHEX7 : out std_logic_vector (6 downto 0));
+		  
+end Bin7SegDecoder;
+
+
+
+architecture Behavioral of Decoder is
+begin
+
+	OutputHEX6 <= "1000000" when (reset = '1') else 	 -- 0
+					  "1000000" when (InputA = "0000") else -- 0
+					  "0010010" when (InputA = "0001") else -- 5
+					  "1000000" when (InputA = "0010") else -- 0
+					  "1000000" when (InputA = "0011") else -- 0
+					  "0100001" when (InputA = "0100") else -- d
+					  "0100001" when (InputA = "0110") else -- d
+  					  "1111111" when (InputA = "0101") else -- -
+					  
+					  "1000000" when (Input6 = "0000") else -- 0
+					  "1111001" when (Input6 = "0001") else -- 1
+					  "0100100" when (Input6 = "0010") else -- 2
+					  "0110000" when (Input6 = "0011") else -- 3
+					  "0011001" when (Input6 = "0100") else -- 4
+					  "0010010" when (Input6 = "0101") else -- 5
+					  "0000010" when (Input6 = "0110") else -- 6
+					  "1111000" when (Input6 = "0111") else -- 7
+					  "0000000" when (Input6 = "1000") else -- 8
+					  "0011000" when (Input6 = "1001") else -- 9
+					  "0111111"; 									 -- -
+					  
+					  
+					  
+	OutputHEX7<= "1000000" when (reset = '1') else 		 -- 0
+					  "1000000" when (InputA = "0000") else -- 0
+					  "1111001" when (InputA = "0001") else -- 1
+					  "0110000" when (InputA = "0010") else -- 3
+					  "0011001" when (InputA = "0011") else -- 4
+					  "1111111" when (InputA = "0100") else -- -
+					  "0001000" when (InputA = "0110") else -- A
+  					  "1111111" when (InputA = "0101") else -- -
+					  
+					  "1000000" when (Input7 = "0000") else -- 0
+					  "1111001" when (Input7 = "0001") else -- 1
+					  "0100100" when (Input7 = "0010") else -- 2
+					  "0110000" when (Input7 = "0011") else -- 3
+					  "0011001" when (Input7 = "0100") else -- 4
+					  "0010010" when (Input7 = "0101") else -- 5
+					  "0000010" when (Input7 = "0110") else -- 6
+					  "1111000" when (Input7 = "0111") else -- 7
+					  "0000000" when (Input7 = "1000") else -- 8
+					  "0011000" when (Input7 = "1001") else -- 9
+					  "0111111";									 -- -
+					  
+					  
+					  
+					  
+	OutputHEX4 <= 	"1000000" when (reset = '1') else 	  -- 0
+						"1000000" when (InputB = "0000") else -- 0
+						"0010010" when (InputB = "0001") else -- 5
+						"1000000" when (InputB = "0010") else -- 0
+						"1000000" when (InputB = "0011") else -- 0
+						"0100001" when (InputB = "0100") else -- d
+					   "1111111" when (InputB = "0110") else -- -
+  					   "0100001" when (InputB = "0101") else -- d						
+						
+						"1000000" when (Input4 = "0000") else -- 0
+					   "1111001" when (Input4 = "0001") else -- 1
+					   "0100100" when (Input4 = "0010") else -- 2
+					   "0110000" when (Input4 = "0011") else -- 3
+					   "0011001" when (Input4 = "0100") else -- 4
+					   "0010010" when (Input4 = "0101") else -- 5
+					   "0000010" when (Input4 = "0110") else -- 6
+					   "1111000" when (Input4 = "0111") else -- 7
+					   "0000000" when (Input4 = "1000") else -- 8
+					   "0011000" when (Input4 = "1001") else -- 9
+					   "0111111";									  -- - 
+						
+						
+						
+	
+	OutputHEX5 <= "1000000" when (reset = '1') else 	 -- 0
+					  "1000000" when (InputB = "0000") else -- 0
+					  "1111001" when (InputB = "0001") else -- 1
+					  "0110000" when (InputB = "0010") else -- 3
+					  "0011001" when (InputB = "0011") else -- 4
+					  "1111111" when (InputB = "0100") else -- -
+					  "1111111" when (InputB = "0110") else -- -
+  					  "0001000" when (InputB = "0101") else -- A	
+		
+					  "1000000" when (Input5 = "0000") else -- 0
+					  "1111001" when (Input5 = "0001") else -- 1
+					  "0100100" when (Input5 = "0010") else -- 2
+					  "0110000" when (Input5 = "0011") else -- 3
+					  "0011001" when (Input5 = "0100") else -- 4
+					  "0010010" when (Input5 = "0101") else -- 5
+					  "0000010" when (Input5 = "0110") else -- 6
+					  "1111000" when (Input5 = "0111") else -- 7
+					  "0000000" when (Input5 = "1000") else -- 8
+					  "0011000" when (Input5 = "1001") else -- 9
+					  "0111111";
+end Behavioral; 

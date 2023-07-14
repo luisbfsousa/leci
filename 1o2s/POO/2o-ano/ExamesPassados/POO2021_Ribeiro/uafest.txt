@@ -1,0 +1,7 @@
+Tours4Eating;Universidade de Aveiro
+1;10;FingerFoodPlaces
+1;11;Pescarias
+1;12;SnackBars
+2;20;Igrejas;IgrejaNova;IgrejaVelha;IgrejaDeCima
+2;21;Canais;Ovar;SaoRoque
+2;22;Departamentos;DETI;DEGEIT;DFIS

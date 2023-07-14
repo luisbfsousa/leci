@@ -1,0 +1,89 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Projeto de labi</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/color-blind.css">
+
+	<script src="js/functions.js"></script>
+	<script src="js/color-blind.js"></script>
+	<script src="js/iframes_controller.js"></script>
+</head>
+<body>
+<!--
+<section id="color-blind">
+	<div id="menu">
+		<div class="box" id="box1" onclick="colorBlindOpen()">
+			<img src="..\img\glass.png" width="32px">
+		</div>
+    	<div class="box box2" id="box2" onclick="colorBlindClose()">
+    		<p style="color: #fff; text-align: center; font-size: 22px;line-height: 10px; text-shadow: 1px 4px 0px rgba(0,0,0,0.09);">X</p>
+    	</div>
+    	<div id="janela">
+    		<div id="triangle"></div>
+    		<p onclick="nonColorBlind()">Non Color-Blind</p>
+    		<p onclick="deutoranopia()" id="protanopiaButton">Color Blind</p>
+    	</div>
+	</div>
+
+</section>
+-->
+<div id="siteContent" style="width: fit-content;margin:0 auto;">
+	<section id="logo" onclick="inicio()">
+		<div style="margin: auto; width: 220px;">
+		<img src="..\img\logo.png" width="220px" id="logotipo">
+		</div>
+	</section>
+	<section id="pauta" class="setPosition">
+		<div style="margin: auto; width: 400px;">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line">
+			<div class="note1" id="note1">
+				<img src="https://i.pinimg.com/originals/b3/f1/a6/b3f1a646dbf8fe7dda6a5844fd9db56b.png" width="85px">
+			</div>
+			<div class="note2" id="note2">
+				<img src="..\img\note2.png" width="50px">
+			</div>
+			<div class="note3" id="note3">
+				<img src="..\img\note3.png" width="50px">
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</div>
+	</section>
+
+
+	<div style="width: 795px; margin: auto; margin-bottom: 20px;">
+		<button class="buttons" id="button2" onclick="inicio()"> Projeto </button>
+		<button class="buttons" id="button2" onclick="pagination2()"> Criar </button>
+		<button class="buttons" id="button1" onclick="pagination()"> Samples </button>
+		<button class="buttons" id="button3" onclick="pagination3()" style="background-color: #ea506f;"> Músicas </button>
+	</div>
+
+	<section id="index">
+		<iframe id="b1" src="/samples" width="768px" height="414px" style="border: none; background-image: none;overflow:hidden" scrolling="no" ></iframe>
+	</section>
+
+	<section id="musiclab">
+		<iframe id="b2" src="html/criar.html" width="780px" height="370px" style="border: none; background-image: none;overflow:hidden" scrolling="no"></iframe>
+	</section>
+
+	<section id="library">
+		<iframe id="b3" src="/biblioteca" width="996px" height="400px" style="border: none; background-image: none; overflow:hidden"></iframe>
+	</section>
+
+	<section id="fill" style="width:750px;">
+		<p style="text-align: justify;width: parent;letter-spacing: 1.5px; line-space: 20px;">
+			O <b>MusicLab</b> é uma aplicação de gerar músicas feita em <b>HTML5</b>, <b>CSS</b>, <b>Javascript</b> e <b>Python</b>, compatível com quase todos os browsers modernos. A sua interface é fácil e intuitiva de usar, permitindo ao utilizador construir a suas músicas a 30 bpm (30 batidas por minutos) através de samples (sons) da nossa biblioteca.
+		</p>
+		<p style="text-align: justify;width: parent;letter-spacing: 1.5px; line-space: 20px;">No fim, poderá encontrar a música criada na aba Músicas e ao pesquisar o seu ID poderá ouví-la e acessar ao seu download e às restantes informações que incluem: a duração da música, data de criação e a sua votação no site.
+		</p>
+		<p style="text-align: justify;width: parent;letter-spacing: 1.5px; line-space: 20px;">
+			O site foi desenvolvido como projeto final da cadeira de <b>Laboratórios de Informática</b> da <b>Universidade de Aveiro</b>. Os seus autores são: <b>Inês Santos</b> (102484), <b>João Monteiro</b> (102690), <b>Henrique Caldas</b> (104258) e <b>Diogo Couto</b> (104288).</p>
+	</section>
+</div>
+</body>
+</html>

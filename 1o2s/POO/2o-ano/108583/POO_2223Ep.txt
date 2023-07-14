@@ -1,0 +1,11 @@
+Alínea 1) -----------------------------
+** Could not book Caravan space for client João Sousa [NORMAL: 123456789].
+** Could not book Car space for client Ana Pereira [NORMAL: 234567890].
+
+**All client bookings
+Arlindo Marques [MEMBER: 501234567] [2023-06-01 2023-11-28] Caravan space located in Costa
+Nova, with dimension 300x400, 60.00/day, total cost 10800.00
+João Sousa [NORMAL: 123456789] [2023-06-01 : 2023-08-30] Car space located in Costa Nova,
+with dimension 280x400, 40.00/day, total cost 3600.00
+Ana Pereira [NORMAL: 234567890] [2023-08-01 : 2023-09-30] Car space located in Costa Nova,
+with dimension 250x350, 30.00/day, total cost 1800.00

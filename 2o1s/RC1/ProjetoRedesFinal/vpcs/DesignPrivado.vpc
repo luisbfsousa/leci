@@ -1,0 +1,4 @@
+set pcname DesignPrivado
+ip 2abc:8875:0:1::3/64
+dhcp
+ip auto

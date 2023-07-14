@@ -1,0 +1,17 @@
+# Malta da Ria,Aveiro,2022-07-01
+* Culture,ART_MUSEUM,16
+* Catering,LIGHT_BITES,16
+# Tudo Bons Rapazes,Águeda,2022-07-22
+* Sport,HIKING,28
+* Sport,BIKE,21
+* Catering,DRINKS_AND_SNACKS,23
+* Catering,FULL_MENU,26
+# Malta da Ria,Aveiro,2022-07-01
+* Sport,HIKING,16
+* Catering,DRINKS_AND_SNACKS,16
+# Arrisca Tudo,Costa Nova,2022-07-13
+* Sport,HIKING,16
+* Catering,DRINKS_AND_SNACKS,16
+# Régua e Esquadro,Espinho,2022-07-11
+* Culture,RIVER_TOUR,23
+* Sport,BOWLING,16

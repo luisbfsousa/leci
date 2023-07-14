@@ -1,0 +1,5 @@
+set pcname Designpublico
+ip 198.135.108.2 198.135.108.1 26
+ip 2abc:8875:0:1::2/64
+ip  auto
+

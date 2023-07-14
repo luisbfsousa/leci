@@ -1,0 +1,82 @@
+Utilizacao do RETScreen, continuaçao da aula anterior
+
+Paines fotovoltaicos: Desfazamento entre a utilizacao da agua e o aquecimento da mesma
+Capacidade de aramzenamento: capacidade ligada à area do painel solar // + area => + volume para armazenar agua quente
+
+Perguntas no teste, nao é preciso saber fazer o relatorio mas sim percebe lo (saber o modelo energetico)
+Relatorio de piscina ou painel fotovoltaico ou solar
+
+Bomba circuladora: faz a agua circular do painel para o tanqu
+
+
+Notas de Aula
+	
+	RETScreen:
+		- Para qualquer tipo de tecnologia, só muda o Modelo Energético. As análises(Custos, Emissões, Financeira, etc) mantêm-se.
+		- A temperatura é sempre a 60ºC
+		- Sempre que aparecer uma célula branca, no RETScreen, é uma sugestão
+		- O caso de referência é o que já tinhamos no passado, ou seja os valores da tecnologia que estavamos a usar anteriormente
+		- O caso proposto é o que iremos ter no futuro, ou seja os valores da tecnologia que queremos usar no futuro, ou que pretendemos usar
+		- De (Caso de Referência) ---> Para (Caso Proposto)
+		- Após economias no Caso Proposto, a avaliação dos recursos (ex: Painel Solar) será adequada ao valor depois das respetivas economias
+		- Azimut : Orientação
+		- A melhor inclinação para um painel solar está entre 20 e 40, sendo que a melhor inclinação obtida é igual à inclinação do telhado 			  (normalmente)
+		- A orientação ideal do painel solar é para Sul
+		- Inclinação de 180º é oposto ao equador, ou seja fica virado para o Hemisfério Norte
+
+
+
+Duas grandes familias de ER:
+- produtora de calor
+- produtora de eletrecidade 
+
+-A eletrecidade é uma energia de maior qualidade do que o calor.
+
+1 k/wm2 - intensidade de energia solar.
+
+20% de rendimento em média dos paineis fotovoltaicos.
+
+- U.R.E - Utilização Racional de Energia.
+
+Um passo em frente nos URE:
+- Usar os minimos recursos para obter energia util
+- Usar recursos nao esgotaveis para gerar energia util
+
+ER:
+- maior investimento
+- custos de operção baixos
+- maior sustentabilidade ambiental
+
+Energia Termica:
+- Solar passivo (edificios que nao precisam de aquecimento para aquecer ou arrefecer o edificio)
+- Geotermica/Bomba de calor (temperatura estabiliza 5m debaixo de terra entre os 12 e 13 graus,logo vou buscar esta energia pois é mais facil converter para temperatura que eu quero do que ir buscar ao exterior)
+- Biomassa (por exemplo fogoes a pelets)
+- Ar quente solar (paredes perfuradas que aquecem por ação do sol, e manda o calor para dentro de casa)
+- Agua Quente solar (precisa de neve e sol)
+
+Energia Elétrica:
+- Fotovoltaica (paineis fotovoltaicos)
+- Hidrica (Barragens/turbinas eolicas)
+- Éolica (turbinas eolica)
+
+AQS - Aqua quente solar / Sanitaria
+
+Esquema Termofisão -> Reservatorio acima do painel
+
+Esquema Circulacao forcada -> Envolve o uso de bombas circuladoras, sensor de temperatura entre tubos de circulacao de agua
+
+Tipo de painel:  
+- Coletor solar sem cobertura -> .baixo custo
+				 .leves e robustos
+				 .aquece piscinas exteriores de uso sazonal
+
+- Coletor solar com cobertura -> .Custo moderado
+				 .Pressao de operacao mais elevada
+				 .Mais pesado e fragil que os anteriores
+
+- Coletor de tubos a vacuo ->	.Caro
+				.nao tem paredes por conveccao
+				.temperatura mais elevada
+				.frageis
+				.instalacao exigente
+				.nao congela no inverno

@@ -1,0 +1,33 @@
+ID da encomenda; Peso do pacote; Remetente; Destino
+0; 10,500000; Destination 1; Sender 1
+1; 8,200000; Destination 2; Sender 2
+2; 5,700000; Destination 3; Sender 3
+3; 23,750000; Lome, Togo; Longjing, China
+4; 3,280000; Manila, Philippines; Shenzhen, China
+5; 28,870000; Bogota, Colombia; Taipei, Taiwan
+6; 11,640000; Munich, Germany; Durban, South Africa
+7; 18,430000; Bangkok, Thailand; Stockholm, Sweden
+8; 1,160000; Luanda, Angola; Hamburg, Germany
+9; 24,500000; Bucharest, Romania; Montreal, Canada
+10; 17,810000; Barcelona, Spain; Jakarta, Indonesia
+11; 10,350000; Athens, Greece; Dar es Salaam, Tanzania
+13; 5,690000; Colombo, Sri Lanka; Dublin, Ireland
+14; 3,110000; Cairo, Egypt; Fukuoka, Japan
+15; 4,390000; Nairobi, Kenya; Amsterdam, Netherlands
+16; 0,120000; Asuncion, Paraguay; Stuttgart, Germany
+17; 13,620000; Santiago, Chile; Brisbane, Australia
+18; 15,080000; Guadalajara, Mexico; Tehran, Iran
+19; 7,390000; Mumbai, India; Auckland, New Zealand
+20; 25,200000; Hanoi, Vietnam; Edmonton, Canada
+21; 16,670000; Johannesburg, South Africa; Rome, Italy
+22; 12,030000; Casablanca, Morocco; Perth, Australia
+23; 2,090000; Kiev, Ukraine; Seoul, South Korea
+24; 27,170000; Rio de Janeiro, Brazil; Helsinki, Finland
+25; 21,720000; Dhaka, Bangladesh; Vancouver, Canada
+26; 26,900000; Moscow, Russia; Calgary, Canada
+27; 6,850000; Manila, Philippines; Zurich, Switzerland
+28; 19,590000; Lima, Peru; Vienna, Austria
+29; 9,530000; Belgrade, Serbia; Sydney, Australia
+30; 22,230000; Osaka, Japan; San Francisco, USA
+31; 14,550000; Karachi, Pakistan; Madrid, Spain
+32; 0,690000; Ho Chi Minh City, Vietnam; Seattle, USA
