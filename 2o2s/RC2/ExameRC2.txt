@@ -1,0 +1,23 @@
+Dar permissão nos trunks F-C para a VLAN1.
+
+A escolha administrativa da raiz da SPT não tem nada a haver com os custos ou ID. Escolhe-se os Switches mais poderosos e mais próximos do core. Depois para efetivar essa decisão baixa-se a prioridade SPT nesse switch.
+
+São 2 rotas com custo 3!
+
+É para aumentar o custo da rota de omissão no Router 2, ou mudar o tipo da rota no Router 1 para E1. BASTA UMA SOLUÇÃO!
+
+Subir o custo OSPF do interface do R5 para o C2. É no R5, o custo só influencia o caminho no sentido de saída! Para as rotas externas (rotas de omissão) as mudanças de custo só tem impacto se as rotas de omissão forem do tipo E1.
+
+Ativar RIP no R5 na rede do DC, anunciar rota de omissão por RIP e redistribuir as rotas do RIP no OSPF. Não se criam rotas RIP! Ele aprende as rotas por RIP!
+
+Era um túnel IPv4-GRE do R4 para a MS com PBR (definindo a origen, destino e protocolo UDP).
+
+8.a) Anunciar SÓ as próprias redes para o ISP1 (não as redes privadas!!) e todas as redes (públicas) para o ISP2. 
+
+b) Bloquear/descartar os UPDATE para as redes em questão vindos do ISP1. Não é preciso olhar para o AS_PATH, mas se olharem só interessa o ÚLTIMO ASN!
+
+c) Baixar a local-preference, para redes da Austrália (primeiro ASN no AS_PATH de AS da Australia) que passem por AS com redes de satélite (ASN no AS_PATH).
+
+Era RSVP-TE e OSPF-TE. O RSVP-TE não era para reservas de largura de banda (não era pedido) mas para definir o caminho até um destino (isto é o TE). O OSPF-TE não é para anunciar rotas, mas sim equipamentos e links que suportam MPLS (e LB disponível).
+
+Problema no servidor DNS (da própria empresa, não das outras). Adicionar registos SRV, NAPTR, A e AAAA.
