@@ -16,48 +16,48 @@ str2:    .asciiz "Maximo/minimo sao: "
          .text
          .globl main
 
-main:    li $t1, 0                           # n = 0
-         li $t2, 0x7FFFFFFF                  # min = 0x7FFFFFFF
-         li $t3, 0x80000000                  # max = 0x80000000
+main:    li $t1, 0                           # 
+         li $t2, 0x7FFFFFFF                  # 
+         li $t3, 0x80000000                  # 
 
          li $v0, PRINT_STR
          la $a0, str1
-         syscall                             # print_string(str)
+         syscall                             # 
 
-do:      li $v0, READ_INT                    # do {
+do:      li $v0, READ_INT                    # 
          syscall
-         move $t0, $v0                       #   val = read_int()
+         move $t0, $v0                       #  
 
-if1:     beq $t0, 0, endif1                  #   if (val != 0) {
+if1:     beq $t0, 0, endif1                  #   
 
-if2:     ble $t0, $t3, endif2                #     if (val > max)
-         move $t3, $t0                       #       max = val
+if2:     ble $t0, $t3, endif2                #     
+         move $t3, $t0                       #  
 
-endif2:  bge $t0, $t2, endif1                #     if (val < min)
-         move $t2, $t0                       #       min = val
+endif2:  bge $t0, $t2, endif1               #
+         move $t2, $t0                       # 
 
 endif1:                                      #   }
-         addiu $t1, $t1, 1                   #   n++
+         addiu $t1, $t1, 1                   # 
 
-         bge $t1, 20, enddo                  # } while ( (n < 20) 
-         beq $t0, 0, enddo                   #           && (val != 0) )
+         bge $t1, 20, enddo                  # } 
+         beq $t0, 0, enddo                   #           
 
          j do
 
 enddo:   li $v0, PRINT_STR
          la $a0, str2
-         syscall                             # print_string(str2)
+         syscall                             # 
 
          li $v0, PRINT_INT10
          move $a0, $t3
-         syscall                             # print_int10(max)
+         syscall                             #
 
          li $v0, PRINT_CHAR
          li $a0, ':'
-         syscall                             # print_char(':')
+         syscall                             # 
 
          li $v0, PRINT_INT10
          move $a0, $t2
-         syscall                             # print_int10(min)
+         syscall                             # 
 
          jr $ra

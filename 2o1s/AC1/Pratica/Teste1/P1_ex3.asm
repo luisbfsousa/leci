@@ -14,58 +14,61 @@ B:    .space 140
     .text
     .globl main
 main:
-    li    $t0, 0             # n_even = 0;
-    li    $t1, 0            # n_odd = 0;
+    li    $t0, 0            
+    li    $t1, 0       
 
-    la    $t2, a            # p1 = a
+    la    $t2, a            
 
     li    $t4, N            # 
     sll    $t4, $t4, 2        #
-    addu    $t4, $t4, $t2        # $t4 = a + N
+    addu    $t4, $t4, $t2        # 
 
 for:
-    bge    $t2, $t4, endf        # for
+    bge    $t2, $t4, endf        # 
 
     li    $v0, read_int
     syscall
-    sw    $v0, 0($t2)        # p1 = read_int()
+    sw    $v0, 0($t2)       
 
-    addiu    $t2, $t2, 4        # p++
+    addiu    $t2, $t2, 4        
     j    for
 endf:
     la    $t2, a
     la    $t3, B
 for2:
-    bge    $t2, $t4, endf2        # for
+    bge    $t2, $t4, endf2     
 
-    lw    $t5, 0($t2)        # $t5 =p1
-    rem    $t6, $t5, 2        # $t6 = p1 % 2
+    lw    $t5, 0($t2)       
+    rem    $t6, $t5, 2       
 
 if:    beqz    $t6, else
-    sw    $t5, 0($t3)        #p2 = p1
-    addiu    $t3, $t3, 4        #p2++
-    addi    $t1, $t1, 1        # n_odd++
+    sw    $t5, 0($t3)       
+    addiu    $t3, $t3, 4      
+    addi    $t1, $t1, 1   
     j     endif
 else:
-    addi    $t0, $t0, 1        # n_even++
+    addi    $t0, $t0, 1      
 endif:
     addiu    $t2, $t2, 4
     j    for2
 
 endf2:
     la    $t3, B
-    sll    $t5, $t1, 2        # n_odd * 4
-    addu    $t5, $t3, $t5        # $t5 = b + n_odd
+    sll    $t5, $t1, 2       
+    addu    $t5, $t3, $t5       
 
 for3:
-    bge    $t3, $t5, endf3        # for
+    bge    $t3, $t5, endf3        
 
     lw    $a0, 0($t3)        #
     li    $v0, print_int10
-    syscall                # print_int10(*p2)
+    syscall                
 
     addiu    $t3, $t3, 4
     j    for3
 
 endf3:
     jr    $ra
+    
+    
+    Todos certos, 17 no teste

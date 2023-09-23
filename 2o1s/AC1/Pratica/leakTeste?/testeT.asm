@@ -8,3 +8,6 @@ main:
 	li.d $f6,0xC0A00000
 	
 	div.s $f8,$f4,$f6
+	
+	
+	Nao é o teste
