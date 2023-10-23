@@ -13,26 +13,26 @@ array: .word 5, 27, 3, 11, 56
 
 main: li $t1, 1
       sll $t1, $t1, 31
-      move $t2, $t1 #max2 = max1
+      move $t2, $t1 
       la $t3, array
-      li $t0, 1 #i=0
-for: bge $t0, SIZE, end#for{
-     mul $t4, $t0, 4            #i*4
-     addu $t3, $t3, $t4        #arra[i]    
-     lw $t5, 0($t3)            #*array[i]
+      li $t0, 1 
+for: bge $t0, SIZE, end
+     mul $t4, $t0, 4            #
+     addu $t3, $t3, $t4
+     lw $t5, 0($t3)            
 
-if: ble $t5, $t1, else  #array[i] > max1
-    move $t2, $t1 #max2 = max1
-    move $t1, $t5#ma1 = array[i]
+if: ble $t5, $t1, else  #a
+    move $t2, $t1 #
+    move $t1, $t5#
     j endf
 
 else:
 
-if2: ble $t5,$t2, endf #(array[i] > max2 
-     bge $t5, $t1 , endf#&&array[i] < ma1)
-     #esta condicao resulta em #max2 = array[i]
-     move $t2, $t5 #max2 = array[i]
+if2: ble $t5,$t2, endf #
+     bge $t5, $t1 , endf#
+     #esta condicao resulta em 
+     move $t2, $t5 #
 
-endf: addi $t0, $t0, 1 #i++
+endf: addi $t0, $t0, 1 #
 
 end: jr $ra
