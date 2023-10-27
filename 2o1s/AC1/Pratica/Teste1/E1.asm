@@ -12,14 +12,14 @@ str2: .asciiz "No set bits"
 .text
 .globl main
 
-main: li $t0, -1 #
+main: li $t0, -1 #order
       li $v0, PRINT_STR 
       la $a0, str1
-      syscall #     
+      syscall #print(...)      
       li $v0, READ_INT 
       syscall
-      move $t2,$v0 #
-      li $t1, 0    #
+      move $t2,$v0 # num = read_int() 
+      li $t1, 0    #i = 0
 
 do:
 
@@ -27,8 +27,8 @@ if: andi $t3, $t2, 1
     bne $t3, 1, endif
     move $t0, $t1
 
-endif: srl $t2, $t2, 1  #
-    addi $t1, $t1, 1 #
+endif: srl $t2, $t2, 1  #num = num >> 1
+    addi $t1, $t1, 1 # i++
 
 while: blt $t1, 32, do
 
