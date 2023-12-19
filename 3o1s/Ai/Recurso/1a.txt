@@ -1,0 +1,14 @@
+--------------------------------------------------------------------
+Cena para eu perceber: 
+
+
+
+Este exercício é um exercício de para descrever o que certo código faz:
+A função recebe três argumentos, sendo x uma variàvel, y uma lista z um método.
+A função é recursiva, sendo o seu edge case a lista vazia, ou seja y == [], caso isto aconteca, a função vai retornar uma lista apenas com um elemento que é o x. Caso não esteja no edge case,a função vai passar o primeiro elemento da lista y e a variável x na função z e caso esta retorne True, vai adicionar x à lista.
+Caso isto não aconteça a função vai retornar uma lista, que é composta pelo y[0]e o resultado de correr recursivamente a função f sendo os argumentos mais uma vez o x e o z, sendo também a lista y, mas a começar no segundo valor da lista.
+
+
+Resposta:
+-----------------------------------------------------------------------
+Basicamente o que a função faz é dada uma lista y, uma variável x e uma função z, retornar uma lista composta pela variável x como primeiro elemento e pela lsista y partir do primeiro elemento que ao passar como argumento juntamente com a  variável retornam True na função z
