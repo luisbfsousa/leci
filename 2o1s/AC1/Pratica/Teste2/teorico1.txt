@@ -1,0 +1,55 @@
+   .data
+A:    .double 7.135709    
+B:    .asciiz "3BD0F7A2"   
+C:    .word   0x8A6, 0x23, 0x16EB, 0x25B8, 0x387A
+D:    .space  28       
+E:
+      .text
+      .globl main
+main: la     $t0,C
+      la     $t1,D
+      move   $t2,$t1
+      or     $v0,$0,$0
+loop: lw     $t3,0($t0)
+      srl    $t3,$t3,8
+      sw     $t3,4($t1)
+      add    $v0,$v0,$t3
+      addiu  $t0,$t0,4
+      addiu  $t1,$t1,4
+      blt    $t0,$t2,loop
+endl: sw     $v0,0($t2)
+exit: jr     $ra
+
+O número total de bytes ocupado pelo segmento de dados do programa (E-A) é:
+O valor do registo $t0 após a execução da primeira instrução do trecho de código é:
+O valor do registo $t1 após a execução da segunda instrução do trecho de código é:
+O endereço a que corresponde o label "loop" é (tenha em atenção as instruções virtuais do código):
+O número de vezes que o ciclo do programa é executado é:
+No final da execução do programa o valor do registo $t0, é:
+Considerando que o label D referencia um array de inteiros, no final da execução do programa o valor armazenado em D[3] é:
+O valor de retorno da função main() é:
+Supondo que se pretendia usar o espaço referenciado pelo label D para um array de "doubles", a dimensão máxima desse array seria:
+
+opçoes:
+6
+0x7B
+4
+0xA2
+7
+0x25
+0x10010044
+0x10010048
+5
+68
+0x004004C
+0x0040048
+0x10010030
+20
+0x1001004C
+73
+0x0040044
+0xEB
+3
+0x16
+10
+0x10010034
