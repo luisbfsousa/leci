@@ -1,0 +1,67 @@
+1. PC1 - 192.168.2.65/28
+PC2 - 192.168.2.66/28
+PC3 - 192.168.2.81/28
+
+2. É iniciado pelo PC1 (na rede de cima), sendo que este ARP serve para encontrar o MAC address da default gw,
+para posteriormente enviar os pacotes da comunicação para a DGw.
+   E iniciado pelo R1 na rede de baixo
+
+3.		S1						S2
+	-----------------				-----------------		
+    	MAC		Porta				MAC		Porta
+											
+	PC1		 e0				PC3		 e0
+	R1 f0/0	 	 e2				R1 f0/1	 	 e1
+
+4. 200.0.0.5
+
+PC1 <-> R1
+	ARP Rquest (PC1 para IP de R1)
+	ARP Reply  (R1 -> PC1)
+	Pacote de comunicação (PC1 -> R1)
+
+R1 <-> R2
+	ARP Request (R1 para IP R2)
+	ARP Reply   (R2 -> R1)
+	Pacote de comunicação (R1 -> R2)
+
+5. Mesmo que os pacotes RTS e CTS possam gerar colisões, a dimensão destes é muito menor que aqueles que já foram enviados, diminuindo assim o risco de colisão.
+Além disso, a utilização do RTS e CTS promove uma melhor organização no envio dos pacotes. (Explicar RTS/CTS)
+
+6. <NAT/PAT dinâmica com a gama pública 200.2.3.128/29>
+   <NAT estático com a gama 200.2.3.136/29>
+   a) R1 precisa de uma pool de público
+   b) PC3 configurado na NAT estática com o IP 200.2.3.137/29
+
+7. PC1 -> 2022:AFE2::1/64
+   (PC2 -> 2022:AFE2::2/64)
+   PC3 -> 2022:AFE2:1::1/64
+
+8. Dimunir para 1/2 a janela de congestionamento e volta a enviar o pacote
+   A reação do emissor dependerá do algoritmo de controle de congestão utilizado. 
+   
+   Se estiver a utilizar o algoritmo TCP Tahoe, a receção de confirmações duplicadas indica ao emissor que existe congestão 
+   na rede e ele irá reduzir a sua janela de congestão para metade, ou seja, para 10 pacotes. 
+   Se estiver a utilizar o algoritmo TCP Reno, a receção de confirmações duplicadas também indica congestão na rede, 
+   mas o emissor irá manter a sua janela de congestão atual (20 pacotes) e enviará pacotes mais lentamente para evitar congestão futura.
+   
+   Em ambos os casos, o próximo valor da janela de congestão será menor do que o valor atual.
+   Note que o valor 55000 não tem relevância para o cálculo da janela de congestão. 
+   Este valor pode ser usado para outros propósitos, tais como manter o estado do fluxo de dados entre os dispositivos.
+   
+   (10 pacotes)
+
+9. Perda de pacotes pelo caminho (pelo menos 20% de pacotes perdidos)
+
+10. O serviço de voz n se notará muita diferença, pois são menos pacotes em relação ao serviço de vídeo logo n se notará
+muita diferença se houver perda de pacotes, ficando a voz robótica ou com alguns cortes, enquanto o vídeo ficará muito pixelizado
+
+11. Não Persistente -> tem de estabelecer um TCP connection cada vez que quer mandar packets; no primeiro pacote
+de TCP connection ele diz a quem recebe para não cortar a connection
+
+12. 
+    
+
+
+
+   

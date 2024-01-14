@@ -1,0 +1,133 @@
+1
+a) Redes IPv4 privadas para DOIT: 	172.21.0.0/16
+				
+					Factory: 1000 enderecos > 172.21.0.0/22
+					Wireless: 400 enderecos > 172.21.4.0/23
+					Offices: 200 enderecos  > 172.21.6.0/24
+
+b) Redes IPv4 publicas para RCISP, DOIT e NAT necessarios para DOIT:	212.155.066.0/24
+									
+									RCISP: 120 > 212.155.066.0/25
+									DOIT: 25   > 212.155.066.128/27
+									NATPAT: 16 > 212.155.066.160/27
+									
+c) IPv6 para RCISP e DOIT:	2002:8888:ABCD::/48
+
+				Data > 2002:8888:ABCD:wxyz::/64
+						      1000
+				DOIT > 2002:8888:ABCD:00xy::/56
+							10 > Wifi
+							20 > Offices
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2
+							
+Considerando que um terminal da rede offices muda para a rede factory e continua a transmitir dados para outro terminal na rede offices:
+
+a) Como é q o switch da rede factory fica com a informacao deste terminal? 
+
+Anteriormente havendo comunicaçao com a outra rede o switch guarda o MAC address do PC. E esse MAC address nunca muda independentemente do endereço que o PC tenha posteriormente, assim sendo,
+já noutra rede o PC ao transmitir dados para outra rede o switch sabe logo qye esta a mandar cada informacao pelo MAC address.
+
+b) O que acontece a informacao da tabela do switch na rede offices?
+
+havendo um terminal que muda de rede a switching table depois é atualizada, remove a entrada e depois adiciona o MAC address do terminal que mudou para uma nova interface do switch.
+Assim muda a entrada da interface e o MAC address mantem se o mesmo.
+
+c) Como é que o router fica com a informacao que o terminal mudou de rede? ha alguma mudanca na tabela de encaminhamento?
+
+Ao mover um terminal de rede o router ira atualizar a sua tabela de encaminhamento pois este vai notar numa mudanca de interface... ???
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3
+
+Considerando o NAT/PAT, inclua um exemplo da tabela de traducao do router DOIT, antes e apos a mudanca do terminal da rede ofices para a factory, enquanto este esta a a aceder a um servidor HTTPS em na rede Data
+
+...
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4
+
+Considere que este terminal vai para a rede Wireless LAN, e que alguns dis seus pacotes colidem cim outros. Como é que o terminal ou ponto de acesso se comportam para recuperar os pacotes perdidos?
+
+Ao ser transitido um pacote, o remetente enviara um ACK para confirmar que o pacote foi recebido com sucesso, apos um tempo se nao receber o ACK o pacote vai ser assumido como perdido (timeout).
+Assim o pacote vai ser retransmitido e o processo mantem-se ate à comunicacao ser feita com sucesso.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5
+
+Nas localizacoes anteriores do terminal, offices e wireless LAN, como é que é possivel que o terminal ao mudar entre cada rede adquire toda a informacao para comunicar em IPv6? Explique o processo e as mensagens necessarias entre este terminal e outros elementos da rede.
+
+autenticao, associacao... > data frames
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6
+
+Uma aplicacao num terminal da rede offices abre uma sessao TCP Reno com um terminal na rede factory com um numero de sequencia inicial de 5000. O tamanho do pacote é de 1000 bytes.
+
+a) Se a janela de congestionamento inicial na rede offices é de 10 pacotes e a janela de rececao do terminal na rede factory é de 15 pacotes, quantos pacotes podem ser enviados logo apos o estabelecimento da sessao, antes de receber confirmacoes do terminal da factory?
+
+???Apos o estabelecimento da sessao vai ser possivel enviar os 10 pacotes pois ainda nao se recebeu ACK's duplicado que indica congestionamento de rede. Se tal acontesse o processo teria de ser repetido porém -------> ***sao 10***?
+
+b) Num determinado instante a janela de congestionamento do terminal na rede offices é igual a 20 pacotes, a janela de rececao do terminal na rede factory é de 15 pacotes, e 4 pacotes enviados do terminal da rede offices ainda nao receberam confirmacao. Quantos pacotes podem atualmente ser enviados do terminal na rede offices?
+
+Foram enviados 20 pacotes porem 4 pacotes enviados ainda n receberam confirmacao, tal acontece pois a janela de rececao da rede factory é de 15 pacotes e o mais provavel é tratar-se de um timeout. Em caso de timeout o algoritmo TCP Tahoe vai ser posto em pratica onde somente vai ser permitida a transmissao de somente vai ser possivel enviar o numero de pacotes igual à primeira transmissao. LoGo atualmente so poderao ser transmitidos 1 (ou 0 por ser ?atualmente?)pacote
+
+c) nesta sessao TCP assumindo a terminacao bem sucedida, se o numero de confirmacao do ultimo pacote enviado pela rede offices é 100000, quantos pacotes de dados foram enviados pelo terminal na rede offices?
+
+Para calcular o numero de pacotes enviados podemos utilizar a formula ((nº confirmacao - numero sequencia inicial)/tamanho) onde fazendo a trocas pelo respetivos valores chegamos a ((100000-5000/1000)) que é igual a 95.
+Logo foram enviados 95 pacotes pelo terminal na rede offices.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7
+
+Explique os passos necessarios para implementar um servico DNS na rede Data para os terminais DOIT.
+
+Para iniciar um servico DNS na rede data primeiro temos de tratar do dominio pelo ficheiro "data.pt". Após este estar configurado passamos para a base da dados "db.data.pt" que conterá toda a informaçao essencial do dominio.
+Após confirmar que o ficheiro nao apresenta erros temos de reiniciar o servico para ficar "online" algo que pode ser verificado usando o whireshark com o comando "nslookup data.pt"
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8
+
+Numa sessao HTTP qual é a vantagem de um pedido condicional GET em relacao aos recursos da rede?
+
+Ao usar um pedido condicional GET economizamos em largura de banda e acelera-se o carregamento da pagina isto pois um recurso so é solicitado se este foi alterado desde a ultima mudanca evitando assim o download desnecessario de recursos semelhantes. Isto reduz a carga nos servidores e é eficiente em termos de cache.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9
+
+Sera possivel ter um tempo de downlaod de um ficheiro semelhante atraves de FTP e TFTP?
+
+Nao é possivel pois o uso de TFTP é um meio mais rapido de download em comparacao com FTP. TFTP usa UDP e FTP usa TCP (questoes de tcp reno etc, pode passar para 1 por exemplo)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------Perguntas importantes-----------------------------------------------------------------------------------------------------------
+.Considerando que em IPv6 podemos ter bastantes mais enderecos que IPv4, explicar como um terminal adquire o seu proprio endereco e comunica com a internet
+
+R: 2 partes do endereço: parte do terminal dada pelo endereço MAC ou pseudo-aleatoriamente calculado; prefixo de rede fornecido pelo router em mensagens de anúncio de router.
+
+
+.Considerando NAT/PAT em DOIT para comunicação de PCs(1factory, 1offices) com o exterior, os endereços privados podem ser dinamicamente alocado através de DHCP? Apresente um exemplo de tabela de transição com um pool NAT de 223.0.0.228/25
+
+R: Sim o DHCP pode alocar enderecos privados e publicos e estes podem ser dinamicos pois a comunicacao é de dentro para fora.
+   Tabela: enderecos privados e ports associadas a alguns enderecos da pool publica de enderecos e ports
+
+
+.Na rede Data temos um pc a correr um server HTTP, podemos ter sessoes simultaneas de por exemplo dois pcs da rede office?
+
+R: Sim porque os pcs teem enderecos diferentes e/ou ports diferentes gracas ao NAT/PAT portanto a conexao pode ser diferenciada pelo IP de origem ou pela port de origem
+
+
+.Para que os PCs da rede anterior possam iniciar a sua comunicação de forma automática, como podem adquirir o endereço da default gateway em IPv4 e IPv6, respetivamente?
+
+R: IPv4: DHCP pode enviar o endereço da default gateway no DHCP ACK; IPv6: ao receber router advertisement com prefixo da rede, o nó coloca este router como sua default gateway
+
+
+.Aquelas perguntas de DNS iterativo/recursivo
+
+
+.Aquelas perguntas HTTP persistente/nao persistente
+
+
+.VLANS			
