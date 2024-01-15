@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Linux version 5.6.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>DigDug Score Board</title>
+
+<script>
+                        let all = false
+                        function getScores(page=1) {
+                                if(all) return false;
+
+                                let url = '/highscores?page='+page;
+                                console.log(url);
+                                fetch(url)
+                                        .then(res => res.json())
+                                        .then((highscores) => {
+                                                let table = document.querySelector("table");
+                                                let data = Object.keys(highscores[0]);
+                                                generateTable(table, highscores, page);
+
+                                        })
+                                        .catch(err => { all=true; throw err });
+                                return true;
+                        }
+
+function generateTable(table, data,page) {
+        i=20*(page-1);
+        for (element of data) {
+                i++;
+                row = table.insertRow();
+		row.setAttribute('id', "pos"+i);
+                for (key in element) {
+                        cell = row.insertCell();
+			if(key == "score" && element[key] < 10000) {
+				cell.setAttribute("style", "color:red;");
+			}
+                        if(key == "id") {
+				br = document.createElement("b");
+				ii = document.createTextNode(i); //show position not ID
+				br.appendChild(ii);
+                        	cell.appendChild(br);
+                        } else {
+                                text = element[key];
+                        	cell.appendChild(document.createTextNode(text));
+                        }
+                }
+        }
+}
+
+</script>
+</head>
+<body translate="no">
+<div class="container" id="scores">
+<table>
+<thead>
+<tr>
+<th>Pos</th>
+<th>Level</th>
+<th>Player</th>
+<th>Score</th>
+<th>Timestamp</th>
+</tr>
+</thead>
+</table>
+</div>
+<script>
+getScores();
+
+document.querySelector("body").style.height = "2000px";
+
+window.addEventListener("scroll", function() {
+
+    console.log("Next page");
+    var body = document.querySelector("body");
+    var height = body.style.height;
+    height = height.slice(0, -2);
+    height = Number(height);
+    return function() {
+        if(height - window.scrollY < 1700) {
+                if(getScores(height/1000))
+                    height += 1000; 
+        }
+        body.style.height = height + "px";
+    };
+}());
+
+
+</script>
+</body>
+</html>
