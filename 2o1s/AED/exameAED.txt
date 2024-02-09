@@ -1,5 +1,5 @@
 Para mais material mandem mensagem la no discord, recurso e 2a parte
-Não confiem a 100% nessas perguntas, foram debatidas como estudo para o recurso e algumas podem estar mal
+Não confiem a 100% nessas perguntas, foram debatidas como estudo para o recurso e algumas podem estar mal 
 
 1. Sejam dadas duas funcoes, t(n) e g(n), uma constante positiva c e um inteiro nao negativo n0
 
