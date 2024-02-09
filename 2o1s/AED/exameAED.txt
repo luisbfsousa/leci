@@ -1,0 +1,239 @@
+Para mais material mandem mensagem la no discord, recurso e 2a parte
+Não confiem a 100% nessas perguntas, foram debatidas como estudo para o recurso e pode estar algumas mal
+
+1. Sejam dadas duas funcoes, t(n) e g(n), uma constante positiva c e um inteiro nao negativo n0
+
+a)se t(n) >= cg(n), para todo o n>n0 entao t(n) é da ordem de Ο(g(n)), ie t(n) pertence a Ο(g(n))
+b)se t(n) <= cg(n), para todo o n>n0 entao t(n) é da ordem de Ω(g(n)), ie t(n) pertence a Ω(g(n))
+c)Ambas estão corretas
+--d)Nenhuma esta correta
+
+
+2.Considere (muitas) instancias distintas de um mesmo problema, todas da mesma dimensao e que foram resolvidas usando o mesmo algoritmo
+
+---a)Se o esforco computacional necessario para resolver cada uma dessas instancias for identico, a analise da eficiencia computacional do algoritmo implicara resultados distitntos para o pior caso e para o caso medio
+b)Se o esforco computacional necessario para resolver cada uma dessas instancias dependeu da configuracao de cada instancia, a analise da eficiencia computacional do algoritmo implicara resultados distitntos para o pior caso e para o caso medio
+c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+3.Esta tabela representa o numero de operacoes basicas efetuadas por um determinado algoritmo para sucessivos valores de n
+
+N 1 2 4 8 16 32 64 128 256 512 1024
+M(n) 3 4 5 6 7 8 9 10 11 12 13
+
+Trata se de um algoritmo com ordem de complexidade...?
+
+a)logaritmica
+b)linear
+---c)quadratica
+d)Nenhuma esta correta
+
+
+4.Esta tabela representa o numero de operacoes basicas efetuadas por um determinado algoritmo para sucessivos valores de n
+
+N 1 2 4 8 16 32 64 128 256 
+M(n) 4 12 40 144 544 2112 8320 33024 131584
+
+Trata se de um algoritmo com ordem de complexidade...?
+
+a)logaritmica
+b)linear
+c)quadratica
+---d)Nenhuma esta correta
+
+
+5.Esta tabela representa o numero de operacoes basicas efetuadas por um determinado algoritmo para sucessivos valores de n
+
+n 1 2 3 4 5 6 7 8 9 10
+M(n) 1 2 3 5 8 13 21 34 55 89
+
+---a)Da tabela, obtem-se a seguinte relacao recorrente para o numero de operacoes quando n>2: M(n) = M(n-1) + M(n-2)
+b)Trata se de um algoritmo com ordem de complexidade exponencial
+c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+6. Considere o array de 6 elementos que se pretende ordenar usando o algoritmo "BubbleSort":    [6,5,4,3,2,1]
+
+a)Sao efetuadas 21 comparacoes entre os elementos do array, para que seja ordenado por ordem crescente	
+b)sao efetuadas 5 trocas entre elementos do array, para que seja ordenado por ordem crescente
+---c)sao efetuadas 15 trocas entre elementos do array, para que seja ordenado por ordem crescente
+d)Nenhuma esta correta
+
+
+7.Considere o array de 6 elementos que se pretende ordenar usando a versao do algoritmo "SelectionSort" en que se comeca por colocar o menor elemento na primeira posição:    [6,5,4,3,2,1]
+
+a)Sao efetuadas 15 comparacoes entre os elementos do array, para que seja ordenado por ordem crescente	
+b)sao efetuadas 3 trocas entre elementos do array, para que seja ordenado por ordem crescente
+---c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+8.Pretende-se ordenar um dado array de n elementos, todos distintos, e que se encontram armazenados de modo aleatorio. A ordem de complexidade dessa tarefa depende do algoritmo escolhido e será
+
+a)Ο(n²) se for usado o algoritmo Bubblesort
+b)Ο(n log n) se for usado o algoritmo Heapsport
+c)Ο(n²) se for usado o algoritmo de ordenacao por selecao (selectionSort)
+---d)Todas estao corretas
+
+
+9.Pretende-se resolver o problema das torres de Hanoi para n discos
+
+a)Para n=2 é necessario efetuar 4 movimentos de discos
+b)Para n=3 é necessario efetuar 8 movimentos de discos
+---c)o numero de movimentos de discos efetuados é da ordem de Ο(2^n)     (Só pode ser porque a A e B sao impossiveis, 2^n -1)
+d)Todas estao corretas
+
+
+10.Seja dada uma escada com n degraus, que podem ser subidos um a um, ou dois a dois, ou tres a tres, ou numa qualquer combinacao dos movimentos anteriores (por exemplo, numa escada com tres degraus pode subir-se um so degrau e depois dois de uma só vez)
+
+---a)para n=3, é possivel subir a escada apenas de 4 maneiras diferentes
+b)para n=4, é possivel subir a escada apenas de 6 maneiras diferentes
+c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+11.Seja dada um arvore binaria total, i.e., em que todos os niveis da arvore estao completamente preenchidos, com n nos
+
+a)O numero de niveis da arvore é dado por [Log2 n]
+b)O numero de nos que sao folhas da arvore é dado por (n div 2), em que div é o operador que determina o quociente da divisao inteira
+---c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+12.Seja dada uma arvore binaria de altura equilibrada que armazena, de modo ordenado, n numeros inteiros
+
+a)No pior caso, determinar o valor do menor elemento armazenado na arvore é uma operacao de complexidade Ο(log n)
+b)No pior caso, concluir que um dado numero nao pertence a arvore é uma operacao de complexidade Ο(log n)
+---c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+13.O "array" seguinte armazena, por niveis, os elementos de uma arvore ternaria:  [10,6,9,2,5,7,8,0,1,3,-,-,-,-,-]
+
+a)A arvore tem 7 folhas
+b)O elemento de valor 0 é filho do elemento de valor 9
+c)Ambas estão corretas
+---d)Nenhuma esta correta
+
+
+14.O array seguinte armazena, por niveis, os elementos de uma arvore binaria que procura ("Binary Search Tree"). Atendendo à ordem associada aos elementos da arvore:  [8,4,12,2,6,10,14]
+
+a)para procurar na arvore qualquer um dos elementos do conjunto {1,3,5,7,9,11,13,15}, sao sempre consultados 3 elementos, concluindo-se depois que o valor procurado nao pertence a arvore
+b)se forem sucessivamente procurados cada um dos elementos do conjunto {2,4,6,8,10,12,14} é efetuado um total de 17 consultas a elementos da arvore
+---c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+15.Considere um grafo orientado G(V,E], representado usando a lista ordenada dos seus nos e, para cada nó, a sua lista ordenada de adjacencias
+
+a)No pior caso, verificar se um no é isolado é uma operacao de complexidade Ο(E)
+b)No pior caso, adicionar uma nova aresta ao grafo orientado é uma operacao de complexidade Ο(V)
+---c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+16.A teoria da complexidade computacional classifica diferentes problemas em classes de complexidade
+
+a)A classe P contem todos os problemas de decisao que podem ser resolvidos, em tempo polinomial, por um algoritmo determinista
+b)A classe NP contem todos os problemas de decisao cuja solucao nao pode ser verificada, em tempo polinomial, por um algoritmo determinista
+---c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+17.Em C++ a keyword auto permite
+
+---a)deduzir de modo automatico, o tipo de uma variavel em tempo de compilacao
+b)inicializar, de modo automatico, uma variavel com o seu default value
+c)Ambas estão corretas
+d)Nenhuma esta correta
+
+
+18.Qual das seguintes estruturas de daos (C++ containers) fornece operaçẽs eficientes - isto é, com ordem de complexidade Ο(1) - para a insercao e remocao de elementos nas suas duas extremidades?
+
+a)std::vector
+---b)std::deque
+c)std::queue
+d)Nenhuma esta correta
+
+
+19.Qual é a principal carateristica da estrutura de dados (C++ container) std::set?
+
+a)Permite armazenar elementos duplicados
+b)Permite o acesso aleatorio aos elementos armazenados
+---c)Mantem os seus elementos ordenados
+d)Nenhuma esta correta
+
+
+20.Em C++, o algoritmo std::count_if permite:
+
+a)Contar o numero de ocorrencias de um elemento especifico de uma estrutura de dados (container)
+---b)contar quantos elementos de uma estrutura de dados (container) satisfazem uma condicao
+c)contar os elementtos unicos de uma estrutura de dados (container)
+d)Nenhuma esta correta
+
+------------------------------------------------------------------------- 
+
+1. Um algoritmo é definido por uma sequencia de instrucoes possivelmente ambiguas, que permite resolver instancias de um problema num espaco de tempo finito 
+V
+
+2. Uma funcao t(n) sera de ordem de Θ(g(n)), i.e., t(n) pertence a Θ(g(n)) se existirem duas constantes positivas (c1 e c2) e um inteiro nao negativo (n0) tais que c1 g(n)<= t(n) <= c2 g(n), para todo o n > n0
+V
+
+3. Ao efeturar, usando o algoritmo classico, o produto de matrizes A * B = C, em que a matriz A tem 10 linhas e 20 colunas e a matriz B tem 20 linhas e 10 colunas, sao efetuadas 2000 multiplicacoes
+V
+
+4. Um algoritmo que gera todas as permutacoes de um conjunto de n elementos é um algoritmo de ordem  de complexidade exponencial, i.e., pertence a Ο(2^n)
+V
+
+5. No caso medio, a versao iterativa do algoritmo de Pesquisa binaria num array ordenado tem ordem de complexidade Ο(log n)
+V
+
+6. Quando se usa a tecnica de programcao dinamica, é necessario resolver repetidas vezes os mesmo sub-problemas
+F
+
+7. 0 + 3 + 6 + 9 + ... + 3(n-1) + 3n = 3(n²-n)/n
+V
+
+8. 1 + 2 + 4 + 8 + ... + 2^(n-1) = 2^n - 1
+F
+
+9. Quando se ordena um dado array de n elementos usando o algoritmo HeapSport, o primeiro passo é habitualmente, transformar o array dado numa MINI-HEAP
+F
+
+10. Pretende-se ordenar um dado array de n elementos de n elementos, todos distintos e que se encontram armazenados de modo aleatorio. Se for usado o algoritmo HeatSport, a ordem de complexidade dessa tarefa será Ο( n log n)
+V
+
+11. Numa arvore binaria, o numero maximo de nos do nivel i é 2^i, considerando que a raiz da arvore pertence ao nivel zero (i=0)
+V
+
+12. Na travessia Pos-Ordem de uma arvore binaria, todos os elementos da subarvore direita da raiz sao visitados primeiro que os elementos da subarvore esquerda da raiz
+F
+
+13. Numa arvore binaria de procura ("bianry search tree"), a subarvore esquerda de um dado no nao pode conter elementos de valor superior a esse mesmo no
+V
+
+14. Uma arvore AVL é uma arvore binaria equilibrada em altura em que, para cada nó, as alturas das suas duas subarvores diferem, sempre, de uma unidade
+F
+
+15. Um grafo(nao orientado) completo, com n vertices, tem (n²-n)/2 arestas
+F
+
+16. Se um grafo orientado é fortemente conexo, nao tem qualquer vertice isolado
+V
+
+17. Dado um grafo, um circuito Hamiltoniano é um caminho que partindo de um qualquer no atravessa, uma unica vez, cada um dos outros nos do grafo e regressa ao no inicial
+V
+
+18. Considere um grafo orientado G(V,E) representado usando uma lista de vertices e, para cada vertice, a sua lista de adjacencias. Se o grafofor completo, existem V listas de adjacencias e o numero total de nos definido as varias listas de adjacencias é V * (V - 1)
+v
+
+19. A travessia por niveis ("Breadth-First Traversal") de um grafo orientado é habitualmente realizada usando uma pilha ("Stack")
+V
+
+20. Instancias de grande dimensao do Problema do Caixeiro Viajante ("The travelling Salesperson Problem") nao sao habitualmente resoluveis em tempo util
+V
+
+
+
