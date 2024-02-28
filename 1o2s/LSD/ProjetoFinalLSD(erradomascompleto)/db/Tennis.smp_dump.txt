@@ -1,9 +1,0 @@
-
-State Machine - |bdfteste|StateMachine:inst|inicio
-Name inicio.TieBreak inicio.Fad inicio.adF inicio.Deuce inicio.count inicio.inicial 
-inicio.inicial 0 0 0 0 0 0 
-inicio.count 0 0 0 0 1 1 
-inicio.Deuce 0 0 0 1 0 1 
-inicio.adF 0 0 1 0 0 1 
-inicio.Fad 0 1 0 0 0 1 
-inicio.TieBreak 1 0 0 0 0 1 
