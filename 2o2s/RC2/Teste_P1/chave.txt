@@ -1,0 +1,9 @@
+Ex1: T F F F
+Ex3: T F T F
+Ex 4 T T F F
+Ex5: T F F F
+Ex6 (RIPng) : T F F F
+Ex7: T T F F
+Ex8: T F T F
+Ex9: F T F F
+Ex10: T F F F
