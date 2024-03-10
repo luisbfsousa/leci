@@ -1,0 +1,38 @@
+Qual das opções pode ser usada para descrever os produtos multifuncionais:
+
+    a. Sendo compósitos são facilmente recicláveis.
+    b. A multifuncionalidade dos equipamentos é conseguida recorrendo a um leque pequeno de elementos.
+(X) c. A reciclagem é por norma difícil porque estes utilizam elementos críticos.
+    d. Nenhuma das opções está correta.
+(X) e. A reciclagem é insipiente porque não existem sistemas eficazes para separar os vários componentes.
+
+----------------------------
+
+Considerando a quantidade anual de dióxido de carbono emitida (toneladas/ano) para a atmosfera identifique o material com mais elevada emissão:
+
+    a. Cimento.
+(X) b. Aço.
+    c. Plástico.
+    d. Papel.
+    e. Alumínio.
+
+----------------------------
+
+A energia incorporada de um material:
+
+?? (x) a.É um parâmetro de importância crescente quando se considera a etapa de fim de vida.
+    b. É uma grandeza expressa usualmente em toneladas por unidade de volume.
+    c. Mede a quantidade de dióxido de carbono associada à produção.
+    d. Nenhuma das opções está correta.
+    e. É uma grandeza adimensional.
+
+
+-----------------------------
+Considerando os conceitos de economia linear e circular identifique a estratégia que não se coaduna com a adoção/implementação de uma economia circular:
+
+
+    a. Reutilizar o produto ou algum dos seus componentes noutra aplicação.
+(x) b. Depositar os produtos em aterro no final do seu período de vida útil.
+    c. Restaurar um produto de modo a manter a sua funcionalidade.
+    d.  Desmaterializar os produtos ou bens na sua etapa de manufatura.
+    e.  Descarbonizar os produtos ou bens.
