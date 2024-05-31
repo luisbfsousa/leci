@@ -1,0 +1,9 @@
+GAS LISTING 1a.s 			page 1
+
+
+DEFINED SYMBOLS
+                1a.s:4      .text:0000000000000000 main
+                1a.s:7      .text:0000000000000004 do
+                1a.s:18     .text:000000000000002c do_while
+
+NO UNDEFINED SYMBOLS

@@ -1,0 +1,15 @@
+Timer 1
+
+Kprescaler = ( (20000000) / (65536 * 5) ) = 61,04 
+Kprescaler = 64
+
+PR1 = ( (20000000/Kprescaler) / 5 ) - 1 = 62499
+
+
+
+Timer 3
+
+Kprescaler = ( (20000000) / (65536 * 25) ) = 12,2
+Kprescaler = 16
+
+PR3 = ( (20000000/Kprescaler) / 25 ) - 1 = 49999

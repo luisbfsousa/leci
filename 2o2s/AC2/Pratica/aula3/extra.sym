@@ -1,0 +1,11 @@
+GAS LISTING extra.s 			page 1
+
+
+DEFINED SYMBOLS
+             extra.s:5      *ABS*:0000000000006100 TRISE
+             extra.s:9      .text:0000000000000000 main
+             extra.s:14     .text:0000000000000000 while
+             extra.s:23     .text:0000000000000000 end
+
+UNDEFINED SYMBOLS
+delay
