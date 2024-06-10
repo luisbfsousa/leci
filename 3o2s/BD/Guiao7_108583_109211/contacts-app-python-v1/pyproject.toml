@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "contacts-app-python"
+version = "0.1.0"
+description = ""
+authors = ["Tiago Marques Godinho <tmgodinho@ua.pt>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+Flask = "^3.0.2"
+pyodbc = "^5.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+

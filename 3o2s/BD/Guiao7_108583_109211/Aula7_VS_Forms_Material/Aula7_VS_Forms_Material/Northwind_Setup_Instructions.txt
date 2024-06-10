@@ -1,0 +1,10 @@
+Northwind database setup at local SQL Server engine. 
+
+
+Two options:
+1. Attach provided database file (NorthWind_SQLServer_2014.zip) to the local server
+	See instruction here: https://www.youtube.com/watch?v=bICR28X2sUE
+2. Download and run the SQL script file (instnwnd.sql) on the management studio after connecting to the local server
+	https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs 
+ 
+		

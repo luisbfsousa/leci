@@ -1,0 +1,217 @@
+<mxfile host="app.diagrams.net" modified="2024-04-06T15:47:25.780Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="D3RApymMogWmqXFgRPBw" version="24.2.2" type="device">
+  <diagram name="Page-1" id="1Adlct0GZ7NUQI-WupYD">
+    <mxGraphModel dx="1235" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CEPBthJzLEzjEG49SFYO-1" value="&lt;u&gt;Nº Paciente&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-2" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-3" value="Idade" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-4" value="Sexo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-5" value="Contacto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-6" value="&lt;u&gt;Validade&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-7" value="Hemograma&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-8" value="Colestrol" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-9" value="HIV" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-10" value="&lt;u&gt;ID&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-11" value="Tipo Sangue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEPBthJzLEzjEG49SFYO-12" target="CEPBthJzLEzjEG49SFYO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-12" value="Data Validade" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-13" value="Data Doacao" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-14" value="Nº Utente SNS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEPBthJzLEzjEG49SFYO-15" target="CEPBthJzLEzjEG49SFYO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-15" value="&lt;u&gt;Nº Nacional Dador&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-16" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-17" value="Tipo Sangue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-18" value="&lt;u&gt;Nº Paciente&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-19" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-20" value="Sexo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-21" value="Idade" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-22" value="Contacto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEPBthJzLEzjEG49SFYO-23" target="CEPBthJzLEzjEG49SFYO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-23" value="&lt;u&gt;Nº Utente SNS&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-24" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-25" value="Tipo Sangue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-26" value="Diagnostico" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-27" value="Tratamento" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-28" value="Morada" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-29" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-30" value="&lt;u&gt;NIF&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-31" value="Contacto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="CEPBthJzLEzjEG49SFYO-32" target="nHV91EuTZgvVD3kMK5eq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1170" />
+              <mxPoint x="520" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEPBthJzLEzjEG49SFYO-32" target="nHV91EuTZgvVD3kMK5eq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-32" value="&lt;u&gt;Nº funcionario&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-33" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-34" value="Staff" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-35" value="Clinica" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-36" value="Ficha Medica" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="890" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-37" value="Paciente" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-38" value="Cartao Dador" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-40" value="Bolsa Sangue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-41" value="Laboratorio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-42" value="Dador" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEPBthJzLEzjEG49SFYO-44" target="CEPBthJzLEzjEG49SFYO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-44" value="Dador" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CEPBthJzLEzjEG49SFYO-47" target="CEPBthJzLEzjEG49SFYO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEPBthJzLEzjEG49SFYO-47" value="Entidade Fornecedor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-1" value="Contacto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-3" value="&lt;u&gt;Nº funcionario&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1040" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-4" value="Especialidade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1040" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-5" value="Medico" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nHV91EuTZgvVD3kMK5eq-6" target="CEPBthJzLEzjEG49SFYO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-6" value="Pacientes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1040" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-7" value="&lt;u&gt;Nº funcionario&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nHV91EuTZgvVD3kMK5eq-8" target="CEPBthJzLEzjEG49SFYO-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="700" />
+              <mxPoint x="60" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-8" value="Bolsa a administrar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-9" value="Enfermeiro" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nHV91EuTZgvVD3kMK5eq-10" target="CEPBthJzLEzjEG49SFYO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-10" value="Pacientes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="nHV91EuTZgvVD3kMK5eq-13" target="CEPBthJzLEzjEG49SFYO-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="90" />
+              <mxPoint x="560" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHV91EuTZgvVD3kMK5eq-13" value="Funcionarios" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

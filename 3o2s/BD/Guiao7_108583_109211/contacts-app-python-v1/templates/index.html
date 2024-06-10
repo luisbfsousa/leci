@@ -1,0 +1,96 @@
+<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .left-column {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-right: 1px solid #ccc;
+            overflow-y: auto;
+        }
+        .right-column {
+            flex: 2;
+            padding: 20px;
+        }
+        .contact-list-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .contact-list-item:hover {
+            background-color: #eaeaea;
+        }
+        .contact-list-item-details {
+            flex: 1;
+        }
+        .contact-name {
+            font-weight: bold;
+        }
+        .company-name {
+            font-size: smaller;
+            color: #666;
+        }
+        .active {
+            display: block;
+        }
+        .search-bar {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: calc(100% - 160px);
+            box-sizing: border-box;
+        }
+        .top-button {
+            padding: 7px 15px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .top-button:hover {
+            background-color: #45a049;
+        }
+        .edit-button, .delete-button {
+            padding: 5px 10px;
+            margin-left: 5px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .edit-button:hover, .delete-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <div>
+                <input type="text" class="search-bar" placeholder="Search contacts...">
+                <button class="top-button">Search</button>
+                <button class="top-button" hx-get="customers" hx-swap="innerHTML" hx-target="#content">New</button>
+            </div>
+            <div class="contact-list" hx-get="/contact-list" hx-trigger="refreshContactList from:body">
+                {% include "contact_list.html" %}
+            </div>
+        </div>
+        <div id="content" class="right-column"></div>
+    </div>
+</body>
+</html>

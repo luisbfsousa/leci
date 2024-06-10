@@ -1,0 +1,14 @@
+{% for customer in customers %}
+    <div class="contact-list-item" hx-swap="innerHTML" hx-target="#content">
+        <div class="contact-list-item-details" hx-get="/customers/{{ customer.id }}">
+            <div class="contact-name">{{ customer.contact_name }}</div>
+            <div class="company-name">{{ customer.company_name }}</div>
+        </div>
+        <div>
+            <button class="edit-button" hx-get="/customers/{{ customer.id }}?edit=true">Edit</button>
+            <button class="delete-button"
+                    hx-delete="/customers/{{ customer.id }}"
+                    hx-confirm="Are you sure?">Delete</button>
+        </div>
+    </div>
+{% endfor %}
