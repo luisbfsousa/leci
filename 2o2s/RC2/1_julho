@@ -1,0 +1,6 @@
+8
+a) O LDP é iniciado com um broadcast de mensagens “LDP Hello” (UDP) para a rede; de seguida é iniciada (pelo IP maior) uma sessão LDP (TCP) com cada LDP descoberto; no final é trocado as labels e as redes que possuem.
+b) Deverão ser ativados o RSVP-TE para reservar a banda e o OSPF-TE para partilhar as informações.
+
+9)  
+Uma chamada de voz SIP entre dois domínios diferentes é encaminhada assim: o dispositivo SIP do chamador envia uma solicitação INVITE ao servidor SIP da sua empresa. Este servidor usa DNS para localizar e encaminhar a solicitação ao servidor SIP da empresa de destino. O servidor SIP da empresa de destino recebe a solicitação, realiza verificações e encaminha ao dispositivo SIP do destinatário. O destinatário responde com uma mensagem 200 OK, que é enviada de volta ao chamador. Após a confirmação com mensagens ACK, o fluxo de voz é estabelecido diretamente entre os dispositivos SIP usando RTP.

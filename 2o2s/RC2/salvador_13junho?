@@ -1,0 +1,52 @@
+1.Como transformar end to end em local
+-Retirar permissões de transporte para ser local
+-Distinguir rede IP (prefixo) das duas redes
+-Mudar o número da vlan (boa prática)
+
+2.Qual o router raiz da spanning tree e assegura-lo
+-caminho mais comum do tráfico, layer 3
+-baixar a prioridade para ser o escolhido
+
+3.Rotas de omissão e custo
+-número de rotas depende do next stop da tabela
+-tipo E2 ou tipo E1 
+-custo base é 100 + n interfaces de saída (E1)
+
+4.Preferenciar uma saída mudando o OSPF
+-mudanca do custo da métrica base
+Ou
+-mudar o custo das portas e mudar a métrica para E1
+
+5.Encaminhar preferencialmente 
+-aumentar o custo no de passagem para router alternativo 
+
+6.Forcar o tráfego 
+-criacao de um túnel 
+-encaminhamento com base em políticas (source, destiny e protocol)
+-source normalmente é fronteira
+
+7a.BGP
+-transito entre os dois, em que anuncia tudo o que cada um aprende entre os dois
+7b.
+-preferenciar a rede
+7c.
+- bloquear os anúncios, ou seja, não deixar entrar para nem chegar a enviar
+- geolocalizacao para saber a rede e bloquear essas redes
+- ir ao as_path ver o números dos sistemas autónomos e ver se passam pela síria 
+- se passam deita-se fora o anúncio 
+
+8.tunel MPLS 
+- LDP não garante
+- para garantir é Label Switch Path com restrições 
+- ativar as extensões de Traffic engineering de OSPF
+- rstppe é a resposta para reservas e definições de caminho e informar quais router suportam a partir das extensões e suportam MPLS 
+- rspp para ver qual suporta ou a resposta idfk
+- definição de caminho
+
+9.
+-configurar o DNS da empresa
+-A ipv4
+-AA ipv6
+-SRB service
+-NAPTR
+-avisa o serviço, o protocolo e mais uma cena
