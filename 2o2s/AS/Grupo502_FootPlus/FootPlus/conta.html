@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot+</title>
+    <link rel="stylesheet" href="assets/css/conta.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="assets/images/logo.png" alt="Logo" class="navbar-logo">
+        <div class="navigation">
+            <a class="button" href="index.html">
+                <img src="assets/images/ticket.png">
+                <div class="nav1">BILHETES</div>
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button" href="conta.html">
+                <img src="assets/images/conta.jpg">
+                <div class="nav1">CONTA</div>
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button" href="login.html">
+                <img src="assets/images/logout.png">
+            <div class="nav1">LOGOUT</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="account-container">
+        <div class="account-header">
+            <img src="assets/images/diogo.jpeg" alt="Account Image" class="account-image">
+            <button class="account-button">Atualizar Perfil</button>
+        </div>
+        <p class="account-email"></p>
+
+        <div class="section">
+            <h1 style="padding-top: 25px;">Dados Pessoais</h1>
+            <div class="row">
+                <input type="text" class="large-input" id="nomeCompleto" placeholder="Nome Completo">
+                <input type="text" class="small-input" id="nomeAbreviado" placeholder="Nome Abreviado">
+            </div>
+            <div class="row">
+                <input type="date" class="medium-input" id="dataNascimento" placeholder="Data Nascimento">
+                <select class="medium-input" id="genero">
+                    <option value="">Escolher Genero</option>
+                    <option value="male">Masculino</option>
+                    <option value="female">Feminino</option>
+                </select>
+                <input type="text" class="medium-input" id="NumeroCC" placeholder="Numero Cartao cidadao">
+            </div>
+        </div>
+    
+        <div class="section">
+            <h1>Contactos</h1>
+            <div class="row">
+                <input type="text" class="large-input" id="email" placeholder="Email">
+                <input type="text" class="small-input" id="nTelefone" placeholder="Telefone">
+            </div>
+        </div>
+    
+        <div class="section">
+            <h1>Morada</h1>
+            <div class="row">
+                <input type="text" class="larger-input" id="morada" placeholder="Morada">
+            </div>
+            <div class="row">
+                <input type="text" class="medium-input" id="cidade" placeholder="Cidade">
+                <input type="text" class="medium-input" id="codigoPostal" placeholder="Codigo Postal">
+                <input type="text" class="medium-input" id="pais" placeholder="País">
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="assets/js/conta.js"></script>
+
+</body>
+</html>

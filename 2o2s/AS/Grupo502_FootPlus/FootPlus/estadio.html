@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot+</title>
+    <link rel="stylesheet" href="assets/css/estadio.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="assets/images/logo.png" alt="Logo" class="navbar-logo">
+        <div class="navigation">
+            <a class="button" href="index.html">
+                <img src="assets/images/ticket.png">
+                <div class="nav1">BILHETES</div>
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button" href="conta.html">
+                <img src="assets/images/conta.jpg">
+                <div class="nav1">CONTA</div>
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button" href="login.html">
+                <img src="assets/images/logout.png">
+                <div class="nav1">LOGOUT</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <h2>Marca ja a tua visita</h2>
+            <h1>Estadio do Dragão</h1>
+            <h3>Poupe 3€ sem ir à bilheteira, compre online</h3>
+        </div>
+
+        <div class="tickets">
+            <div class="ticket">
+                <h2 style="font-size: 40px; margin-bottom: -40px;">Clássico</h2>
+                <h4>tour Dragão</h4>
+                <div class="price-button">
+                    <span style="margin-top: 10px;">desde</span><span style="font-weight: 900; font-size: 35px; margin-left: 10px;">10€</span>
+                    <button id="comprar1" onclick="showPaymentMethods()">Comprar</button>
+                </div>
+                <div class="includes">
+                    <p>Inclui:</p>
+                    <ul>
+                        <li>Acesso ao museu</li>
+                        <li>App tour</li>
+                        <li style="opacity: 0;">Interacao com a gravata de SC</li>
+                        <li style="opacity: 0;">Interacao com a gravata de SC</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ticket">
+                <h2 style="font-size: 40px; margin-bottom: -40px;">Premium</h2>
+                <h4>tour Dragão</h4>
+                <div class="price-button">
+                    <span style="margin-top: 10px;">desde</span><span style="font-weight: 900; font-size: 35px; margin-left: 10px;">15€</span>
+                    <button id="comprar2" onclick="showPaymentMethods()">Comprar</button>
+                </div>
+                <div class="includes">
+                    <p>Inclui:</p>
+                    <ul>
+                        <li>Bilhete Classico</li>
+                        <li>Audio-guia</li>
+                        <li>Tour Balnearios</li>
+                        <li style="opacity: 0;">Interacao com a gravata de SC</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ticket">
+                <h2 style="font-size: 40px; margin-bottom: -40px;">Dragão</h2>
+                <h4>tour Dragão</h4>
+                <div class="price-button">
+                    <span style="margin-top: 10px;">desde</span><span style="font-weight: 900; font-size: 35px; margin-left: 10px;">20€</span>
+                    <button id="comprar3" onclick="showPaymentMethods()">Comprar</button>
+                </div>
+                <div class="includes">
+                    <p>Inclui:</p>
+                    <ul>
+                        <li>Bilhete Premium</li>
+                        <li>Visita ao relvado</li>
+                        <li>Visita à sala de conferencias</li>
+                        <li>Interacao com a gravata do SC</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="payment-modal" class="modal">
+            <div class="modal-content">
+                <h2>Escolher Método de Pagamento</h2>
+                <button class="payment-option" data-method="paypal" onclick="showInput('paypal')">
+                    <img src="assets/images/paypal.png" alt="PayPal" class="payment-icon">
+                    <span>PayPal</span>
+                </button>
+                <button class="payment-option" data-method="mbway" onclick="showInput('mbway')">
+                    <img src="assets/images/mbway.png" alt="MB WAY" class="payment-icon">
+                    <span>MB WAY</span>
+                </button>
+                <button class="payment-option" data-method="visa" onclick="showInput('visa')">
+                    <img src="assets/images/visa.png" alt="Visa" class="payment-icon">
+                    <span>Visa</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="input-modal" class="modal">
+            <div class="modal-content">
+                <div id="paypal-input" class="payment-input" style="display: none;">
+                    <input type="email" class="input-text" placeholder="Introduzir Email associado ao PayPal">
+                    <button id="submit-btn" onclick="submitPayment()">Submit</button>
+                </div>
+                <div id="mbway-input" class="payment-input" style="display: none;">
+                    <input type="tel" class="input-text" placeholder="Introduzir Numero de Telefone">
+                    <button id="submit-btn" onclick="submitPayment()">Submit</button>
+                </div>
+                <div id="visa-input" class="payment-input" style="display: none;">
+                    <input type="text" class="input-text" placeholder="Inserir Numero do Cartao">
+                    <button id="submit-btn" onclick="submitPayment()">Submit</button>
+                </div>
+                <div id="processing-message" class="processing-message" style="display: none;">
+                    <p>A processar<span id="loading-dots"></span></p>
+                </div>
+                <div id="success-message" class="success-message" style="display: none;">
+                    <p>Compra efetuada com sucesso</p>
+                    <p>O seu bilhete foi enviado para o email indicado na conta</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/estadio.js"></script>
+    </div>
+
+    <img src="assets/images/museu_1.jpg" alt="Museu" class="museum-image">
+
+    <div class="info-section">
+        <div class="info-left">
+            <div class="info-text-left">
+                <p>Alfa Draconis, Thuban ou, muito simplesmente, Dragão. Da estrela dominante da constelação com o mesmo nome, que envolve o firmamento de uma notável coleção de troféus, derivam o conceito e o símbolo do Museu Futebol Clube do Porto by BMG.</p>
+            </div>
+        </div>
+        <div class="info-right">
+            <div class="info-text-middle">
+                <p>Hoje, 4800 anos depois, a constelação do Dragão conquistou a tripla função de evocar episódios históricos absolutamente libertadores para o clube que inspira, de concentrar numa imagem todas as estrelas que vestiram a camisola azul e branca e de servir de referência e guia para novas vitórias. No Estádio do Dragão, o Museu Futebol Clube do Porto by BMG atribui à constelação do Dragão o lugar que lhe pertence por direito, reservando-lhe o teto celeste que domina e ilumina uma coleção particular invejável. No género, nada se lhe compara em Portugal, distinguindo-se, inclusive, como a mais vasta exposição de troféus oficiais e aquela que concentra maior número de exclusivos.
+    
+                Só aqui podem ser admiradas obras mundialmente aclamadas e desejadas, como a Taça Intercontinental, a versão dos tempos modernos da Taça dos Campeões Europeus, a Taça UEFA ou a Supertaça Europeia.</p>
+            </div>
+            <div class="info-text-end">
+                <p>INAUGURAÇÃO</p>
+                <p class="date">28/09/2013</p>
+            </div>
+        </div>
+    </div>
+
+    <a id="scroll-to-bottom" href="#bottom"><img src="assets/images/down.png" alt="Scroll down"></a>
+
+    <a id="bottom"></a>
+</body>
+</html>

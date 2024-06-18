@@ -1,0 +1,7 @@
+Para corrigir o diagrama retira-se os cases excessivos sem qualquer necessidade
+Os ators manteêm-se os mesmos.
+
+.CD pode ser usado pelo utente, emitido pelo MA e depois da consulta cancelado pelo secretariado
+.Após emitir o CD, o utente tem de o levantar para o usar
+.O utente pode marcar consulta com o MD para iniciar o tratamento
+.No case tratamento o MD regista e marca novas consultas se for necessario

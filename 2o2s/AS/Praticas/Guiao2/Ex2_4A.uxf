@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>6</zoom_level><element><id>UMLActor</id><coordinates><x>834</x><y>324</y><w>60</w><h>66</h></coordinates><panel_attributes>Administrativo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>816</x><y>144</y><w>72</w><h>72</h></coordinates><panel_attributes>Medico assistente
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>840</x><y>510</y><w>36</w><h>72</h></coordinates><panel_attributes>Dentista
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>300</x><y>330</y><w>36</w><h>72</h></coordinates><panel_attributes>Utente
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>84</y><w>390</w><h>552</h></coordinates><panel_attributes>Sistema SISO
+--
+bg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>510</x><y>114</y><w>156</w><h>102</h></coordinates><panel_attributes>CD
+--
+Extension points
+Emitir
+Cancelar
+Utilizar</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>498</x><y>234</y><w>54</w><h>24</h></coordinates><panel_attributes>Utilizar</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>558</x><y>264</y><w>54</w><h>24</h></coordinates><panel_attributes>Cancelar</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>624</x><y>246</y><w>54</w><h>24</h></coordinates><panel_attributes>Emitir</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>186</y><w>48</w><h>60</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>210</y><w>48</w><h>66</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>642</x><y>192</y><w>48</w><h>66</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>510</x><y>306</y><w>150</w><h>90</h></coordinates><panel_attributes>Ir ao centro de Saude
+--
+Extension points
+levantar CD
+Marcar consulta</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>612</x><y>426</y><w>54</w><h>24</h></coordinates><panel_attributes>levantar CD</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>486</x><y>420</y><w>72</w><h>24</h></coordinates><panel_attributes>Marcar Consulta</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>516</x><y>372</y><w>48</w><h>60</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>636</x><y>378</y><w>48</w><h>60</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>648</x><y>264</y><w>78</w><h>186</h></coordinates><panel_attributes>lt=&lt;..
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>30;290;83;243;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>516</x><y>480</y><w>150</w><h>90</h></coordinates><panel_attributes>Tratamento
+--
+Extension points
+Nova consulta
+Fazer registo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>486</x><y>594</y><w>84</w><h>36</h></coordinates><panel_attributes>Marcar Nova Consulta</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>606</x><y>600</y><w>72</w><h>24</h></coordinates><panel_attributes>Fazer Registos</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>546</y><w>48</w><h>60</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>636</x><y>552</y><w>48</w><h>60</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extend&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>522</y><w>198</w><h>24</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>336</y><w>198</w><h>24</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>156</y><w>186</w><h>24</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>654</x><y>336</y><w>204</w><h>24</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;320;20</additional_attributes></element><element><id>Relation</id><coordinates><x>654</x><y>180</y><w>204</w><h>180</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;320;280</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>174</y><w>198</w><h>186</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;290;310;10</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>342</y><w>204</w><h>198</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;320;310</additional_attributes></element><element><id>UMLNote</id><coordinates><x>834</x><y>648</y><w>102</w><h>42</h></coordinates><panel_attributes>AS-Ex2.4A
+Grupo 502 (AA,GM,JS,TO,LS)
+v2024-02-22
+bg=blue
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

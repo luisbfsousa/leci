@@ -1,0 +1,573 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+body {
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #1e1e1e;
+    color: white;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: auto;
+    margin-right: 8px;
+    padding-left: 20px;
+}
+
+.navbar h1 {
+    text-align: center;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar h1 {
+        font-size: 1rem;
+    }
+}
+
+.navigation {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(223, 15, 15, 0);
+}
+
+img {
+    width: 36px;
+    float: left;
+}
+
+.nav1 {
+    font-size: 0.8em;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    right: -18px;
+    bottom: -4px;
+    overflow: hidden;
+    letter-spacing: 3px;
+    opacity: 0;
+    transition: opacity 0.45s;
+    -webkit-transition: opacity 0.35s;
+}
+
+.button {
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 41px;
+    margin: 15px;
+    color: white;
+    background-color: transparent;
+    transition: width 0.35s;
+    -webkit-transition: width 0.35s;
+    overflow: hidden;
+}
+
+
+a:hover {
+    width: 150px;
+}
+
+a:hover .nav1 {
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 100px; 
+    border-radius: 10px;
+    width: 100vh;
+    height: 70vh; 
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.tickets {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.ticket {
+    border: 1px solid #3f3f3f; 
+    padding: 20px; 
+    height: 350px; 
+    width: 200px; 
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    color: white;
+}
+
+.ticket:hover {
+    background-color: #3f3f3f5d; 
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 1000;
+}
+
+.price-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.includes ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.price-button button {
+    padding: 10px;
+    font-size: 1.2em;  
+    background-color: #3f3f3f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start; 
+    margin-left: 20px; 
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    color: #fff;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-size: 1.5em;
+    width: 100%;
+    max-width: 90%;
+    margin-left: 25px;
+}
+
+.payment-option:hover {
+    background-color: #555;
+}
+
+.payment-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.payment-input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #55555500;
+    background-color: #2e2e2e00;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.input-text {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.input-text::placeholder {
+    color: #ccc;
+}
+
+#submit-btn {
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2em; 
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #555;
+}
+
+.modal-content p {
+    font-size: 1.5em; 
+}
+
+.processing-message, .success-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-section {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.museum-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    position: relative;
+}
+
+.museum-image::before,
+.museum-image::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20%;
+    pointer-events: none; 
+}
+
+.museum-image::before {
+    top: 0;
+    background: linear-gradient(to bottom, rgba(30, 30, 30, 1), rgba(30, 30, 30, 0));
+}
+
+.museum-image::after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(30, 30, 30, 1), rgba(30, 30, 30, 0));
+}
+
+.info-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    font-weight: bold; 
+    max-width: 14%; 
+    height: auto; 
+    padding-right: 50px;
+}
+
+.info-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.info-text-left {
+    text-align: left;
+    height: auto; 
+    width: 100%; 
+}
+
+.info-text-middle, .info-text-end {
+    text-align: left;
+}
+
+.info-text-end {
+    font-weight: bolder; 
+    align-self: flex-start;
+}
+
+.info-text-middle {
+    margin-bottom: 20px;
+}
+
+.date {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#scroll-to-bottom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    width: 50px; 
+    height: 50px;
+}
+
+#scroll-to-bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+/* scrollbars */
+.chat-container::-webkit-scrollbar {
+    width: 2px;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background: #3f3f3f;
+}
+
+.chat-container {
+    -ms-overflow-style: scrollbar;
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f3f transparent;
+}
+
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+    width: 2px;
+}
+
+body::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-thumb {
+    background: #3f3f3f;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f3f transparent;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f3f transparent;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .tickets {
+        flex-direction: column;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 140px;
+        width: auto;
+    }
+
+    .navigation {
+        padding: 7px;
+    }
+
+    .navbar-logo {
+        height: 50px;
+        width: auto;
+        margin-right: 20px;
+    }
+
+    .navbar-logo {
+        margin-bottom: 17px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .navigation {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .button {
+        margin: 10px 0;
+        width: 100%;
+        padding-top: 20px;
+        margin-left: 0px;
+        padding-right: 28px;
+    }
+
+    .checkout-button {
+        font-size: 14px; 
+    }
+
+    .navbar h1 {
+        font-size: 0.8rem; 
+    }
+
+    .nav1 {
+        font-size: 0.6em; 
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 10px;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-logo {
+        height: 50px;
+        width: auto;
+        margin-right: 20px;
+    }
+
+    .navbar-logo {
+        margin-bottom: 17px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .navbar h1 {
+        font-size: 0.7rem;
+    }
+
+    .button {
+        padding: 10px;
+        padding-left: 11px;
+        margin: 14px;
+        margin-left: 12px;
+    }
+
+    .navbar h1 {
+        font-size: 0.8rem; 
+    }
+
+    .nav1 {
+        font-size: 0.6em; 
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        margin-top: 70px;
+    }
+
+    .tickets {
+        padding: 5px;
+        padding-top: 40px;
+    }
+
+    .ticket {
+        padding: 10px;
+        height: auto;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .price-button button {
+        font-size: 1em;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .payment-option {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .payment-icon {
+        width: 30px;
+    }
+
+    .payment-input {
+        font-size: 1em;
+    }
+
+    .info-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .info-left {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .info-right {
+        flex: 1;
+        width: 100%;
+    }
+
+    .info-text-left,
+    .info-text-middle,
+    .info-text-end {
+        text-align: center;
+    }
+
+    .info-text-middle {
+        margin-bottom: 10px;
+    }
+
+    .date {
+        font-size: 1.2em;
+    }
+}

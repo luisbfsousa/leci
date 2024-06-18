@@ -1,0 +1,256 @@
+/* Add this to your pagamento.css */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+body {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.payment-container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-container h2 {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-size: 1.5em;
+    width: 300px;
+    max-width: 90%;
+}
+
+.payment-option:hover {
+    background-color: #555;
+}
+
+.payment-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 1000;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    height: 15%;
+    max-width: 500px;
+    text-align: center;
+    color: #fff;
+}
+
+.payment-input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-size: 1.2em; 
+}
+
+#submit-btn {
+    background-color: #3f3f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2em; 
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+    background-color: #555;
+}
+
+.modal-content p {
+    font-size: 1.5em; 
+}
+
+.ticket-info {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.discount-info {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0; 
+}
+
+.discount-message {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.ticket-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-auto-rows: auto; 
+    grid-gap: 50px; 
+    width: 100%; 
+    margin-top: 50px; 
+}
+
+.ticket {
+    border: 1px solid #3f3f3f; 
+    padding: 20px; 
+    height: 50px; 
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.match-info {
+    flex-grow: 1; 
+    margin-left: -50px;
+}
+
+.ticket:hover {
+    background-color: #3f3f3f5d; 
+}
+
+.ticket p {
+    color: #ffffff; 
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.hours {
+    border: 1px solid #1e1e1e; 
+    border-radius: 15px; 
+    background-color: #3f3f3f5d; 
+    color: #1e1e1e; 
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: auto; 
+    height: auto; 
+    line-height: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+    .hours {
+        background-color: #292929;
+        color: #ffffff; 
+        border-color: #3f3f3f; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .hours {
+        padding: 0.5rem 1rem;
+    }
+}
+
+img {
+    width: 50px;
+    float: left;
+}
+
+/* scrollbars */
+.chat-container::-webkit-scrollbar {
+    width: 2px;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background: #3f3f3f;
+}
+
+.chat-container {
+    -ms-overflow-style: scrollbar;
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f3f transparent;
+}
+
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+    width: 2px;
+}
+
+body::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-thumb {
+    background: #3f3f3f;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f3f transparent;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f3f transparent;
+}

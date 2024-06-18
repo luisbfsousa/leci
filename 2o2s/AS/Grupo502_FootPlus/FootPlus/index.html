@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot+</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="assets/images/logo.png" alt="Logo" class="navbar-logo">
+        <div class="navigation">
+            <a class="button" href="#chat-section">
+                <img src="assets/images/chat.png" style="filter: invert(1);">
+                <div class="nav1">CHATBOT</div>
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button" href="conta.html">
+                <img src="assets/images/conta.jpg">
+                <div class="nav1">CONTA</div>
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button" href="login.html">
+                <img src="assets/images/logout.png">
+            <div class="nav1">LOGOUT</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="left">
+            
+            <div class="sub">
+                <!--<h1>estadio 2</h1>-->
+                <a href="estadio.html">
+                    <img src="assets/images/museu1.jpg" alt="">
+                </a>
+            </div>
+            <div class="sub">
+                <!--<h1>estadio 1</h1>-->
+                <!--<h1>Ligas</h1>
+                <h3 onclick="document.getElementById('ligabetclic').scrollIntoView({ behavior: 'smooth' });">Liga Betclic</h3>
+                <h3 onclick="document.getElementById('bundesliga').scrollIntoView({ behavior: 'smooth' });">Bundesliga</h3>
+                <h3 onclick="document.getElementById('premierleague').scrollIntoView({ behavior: 'smooth' });">Premier League</h3>
+                <h3 onclick="document.getElementById('seriea').scrollIntoView({ behavior: 'smooth' });">Serie A</h3>
+                <h3 onclick="document.getElementById('laliga').scrollIntoView({ behavior: 'smooth' });">La Liga</h3>
+                <h3 onclick="document.getElementById('eredivisie').scrollIntoView({ behavior: 'smooth' });">Eredivisie</h3>
+                <h3 onclick="document.getElementById('').scrollIntoView({ behavior: 'smooth' });">SüperLig</h3>
+                <h3 onclick="document.getElementById('').scrollIntoView({ behavior: 'smooth' });">Jupiler Pro League</h3>-->
+                <img src="assets/images/ucl.jpg" alt="">
+            </div>
+            <div class="sub" id="chat-section">
+                <div class="chat-title">Chatbot</div>
+                <div class="chat-container">
+                    <!--<div class="chat-message user">
+                        Teste mensagem user
+                    </div>-->
+                    <div class="chat-message bot">
+                        Boas, sou o novo chatbot da Foot+! Como posso ajudar?
+                    </div>
+                </div>
+                <div id="typing-indicator" style="display: none;">A aguardar pela resposta do chatbot...</div>
+                <input class="chat-input" type="text" placeholder="Type your message here...">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="headerlogo" id="ligabetclic">
+                <div>
+                    <h1>Liga Betclic</h1>
+                    <h2>Jogos: 1</h2>
+                </div>
+                <img src="assets/images/sponsor_pt.png" alt="" class="logo">
+            </div>
+            <div class="ticket">
+                <p class="hours">20:00</p>
+                <div class="match-info">
+                    <p id="PT"></p>
+                </div>
+                <button class="checkout-button">
+                    <img src="assets/images/ticket.png">
+                </button>
+            </div>
+
+            <div class="headerlogo" id="bundesliga">
+                <div>
+                    <h1>Bundesliga</h1>
+                    <h2>Jogos: 1</h2>
+                </div>
+                <img src="assets/images/sponsor_ge.png" alt="" class="logo">
+            </div>
+            <div class="ticket">
+                <p class="hours">16:00</p>
+                <div class="match-info">
+                    <p id="GE"></p>
+                </div>
+                <button class="checkout-button" >
+                    <img src="assets/images/ticket.png">
+                </button>
+            </div>
+
+            <div class="headerlogo" id="premierleague">
+                <div>
+                    <h1>Premier League</h1>
+                    <h2>Jogos: 1</h2>
+                </div>
+                <img src="assets/images/sponsor_en.png" alt="" class="logo">
+            </div>
+            <div class="ticket">
+                <p class="hours">14:00</p>
+                <div class="match-info">
+                    <p id="EN"></p>
+                </div>
+                <button class="checkout-button">
+                    <img src="assets/images/ticket.png">
+                </button>
+            </div>
+
+            <div class="headerlogo" id="seriea">
+                <div>
+                    <h1>Serie A</h1>
+                    <h2>Jogos: 1</h2>
+                </div>
+                <img src="assets/images/sponsor_it.png" alt="" class="logo">
+            </div>
+            <div class="ticket">
+                <p class="hours">17:30</p>
+                <div class="match-info">
+                    <p id="IT"></p>
+                </div>
+                <button class="checkout-button">
+                    <img src="assets/images/ticket.png">
+                </button>
+            </div>
+
+            <div class="headerlogo" id="laliga">
+                <div>
+                    <h1>La Liga</h1>
+                    <h2>Jogos: 1</h2>
+                </div>
+                <img src="assets/images/sponsor_es.png" alt="" class="logo">
+            </div>
+            <div class="ticket">
+                <p class="hours">19:00</p>
+                <div class="match-info">
+                    <p id="ES"></p>
+                </div>
+                <button class="checkout-button">
+                    <img src="assets/images/ticket.png">
+                </button>
+            </div>
+
+            <div class="headerlogo" id="eredivisie">
+                <div>
+                    <h1>Eredivisie</h1>
+                    <h2>Jogos: 1</h2>
+                </div>
+                <img src="assets/images/sponsor_nl.png" alt="" class="logo">
+            </div>
+            <div class="ticket">
+                <p class="hours">18:00</p>
+                <div class="match-info">
+                    <p id="NL"></p>
+                </div>
+                <button class="checkout-button">
+                    <img src="assets/images/ticket.png">
+                </button>
+            </div>
+
+            <div class="footer">
+                <div class="sponsors">
+                    <img src="assets/images/sponsor_pt.png" alt="" class="sponsor-logo">
+                    <img src="assets/images/sponsor_ge.png" alt="" class="sponsor-logo">
+                    <img src="assets/images/sponsor_en.png" alt="" class="sponsor-logo">
+                    <img src="assets/images/sponsor_it.png" alt="" class="sponsor-logo">
+                    <img src="assets/images/sponsor_es.png" alt="" class="sponsor-logo">
+                    <img src="assets/images/sponsor_nl.png" alt="" class="sponsor-logo">
+                    <img src="assets/images/sponsor_ucl.png" alt="" class="sponsor-logo">
+                    <img src="assets/images/sponsor_uel.png" alt="" class="sponsor-logo">
+                    <img src="assets/images/sponsor_uucl.png" alt="" class="sponsor-logo">
+                </div>
+                <p class="footer-text">Foot+ - Empresa de bilhetica</p>
+                <p class="footer-text">+351 939773569  |  support@footplus.pt  |  Tv. Tapadinha 326</p>
+                <p class="footer-text">A Foot+ detem todos os direitos com os seus parceiros tornando este projeto possivel</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+
+</body>
+</html>

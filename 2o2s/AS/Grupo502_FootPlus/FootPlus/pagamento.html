@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot+</title>
+    <link rel="stylesheet" href="assets/css/pagamento.css">
+</head>
+<body>
+    <div class="payment-container">
+        <div id="ticket-info-container">
+            <p id="ticket-info" class="ticket-info"></p>
+            <div class="ticket">
+                <p class="hours" id="match-time">20:00</p>
+                <div class="match-info">
+                    <p id="match-info"></p>
+                </div>
+                <img id="sponsor-image" src="assets/images/sponsor_pt.png">
+            </div>
+            <p id="discount-info" class="discount-info"></p>
+        </div>
+        <h2>Escolher Metodo de Pagamento</h2>
+        <button class="payment-option" data-method="paypal" onclick="showInput('paypal')">
+            <img src="assets/images/paypal.png" alt="PayPal" class="payment-icon">
+            <span>PayPal</span>
+        </button>
+        <button class="payment-option" data-method="mbway" onclick="showInput('mbway')">
+            <img src="assets/images/mbway.png" alt="MB WAY" class="payment-icon">
+            <span>MB WAY</span>
+        </button>
+        <button class="payment-option" data-method="visa" onclick="showInput('visa')">
+            <img src="assets/images/visa.png" alt="Visa" class="payment-icon">
+            <span>Visa</span>
+        </button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div id="modal-body">
+                <input type="email" id="paypal-input" placeholder="Introduzir Email associado ao PayPal" class="payment-input" style="display: none;">
+                <input type="tel" id="mbway-input" placeholder="introduzir Numero de Telefone" class="payment-input" style="display: none;">
+                <input type="text" id="visa-input" placeholder="inserir Numero do cartao" class="payment-input" style="display: none;">
+                <button id="submit-btn" onclick="submitPayment()">Submit</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/pagamento.js"></script>
+</body>
+</html>

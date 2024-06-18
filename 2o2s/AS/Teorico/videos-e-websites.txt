@@ -1,0 +1,24 @@
+------------------Videos------------------
+
+The Use Case Technique
+https://www.youtube.com/watch?v=MwimXkY5G5o
+
+
+What is a requirement?
+https://www.youtube.com/watch?v=u2GD4-7tHqc&list=PLA1dXT4tBFfcRj7WmtSbIMlhKHWWUuktk
+
+
+Writing good user stories in agile software development
+https://www.youtube.com/watch?v=MQzS30PtsiM
+
+
+What Makes a Good Software Architect?
+https://www.youtube.com/watch?v=CbLJCkL5mMU
+
+
+------------------Websites------------------
+How to Implement Agile in Jira
+https://www.idalko.com/jira-agile/
+
+Pivotal Tracker
+https://www.pivotaltracker.com/help/articles/quick_start/
