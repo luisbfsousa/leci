@@ -1,0 +1,31 @@
+Respostas Completas para o Exame Teórico de Redes de Comunicações II
+
+Para criar uma VLAN end-to-end (VLAN 1) que permita a gestão remota de todos os switches sem depender de qualquer processo de encaminhamento IP, é necessário configurar a VLAN 1 em todos os switches da rede. Além disso, deve-se habilitar a VLAN 1 em todas as portas trunk entre os switches Layer 3 (F1-F4) e (C1, C2), garantindo que todas as interfaces trunk permitam o tráfego da VLAN 1. Dessa forma, a VLAN 1 estará disponível em toda a rede, permitindo a gestão remota dos switches sem a necessidade de roteamento IP.
+
+No caso das VLANs 2 e 5, que possuem processos de Spanning-Tree (SPT) ativos, a escolha do switch ideal para ser a raiz do SPT deve ser baseada na capacidade e proximidade dos switches em relação ao core da rede. Deve-se escolher os switches mais poderosos e mais próximos do core como raiz. Para efetivar essa escolha, é necessário ajustar a prioridade SPT desses switches para um valor menor, o que garantirá que eles sejam eleitos como a raiz do Spanning-Tree.
+
+Na tabela de encaminhamento IPv4 do Router 3, existem duas rotas para a rede do Datacenter A (192.168.96.0/20), cada uma com um custo de 3. Isso significa que o Router 3 tem duas opções de caminho para alcançar essa rede, e ambas têm o mesmo custo de encaminhamento.
+
+Para garantir que o tráfego para a Internet seja encaminhado preferencialmente até o Router 1, é possível aumentar o custo da rota de omissão no Router 2. Alternativamente, pode-se mudar o tipo da rota no Router 1 para E1. Ambas as soluções visam fazer com que o Router 1 seja o caminho preferencial para o tráfego de saída para a Internet.
+
+Para assegurar que o tráfego que chega ao Router 5 vindo do Datacenter A ou Redes Virtuais, com destino a uma rede interna dos edifícios A ou B, ou a uma rede externa, seja encaminhado preferencialmente pelo SWL3 C1 em vez do SWL3 C2, é necessário aumentar o custo OSPF do interface do R5 para o SWL3 C2. Esse ajuste no Router 5 influenciará apenas o caminho de saída, fazendo com que o tráfego prefira o SWL3 C1.
+
+Para garantir a conectividade IPv4 bidirecional para as redes IPv4 da rede virtual do Datacenter A (192.168.200.0/24 e 192.168.210.0/24), é necessário ativar o protocolo RIP no Router 5 na rede do Datacenter A. Além disso, deve-se anunciar a rota de omissão por RIP e redistribuir as rotas aprendidas pelo RIP no OSPF. Dessa forma, o Router 5 será capaz de encaminhar o tráfego de forma bidirecional para essas redes virtuais.
+
+Para garantir que o tráfego UDP do Datacenter B (100.100.0.0/24) para os servidores AWS da Amazon seja encaminhado primeiro até um Router/Servidor da empresa na Cloud da Microsoft para inspeção do tráfego, e só depois reencaminhado até o destino, deve-se criar um túnel IPv4-GRE do Router 4 para a Cloud da Microsoft. Em seguida, é necessário utilizar o Policy-Based Routing (PBR) para definir a origem, destino e protocolo UDP, de modo que o tráfego seja direcionado corretamente para inspeção antes de ser enviado para os servidores AWS.
+
+Para atender aos requisitos de encaminhamento da empresa utilizando MP-BGP:
+a) Para que o AS2000 seja um sistema autónomo de não-trânsito para o peer ISP1 (AS10001) e de trânsito para o peer ISP2 (AS10002), deve-se anunciar apenas as redes próprias para o ISP1, excluindo as redes privadas, e anunciar todas as redes públicas para o ISP2.
+b) Para garantir que o tráfego encaminhado pelos Router 1 e 2, para determinadas redes IP, nunca seja enviado pelo AS10001 (ISP1), é necessário bloquear ou descartar os UPDATES para essas redes vindos do ISP1. Não é necessário analisar o AS_PATH, mas se for analisado, apenas o último ASN é relevante.
+c) Para que o tráfego encaminhado pelos Router 1 e 2, para redes na Austrália, seja preferencialmente encaminhado por operadores que não usem redes de satélite, deve-se reduzir a local-preference para rotas da Austrália que tenham o primeiro ASN no AS_PATH de operadores australianos e que passem por operadores com redes de satélite.
+
+Para criar um túnel MPLS entre o Datacenter A e o Datacenter B, garantindo que o tráfego siga obrigatoriamente por um caminho que passe pelo Router 3, é necessário utilizar o RSVP-TE para definir o caminho desejado. O RSVP-TE será usado para especificar o caminho até o destino, enquanto o OSPF-TE será utilizado para anunciar os equipamentos e links que suportam MPLS. É importante notar que o RSVP-TE não é utilizado para reservas de largura de banda, mas sim para definir o caminho exato que o tráfego deve seguir.
+
+Se a empresa instalou um sistema VoIP SIP e consegue estabelecer chamadas para outras empresas, mas não consegue receber chamadas de outras empresas, o problema pode estar no servidor DNS da própria empresa. Para corrigir esse problema, é necessário adicionar os registos DNS SRV, NAPTR, A e AAAA no servidor DNS da empresa, permitindo que as outras empresas encontrem corretamente o servidor SIP da empresa e estabeleçam as chamadas.
+
+
+
+
+
+
+
