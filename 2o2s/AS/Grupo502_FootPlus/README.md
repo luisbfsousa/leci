@@ -2,8 +2,8 @@
 nota final: 17
 
 ## Pequeno Preview
-‎           |  ‎ 
-:-------------------------:|:-------------------------:
-![](Foot+.png)  |  ![](Foot++.png)
-![](Foot+1.png)  |  ![](Foot++1.png)
-![](Foot+2.png)  |  ![](Foot++2.png)
+‎                 |  ‎ 
+:-----------------------:|:-------------------------:
+![](imagens/Foot+.png)   |  ![](imagens/Foot++.png)
+![](imagens/Foot+1.png)  |  ![](imagens/Foot++1.png)
+![](imagens/Foot+2.png)  |  ![](imagens/Foot++2.png)
