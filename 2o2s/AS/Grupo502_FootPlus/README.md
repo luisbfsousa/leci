@@ -1,4 +1,9 @@
 ## Projeto Analise de Sistemas 
 nota final: 17
-![](Foot+.png)
-![](Foot++.png)
+
+## Pequeno Preview
+‎           |  ‎ 
+:-------------------------:|:-------------------------:
+![](Foot+.png)  |  ![](Foot++.png)
+![](Foot+1.png)  |  ![](Foot++1.png)
+![](Foot+2.png)  |  ![](Foot++2.png)
