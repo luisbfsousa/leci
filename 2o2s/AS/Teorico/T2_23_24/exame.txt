@@ -1,0 +1,289 @@
+Os métodos ágeis de desenvolvimento minimizam a possibilidade de ocorrer falhas de grande escala no projeto. Um factor que contribui para essa redução do perfil de risco é:
+Pergunta 1Selecione uma opção:
+a.
+Os projetos são mais pequenos e não se gasta tanto tempo em tarefas de coordenação e documentação.
+b.
+Os incrementos desenvolvidos são imediatamente colocados em produção, acelerando a entrega de novas funcionalidades.
+c.
+Ao dispensar a produção de documentação detalhada do projeto, ganha-se em colaboração informal com os stakeholdes, criando assim um ambiente propício à deteção de desvios.
+d.
+A ordem dos itens na pilha do backlog é imutável, tornando o projeto mais previsível.
+e.
+A verificação de qualidade (testes) acontece de forma entrelaçada com o desenvolvimento. Se um requisito ou uma opção técnica não forem ajustados, a equipa descobre-o rapidamente.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Os modelos da UML são particularmente adequados para a modelação de código em Java. Porquê?
+Pergunta 2Selecione uma opção:
+a.
+A afirmação é errada. Apesar da UML ajudar na visualização da estrutura das classes de código (e.g.: atributos e respetivos tipos), não ajuda na modelação da interação entre várias entidades (i.e.: não mostra como os objetos cooperam na resoluçãode problemas).
+b.
+A UML é uma linguagem padronizada, o que garante a consistência e interoperabilidade entre projetos de código escritos em diferentes linguagems de programação.
+c.
+A UML é suportada por diversas ferramentas de modelação que facilitam a criação e edição de diagramas UML para projetos Java.
+d.
+UML e Java são baseados nos princípios da orientação a objetos: as abstrações usadas no código e os elementos de modelação da UML partilham, no essencial, a mesma semântica.
+e.
+A afirmação é errada. Genericamente, não é possível mapear as entidades presentes no código  nos elementos dos modelos UML. Ou seja, a UML é uma linguagem/ferramenta para o Analista, não do Programador.
+------------------------------------------------------------------------------------------
+No SCRUM, o plano de trabalho é conduzido pelo backlog. Neste contexto, o backlog é:
+Pergunta 3Selecione uma opção:
+a.
+Uma lista de itens de trabalho, pontuados quanto ao grau de prioridade (quanto mais "story points", mas prioritários).
+b.
+Um registo (log) das user-stories já completadas no projeto e aceites pelo cliente.
+c.
+Lista dos itens de trabalho relacionados com  novas funcionalidades, alterações ou correções de bugs, selecionados para a equipa desenvolver na iteração (i.e., sprint) seguinte.
+d.
+É um plano detalhado com datas e recursos alocados para cada atividade do projeto.
+e.
+Uma lista de itens de trabalho, que deve ser reavaliada com regularidade, de modo a confirmar que nela constam os itens apropriados, devidamente prioritizados.
+------------------------------------------------------------------------------------------
+O "Manifesto para o Desenvolvimento Ágil de Software" apresenta 4 valores, sendo um deles: "Reagir à mudança [está] acima do seguir um plano". Isto significa que na adoção de metodologias ágeis:
+Pergunta 4Selecione uma opção:
+a.
+As alterações devem ser acomodadas, quando trazem mais valor para o projeto.  O backlog pode ser alterado de modo a acomodar [novas] funcionalidades prioritárias. 
+b.
+O importante é ter uma equipa bem organizada e reativa, capaz de implementar de imediato as eventuais alterações de requisitos/prioridades.
+c.
+Não há necessidade de planeamento prévio;  a colaboração informal com o cliente/stakeholder determina as prioridades diárias
+d.
+O plano da iteração deve ser alterado tão cedo quanto possível, de modo a ajustar a duração da iteração para acolher as novas alterações.
+e.
+As alterações devem ser evitadas, porque esses desvios do plano original implicam sempre custos e riscos adicionais.
+------------------------------------------------------------------------------------------
+Qual das seguintes opções representa uma característica distintiva do método Unified Process (UP), que serviu de inspiração às atividades de projeto das aulas Práticas?
+Pergunta 5Selecione uma opção:
+a.
+Garantir que há testes para o software; a melhor forma, para isso, é adotar o TDD desde o início do projeto.
+b.
+Ênfase em iterações e incrementos, com ciclos curtos de desenvolvimento e entrega de funcionalidades.
+c.
+Entregas frequentes de acordo com a expetativa dos stakeholders, adaptando, se necessário, a duração das iterações às prioridades do Product Owner.
+d.
+Utilização exclusiva da linguagem de modelação UML para representar os requisitos e o desenho técnico do sistema.
+e.
+Sequência rígida de fases, com pouca flexibilidade para adaptação às mudanças nos requisitos
+------------------------------------------------------------------------------------------
+A análise de requisitos engloba várias actividades, como a recolha, documentação e gestão de mudança [dos requisitos].
+Identifique uma prática de documentação de requisitos recomendada no OpenUP.
+Pergunta 6Selecione uma opção:
+a.
+As atividades de análise de requisitos não estão dentro do âmbito do OpenUP e, por isso, não há orientações específicas para a documentação de requisitos.
+b.
+A OpenUP recomenda a abordagem dos "Use Cases 2.0", substituindo a especificação detalhada dos cenários, por descrições breves de histórias (user-stories).
+c.
+Os requisitos funcionais podem ser captados em modelos de casos de utilização e respetivos cenários (narrativas), suplementando com um documento adicional para requisitos não funcionais.
+d.
+O OpenUP recomenda que os requisitos sejam documentados com modelos UML, designadamente com diagramas de casos de utilização e de atividades.
+e.
+O OpenUP propõe a construção de um documento de especificação (SRS- System Requirements Specification) baseado no modelos e práticas da norma IEEE 29148:2018.
+------------------------------------------------------------------------------------------
+Nos processos de software sequenciais, tipicamente conduzidos por um plano de projeto detalhado (plan-driven), verifica-se que:
+Pergunta 7Selecione uma opção:
+a.
+Há um grande esforço, no início, para especificar os requisitos do projeto e elaborar um plano detalhado. Depois disso, investe-se na colaboração contínua entre as equipas de desenvolvimento e os stakeholders.
+b.
+Para controlar o risco [de falhar o projeto], investe-se mais na especificação incial e procura-se limitar as alterações aos requisitos.
+c.
+As prioridades do projeto são definidas pelos gestores, sem envolvimento do analista ou dos  stakeholders, o que pode condicionar o sucesso do projeto.
+d.
+O plano inicial prevê a utilização de ciclos iterativos e incrementais para o desenvolvimento do software, de duração fixa.
+e.
+A evolução do projeto é comparada com o plano inicial; o objetivo é adaptar o plano original, tão cedo quanto possível, para se ajustar à mudança de prioridades.
+------------------------------------------------------------------------------------------
+Faça corresponder cada uma das propriedades S.M.A.R.T. para requisitos bem formulados, propostas por Karl Wiegers, com a sua definição:
+O requisito deve ser importante para os utilizadores e estar alinhado com os objetivos do sistema.
+Resposta 1 Pergunta 8
+Escolha…
+O requisito deve ter um prazo definido, ou um período de tempo específico, para ser implementado.
+Resposta 2 Pergunta 8
+Escolha…
+O requisito deve descrever claramente o que se espera do sistema, sem ambiguidades ou interpretações dúbias.
+Resposta 3 Pergunta 8
+Escolha…
+O requisito deve poder ser implementado com os recursos e tecnologias disponíveis.
+Resposta 4 Pergunta 8
+Escolha…
+Deve ser possível dizer, de forma clara, se o requisito está ou não presente no produto implementado.
+
+relevante,simples,especifico,alcancavel,temporal,mensuravel,rastreavel
+------------------------------------------------------------------------------------------
+Na engenharia de software é importante articular os processos construtivos com os processos de garantia de qualidade (QA). Neste contexto, qual das seguintes práticas é recomendável na aplicação de métodos ágeis de desenvolvimento?
+Pergunta 9Selecione uma opção:
+a.
+As histórias de utilização incluem cenários exemplificativos que são usados para escrever os testes unitários.
+b.
+O desenvolvimento ágil usa testes de aceitação (das user stories), ao contrário dos processos clássicos (lineares) que combinam diferentes níveis de teste.
+c.
+A escrita dos testes compete a uma equipa separada e o programador não deve ser ocupado com isso.
+d.
+A execução dos testes deve ser suscetível de automação, de modo a que tanto os testes para novos incrementos, como para código anterior, possam ser executados com facilidade.
+e.
+Os testes devem ser concentrados no final das iterações para garantir a qualidade da entrega.
+------------------------------------------------------------------------------------------
+Considere o seguinte requisito definido para uma plataforma de streaming de videos: "O sistema deve permitir que o utilizador crie e personalize listas de reprodução com os seus filmes e séries favoritos."
+Este requisito pode ser classificado como:
+Pergunta 10Selecione uma opção:
+a.
+Requisito não funcional, focado na usabilidade (facilidade de utilização).
+b.
+É um requisito de interface do utilizador. 
+c.
+Requisito funcional.
+d.
+Não é um requisito adequado, porque não é específico de como a funcionalidade vai ser apresentada ao utilizador.
+e.
+Requisito de desempenho (relativo à reprodução em sequência de vários recursos média).
+------------------------------------------------------------------------------------------
+As seguintes afirmações apresentam caraterísticas de uma arquitetura por camadas. Neste contexto, identifique a opção que é FALSA.
+Pergunta 11Selecione uma opção:
+a.
+Não se salta camadas: os componentes, em cada camada, “falam” com as camadas adjacentes.
+b.
+As camadas “de cima” pedem serviços às camadas “de baixo”; as camadas "de baixo" fornecem serviços às camadas "de cima".
+c.
+Cada camada deve assegurar a apresentação, processamento e armazenamento de dados de uma fatia (partição vertical) do problema.
+d.
+As camadas são sobrepostas, correspondendo a diferentes níveis de abstração.
+e.
+É comum organizar os projetos para a web em três camadas, mas é possível trabalhar com um número diferente de camadas, conforme a natureza de cada projeto.
+------------------------------------------------------------------------------------------
+O modelo do domínio é preparado pelo analista para explicar a estrutura de conceitos de um problema. Qual das seguintes opções É FALSA, considerando a utilização esperada deste resultado ao longo do desenvolvimento projeto?
+Pergunta 12Selecione uma opção:
+a.
+O analista usa as restrições do modelo (e.g.: multiplicidade de uma associação) para explicar regras do domínio do problema.
+b.
+As classes e  atributos encontrados no modelo do domínio irão contribuir para a identificação da informação que precisa de ser guardada em base de dados.
+c.
+Os conceitos e relacionamentos identificados no modelo do domínio tendem a ser estáveis num problema e, por isso, são uma base importante para compreender a informação que deve ser gerida.
+d.
+O modelo do domínio identifica os atributos e as operações que devem existir nas classes da programação.
+e.
+O modelo de domínio aplica as técnicas de análise por objetos para apresentar uma vista estrutural das "coisas" do problema (classes concetuais).
+------------------------------------------------------------------------------------------
+No trabalho de determinação de requisitos, o Analista recolhe vários tipos de informação sobre a organização/problema em apreço. Identifique, nas opções abaixo, um exemplo de uma regra do negócio ("business rule").
+outcomes of analysis
+Pergunta 13Selecione uma opção:
+a.
+A Plataforma de streaming deve integrar com o sistema Stripe e com o sistema PayPal para fazer o processamento de micro-pagamentos, em canais seguros.
+b.
+A página de entrada no serviço de streaming deve adaptar-se ao perfil do utilizador, colocando em destaque novas ofertas relacionadas com a sua história de visualizações anteriores.
+c.
+O sistema deve gerar um relatório de consumo de streaming mensal, desagregado por regiões.
+d.
+Os clientes (titulares de subscrições) devem ser maiores de idade.
+e.
+Os direitos autoriais dos media são regulados pela SPA – Sociedade Portuguesa de Autores e GEDIPE - Associação para a Gestão Coletiva de Direitos de Autor e de Produtores Cinematográficos e Audiovisuais.
+------------------------------------------------------------------------------------------
+Qual das afirmações melhor capta a diferença entre as atividades de determinação de requisitos ("requirements elicitation") e recolha de requisitos ("requirements gathering")?
+Pergunta 14Selecione uma opção:
+a.
+Para além da identificação (recolha) de requisitos, o trabalho do analista inclui a avaliação de viabilidade dos requisitos recolhidos, a remoção de ambiguidades e incoerências, selecionado/determinando os requisitos efetivos.
+b.
+A determinação de requisitos é uma atividade técnica realizada por analistas de sistemas, enquanto a recolha de requisitos é uma atividade colaborativa realizada por qualquer elemento da equipa.
+c.
+A determinação de requisitos é realizada no início do projeto, enquanto a recolha de requisitos ocorre ao longo de todo o ciclo de vida do desenvolvimento de software.
+d.
+A determinação de requisitos envolve a interação com os stakeholders para entender as suas necessidades, enquanto a recolha de requisitos foca-se na análise de documentos e outras fontes de informação.
+e.
+Os dois termos são designações equivalentes para o trabalho desenvolvido pelo Analista na caraterização das necessidades dos stakeholders.
+------------------------------------------------------------------------------------------
+Os processos de construção e entrega de software associados às práticas de CI/CD são particularmentes importantes quando a equipa adota o desenvolvimento ágil. Qual a relação entre ambos?
+Pergunta 15Selecione uma opção:
+a.
+No final de cada dia, a equipa entrega um pequeno incremento, testado, dando um ritmo visível ao progresso do projeto.
+b.
+Os programadores integram o seu trabalho com o do resto da equipa no final das iterações, para formar o resultado entregável (e executável) esperado.
+c.
+Sempre que há um incremento na solução, ele é de imediato colocado em produção, para validação por parte dos stakeholders.
+d.
+A equipa dá grande importância ao facto de ter o software em condições de ser entregue e à facilidade em integrar incrementos. A solução pode ser  construída e colocada em produção a qualquer altura.
+e.
+As novas funcionalidades podem ser colocadas em produção sem necessidade de interrupção dos serviços, que operam em contínuo (e.g.: atualizações do GMail não interrompem o serviço aos utilizadores).
+------------------------------------------------------------------------------------------
+Considere a afirmação: "a abordagem linear (Waterfall) tende a mascarar os riscos reais de um projeto até que seja tarde demais para fazer algo significativo sobre eles.” Qual é o principal argumento subjacente à afirmação?
+Pergunta 16Selecione uma opção:
+a.
+Cada etapa depende da conclusão e aprovação da anterior, e qualquer atraso ou erro pode afetar todo o projeto. Isso pode dificultar a gestão dos recursos, bem como o lidar com incertezas ou contingências.
+b.
+No modelo em cascata, os testes e integração das partes do sistema são deferidos para uma fase avançada do projeto, quando os componentes estiverem prontos. Isso pode levar à descoberta tardia de erros ou defeitos que são caros e demorados para corrigir, ou que exigem grandes alterações no projeto.
+c.
+Para evitar erros numa fase avançada do projeto, há que garantir que os requisitos são muito bem definidos e acordados no início do projeto com os stakeholders, prevenindo, dessa forma, riscos subsequentes.
+d.
+O modelo em cascata pode ser útil para projetos simples e bem definidos que tenham requisitos claros e estáveis, mas mascara a complexidade em projetos grandes (i.e. não escala), podendo levar os projetos a falhar.
+e.
+O modelo em cascata não inclui atividades de auscultação dos stakeholders (feedback) que só terão oportunidade de validar o sistema quando o projeto está concluído.
+------------------------------------------------------------------------------------------
+O conceito de “velocidade” da equipa num projeto, tal como é usado nos métodos ágeis/SCRUM, é um importante instrumento de planeamento. Como é usado?
+Pergunta 17Selecione uma opção:
+a.
+A velocidade é medida pela soma dos pontos realizados por iteração, respeitantes às user stories completas.
+b.
+As histórias devem ser muito focadas: quanto mais granular (pequeno) for o âmbito das user stories, maior é a velocidade atingida.
+c.
+A velocidade é a média do número de user stories implementadas na iteração a dividir pelo tamanho da equipa.
+d.
+A velocidade é ilustrada no burn-down chart; idealmente, deve decrescer de forma linear, até atingir zero no final da iteração.
+e.
+A velocidade é o número de user stories implementadas por iteração.
+------------------------------------------------------------------------------------------
+A ferramenta  Visual Paradigm suporta os diagramas da UML e a sua semântica. Não é apenas uma ferramenta de desenho, mas um ambiente rico de modelação, no qual:
+Pergunta 18Selecione uma opção:
+a.
+Quando se elimina um elemento representado num diagrama, esse elemento e todos os relacionamentos a si associados são removidos do projeto de modelação.
+b.
+Entre um diagrama e os elementos de modelação nele representados existem uma relação de agregação (da UML), mas não de composição.
+c.
+Quando se elimina um diagrama do projeto, todos os elementos de modelação que nele estavam repreesentados são eliminados do projeto também.
+d.
+Não deixa criar modelos errados: o Visual Paradigm avisa quando as associações entre os conceitos não são fazem sentido no domínio do problema.
+e.
+Cada tipo de elemento de modelação (e.g.: actor, classe) tem associado um tipo exclusivo de diagrama. E.g.: um ator só pode ser visualizado no diagrama de casos de uso.
+------------------------------------------------------------------------------------------
+Qual é o principal propósito da utilização de modelos em engenharia de software?
+Pergunta 19Selecione uma opção:
+a.
+Os modelos são usados como ferramentas de gestão de complexidade; permitem considerar diferentes facetas que caraterizam um sistema, de forma parcial.
+b.
+Os modelos consistem em visualizações que substituem a documentação textual, tornando o desenvolvimento de software mais ágil.
+c.
+Os modelos são recomendados para problemas simples, uma vez que a sua aplicação e compreensão em sistemas complexos deixam de ser eficientes (ágeis).
+d.
+Automatizar completamente o processo de desenvolvimento de software, dispensando a intervenção humana.
+e.
+Eliminar ou resuzir muito substancialmente a a necessidade de testes e validação, uma vez que os modelos garantem a correção do software.
+------------------------------------------------------------------------------------------
+A análise de requisitos orientada a cenários (de utilização) valoriza a caraterização de funcionalidades que os atores sentem que precisam.
+Pergunta 21Selecione uma opção:
+a.
+Isto é limitativo porque tornam mais difícil criar os testes, que têm de refletir as perspetivas particulares de cada utilizador.
+b.
+Isto é limitativo, porque apenas capta funcionalidades que os stakeholders se lembram de mencionar na altura da especificação.
+c.
+Isto ajuda a evitar a especificação de requisitos desnecessários, que até pareciam ser uma boa ideia ao analista, mas que ninguém iria usar, por não estarem relacionados com os objetivos dos utilizadores.
+d.
+Isto leva a especificações incompletas, porque não é possível identificar requisitos não funcionais.
+e.
+Isto é limitativo, porque só utiliza um tipo de diagrama da UML.
+------------------------------------------------------------------------------------------
+O método Unified Process prevê quatro fases orientadoras no desenvolvimento de projeto. Cada qual tem um grande marco a atingir (lifecycle milestone) para se poder avançar, respetivamente:
+Pergunta 22Selecione uma opção:
+a.
+1/ Decisão de avançar ou parar o projeto; 2/ Arquitetura técnica definida e validada; 3/ Funcionalidades da primeira versão do produto implementadas; 4/ Solução instalada e aceite pelo cliente.
+b.
+1/ Plano para o projeto definido; 2/ Análise de requisitos terminada; 3/ Arquitetura técnica do produto definida; 4/ Implementação da solução concluída.
+c.
+1/ Preparação do documento de Visão; 2/ Demonstração de protótipos exploratórios; 3/ Produto implementado; 4/ Testes no cliente.
+d.
+1/ Definição do âmbito do projeto; 2/ Determinação dos requisitos; 3/ Implementação incremental da solução; 4/ Ciclo de integração e entrega contínuas.
+e.
+1/ Definição dos casos de utilização; 2/ implementação do protótipo exploratório; 3/ definição da arquitetura; 4/ Implementação do produto concluída.
+------------------------------------------------------------------------------------------
+“Verdade universal #3: A mudança vai acontecer
+É inevitável que os requisitos mudem. As necessidades do negócio evoluem, identificam-se novos utilizadores ou mercados, as regras do negócio ou a regulamentação imposta pelos governos são atualizadas, e os ambientes de operação mudam com o tempo. [Para além disso] os requisitos ficam mais claros para os stakeholders à medida que eles vão sendo solicitados a pensar com atenção sobre o que pretendem realmente fazer com o produto.” [1] 
+O autor alerta para uma mudança de atitude por parte da engenharia de software, face às prioridades tradicionais quanto à a fixação dos requisitos de um sistema. Que atitude é essa? Como é que os métodos de desenvolvimento podem dar o respetivo suporte?
+[1] Adaptado do texto original:  “Cosmic Truth #3: Change happens.
+It’s inevitable that requirements will change. Business needs evolve, new users or markets are identified, business rules and government regulations are updated, and operating environments change over time. Requirements become clearer as the key stakeholders are prompted to think more carefully about what they really are trying to do with the product.”
+
+Karl Wiegers, “Ten Cosmic Truths About Software Requirements”, available from: https://medium.com/analysts-corner/ten-cosmic-truths-about-software-requirements-edd33292a456
+------------------------------------------------------------------------------------------
+O que é um requisito (de software)? De que trata a engenharia de requisitos?
