@@ -1,6 +1,0 @@
-|GateDemo
-LEDR[0] <= AND2_1.DB_MAX_OUTPUT_PORT_TYPE
-SW[0] => AND2_1.IN0
-SW[1] => AND2_1.IN1
-
-

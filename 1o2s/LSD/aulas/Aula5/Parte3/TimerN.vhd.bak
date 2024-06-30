@@ -1,8 +1,0 @@
-library ieee;
-use ieee.std_logic_1164.all;
-
-entity TimerOnDelay is
-	generic(K : positive := 5);
-	port(clk, reset, enable, start : in std_logic;
-		  timerOut : out std_logic);
-end TimerOnDelay;

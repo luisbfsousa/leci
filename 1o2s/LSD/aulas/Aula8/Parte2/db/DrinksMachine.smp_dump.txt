@@ -1,9 +1,0 @@
-
-State Machine - |DrinksMachine|DrinksFSM:drink_core|pState
-Name pState.S5 pState.S4 pState.S3 pState.S2 pState.S1 pState.S0 
-pState.S0 0 0 0 0 0 0 
-pState.S1 0 0 0 0 1 1 
-pState.S2 0 0 0 1 0 1 
-pState.S3 0 0 1 0 0 1 
-pState.S4 0 1 0 0 0 1 
-pState.S5 1 0 0 0 0 1 

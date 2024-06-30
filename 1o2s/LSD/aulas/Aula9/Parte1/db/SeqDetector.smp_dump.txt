@@ -1,7 +1,0 @@
-
-State Machine - |SeqDetector|SeqDetFSM:system_core|PS
-Name PS.D PS.C PS.B PS.A 
-PS.A 0 0 0 0 
-PS.B 0 0 1 1 
-PS.C 0 1 0 1 
-PS.D 1 0 0 1 
