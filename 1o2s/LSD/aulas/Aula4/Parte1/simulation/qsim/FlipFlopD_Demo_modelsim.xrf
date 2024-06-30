@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/joaog/LSD/Aula4/Parte1/FlipFlopD.vhd
+source_file = 1, C:/Users/joaog/LSD/Aula4/Parte1/FlipFlopD.vwf
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/joaog/LSD/Aula4/Parte1/db/FlipFlopD_Demo.cbx.xml
+design_name = FlipFlopD
+instance = comp, \q~output\, q~output, FlipFlopD, 1
+instance = comp, \clk~input\, clk~input, FlipFlopD, 1
+instance = comp, \d~input\, d~input, FlipFlopD, 1
+instance = comp, \set~input\, set~input, FlipFlopD, 1
+instance = comp, \reset~input\, reset~input, FlipFlopD, 1
+instance = comp, \q~0\, q~0, FlipFlopD, 1
+instance = comp, \q~reg0\, q~reg0, FlipFlopD, 1

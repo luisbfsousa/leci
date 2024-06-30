@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/joaog/LSD/Aula1/Parte2/AND2Gate.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/joaog/LSD/Aula1/Parte2/db/AND2Gate.cbx.xml
+design_name = AND2Gate
+instance = comp, \outPort~output\, outPort~output, AND2Gate, 1
+instance = comp, \inPort0~input\, inPort0~input, AND2Gate, 1
+instance = comp, \inPort1~input\, inPort1~input, AND2Gate, 1
+instance = comp, \outPort~0\, outPort~0, AND2Gate, 1

@@ -1,0 +1,48 @@
+# Reading pref.tcl
+# do miniProjeto_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/CounterDown16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:01:02 on May 17,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/CounterDown16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CounterDown16
+# -- Compiling architecture Behavioral of CounterDown16
+# End time: 10:01:02 on May 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/TB_CounterDown16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:01:24 on May 17,2022
+# vcom -reportprogress 300 -work work C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/TB_CounterDown16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TB_CounterDown16
+# -- Compiling architecture Stimulus of TB_CounterDown16
+# -- Loading package NUMERIC_STD
+# -- Loading entity CounterDown16
+# ** Error (suppressible): C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/TB_CounterDown16.vhd(16): (vcom-1272) Length of formal "count" is 4; length of actual is 16.
+# ** Note: C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/TB_CounterDown16.vhd(39): VHDL Compiler exiting
+# End time: 10:01:24 on May 17,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.tb_counterdown16
+# vsim work.tb_counterdown16 
+# Start time: 10:01:39 on May 17,2022
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/simulation/modelsim/rtl_work.tb_counterdown16' has no architecture.
+# Error loading design
+# End time: 10:01:39 on May 17,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

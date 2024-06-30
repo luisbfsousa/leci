@@ -1,0 +1,8 @@
+
+State Machine - |Chronometer|ControlUnit:control_unit|s_currentState
+Name s_currentState.STOPPED1 s_currentState.LAPVIEW s_currentState.STOPPED s_currentState.STARTED s_currentState.CLEARED 
+s_currentState.CLEARED 0 0 0 0 0 
+s_currentState.STARTED 0 0 0 1 1 
+s_currentState.STOPPED 0 0 1 0 1 
+s_currentState.LAPVIEW 0 1 0 0 1 
+s_currentState.STOPPED1 1 0 0 0 1 

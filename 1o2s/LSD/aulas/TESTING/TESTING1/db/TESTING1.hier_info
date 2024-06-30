@@ -1,0 +1,23 @@
+|xpto
+clk => s_sreg[0].CLK
+clk => s_sreg[1].CLK
+clk => s_sreg[2].CLK
+clk => s_sreg[3].CLK
+reset => s_sreg.OUTPUTSELECT
+reset => s_sreg.OUTPUTSELECT
+reset => s_sreg.OUTPUTSELECT
+reset => s_sreg.OUTPUTSELECT
+load => s_sreg.OUTPUTSELECT
+load => s_sreg.OUTPUTSELECT
+load => s_sreg.OUTPUTSELECT
+load => s_sreg.OUTPUTSELECT
+dataIn[0] => s_sreg.DATAB
+dataIn[1] => s_sreg.DATAB
+dataIn[2] => s_sreg.DATAB
+dataIn[3] => s_sreg.DATAB
+dataOut[0] << s_sreg[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] << s_sreg[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] << s_sreg[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] << s_sreg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

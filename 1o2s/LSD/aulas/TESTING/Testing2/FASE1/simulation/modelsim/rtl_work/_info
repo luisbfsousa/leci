@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/simulation/modelsim
+Efreqdivider
+Z1 w1652715980
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/FreqDivider.vhd
+Z6 FC:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/FreqDivider.vhd
+l0
+L5 1
+V?g;_IJYVV[[>d>Xg`WcC41
+!s100 ]EVg^AkZ89;[6igQIgFKb1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1652721596
+!i10b 1
+Z9 !s108 1652721596.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/FreqDivider.vhd|
+Z11 !s107 C:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/FreqDivider.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 11 freqdivider 0 22 ?g;_IJYVV[[>d>Xg`WcC41
+!i122 0
+l14
+L11 23
+V083P:XFRJYYhe=R=nhJV?2
+!s100 bdn]o`_KY^7:6XOo=oa_U1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_freqdivider
+Z15 w1652721573
+R3
+R4
+!i122 1
+R0
+Z16 8C:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/Tb_FreqDivider.vhd
+Z17 FC:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/Tb_FreqDivider.vhd
+l0
+L4 1
+VGBU;Lfl[O854Y7ln3ecEc0
+!s100 4K7G63Kd1J2kW=X=i598E0
+R7
+32
+Z18 !s110 1652721603
+!i10b 1
+Z19 !s108 1652721603.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/Tb_FreqDivider.vhd|
+!s107 C:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/Tb_FreqDivider.vhd|
+!i113 1
+Z21 o-work work
+R13
+Astimulus
+R2
+R14
+R3
+R4
+DEx4 work 14 tb_freqdivider 0 22 GBU;Lfl[O854Y7ln3ecEc0
+!i122 1
+l11
+L7 34
+VFkT><9W=?MTOfC5][g4l`3
+!s100 YoGnm?fH9m6cN5GHgRN;a3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+Z22 !s107 C:/Users/joaog/LSD/TESTING/MICRO-PROJETO/FASE1/Tb_FreqDivider.vhd|
+!i113 1
+R21
+R13

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 24 10:12:37 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Chronometer
+Top-level Entity Name : Chronometer
+Family : Cyclone IV E
+Total logic elements : 560
+    Total combinational functions : 542
+    Dedicated logic registers : 104
+Total registers : 104
+Total pins : 34
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

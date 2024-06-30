@@ -1,0 +1,29 @@
+|PEnc4_2Demo
+LEDG[0] <= PEnc4_2:inst.validOut
+SW[0] => PEnc4_2:inst.decodedIn[0]
+SW[1] => PEnc4_2:inst.decodedIn[1]
+SW[2] => PEnc4_2:inst.decodedIn[2]
+SW[3] => PEnc4_2:inst.decodedIn[3]
+LEDR[0] <= PEnc4_2:inst.encodedOut[0]
+LEDR[1] <= PEnc4_2:inst.encodedOut[1]
+
+
+|PEnc4_2Demo|PEnc4_2:inst
+decodedIn[0] => encodedOut[1].IN0
+decodedIn[0] => Equal0.IN3
+decodedIn[1] => encodedOut[1].IN1
+decodedIn[1] => encodedOut[0].DATAA
+decodedIn[1] => Equal0.IN2
+decodedIn[2] => encodedOut[0].OUTPUTSELECT
+decodedIn[2] => encodedOut[1].IN1
+decodedIn[2] => encodedOut[1].DATAA
+decodedIn[2] => Equal0.IN1
+decodedIn[3] => encodedOut[0].OUTPUTSELECT
+decodedIn[3] => encodedOut[1].OUTPUTSELECT
+decodedIn[3] => encodedOut[1].IN1
+decodedIn[3] => Equal0.IN0
+encodedOut[0] <= encodedOut[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+encodedOut[1] <= encodedOut[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+validOut <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

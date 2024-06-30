@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/simulation/modelsim
+Ecounterdown16
+Z1 w1652778008
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/CounterDown16.vhd
+Z6 FC:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/CounterDown16.vhd
+l0
+L5 1
+VmiB`K_3]1Mlh20CGMPS@90
+!s100 _JZR@4cd;>f2WQimKoEFR1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1652778062
+!i10b 1
+Z9 !s108 1652778062.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/CounterDown16.vhd|
+Z11 !s107 C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/CounterDown16.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 counterdown16 0 22 miB`K_3]1Mlh20CGMPS@90
+!i122 0
+l13
+L11 19
+VGkomDR@<ALGIB^z3mKonh2
+!s100 TckM0^zRPzKMQG5Uz;Ihn2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_counterdown16
+w1652777348
+R3
+R4
+!i122 1
+R0
+8C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/TB_CounterDown16.vhd
+FC:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/TB_CounterDown16.vhd
+l0
+L4 1
+VR2IjRnN35`mg>D>cUi8Dg1
+!s100 ^FiM4IMe[?h9R0z`G82BD2
+R7
+32
+!s110 1652778084
+!i10b 1
+!s108 1652778084.000000
+!s90 -reportprogress|300|-work|work|C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/TB_CounterDown16.vhd|
+!s107 C:/Users/gui28/OneDrive/Ambiente de Trabalho/UA/LSD/miniProjeto/TB_CounterDown16.vhd|
+!i113 1
+o-work work
+R13

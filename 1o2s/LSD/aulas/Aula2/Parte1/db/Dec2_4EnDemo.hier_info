@@ -1,0 +1,27 @@
+|Dec2_4EnDemo
+SW[0] => dec2_4en:system_core.inputs[0]
+SW[1] => dec2_4en:system_core.inputs[1]
+SW[2] => dec2_4en:system_core.enable
+LEDG[0] << dec2_4en:system_core.outputs[0]
+LEDG[1] << dec2_4en:system_core.outputs[1]
+LEDG[2] << dec2_4en:system_core.outputs[2]
+LEDG[3] << dec2_4en:system_core.outputs[3]
+
+
+|Dec2_4EnDemo|Dec2_4En:system_core
+enable => outputs.OUTPUTSELECT
+enable => outputs.OUTPUTSELECT
+enable => outputs.OUTPUTSELECT
+enable => outputs.OUTPUTSELECT
+inputs[0] => Equal0.IN0
+inputs[0] => Equal1.IN1
+inputs[0] => Equal2.IN1
+inputs[1] => Equal0.IN1
+inputs[1] => Equal1.IN0
+inputs[1] => Equal2.IN0
+outputs[0] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[1] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[2] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[3] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+
+

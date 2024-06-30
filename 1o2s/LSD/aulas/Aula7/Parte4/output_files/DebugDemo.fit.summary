@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 10 11:34:44 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : DebugDemo
+Top-level Entity Name : DebugDemo
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 1,070 / 114,480 ( < 1 % )
+    Total combinational functions : 634 / 114,480 ( < 1 % )
+    Dedicated logic registers : 881 / 114,480 ( < 1 % )
+Total registers : 881
+Total pins : 21 / 529 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 135,168 / 3,981,312 ( 3 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

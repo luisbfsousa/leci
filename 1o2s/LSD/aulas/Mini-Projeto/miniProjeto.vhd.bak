@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity miniProjeto is
+	port(CLOCK_50 : in std_logic;
+		  KEY : in std_logic_vector(1 downto 0);
+		  HEX0 : out std_logic_vector(6 downto 0);
+end miniProjeto;
+
+architecture Structural of miniProjeto is
+	signal s_clk : std_logic;
+	signal s_count : std_logic_vector(3 downto 0);

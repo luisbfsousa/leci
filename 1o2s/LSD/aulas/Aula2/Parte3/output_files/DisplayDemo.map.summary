@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 15 11:21:58 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : DisplayDemo
+Top-level Entity Name : DisplayDemo
+Family : Cyclone IV E
+Total logic elements : 14
+    Total combinational functions : 14
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 23
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

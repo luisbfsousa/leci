@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Mar 15 11:08:04 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : EqCmpDemo
+Top-level Entity Name : EqCmpDemo
+Family : Cyclone IV E
+Total logic elements : 5
+    Total combinational functions : 5
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 17
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

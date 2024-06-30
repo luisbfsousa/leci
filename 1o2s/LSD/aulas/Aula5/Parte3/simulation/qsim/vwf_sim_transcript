@@ -1,0 +1,156 @@
+Determining the location of the ModelSim executable...
+
+Using: c:/intelfpga_lite/20.1/modelsim_ase/win32aloem/
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off TimerN_Demo -c TimerN_Demo --vector_source="C:/Users/joaog/LSD/Aula5/Parte3/TimerN.vwf" --testbench_file="C:/Users/joaog/LSD/Aula5/Parte3/simulation/qsim/TimerN.vwf.vht"
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Thu Apr 21 18:44:39 2022
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off TimerN_Demo -c TimerN_Demo --vector_source=C:/Users/joaog/LSD/Aula5/Parte3/TimerN.vwf --testbench_file=C:/Users/joaog/LSD/Aula5/Parte3/simulation/qsim/TimerN.vwf.vht
+Info (119006): Selected device EP4CE115F29C7 for design "TimerN_Demo"
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/joaog/LSD/Aula5/Parte3/simulation/qsim/" TimerN_Demo -c TimerN_Demo
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Thu Apr 21 18:44:40 2022
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/joaog/LSD/Aula5/Parte3/simulation/qsim/ TimerN_Demo -c TimerN_Demo
+Info (119006): Selected device EP4CE115F29C7 for design "TimerN_Demo"
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file TimerN_Demo.vho in folder "C:/Users/joaog/LSD/Aula5/Parte3/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4651 megabytes
+    Info: Processing ended: Thu Apr 21 18:44:41 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+C:/Users/joaog/LSD/Aula5/Parte3/simulation/qsim/TimerN_Demo.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+c:/intelfpga_lite/20.1/modelsim_ase/win32aloem//vsim -c -do TimerN_Demo.do
+
+Reading pref.tcl
+
+# 2020.1
+
+# do TimerN_Demo.do
+
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:44:41 on Apr 21,2022
+# vcom -work work TimerN_Demo.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity TimerN
+# -- Compiling architecture structure of TimerN
+
+# End time: 18:44:42 on Apr 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:44:42 on Apr 21,2022
+# vcom -work work TimerN.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TimerN_vhd_vec_tst
+# -- Compiling architecture TimerN_arch of TimerN_vhd_vec_tst
+# End time: 18:44:42 on Apr 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# vsim -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.TimerN_vhd_vec_tst 
+# Start time: 18:44:42 on Apr 21,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.timern_vhd_vec_tst(timern_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.timern(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# ** Warning: Design size of 10749 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# after#33
+
+# End time: 18:44:42 on Apr 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading C:/Users/joaog/LSD/Aula5/Parte3/TimerN.vwf...
+
+Reading C:/Users/joaog/LSD/Aula5/Parte3/simulation/qsim/TimerN_Demo.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to C:/Users/joaog/LSD/Aula5/Parte3/simulation/qsim/TimerN_Demo_20220421184442.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

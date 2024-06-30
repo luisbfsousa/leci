@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joaog/LSD/Aula4/Parte1/simulation/qsim
+Eflipflopd
+Z1 w1649000509
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 8
+R0
+Z10 8FlipFlopD_Demo.vho
+Z11 FFlipFlopD_Demo.vho
+l0
+L37 1
+VI=^5mLH<QN8g[F7<7K@Rj2
+!s100 kZbo:]WI3EK?Q4dF^8z1Y1
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1649000510
+!i10b 1
+Z14 !s108 1649000510.000000
+Z15 !s90 -work|work|FlipFlopD_Demo.vho|
+Z16 !s107 FlipFlopD_Demo.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 9 flipflopd 0 22 I=^5mLH<QN8g[F7<7K@Rj2
+!i122 8
+l70
+L47 116
+V9OOIj_kYKm[d[FK@k?[Dd0
+!s100 :4Z5VHn@5FKJYG03IPo@h1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eflipflopd_vhd_vec_tst
+R1
+R7
+R8
+!i122 9
+R0
+Z19 8FlipFlopD.vwf.vht
+Z20 FFlipFlopD.vwf.vht
+l0
+L32 1
+V_hf]K[JUEnmKOT8_MlE`31
+!s100 B0D]Y`jPC@nc2_<D:OGZM1
+R12
+32
+R13
+!i10b 1
+R14
+Z21 !s90 -work|work|FlipFlopD.vwf.vht|
+Z22 !s107 FlipFlopD.vwf.vht|
+!i113 1
+R17
+R18
+Aflipflopd_arch
+R7
+R8
+Z23 DEx4 work 21 flipflopd_vhd_vec_tst 0 22 _hf]K[JUEnmKOT8_MlE`31
+!i122 9
+l51
+L34 91
+VS`dL73=gNhN9fVG?e7;[11
+!s100 1:UQ:3T>FUIK`z9[ID69_1
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 1
+R17
+R18

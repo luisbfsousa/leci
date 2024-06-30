@@ -1,0 +1,6 @@
+|Latch1_Demo
+enable => dataOut$latch.LATCH_ENABLE
+dataIn => dataOut$latch.DATAIN
+dataOut <= dataOut$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

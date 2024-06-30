@@ -1,0 +1,17 @@
+|Dec2_4En
+enable => outputs.OUTPUTSELECT
+enable => outputs.OUTPUTSELECT
+enable => outputs.OUTPUTSELECT
+enable => outputs.OUTPUTSELECT
+inputs[0] => Equal0.IN1
+inputs[0] => Equal1.IN1
+inputs[0] => Equal2.IN0
+inputs[1] => Equal0.IN0
+inputs[1] => Equal1.IN0
+inputs[1] => Equal2.IN1
+outputs[0] << outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[1] << outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[2] << outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[3] << outputs.DB_MAX_OUTPUT_PORT_TYPE
+
+

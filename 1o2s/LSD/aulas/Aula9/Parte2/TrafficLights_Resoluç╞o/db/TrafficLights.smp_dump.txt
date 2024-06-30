@@ -1,0 +1,12 @@
+
+State Machine - |TrafficLightsTop|TrafficLightsFSM:main_fsm|s_currentState
+Name s_currentState.TYellow_per s_currentState.TGreen2 s_currentState.TYellow2 s_currentState.TRed2 s_currentState.TGreen1 s_currentState.TYellow1 s_currentState.TRed1 s_currentState.TIntermit s_currentState.TInit 
+s_currentState.TInit 0 0 0 0 0 0 0 0 0 
+s_currentState.TIntermit 0 0 0 0 0 0 0 1 1 
+s_currentState.TRed1 0 0 0 0 0 0 1 0 1 
+s_currentState.TYellow1 0 0 0 0 0 1 0 0 1 
+s_currentState.TGreen1 0 0 0 0 1 0 0 0 1 
+s_currentState.TRed2 0 0 0 1 0 0 0 0 1 
+s_currentState.TYellow2 0 0 1 0 0 0 0 0 1 
+s_currentState.TGreen2 0 1 0 0 0 0 0 0 1 
+s_currentState.TYellow_per 1 0 0 0 0 0 0 0 1 

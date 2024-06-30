@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 31 10:52:51 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : SeqDetector
+Top-level Entity Name : SeqDetector
+Family : Cyclone IV E
+Total logic elements : 47
+    Total combinational functions : 47
+    Dedicated logic registers : 31
+Total registers : 31
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
