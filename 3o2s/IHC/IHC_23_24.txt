@@ -1,0 +1,709 @@
+A Avaliação Heuristica é um método de avaliação de usabilidade que:
+The Heuristic Evaluation is a usability evaluation method that:
+Pergunta 1:
+a
+É empírico/ is empirical
+b
+As restantes alternativas estão todas corretas / All the other alternatives are correct
+c
+Apenas pode ser usado nas fases terminais do desenvolvimento/ Can only be used in the latest phases of the development
+d
+Deve ser realizado por vários avaliadores / should be performed by several evaluators
+------------------------------------------------------------------------------------------------------
+O System Usability Scale (SUS) é:
+The System Usability Scale (SUS) is:
+Pergunta 2:
+a
+Um método com variantes, como por exemplo, o think aloud / The method with variants, such as think aloud
+b
+Nenhuma das restantes alternativas está correcta / None of the remaining alternatives is correct
+c
+Um questionário que inclui perguntas a serem respondidas por utilizadores depois de utilizarem o sistema cuja usabilidade de pretende avaliar e que produz uma medida exata da usabilidade do sistema/ A questionnaire that includes questions to be answered by users after they use the system whose usability you want to evaluate, allowing a precise measure of the system usability
+d
+Um protocolo de avaliação de usabilidade que consiste num conjunto de perguntas especificas para serem usadas por um grupo de avaliadores na avaliação da facilidade de aprendizagem dum sistema interativo / A usability evaluation protocol that consists of a set of specific questions to be used by a group of evaluators in assessing the ease of learning of an interactive system
+------------------------------------------------------------------------------------------------------
+Um aspecto fundamental para uma boa usabilidade é:
+A fundamental aspect of usability is:
+Pergunta 3:
+a
+Todas as outras alternativas estão corretas / All remaining alternatives are correct
+b
+Facilidade de aprendizagem / Learnability
+c
+Utilização eficiente e eficaz / Efficiency and efficacy in use
+d
+Satisfação / Satisfaction
+------------------------------------------------------------------------------------------------------
+O Sistema de Processamento Humano de Informação tem outros sentidos para além dos cinco mais conhecidos (visão, audição, tato, olfato e paladar), entre os quais a proprioceção que:
+The Human Information Processing System has other senses in addition to the five most known (vision, hearing, touch, smell and taste), including proprioception, which:
+Pergunta 4:
+a
+É importante em certos sistemas interativos menos convencionais / It is important in some less conventional interactive systems
+b
+Todas as outras alternativas estão corretas / All the other alternatives are correct
+c
+Permite ter a noção sobre a posição do corpo / Allows knowing body position
+d
+Deve ser tida em conta no desenvolvimento de sistemas de Realidade Virtual para evitar a "cybersikness" / Must be taken into account in the development of Virtual Reality systems to avoid "cybersikness"
+------------------------------------------------------------------------------------------------------
+Alguns utilizadores mais idosos evitam utilizar sistemas computadorizados (como as máquinas multibanco) devido ao receio de avariar o sistema ou cometer erros Qual das seguintes opções poderia ser um ponto de partida para tentar aliviar estes receios?
+Some older users avoid using computerized systems (such as ATM machines) for fear of breaking down the system or making mistakes Which of the following could be a starting point for trying to alleviate these fears?
+Pergunta 5:
+a
+Todas as alternativas estão correctas / All alternatives are correct
+b
+Entrevistas com estes utilizadores para tentar perceber a origem dos seus receios / Interviews with these users to try to understand the origin of their fears
+c
+Testes de usabilidade para perceber a forma como os utilizadores interagem com máquinas multibanco ou sistemas semelhantes /Usability tests to understand how users interact with ATM machines or similar systems
+d
+Experiência controlada para comparar o desempenho desses utilizadores ao interagir com máquinas multibanco com interfaces de utilizador diferentes / Controlled experiment to compare the performance of these users when interacting with ATM machines with different user interfaces
+Em qual dos seguintes estilos de interacção é que se efectuam acções directamente em representações visuais dos objectos?
+------------------------------------------------------------------------------------------------------
+In which of the following interaction styles are actions directly performed on visual representations of the objects
+Pergunta 6:
+a
+Linguagem Natural / Natural languages
+b
+Manipulação directa / Direct Manipulation
+c
+Nenhuma das outras alternativas está correta / None of the other alternatives is correct
+d
+Linguagem de comandos / Command languages
+O modelo conhecido como GOMS (Goals, Operations, Methods and Selection) permite:
+------------------------------------------------------------------------------------------------------
+The GOMS (Goals, Operations, Methods and Selection) model allows:
+Pergunta 7:
+a
+Calcular com precisão o tempo despendido em tarefas unitárias de interação / Accurately compute the time to perform interaction unitary tasks
+b
+As outras alternativas estão corretas /All other alternatives are correct
+c
+Prever como os utilizadores vão aprender a usar um sistema novo / Predict how users will be able to learn a knew system
+d
+Modelar os objetivos de alto nível do utilizador / Model the users' high level goals
+------------------------------------------------------------------------------------------------------
+Qual destas mensagens lhe parece mais adequada para indicar um erro a um utilizador:
+Which of these messages seems most appropriate to indicate an error to a user:
+Pergunta 8:
+a
+Todas são igualmente adequadas / All are equally adequate
+b
+Error 1654!! if you do not want to loose your work you should save the file
+c
+Save file before exiting
+d
+Fatal error #231
+------------------------------------------------------------------------------------------------------
+Qual dos seguintes dispositivos apontadores é de controlo directo? 
+Which of the following ponting devices is a direct control device:
+Pergunta 9:
+a
+São todos dispositivos de controlo directo / All devices mentioned direct control devices
+b
+Rato / Mouse
+c
+Touchscreen
+d
+Joystick
+------------------------------------------------------------------------------------------------------
+É muito importante considerar as características da memória dos utilizadores no  desenvolvimento de sistemas interativos, existindo diretivas que podem ajudar nesse sentido:
+It is very important to consider the characteristics of users' memory in the development of interactive systems, and there are directives that can help in this regard:
+Pergunta 10:
+a
+Todas as outras alternativas estão corretas / All the other alternatives are correct
+b
+Reduzir a carga cognitiva evitando processos longos e complexos para efetuar as tarefas / Reduce cognitive load by avoiding long and complex processes to perform tasks
+c
+Apresentar alternativas permitindo o reconhecimento em vez de exigir que o utilizador se lembre de informação / Present alternatives allowing recognition rather than requiring the user to recall information
+d
+Organizar a informação para facilitar a memorização / Organize information to help the user memorize it
+------------------------------------------------------------------------------------------------------
+A metodologia de desenvolvimento de S/W interactivo centrada no utilizador, conhecida por Goal Directed Design e proposta por Alan Cooper (2007):
+The user-centered interactive S/W development methodology, known as Goal Directed Design and proposed by Alan Cooper (2007):
+Pergunta 11:
+a
+Pode ser usada para o desenvolvimento de uma aplicação interactiva independentemente da tecnologia usada / can be used for the development of an interactive application regardless of the technology used
+b
+Inclui a utilização de personas e cenários / Uses personas and scenarios
+c
+Todas as alternativas estão correctas / All the remaining alternatives are correct
+d
+Baseia-se numa boa compreensão dos utilizadores / It is based on a good understanding of the users
+------------------------------------------------------------------------------------------------------
+As metodologias Human-Centered Design para desenvolvimento de sistemas interativos:
+Human-Centered Design methodologies for developing interactive systems:
+Pergunta 12:
+a
+Todas as restantes alternativas estão correctas / All other alternatives are correct
+b
+São focadas nas necessidades dos utilizadores / Are focused on the user needs
+c
+São iterativas; ie incluem vários ciclos de desenvolvimento / Are iterative; ie have several development cycles
+d
+Incluem avaliação de usabilidade em todos os ciclos de desenvolvimento / Include usability evaluation in all development cycles
+------------------------------------------------------------------------------------------------------
+O projecto participado (participatory design) caracteriza-se por:
+Participatory design is characterized by:
+Pergunta 13:
+a
+Envolver utilizadores apenas na fase de análise de requisitos / Involving users only in the requirement elicitation phase
+b
+Envolver utilizadores apenas na avaliação / Involving users only for evaluation
+c
+Envolver utilizadores ao longo de todo o processo / Involving users along the development process
+d
+Nenhuma das alternativas está correcta / None of the remaining alternatives is correct
+------------------------------------------------------------------------------------------------------
+Ao não projectar com cuidado um sistema interactivo usando uma metodologia centrada no utilizador é muito provável que:
+By not carefully designing an interactive system using a user-centered methodology, it is very likely that:
+Pergunta 14:
+a
+Aumente os custos e complexidade de manutenção / maintenance costs will increase
+b
+A experiência de utilização do sistema seja prejudicada/ UX will be worse
+c
+Aumente o tempo de desenvolvimento / Development time will increase
+d
+Todas as alternativas estão correctas /The other the alternatives are correct
+------------------------------------------------------------------------------------------------------
+Os story boards:
+Story boards:
+Pergunta 15:
+a
+As restantes alternativas estão todas corretas / All other alternatives are correct
+b
+São um método analítico de avaliação de usabilidade / Are an analytical usability evaluation method
+c
+São representações visuais dos utilizadores a executar uma tarefa / Represent users performing a task
+d
+São o mesmo que os cenários / Are the same as scenarios
+------------------------------------------------------------------------------------------------------
+Considere que está a desenhar uma interface de utilizador para uma tarefa muito estruturada a ser realizada pontualmente por um utilizador com pouco treino e baixa literacia computacional Qual o estilo de diálogo que lhe parece mais apropriado?
+Consider that you are designing a user interface for a very structured task to be carried out occasionally by a user with little training and low computational literacy What style of dialogue do you think is most appropriate?
+Pergunta 16:
+a
+Linguagem de comando | Command language
+b
+Menu
+c
+Nenhuma das outras alternativas está correta | None of the other option is correct
+d
+Manipulação Direta | Direct Manipulation
+------------------------------------------------------------------------------------------------------
+As interfaces de utilizador baseadas em linguagens de comandos:
+Command language - based user interfaces:
+Pergunta 17:
+a
+Geralmente proporcionam uma utilização flexível / Usually provide a flexible usage
+b
+Apenas podem ser usadas usando um teclado / May be used only using a keyboard 
+c
+Baseiam-se em reconhecimento e não lembrança / Are based on recognition rather than recall
+d
+Nenhuma das outras alternativas está correta / None of the other alternatives is correct
+------------------------------------------------------------------------------------------------------
+No Sistema Humano de Processamento de Informação (SHPI), a memória de longa duração:
+In the Human Information Processing System (HIPS), long-term memory:
+Pergunta 18:
+a
+É considerada um ponto fraco do SPIH / It is considered a weakness of HIPS
+b
+Apenas pode reter 7+-2 unidades de informação / Can only retain 7+-2 Information units
+c
+Tem uma capacidade muito limitada / Has a very limited capacity
+d
+Nenhuma das outras alternativas está correta / None of the other alternatives are correct
+------------------------------------------------------------------------------------------------------
+Os Touch Screens são mais adequados quando:
+Touch screens are more suitable when:
+Pergunta 19:
+a
+O espaço no ecrã é importante / The screen real estate is important
+b
+Os alvos são grandes, discretos e espalhados no ecrã / The selection targets are large and spread around the screen
+c
+Existe necessidade de fazer entrada de texto / There is the need of text input
+d
+Todas as alternativas estão correctas / All the other alternatives are correct
+------------------------------------------------------------------------------------------------------
+O Cognitive Walkthough é um métodos de avaliação de usabilidade:
+The Cognitive Walkthough is a usability evaluation method:
+Pergunta 20:
+a
+Focado na facilidade de aprendizagem / focused on the learnability
+b
+As restantes alternativas estão todas corretas / All the other alternatives are correct
+c
+Que não envolve utilizadores / not involving users
+d
+Tem variantes envolvendo um número diferente de perguntas / has variants involving adifferent nember of questions
+------------------------------------------------------------------------------------------------------
+Os modelos mentais que as pessoas formam de um dado sistema interativo:
+The mental models that people form of a given interactive system:
+Pergunta 21:
+a
+Em geral são usados pelos utilizadores para prever o comportamento futuro do sistema / are normally used by the users to predict the behaviour of the system
+b
+São iguais para todas as pessoas / Are the same for all people
+c
+São estáveis ao longo do tempo / Are stable with time
+d
+Nenhuma das outras alternativas está correta / None of the other options is correct
+------------------------------------------------------------------------------------------------------
+Os cenários, um método usado no design de sistemas interativos:
+Scenarios, a method used in the design of interactive systems:
+Pergunta 22:
+a
+Devem ser da forma: “As a type of user I want some goal so that some reason” / Must have the following format : “As a type of user I want some goal so that some reason”
+b
+Podem ser úteis na preparação de testes de usabilidade / May be useful to prepare usability tests
+c
+Todas as outras alternativas estão correctas / All the other alternativs are correct
+d
+Têm sempre que incluir várias personas / Must always include personas
+------------------------------------------------------------------------------------------------------
+Suponha que está a desenvolver a interface de utilizador para um robot de cozinha com capacidade para centenas de receitas Qual das opções seguintes formas de ordenação das receitas lhe parece mais adequada para um utilizador que utilize o dispositivo esporadicamente?
+Suppose you are developing the user interface for a kitchen robot capable of storing hundreds of recipes Which of the following sorting method is the most appropriate for a user who uses the device sporadically?
+Pergunta 23:
+a
+Alfabética, considerando o nome das receitas / Alphabetically considering the name of the recipes
+b
+Por tipo de receita (por exemplo, sopas, sobremesas) / by type of recipe (eg soups, deserts, etc)
+c
+Todas as formas de ordenação são igualmente adequadas / All ways of sorting the recipes are equally adequate
+d
+Aleatoriamente / Randomly
+------------------------------------------------------------------------------------------------------
+O layout do teclado QWERTY foi desenvolvido com o objectivo de:
+The QWERTY keyboard layout was developed in order to:
+Pergunta 24:
+a
+Equilibrar a carga de trabalho entre as duas mãos / Balance the work load between the two hands
+b
+Evitar o encravamento das máquinas de escrever da época como consequência da sua utilização por dactilógrafos que escreviam com grande velocidade / Avoid the jamming of the typewriters of the time as a result of their use by typists who wrote at high speed
+c
+Nenhuma das outras alternativas está correcta / None of the remaining alternatives is correct
+d
+Maximizar a velocidade de escrita de texto em Inglês em computadores / Maximize the typing speed in English
+------------------------------------------------------------------------------------------------------
+Os métodos de análise de tarefas:
+Task analysis methods:
+Pergunta 25:
+a
+Têm como objetivo modelar apenas a atividade motora do utilizador / Are focused on modeling the motor activity of the user
+b
+São adequados para a preparação de documentação sobre a utilização sobre como usar um sistema / Are suitable to help prepare the documentation on how to use a system
+c
+Todas as alternativas são corretas / All other alternatives are correct
+d
+Consistem apenas numa representação gráfica da sequência de tarefas a executar / Only consist of a graphical representation of the sequence of tasks to be executed
+------------------------------------------------------------------------------------------------------
+Uma interface de utilizador:
+A user interface:
+Pergunta 26:
+a
+Deve ser, sempre que possível, avaliada no laboratório pois no campo não se conseguem controlar todas as variáveis em jogo / It should, whenever possible, be evaluated in the laboratory because in the field it is not possible to control all the variables at play
+b
+Todas as alternativas estão correctas / All the options are correct
+c
+Deve ser, sempre que possível, avaliada no campo, pois a interface é utilizada em condições mais realistas /It should be, whenever possible, evaluated in the field, as the user interface is used in more realistic conditions
+d
+Deve, sempre que possível, ser avaliada usando mais do que um método pois diferentes métodos fornecem informação complementar /It should be, whenever possible, evaluated with more than one method since different methods provide complementar information
+------------------------------------------------------------------------------------------------------
+Ao decompor os objectivos dos utilizadores, o modelo GOMS ajuda a:
+By decomposing the users' goals the GOMS model helps:
+Pergunta 27:
+a
+Prever o comportamento de utilizadores experientes considerando que não são cometidos erros / Predict the behavior of experienced users considering they will not make errors
+b
+Nenhuma das outras alternativas está correcta / None of the other alternatives is correct
+c
+Prever o comportamento de qualquer tipo de utilizador independentemente da sua experiência / Predict the behavior of any type of user regardless of their experience
+d
+Prever o comportamento de utilizadores inexperientes levando em consideração os erros cometidos / Predict the behavior of inexperienced users taking errors into account their errors
+------------------------------------------------------------------------------------------------------
+Os menus, como estilo de interação, se forem convenientemente concebidos, têm as seguintes vantagens:
+Menus as interaction style, if properly designed, have the following advantages:
+Pergunta 28:
+a
+Nenhuma das outras alternativas está correta / None of the other alternatives is correct
+b
+Promovem uma utilização eficiente/ Provide an efficient usage
+c
+Sobrecarregam menos a memória do utilizador do que uma linguagem de comandos/ Do not overload the user's memmory as much as command languages
+d
+São de utilização muito flexível / Allow a much flexible usage
+------------------------------------------------------------------------------------------------------
+As linguagens de comandos em geral são adequadas para utilizadores:
+Command laguages are generaly adequate to users:
+Pergunta 29:
+a
+Com pouco conhecimento da aplicação / Having little knowledge about the application
+b
+Nenhuma das outras alternativas está correta / None of the other alternatives is correct
+c
+Com capacidades de dactilografia baixa / Having low typing skills
+d
+Com pouca literacia informática / Having little computer literacy
+------------------------------------------------------------------------------------------------------
+As interfaces de utilizador baseadas em teclas de funções como estilo de interação, têm as seguintes características:
+User interfaces based on the function keys  interaction style have the following characteristics:
+Pergunta 30:
+a
+Todas as alternativas estão corretas / All the other alternatives are correct
+b
+Podem-se tornar difíceis de aprender e usar se a funcionalidade for muito extensa / May become difficult to use and learn if the functionality is very large
+c
+Podem tornar a invocação da funcionalidade bastante eficiente / May make efficient calling the funcionality
+d
+A sua utilização é flexível / Their usage is flexible
+------------------------------------------------------------------------------------------------------
+Considere que está a desenvolver uma aplicação online para permitir aos utilizadores de uma empresa atualizarem os seus dados, qual o estilo de interação que lhe parece mais adequado para a interface de utilizador da aplicação?
+Consider that you are developing an online application to allow users of a company to update their data, which interaction style seems most appropriate to the user interface of this application?
+Pergunta 31:
+a
+Teclas de funções / Function keys
+b
+Fill-in-forms
+c
+Todos os estilos indicados são igualmente adequados / All interaction styles seem equally adequate
+d
+Linguagem de comandos / Command language
+------------------------------------------------------------------------------------------------------
+A atenção selectiva é um processo do Sistema Humano de Processamento de Informação (SHPI) que:
+Selective attention is a Human Information Processing System (HIPS) process that:
+Pergunta 32:
+a
+Muito dificilmente pode ser tomado em conta no design de interfaces de utilizador / It is very difficult to take it into account when designing a user interface
+b
+Todas as outras alternativas são corretas / All the other otions are correct
+c
+É uma das principais limitações do SPI Humano / It is one of the main limitations of the HIPS system
+d
+Pode ocorrer voluntariamente ou involuntáriamente / May occur voluntarily or not
+------------------------------------------------------------------------------------------------------
+Qual dos seguintes modelos de cor é H/W oriented, aplica-se a sistemas aditivos de formação de imagem (como os monitores e os projectores), mas é pouco adequado a ser usado pelos utilizadores para escolherem uma escala de cor:
+Which of the following color models is H/W oriented, applies to additive imaging systems (such as monitors and projectors), but is poorly suited to be used by users to choose a color scale:
+Pergunta 33:
+a
+RGB (Red, Green, Blue)
+b
+HSV (Hue, Saturation, Value)
+c
+CMY (Cyan, Magenta, Yellow)
+d
+Qualquer modelo é igualmente adequado / Any model is equally adequate
+------------------------------------------------------------------------------------------------------
+As personas:
+Personas:
+Pergunta 34:
+a
+São um método analítico de avaliação de interfaces de utilizador rápido de aplicar e de baixo custo / Are an analytical method of evaluating user interfaces that are quick to apply and low cost
+b
+São personagens fictícias que têm características relevantes dos utilizadores alvo e ajudam a equipa de desenvolvimento a compreender melhor as necessidades dos utilizadores / are fictional characters that have relevant characteristics of the target users and help the development team to better understand the users' needs
+c
+Nenhuma das restantes alternativas está correcta / None of the remaing alternatives is correct
+d
+São utilizadores reais representativos dos utilizadores alvo dum sistema interativo / Are real users representative of the target users
+------------------------------------------------------------------------------------------------------
+As interfaces de utilizador de manipulação directa:
+Direct manipulation user interfaces:
+Pergunta 35:
+a
+Não implicam necessariamente a utilização de ícones / Using icons is not mandatory
+b
+Todas as alternativas estão corretas / All other alternatives are correct
+c
+Podem ser mais ou menos directas dependendo da forma de especificar as acções / May be more or less direct acording to the way actions are specified
+d
+Implicam a especificação de objectos por correlação visual / Imply object specification by visual correlation
+------------------------------------------------------------------------------------------------------
+A norma que definiu usabilidade dum sistema interactivo (ISO 9241-11):
+The standard that has defined usability of an interactive system (ISO 9241-11):
+Pergunta 37:
+a
+Evoluiu para incluir também "freedom of risk" na norma ISO 25010 / evolved to the standard ISO 25010 including also freedom of risk
+b
+Surgiu nos anos 90 do século XX; Appeared in the nighties of last century
+c
+Todas as outras alternativas estão corretas / all other alternatives are correct
+d
+Considera que a usabilidade apenas pode ser definida tendo em conta o contexto específico de utilização / considers that usability can only be defined taking into consideration the specific context of use
+------------------------------------------------------------------------------------------------------
+Qual dos seguintes métodos de avaliação de usabilidade é empírico?
+Which of the following usability evaluation method is empiric
+Pergunta 38:
+a
+Cognitive Walkthrough
+b
+Experiência controlada / Controlled experiment
+c
+Avaliação baseada em modelos / Model based evaluation
+d
+Avaliação Heurística / Heuristic Evaluation
+------------------------------------------------------------------------------------------------------
+Qual dos seguintes métodos de avaliação de usabilidade é analítico?
+Which of the following usability evaluation method isanalytical?
+Pergunta 39:
+a
+Avaliação heurística / Heuristic evaluation
+b
+Todos os métodos referidos são analíticos pois são executados por analistas e não envolvem utilizadores / All mentioned methods are analytical as they are performed by analysts and do not involve users
+c
+Avaliação baseada em modelos / Model based evaluation
+d
+Cognitive Walkthrough
+------------------------------------------------------------------------------------------------------
+A usabilidade de um sistema interactivo:
+The usability of an interactive system:
+Pergunta 40:
+a
+Não se pode definir independentemente dos prospectivos utilizadores do sistema e das tarefas que estes deverão executar usando o sistema / Cannot be defined independently of the target users and the tasks they will have to perform using the system
+b
+É um requisito não funcional a ter em conta no seu desenvolvimento / is a non-functional requirement that must be considered in its development 
+c
+Envolve eficiência, eficácia e satisfação na utilização de um sistema / Involves efficiency, efficacy and satisfaction in using a system
+d
+Todas as outras alternativas estão corretas / All other alternatives are correct
+------------------------------------------------------------------------------------------------------
+A Avaliação Heuristica é:
+The Heuristic Evaluation is:
+Pergunta 41:
+a
+Um método de avaliação de usabilidade analítico / An analytical usability evaluation method
+b
+Um método de avaliação de usabilidade que deve ser realizado por um grupo de avaliadores / A usability evaluation method that should be performed by a group of evaluators
+c
+As restantes alternativas estão todas corretas / All the other alternatives are correct
+d
+Um método bastante usado que permite detetar potenciais problemas de usabilidade/ A widely used method that allows identifying potential usability issues
+------------------------------------------------------------------------------------------------------
+Considere a Lei de Fitts:
+Consider the Fitts' Law:
+Pergunta 42:
+a
+Nenhuma das outras alternativas está correta / None of the other alternatives is correct
+b
+Modela o tempo que um utilizador leva a selecionar um alvo de largura W usando um dispositivo apontador quando está a uma distância D / Models the time it takes a user to select a target of width W using a pointing device when it is at a D distance
+c
+Modela o tempo que um utilizador leva a selecionar uma opção num menu ordenado aleatoriamente / Models the time it takes a user to select an option from a randomly ordered menu 
+d
+D e W são a distância e a largura dum alvo mostrado num ecrã e t é o tempo que o utilizador leva a ver o alvo / D and W are the distance and width of a target displayed on a screen and t is the time that a user will take to see the target
+------------------------------------------------------------------------------------------------------
+O Amazon Echo (mostrado na figura) é um dispositivo ativado por voz que permite fazer compras on-line, ouvir música e controlar outros dispositivos Consiste num altifalante cilíndrico com um array de microfones e um controlo remoto Tem as seguintes potenciais vantagens e desvantagens quanto a usabilidade devido ao facto de usar interação por voz:
+The Amazon Echo (shown in the picture) is a voice-activated device that lets you shop online, listen to music, and control other devices It consists of a cylindrical loudspeaker with an array of microphones and a remote control It has the following potential usability advantages and disadvantages due to the fact that it uses voice interaction:
+Pergunta 43:
+a
+Tem a vantagem de não necessitar de usar as mãos e os olhos / It has the advantage of leaving the hands and eyes free
+b
+É em geral a forma mais eficiente de comunicar com um sistema interativo / It is generally the most efficient way to communicate with an interactive system
+c
+Todas as alternativas estão correctas / All the other alternatives are correct
+d
+Implica o conhecimento das respostas admissíveis / It implies o knowledge of admissible responses
+------------------------------------------------------------------------------------------------------
+The Heuristic Evaluation is:
+Pergunta 44:
+a
+As restantes alternativas estão todas corretas / All the other alternatives are correct
+b
+Um método de avaliação de usabilidade baseado num conjunto de heurísticas/ A usability evaluation method based on a list of heuristics
+c
+Um método bastante usado que permite detetar potenciais problemas de usabilidade/ A widely used method that allows identifying potential usability issues
+d
+Um método de avaliação de usabilidade subjetivo / A subjective usability evaluation method
+------------------------------------------------------------------------------------------------------
+Os dispositivos hápticos:
+Haptic devices:
+Pergunta 45:
+a
+Todas as alternativas estão correctas / All the other alternatives are correct
+b
+São dispositivos de interação que não implicam a utilização das mãos / Are interactive devices that do not imply using the hands
+c
+Podem ser dispositivos de entrada e saída / May be input and output devices
+d
+Baseaim-se sobretudo no sentido de equilíbrio do utilizador / Are mainly based in the user's balence sense
+------------------------------------------------------------------------------------------------------
+Os menus, como estilo de interação, têm as seguintes desvantagens:
+Menus as interaction style, have the following disadvantages:
+Pergunta 46:
+a
+São pouco flexíveis / Are not very flexible
+b
+Sobrecarregam muito a memória do utilizador / Overload the user's memmory
+c
+Implicam um tratamento de erros muito complexo / Imply a complex error treatment
+d
+Nenhuma das outras alternativas está correta / None of the other alternatives is correct
+------------------------------------------------------------------------------------------------------
+A cor numa interface de utilizador deve:
+Colour in a user interface should:
+Pergunta 47:
+a
+Ser usada como único meio para veicular informação / be used as the only means to convey information
+b
+Ser usada com parcimónia e cuidadosamente / Be used sparingly and carefully
+c
+Nenhuma das outras alternativas está correta / None of the other alternatives is correct
+d
+Ser usada abundantemente / Used a lot
+------------------------------------------------------------------------------------------------------
+As experiências controladas envolvem variáveis independentes, dependentes e são um método empírico
+Controlled experiments involve independent, dependent variables and are an empirical method
+Pergunta 48:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+O sistema emotivo, embora importante, não influencia a forma como os utilizadores utilizam um sistema interativo
+The emotive system, while important, does not influence how users use an interactive system
+Pergunta 49:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+O sistema de processamento de informação humano é uma das características importantes do perfil dos utilizadores, sendo uma das características que menos varia entre utilizadores (varia menos do que a experiência e nível de educação)
+The human information processing system is one of the important characteristics of the user profile, being one of the characteristics that least varies among users (it vaires less than experience and education level)
+Pergunta 50:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+A usabilidade deve medir-se quanto às duas dimensões facilidade de aprendizagem e facilidade de utilização, em abstracto, não sendo necessário ter em conta as tarefas que os utilizadores terão que realizar, nem o contexto em que o farão
+Usability should be measured in terms of the two dimensions ease of learning and ease of use, in the abstract, and it is not necessary to take into account the tasks that users will have to perform, nor the context in which they will do so
+Pergunta 51:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+Teclas que invoquem funcionalidade com consequências graves devem estar localizadas longe da home-row do teclado (ie em locais pouco acessíveis)
+Keys that invoke functionality with serious consequences should be located away from the keyboard home-row (ie in inaccessible locations)
+Pergunta 52:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+Em geral não é necessário ter em conta no design de interfaces de utilizador as deficiências da visão da cor pois atingem uma percentagem desprezável dos utilizadores de sistemas interativos
+In general, while designing user interfaces, it is not necessary to take into account the deficiencies of color vision, as they affect a negligible percentage of users of interactive systems
+Pergunta 53:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+Frequentemente as aplicações interativas usam vários estilos de interação para dar acesso à funcionalidade, pois um estilo pode ajudar a ultrapassar as limitações de outro
+Interactive applications often use multiple interaction styles to provide the functionality, as one style can help overcome the limitations of another
+Pergunta 54:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+Os métodos de avaliação baseados em modelos são métodos empíricos e objectivos
+Model-based evaluation methods are empirical and objective methods
+Pergunta 55:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+Um sistema interativo que proporcione uma boa experiência de utilizador terá, à partida, como benefício um menor custo de manutenção e apoio aos clientes
+An interactive system that provides a good user experience will benefit from a lower cost of maintenance and customer support
+Pergunta 56:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+A interação por voz é uma possibilidade que deve ser sempre considerada no projeto de um sistema interativo:
+Voice interaction is a possibility that should be always considered in the design of an interactive system:
+Pergunta 57:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+Pergunta 58
+O número de erros que um utilizador comete ao utilizar um sistema interactivo para realizar uma tarefa é uma medida de eficiência comummente usada
+The number of mistakes a user makes when using an interactive system to accomplish a task is a commonly used measure of efficiency
+Pergunta 58:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+Pergunta 59
+O chunking permite ao utilizador lidar com memórias complexas organizando-as em pequenos grupos e pode ajudar os utilizadores a usar uma Interface de Utilizador
+Chunking allows the user to deal with complex memories by organizing them into small groups, and it can be helpful while using a User Interface
+Pergunta 59:
+a
+Verdadeiro
+b
+Falso
+------------------------------------------------------------------------------------------------------
+1 D
+2 C
+3 A 
+4 B
+5 A
+6 B
+7 A
+8 C
+9 C
+10 A
+11 C
+12 A
+13 C
+14 D
+15 C
+16 B
+17 A <---
+18 D
+19 D <---
+20 B
+21 A
+22 C
+23 B
+24 B
+25 B
+26 D
+27 A
+28 C
+29 B <---
+30 A <---
+31 B
+32 B
+33 A
+34 B
+35 B <---
+36 ----
+37 D
+38 B
+39 A
+40 D
+41 C
+42 B
+43 C <---
+44 B <---
+45 C
+46 A
+47 B
+----- V/F -----
+48 V
+49 F
+50 F
+51 F
+52 V
+53 F
+54 V
+55 F
+56 V
+57 F
+58 F
+59 V
