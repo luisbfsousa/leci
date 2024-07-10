@@ -1,0 +1,583 @@
+No SCRUM, o plano de trabalho é conduzido pelo backlog. Neste contexto, o backlog é:
+
+Pergunta 1Selecione uma opção:
+
+a.
+Uma lista de itens de trabalho, pontuados quanto ao grau de prioridade (quanto mais "story points", mas prioritários).
+
+
+b.
+Um registo dos resultados de Sprints anteriores, com as storiesjá aceites pelo cliente.
+
+
+c.
+Lista dos itens de trabalho relacionados com  novas funcionalidades, alterações ou correções de bugs, selecionados para a equipa desenvolver na presente iteração (i.e., sprint).
+
+
+d.
+Lista de tarefas que é definida no início do projeto. Em cada iteração, escolhe-se um subconjunto de itens dessa lista para  implementar. 
+
+
+e.
+Uma lista de itens de trabalho, devidamente prioritizados com a ajuda do Product Owner.
+
+
+
+Segundo a abordagem proposta por Larman, um atividade importante na etapa de desenho do software é mostrar como é que os objetos (da implementação) devem interagir para formar uma colaboração que realiza ________.
+
+Pergunta 2Selecione uma opção:
+
+a.
+Os processos da organização, em que intervêm diversos atores.
+
+
+b.
+Os cenários dos casos de utilização. Pode-se ir, caso de utilização a caso de utilização, e planear a solução que o implementa em termos de colaboração entre objetos.
+
+
+c.
+O ciclo de vida de um objeto que evolui ao longo de vários estados.
+
+
+d.
+O comportamento de sistemas externos que integram com o nosso (e.g.: pagamentos)
+
+
+e.
+As expetativas  dos Atores.
+
+Considere a afirmação: "a abordagem linear (Waterfall) tende a mascarar os riscos reais de um projeto até que seja tarde demais para fazer algo significativo sobre eles.” Qual é o principal argumento subjacente à afirmação?
+
+Pergunta 3Selecione uma opção:
+
+a.
+No modelo em cascata, os testes e integração das partes do sistema são deferidos para uma fase avançada do projeto, quando os componentes estiverem prontos. Isso pode levar à descoberta tardia de erros ou defeitos que são caros e demorados para corrigir, ou que exigem grandes alterações no projeto.
+
+
+b.
+O modelo em cascata não inclui atividades de auscultação dos stakeholders (feedback) que só terão oportunidade de validar o sistema quando o projeto está concluído.
+
+
+c.
+O modelo em cascata pode ser útil para projetos simples e bem definidos que tenham requisitos claros e estáveis, mas mascara a complexidade em projetos grandes (i.e. não escala), podendo levar os projetos a falhar.
+
+
+d.
+Cada etapa depende da conclusão e aprovação da anterior, e qualquer atraso ou erro pode afetar todo o projeto. Isso pode dificultar a gestão dos recursos, bem como o lidar com incertezas ou contingências.
+
+
+e.
+Para evitar erros numa fase avançada do projeto, há que garantir que os requisitos são muito bem definidos e acordados no início do projeto com os stakeholders, prevenindo, dessa forma, riscos subsequentes.
+
+Considere o seguinte requisito definido para uma plataforma de streaming de videos: "O sistema deve permitir que o utilizador crie e personalize listas de reprodução com os seus filmes e séries favoritos."
+
+Este requisito pode ser classificado como:
+
+Pergunta 4Selecione uma opção:
+
+a.
+Requisito funcional.
+
+
+b.
+Requisito de desempenho (relativo à reprodução em sequência de vários recursos média).
+
+
+c.
+É um requisito de interface do utilizador. 
+
+
+d.
+Requisito não funcional, focado na usabilidade (facilidade de utilização).
+
+
+e.
+Não é um requisito adequado, porque não é específico de como a funcionalidade vai ser apresentada ao utilizador.
+
+Nos processos de software sequenciais, conduzidos por um plano de projeto detalhado (plan-driven):
+
+Pergunta 5Selecione uma opção:
+
+a.
+Há um grande esforço, no início, para especificar os requisitos do projeto e elaborar um plano detalhado. Depois disso, o projeto é construído de forma iterativa.
+
+
+b.
+As prioridades do projeto são definidas pelos gestores, sem envolvimento do analista ou stakeholders, o que pode condicionar o sucesso do projeto.
+
+
+c.
+A evolução do projeto é comparada com o plano inicial; o objetivo é adaptar o plano original, tão cedo quanto possível, para se ajustar à mudança de prioridades.
+
+
+d.
+O projeto define um conjunto de iterações de duração fixa (time-boxed). A evolução do projeto é adaptada de acordo com as prioridades dos stakeholders, reavaliadas regularmente no início de cada iteração. 
+
+
+e.
+A evolução do projeto é comparada com o plano; o objetivo é minimizar os desvios ao plano original, especificado com detalhe, para controlar o risco.
+
+Considere que se pretende especificar o protocolo de interação entre um novo dispositivo médico (de medição automática dos níveis de glicose)  e um smartphone. Ambos os equipamentos suportam Bluetooth Low Energy (BLE), mas o dispositivo não tem interface gráfico, pelo que o utilizador recorre ao smartphone para monitorar os valores de leitura dos sensores. 
+
+O que recomendaria usar para modelar  o protocolo  de interação entre o smartphone e o dispositivo médico (i.e., como é que se deve establecer e desenvolver a comunicação entre eles)?
+
+Pergunta 6Selecione uma opção:
+
+a.
+O Diagrama de Casos de Utilização, para identificar os usos possíveis do sistema.
+
+
+b.
+Um diagrama de instalação (deployment) para representar os dispositivos envolvidos e o canal de comunicação (bluetooth).
+
+
+c.
+Um diagrama de interação, especialmente um que evidencie a linha temporal.
+
+
+d.
+Um diagrama estrutural, como diagrama de classes, para representar as entidades evolvidas, os seus atributos e operações.
+
+
+e.
+Um diagrama de classes, mostrando a lista de atributos pensados para o dispositivo e para o smartphone.
+
+
+Considere que se pretende modelar o funcionamento de uma cancela (de acesso a um parque de estacionamento), em particular, para garantir que as ações, em cada momento, são válidas (e.g.: fechar passados 5sec de o carro ter acionado os sensores de passagem).
+
+Que modelo seria aquado para explicitar as ações válidas, em cada momento?
+
+Pergunta 7Selecione uma opção:
+
+a.
+Um diagrama de estados, relacionado o estado anterior com as transições possíveis.
+
+
+b.
+Um diagrama de sequência, com a vantagem de evidenciar a linha temporal.
+
+
+c.
+Um diagrama de classes, mostrando a lista de métodos pensados para cada módulo interveniente.
+
+
+d.
+Um diagrama de instalação (deployment) para representar os dispositivos necessários (sensor de passagem, cancela) e o canal de comunicação.
+
+
+e.
+O Diagrama de Casos de Utilização, para identificar os usos possíveis do sistema.
+
+
+Considere que se pretende modelar o funcionamento de uma cancela (de acesso a um parque de estacionamento), em particular, para garantir que as ações, em cada momento, são válidas (e.g.: fechar passados 5sec de o carro ter acionado os sensores de passagem).
+
+Que modelo seria aquado para explicitar as ações válidas, em cada momento?
+
+Pergunta 7Selecione uma opção:
+
+a.
+Um diagrama de estados, relacionado o estado anterior com as transições possíveis.
+
+
+b.
+Um diagrama de sequência, com a vantagem de evidenciar a linha temporal.
+
+
+c.
+Um diagrama de classes, mostrando a lista de métodos pensados para cada módulo interveniente.
+
+
+d.
+Um diagrama de instalação (deployment) para representar os dispositivos necessários (sensor de passagem, cancela) e o canal de comunicação.
+
+
+e.
+O Diagrama de Casos de Utilização, para identificar os usos possíveis do sistema.Considere que se pretende modelar o funcionamento de uma cancela (de acesso a um parque de estacionamento), em particular, para garantir que as ações, em cada momento, são válidas (e.g.: fechar passados 5sec de o carro ter acionado os sensores de passagem).
+
+Que modelo seria aquado para explicitar as ações válidas, em cada momento?
+
+Pergunta 7Selecione uma opção:
+
+a.
+Um diagrama de estados, relacionado o estado anterior com as transições possíveis.
+
+
+b.
+Um diagrama de sequência, com a vantagem de evidenciar a linha temporal.
+
+
+c.
+Um diagrama de classes, mostrando a lista de métodos pensados para cada módulo interveniente.
+
+
+d.
+Um diagrama de instalação (deployment) para representar os dispositivos necessários (sensor de passagem, cancela) e o canal de comunicação.
+
+
+e.
+O Diagrama de Casos de Utilização, para identificar os usos possíveis do sistema.
+
+
+
+Qual das seguintes é uma prática fundamental e distintiva do Processo Unificado (UP)?
+
+Pergunta 8Selecione uma opção:
+
+a.
+Validar a arquitetura proposta para a solução com ferramentas de prototipagem rápida.
+
+
+b.
+Produzir modelos (UML) para visualização do código implementado.
+
+
+c.
+Desenvolver de forma iterativa e incremental.
+
+
+d.
+Documentação minuciosa em todas as fases do projeto.
+
+
+e.
+Utilizar um backlog priorizado, baseado em user stories.
+
+A introdução de tecnologias de informação potencia a reformulação dos processos de trabalho de uma organização. Que modelos, da UML, podem ajudar a comunicar a reengenharia dos processos?
+
+Pergunta 9Selecione uma opção:
+
+a.
+Diagrama de classes:  modela a estrutura de um sistema, mostrando classes, atributos e relações, o que é relevante para analisar o fluxo de trabalho.
+
+
+b.
+Diagrama de casos de utilização:  capta as interacções entre os actores (utilizadores ou sistemas externos) e o sistema, centrando-se na funcionalidade de alto nível.
+
+c.
+Diagrama de actividades:  representa visualmente a sequência de actividades, pontos de decisão e caminhos paralelos dentro de um processo, tornando-o ideal para identificar estrangulamentos e áreas de melhoria.
+
+
+d.
+O Flugrama é útil para ilustrar processos de decisão e o fluxo lógico das tarefas, permitindo comunicar e comparar processos de trabalho.
+
+
+e.
+Um diagrama de interação, como o Diagrama de Sequência, oferece o suporte mais adequado à representação de colaboração entre papéis na organização e a divisão de responsabilidade.
+
+No trabalho de determinação de requisitos, o Analista recolhe vários tipos de informação sobre a organização e problema em análise.
+
+Identifique, nas opções abaixo, um exemplo de uma regra do negócio ("business rule").
+
+
+
+Pergunta 10Selecione uma opção:
+
+a.
+"O sistema deve enviar um relatório de vendas, todas as segundas-feiras."
+
+b.
+"O carrinho de compras online deve apresentar um total atualizado dos artigos adicionados."
+
+
+c.
+"O apostador deve poder selecionar um evento da lista [na página dos  eventos em curso] para aceder ao stream de vídeo associado."
+
+
+d.
+"Os pagamentos [das encomendas] são feitos com meios desmaterializados (e.g.: cartões de crédito), cuja validade é confirmada."
+
+
+e.
+"Tal como é praticado em outras empresas do setor, a disponibilidade do portal web (loja) não deve ser inferior a 99%, avaliado numa base mensal."
+
+
+
+As seguintes afirmações apresentam caraterísticas de uma arquitetura por camadas. Neste contexto, identifique a opção que é FALSA.
+
+Pergunta 11Selecione uma opção:
+
+a.
+As camadas “de cima” pedem serviços às camadas “de baixo”; as camadas "de baixo" fornecem serviços às camadas "de cima".
+
+
+b.
+O acesso direto à camada de base de dados a partir da camada de apresentação é incentivado para melhorar o desempenho e simplificar a implementação.
+
+
+c.
+Cada camada deve ter uma responsabilidade clara e distinta, centrada num aspeto específico da funcionalidade do sistema.
+
+
+d.
+É comum organizar os projetos para a web em três camadas, mas é possível trabalhar com um número diferente de camadas, conforme a natureza de cada projeto.
+
+
+e.
+Não se salta camadas: os componentes, em cada camada, “falam” com as camadas adjacentes.
+
+
+A análise de requisitos engloba várias actividades, como a recolha, documentação e gestão de mudança [dos requisitos].
+
+Identifique uma prática de documentação de requisitos recomendada no OpenUP.
+
+Pergunta 12Selecione uma opção:
+
+a.
+A OpenUP recomenda a documentação de cenários, com breves descrições de histórias de interação (user-stories).
+
+
+b.
+O OpenUP propõe a construção de um documento de especificação (SRS- System Requirements Specification) baseado no modelos e práticas da norma IEEE 29148:2018.
+
+
+c.
+Os requisitos funcionais podem ser captados em modelos de casos de utilização e respetivos cenários (narrativas), suplementando com um documento adicional para requisitos não funcionais.
+
+
+d.
+A OpenUP recomenda práticas de colaborativas, em detrimento da documentação dos requisitos, com protótipos rápidos ou a realização de workshops de discussão de requisitos.
+
+
+e.
+O OpenUP recomenda que os requisitos sejam documentados com modelos UML, designadamente com diagramas de casos de utilização e de atividades.
+
+
+Quais os principais diagramas da UML que um programador pode usar para visualizar a estrutura e comportamento do código em Java:
+
+Pergunta 13Selecione uma opção:
+
+a.
+Diagrama de classes, diagrama de componentes.
+
+
+b.
+Diagrama de classes, diagrama de sequência.
+
+
+c.
+Diagrama de objetos, diagrama de atividades.
+
+
+d.
+Diagrama de componentes, diagrama de classes.
+
+
+e.
+Diagrama de pacotes, diagrama de componentes.
+
+
+A utilização de modelos ajuda na engenharia de software. Neste contexto, qual a afirmação verdadeira?
+
+Pergunta 14Selecione uma opção:
+
+a.
+Os modelos consistem em visualizações que substituem o desenvolvimento de especificações documentais.
+
+
+b.
+Os modelos são desenvolvidos na fase de levantamento de requisitos; o contributo é marginal para antecipar problemas de integração entre módulos (do software), nas atividades de implementação.
+
+
+c.
+Os modelos são recomendados apenas quando se pretende fazer a geração automática de código (gerar a implementação a partir dos modelos).
+
+
+d.
+A visão partilhada da arquitetura (do software) é preferencialmente modelada com o diagrama de classes, que é um disgrama estrutural.
+
+
+e.
+Os modelos são usados como ferramentas de gestão de complexidade; permitem considerar diferentes facetas que caraterizam um sistema, de forma parcial.
+
+
+De acordo com Karl Wiegers, os bons requisitos devem apresentar um conjunto de propriedades designado "S.M.A.R.T.". 
+
+Qual das seguintes opções melhor descreve os principais objectivos da grelha SMART para os requisitos?
+
+Pergunta 15Selecione uma opção:
+
+a.
+Os requisitos devem ser descritos com modelos (templates) existentes, criando assim especificações mais Seguras, Minimalistas, Abrangentes, Relevantes e Timely (atempadas).
+
+
+b.
+Dar prioridade aos requisitos com base no seu impacto, fazendo uma gestão "inteligente" de prioridades. 
+
+
+c.
+O analista deve garantir que todos os requisitos sejam integralmente documentados e aprovados pleos stakeholders do projeto antes da implementação.
+
+
+d.
+A equipa não deve perder demasiado tempo na definição dos requisitos (e, consequentemente, adiando o trabalho de implementação), mas fazer uma gestão mais "inteligente" do plano do projeto.
+
+
+e.
+O Analista deve procurar que os requisitos sejam específicos, verificáveis, alcançáveis, relevantes e com prazo determinado, para aumentar a probabilidade de sucesso do projeto.
+
+
+Qual das alternativas a seguir explica MELHOR por que o Processo Unificado (UP) é considerado orientado por casos de utilização?
+
+Pergunta 16Selecione uma opção:
+
+a.
+Os casos de utilização captam os requisitos funcionais do sistema a partir da perspetiva do utilizador, orientando o desenvolvimento para a entrega de valor.
+
+
+b.
+A primeira tarefa do SDLC é o levantamento e especificação de CaU, incluindo cenários típicos e alternativos.
+
+
+c.
+Os casos de utilização são utilizados para criar casos de teste, para assegurar que o sistema cumpre os requisitos especificados.
+
+
+d.
+Os casos de utilização são suportados na UML, cuja adoção é recomendada pelo Unified Process; a UML e o UP têm origem nos mesmos autores.
+
+
+e.
+Os casos de utilização ajudam a definir a arquitetura do sistema e as relações entre os diferentes componentes.
+
+
+
+
+«Os casos de utilização existem há quase 30 anos como uma abordagem de [levantamento de] requisitos e têm inspirado técnicas mais recentes, como as histórias dos utilizadores (user stories). Agora, a inspiração fluiu na outra direção. O Use-Case 2.0 é a nova geração de desenvolvimento orientado para os casos de utilização - leve, ágil e enxuto - inspirado nas histórias dos utilizadores e nas metodologias ágeis Scrum e Kanban.» In: Ivar Jacobson, Ian Spence, and Brian Kerr. 2016. Use-case 2.0. Commun. ACM 59, 5 (May 2016), 61–69. DOI: https://doi.org/10.1145/2890778
+
+
+
+Explique, por palavras suas, o que há de novo na abordagem batizada "Use-case 2.0", comparando com e a utilização "clássica" dos casos de utilização. A abordagem "Use-Case 2.0" é eficaz para os processos de desenvolvimento modernos, focados no desenvolvimento ágil e evolutivo? Justifique.
+
+ 
+
+Texto da resposta Pergunta 23
+
+
+Nos projetos em grupo desenvolvidos na disciplina, foram genericamente seguidas algumas ideias do Unified Process/OpenUP; algumas práticas desse processo ficaram de fora, e outras ainda foram diferentes, com origem noutras fontes.
+
+Os resultados previstos para os projetos incluíam modelos de casos de utilização, modelo do domínio, análise de reengenharia de processos, protótipos rápidos, plano de arquitetura, entre outros, que podemos enquadrar com a designação "analysis artifacts".
+
+
+
+Por palavras suas, explique o propósito de cada um dos resultados (artifacts) enumerados acima, no contexto de um processo de software. Relacione os resultados entre si,  ou seja, como é que o conteúdo de um artifact se relaciona com o de outros (quando for possível estabelecer essa ligação). Todos estes artifacts estão previstos no OpenUp?
+
+
+Texto da resposta Pergunta 24
+
+
+
+--------------------------(Perguntas sem os diagramas precisos para se responder)---
+
+Pergunta 17
+Por responder
+Nota: 1,00
+Marcar pergunta
+Texto da pergunta
+Relativamente ao processo de trabalho descrito no Diagrama 6:
+
+Diagrama 6
+
+Pergunta 17Selecione uma opção:
+
+a.
+Um trabalho é avaliado logo que é entregue.
+
+
+b.
+O trabalho (do Aluno) tem diferentes estados, ao longo da atividade.
+
+
+c.
+Os alunos que entregaram e os que desistiram recebem feedback do docente.
+
+
+d.
+O trabalho tem diferentes estados, mas estão mal atribuídos às partições.
+
+
+e.
+Depois de receber feedback da entrega, o aluno pode voltar a entregar o trabalho no e-learning.
+
+Que alterações seria necessário fazer ao Diagrama 9 para captar o seguinte requisito do domínio: “Os Pratos podem estar em campanha promocional, proposta pelo respetivo Restaurante, com um preço específico no período da campanha.”
+
+ diagrama 9
+
+Pergunta 18Selecione uma opção:
+
+a.
+Não são precisas alterações adicionais ao diagrama; os atributos em "Opção Pedida" já permitem definir os períodos e preços promocionais.
+
+
+b.
+Não são precisas alterações. A associação entre Prato e Campanha já contempla essa capacidade expressiva.
+
+
+c.
+Incluir um atributo “EstadoCampanha” na classe Prato, que deve assumir valores de um enumerado, indicando se o Prato está ou não em campanha promocional.  
+
+
+d.
+A classe Prato deve incluir, para além da informação do Preço base, a indicação do desconto aplicável.
+
+
+e.
+Deve ser adicionado o atributo preço à classe Campanha (que designa o preço no período promocional).
+
+
+O diagrama mostra um modelo de casos de utilização relativo à aplicação Moodle. Segundo este modelo, verifica-se que:
+
+d26 moodle alunos
+
+ 
+
+Pergunta 19Selecione uma opção:
+
+a.
+O diagrama tem vários erros; por exemplo, há casos de utilização relacionados com o Aluno que só podem ser inciados depois de outros casos de utilização relacionados com o docente terem ocorrido, mas essa dependência não se encontra representada.
+
+
+b.
+O docente acede à sua dashboard e, depois, pode Criar eventos ou Aceder à página da UC.
+
+
+c.
+A utilização da relação <<include>> no relacionamento do caso de uso "Realizar exercícios" com o caso designado "Aceder a página da UC" significa que durante o cenário de "aceder à Dashboard" o utilizador pode executar a realização de exercícios.
+
+
+d.
+O diagrama ajuda a perceber a forma como se navega na aplicação, o que ajuda a captar as motivações dos atores e organização esperada do sistema.
+
+
+e.
+O diagrama tem vários erros; por exemplo, não é claro que actor está envolvido no caso de utilização "Realizar exercícios".
+
+
+Considerando a informação do Diagrama 18, qual a afirmação verdadeira?
+
+Diagrama 18
+
+Pergunta 20Selecione uma opção:
+
+a.
+Utiliza de forma errada as dependências (deveria usar os estereótipos “include” e “extend”).
+
+
+b.
+Mostra uma vista de arquitetura estratificada por camadas bem definidas.
+
+
+c.
+É uma vista centrada nos componentes instaláveis da aplicação
+
+
+d.
+Mostra uma organização lógica da solução em módulos, destacando dependências entre eles.
+
+
+e.
+Mostra as linhas de comunicação (links) que devem ser asseguradas pela infraestrutura computacional, na interligação de módulos
+
+
+
+
+
