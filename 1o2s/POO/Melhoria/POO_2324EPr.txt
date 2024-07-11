@@ -1,0 +1,26 @@
+
+Exercício 1) ----------------------------------
+
+Percurso Cultura com Sabores, preco=120€/pessoa, em AUTOCARRO: Museu do Azulejo -> Sol Nascente, Comida ORIENTAL -> Museu de Arte Moderna -> Sé -> Green Taste, Comida VEGETARIANA
+Percurso Encantos da Serra, preco=100€/pessoa, em AUTOCARRO: Convento de Tomar -> Petiscos da Serra, Comida MEDITERRANICA -> Museu Fóssil Mira de Aire
+Percurso Anoitecer 4x4, preco=150€/pessoa, em TODOTERRENO: Cromeleque dos Almendres -> Anta da Cerqueira -> Dolmen da Aliviada -> Bom Prato, Comida MEDITERRANICA
+
+
+AGÊNCIA:
+Agencia Cultural Olhos e Barriga: 3 percursos disponiveis
+TOTAL DE SITIOS CULTURAIS DISPONÍVEIS PARA VISITAR: 8
+
+  * Cultura com Sabores
+  * Encantos da Serra
+  * Anoitecer 4x4
+
+
+Exercício 2) ----------------------------------
+
+
+Finished reading file.
+
+
+AGENCIA:
+Agencia Cultural Olhos e Barriga: 0 percursos disponiveis
+

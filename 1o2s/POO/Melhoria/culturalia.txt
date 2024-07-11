@@ -1,0 +1,24 @@
+Todos a Bordo;Aveiro
+P;Roteiro de São Bento;110;AUTOCARRO
+S;Palácio da Brejoeira;HISTORICO;BAIXO
+S;Solar do Monte;HISTORICO;BAIXO
+R;Cá te espero;MEDITERRANICA
+S;Mosteiro de São Bento;RELIGIOSO;GRATUITO
+P;Duas Rodas;60;BICICLETA
+S;Museu das Bicicleta;MUSEUCIENCIA;BAIXO
+S;Capela da Senhora da Graça;RELIGIOSO;GRATUITO
+R;Pérola do Oriente;ORIENTAL
+P;Encosta acima;210;TODOTERRENO
+S;Miradouro da Encosta;HISTORICO;GRATUITO
+S;Fresta da Montanha;HISTORICO;GRATUITO
+S;Miradouro do Pico;HISTORICO;BAIXO
+R;Retiro da Serra;MEDITERRANICA
+
+
+P;Duas Rodas;60;BICICLETA
+
+
+S;Miradouro do Pico;HISTORICO;BAIXO
+
+
+R;Retiro da Serra;MEDITERRANICA
