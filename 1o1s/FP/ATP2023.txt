@@ -1,0 +1,52 @@
+Complete o programa para pedir ao utilizador a nota teórica e a nota prática de uma disciplina, e para calcular a nota final pela média aritmética (com pesos iguais). No fim deve mostrar a nota final e a classificação qualitativa de acordo com a tabela abaixo.
+
+Nota Final    Classificação
+< 9.5    REP
+[9.5, 13[    SUF
+[13, 20]    BOM
+O programa só deve aceitar notas entre 0 e 20. Caso contrário, deve mostrar um aviso e voltar a pedir. O programa deve respeitar, no essencial, o exemplo de interação apresentado abaixo.
+
+NotaT? 21
+Tem de estar em [0, 20]!
+NotaT? 13.3
+NotaP? -2
+Tem de estar em [0, 20]!
+NotaP? 9.7
+Nota final: 11.5 SUF
+# ID:
+
+# Complete...
+
+# Pode aproveitar estas instruções:
+input("NotaT? ")
+input("NotaP? ")
+
+------------------------------------------------------------------------------------------------
+
+Complete a função findSublist(sub, lst) para procurar uma lista sub dentro da lista lst. Se encontrar, a função deve devolver o índice onde encontrou a sublista. Se não, deve devolver -1. Por exemplo, se lst=[1, 2, 3, 2, 2, 1], então findSublist([3, 2, 2], lst) deve devolver 2, porque encontra [3, 2, 2] no slice lst[2:5].
+
+Execute o código para ver os resultados esperados e comparar.
+
+def findSublist (sub, lst):
+
+------------------------------------------------------------------------------------------------
+
+Complete a função localMaxima(lst) para devolver uma lista com os índices dos máximos locais da sequência lst. Um elemento é considerado um máximo local se for maior do que os elementos vizinhos (o anterior e o seguinte). Por exemplo, localMaxima([1,2,3,9,3,8,1]) deve devolver [3, 5], porque há dois máximos locais nas posições 3 e 5 de lst. Se não encontrar máximos locais, deve devolver [].
+
+Execute o código para ver os resultados esperados e comparar.
+
+------------------------------------------------------------------------------------------------
+
+O International Standard Book Number (ISBN) é um código usado para identificar livros. Na variante ISBN-10, o código é composto por 9 dígitos decimais (entre 0 a 9) e um dígito extra de verificação. O dígito de verificação pode ter valor entre 0 e dez (usa-se ‘X’ para representar dez). Além disso, o código pode conter hífenes a separar grupos de algarismos.
+
+Um código ISBN-10 com dígitos d₁ d₂ ... d₁₀ é válido se e só se a expressão
+
+10d₁ + 9d₂ + 8d₃ + 7d₄ + 6d₅ + 5d₆ + 4d₇ + 3d₈ + 2d₉ + d₁₀
+for um múltiplo de 11.
+
+Escreva uma função is_isbn10 que, dada uma string, devolva True se for um código ISBN válido, e False no caso contrário. Tem de aceitar strings com ou sem hífenes.
+
+Por exemplo, is_isbn10("3-598-21508-8") deve devolver True, porque
+
+(103 + 95 + 89 + 78 + 62 + 51 + 45 + 30 + 28 + 18) % 11 == 0.
+
