@@ -1,0 +1,194 @@
+# Mapa de registos / Register map:
+# k   : $t0
+# min1: $t1
+# min2: $t2
+# *********************************
+	.data
+in:	.word 56,11,5,72,11,-15
+	.eqv size,6
+	.align 2
+outs:	.space 48
+	.text
+	.globl main
+main:
+	li $t1,1
+	sll $t1,$t1,31
+	or $t2,$t2,$t1
+	li $t0,0
+	la $t3,in
+for:
+	bge,$t0,size,end
+if:
+	bge $t3,$t1,else
+	move $t2,$t1
+	move $t1,$t3
+	addiu $t3,$t3,4
+	addiu $t0,$t0,1
+	j for
+else:
+	bge $$t3,$t2,out
+	ble $t3,$t1,out
+	addiu $t3,$t3,4
+	addiu $t0,$t0,1
+	j for
+out:
+	addiu $t3,$t3,4
+	addiu $t0,$t0,1
+	j for
+if2:
+	move $t2,$t3
+	addiu $t3,$t3,4
+	addiu $t0,$t0,1
+	j for
+end:
+	la $t4,outs
+	move $t4,$t1
+	addiu $t4,24
+	move $t4,$t2
+	jr $ra
+	
+----------------------------------------------------------	
+
+# Mapa de registos / Register map:
+# ms  :$t0
+# pf  :$t1
+# *********************************
+	.data
+str:	.asciiz "Teste-Pratico-1"
+	.text
+	.globl main
+main
+	la $t0,str
+	la $t1,str
+	addi $t1,$t1,-1
+do:
+	addi $t1,$t1,1
+	bne $t1,'\0',do
+while:
+	bge $t0,$t1,end
+if:
+	bge $t0,'0',else
+	ble $t0,'z',else
+	sb  $t0,'?'
+	addi $t0,$t0,1
+	j while
+else:
+	lb $t2,0($t0)
+	mulu $t2,$t2,0x15
+	sb $t0,$t2
+	addi $t0,$t0,1
+	j while
+end:
+	jr $ra
+	
+----------------------------------------------------------	
+
+# Mapa de registos / Register map: 
+# val  : $t0
+# i    : $t1
+# sBits: $t2
+# *********************************
+
+	.data
+str:	.asciiz "NO set bits found\n"
+	.text
+	.globl main
+main:
+	li $t2,0
+	li $t1,0
+	li $v0,5
+	syscall
+	
+	move $t0,$v0
+for:
+	bge $t1,0x20,if2
+if:
+	and $t3,$t0,1
+	beq $t3,1,soma
+	j fora
+soma:
+	addi $t2,$t2,1
+fora:
+	srl $t1,$t1,1
+	j for
+if2:
+	bne $t2,0,else
+	la $a0,str
+	li $v0,4
+	syscall
+	
+	j end
+else:
+	li $a0,$t2
+	li $v0,1
+	syscall
+	j end
+end:
+	jr $ra
+	
+----------------------------------------------------------	
+
+  int val, i;
+    int sBits = 0;
+
+    val = read_int();
+    for(i = 0; i < 0x20; i++)
+    {
+        if ((val & 1) == 1)
+            sBits++;
+        val = val >> 1;
+    }
+
+    if (sBits == 0)
+        print_string("No set bits found\n");
+    else
+        print_int10(sBits);
+
+----------------------------------------------------------	
+
+void main(void)
+{
+    static char str[] = "Teste-Pratico-1";
+    char *ms = str;
+    char *pf = ms - 1;
+
+    do {
+        pf++;
+    }while (*pf != '\0');
+
+    while (ms < pf) {
+        if (*ms < '0' || *ms > 'z') {
+            *ms = '?';
+        } else {
+            *ms = *ms ^ 0x15;
+        }
+        ms++;
+    }
+}
+
+----------------------------------------------------------	
+
+Área de resposta (preencha o mapa de registos) / Answer area (fill in the register map)
+#define SIZE 6
+
+void main(void)
+{
+    static int in[SIZE] = {56, 11, 5, 72, 11, -15};
+    static int out[2];
+    int k, min1, min2;
+
+    min1 = ~(1 << 31);
+    min2 = min1;
+
+    for (k = 0; k < SIZE; k++) {
+        if (in[k] < min1) {
+            min2 = min1;
+            min1 = in[k];
+        } else {
+            if (in[k] < min2 && in[k] > min1)
+                min2 = in[k];
+        }
+    }
+    out[0] = min1;
+    out[1] = min2;
+}
