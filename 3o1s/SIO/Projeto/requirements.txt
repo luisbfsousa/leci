@@ -1,0 +1,4 @@
+argparse
+flask
+cryptography
+requests

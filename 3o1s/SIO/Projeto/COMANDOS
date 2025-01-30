@@ -1,0 +1,135 @@
+#!/bin/bash
+
+#cd /home/luisbfsousa/sio-2425-project-airsense_sio/recurso
+
+export REP_ADDRESS=localhost:5000
+
+./rep_subject_credentials 12345 credentials_file
+./rep_create_org Organizacao luisbfsousa luis luisbfsousa@gmail.com credentials_file
+./rep_create_org Organizacao1 luisbfsousa1 luis luisbfsousa@gmail.com credentials_file
+./rep_create_org Organizacao2 luisbfsousa2 luis luisbfsousa@gmail.com credentials_file
+./rep_create_session Organizacao luisbfsousa 12345 credentials_file session_file
+./rep_create_session Organizacao1 luisbfsousa1 12345 credentials_file session_file1
+./rep_list_subjects session_file
+./rep_add_subject session_file nunoC nuno nuno@gmail.om credentials_file
+./rep_add_subject session_file1 nunoC1 nuno nuno@gmail.om credentials_file
+./rep_add_doc session_file Doc /home/luisbfsousa/leci/2o1s/RC1/Exames/Estudo2024N.txt
+./rep_add_doc session_file Doc /home/luisbfsousa/leci/2o2s/MDS/perguntas?.txt
+./rep_add_doc session_file Doc1 /home/luisbfsousa/leci/2o2s/MDS/perguntas?.txt
+./rep_add_doc session_file Teste X.txt
+./rep_add_doc session_file1 DocOrg1 /home/luisbfsousa/leci/2o1s/RC1/Exames/Estudo2024N.txt
+
+: '
+./rep_remove_permission session_file managers DOC_READ
+./rep_add_permission session_file managers DOC_READ
+'
+
+./rep_create_session Organizacao nunoC 12345 credentials_file session_nuno
+./rep_add_role session_file RolePorreira
+
+: '
+./rep_add_permission session_file RolePorreira nunoC
+./rep_acl_doc session_file Doc + RolePorreira DOC_READ
+./rep_acl_doc session_file Doc + RolePorreira DOC_ACL
+./rep_acl_doc nuno_session Doc + RolePorreira DOC_DELETE 
+
+./rep_add_subject session_file isaaC isaac isaac@gmail.om credentials_file
+./rep_create_session Organizacao isaaC 12345 credentials_file isaac_session
+./rep_add_role session_file UmTeste
+./rep_add_permission session_file UmTeste isaaC 
+./rep_add_permission session_file UmTeste DOC_READ
+./rep_acl_doc session_file Doc + UmTeste DOC_READ
+./rep_get_doc_metadata isaac_session Doc
+./rep_acl_doc session_file Doc - UmTeste DOC_READ
+'
+
+### teste suspend reactivate roles
+: '
+./rep_add_permission session_file RolePorreira nunoC
+./rep_add_permission session_file RolePorreira DOC_READ
+./rep_add_permission session_file RolePorreira DOC_DELETE
+./rep_suspend_role session_file RolePorreira
+./rep_remove_permission session_file RolePorreira DOC_READ
+./rep_reactivate_role session_file RolePorreira
+'
+
+
+: '
+./rep_add_permission session_file RolePorreira SUBJECT_DOWN
+./rep_add_permission session_file RolePorreira SUBJECT_UP
+./rep_add_permission session_file RolePorreira DOC_NEW 
+
+./rep_suspend_subject session_file nunoC
+./rep_activate_subject session_file nunoC
+
+./rep_add_permission session_file RolePorreira DOC_DELETE
+./rep_add_permission session_file RolePorreira ROLE_NEW
+./rep_add_permission session_file RolePorreira ROLE_DOWN
+./rep_add_permission session_file RolePorreira ROLE_UP
+./rep_add_permission session_file RolePorreira ROLE_MOD
+./rep_add_permission session_file RolePorreira DOC_ACL
+./rep_add_permission session_file RolePorreira DOC_READ
+'
+
+
+### 2a parte 1a entrega
+: '
+./rep_suspend_subject  session_file nunoC
+./rep_suspend_subject  session_file luisbfsousa
+./rep_activate_subject  session_file nunoC
+./rep_suspend_subject  session_file1 nunoC1
+./rep_activate_subject  session_file1 nunoC1
+./rep_list_orgs
+./rep_get_doc_file session_file Doc EncryptDoc
+./rep_get_doc_metadata session_file Doc
+#rep_decrypt_file é para usar o caminho com o file handle correto(exemplo do file_handle na prox linha), o data/documents.json mantem se
+./rep_decrypt_file documents/encrypted_files/CYbmSSCUeT_HvpWpujrxtA== data/documents.json
+./rep_compare_files Doc
+./rep_list_docs session_file
+./rep_list_docs session_file1
+./rep_delete_doc session_file1 Doc
+./rep_delete_doc session_file Doc
+./rep_delete_doc_from_rep session_file Doc
+
+### 2a entrega
+
+./rep_add_role session_file RolePorreira
+./rep_add_role session_file1 RolePorreira1
+./rep_suspend_role session_file NaoExiste
+./rep_suspend_role session_file RolePorreira
+./rep_reactivate_role session_file RolePorreira
+./rep_add_permission session_file managers FUNCIONOU
+./rep_remove_permission session_file managers FUNCIONOU
+./rep_add_permission session_file RolePorreira nunoC
+./rep_add_permission session_file1 RolePorreira1 NEW_ROLE
+./rep_remove_permission session_file RolePorreira NEW_ROLE
+./rep_acl_doc session_file Doc + managers DOC_ACL
+./rep_acl_doc session_file Doc + managers DOC_READ
+./rep_acl_doc session_file Doc + managers DOC_DELETE
+./rep_acl_doc session_file Doc - managers DOC_DELETE
+./rep_acl_doc session_file Doc + RolePorreira DOC_READ
+./rep_acl_doc session_file Doc - RolePorreira DOC_READ
+./rep_acl_doc session_file Doc + RolePorreira DOC_ACL
+./rep_acl_doc session_file Doc + RolePorreira DOC_READ
+./rep_acl_doc session_file Doc1 + managers DOC_ACL
+./rep_acl_doc session_file Doc1 + managers DOC_READ
+./rep_acl_doc session_file Doc1 + managers DOC_DELETE
+./rep_acl_doc session_file Doc1 - managers DOC_DELETE
+./rep_acl_doc session_file Doc1 + RolePorreira DOC_READ
+./rep_acl_doc session_file Doc1 - RolePorreira DOC_READ
+./rep_acl_doc session_file Doc1 + RolePorreira DOC_ACL
+./rep_acl_doc session_file Doc1 + RolePorreira DOC_READ
+#rep_list_roles so da print as roles com subjects
+./rep_assume_role session_file RolePorreira
+./rep_assume_role session_file managers
+./rep_add_permission session_file RolePorreira luisbfsousa
+./rep_list_roles session_file
+./rep_remove_permission session_file RolePorreira luisbfsousa
+./rep_list_roles session_file
+./rep_add_permission session_file RolePorreira luisbfsousa
+./rep_list_roles session_file
+./rep_assume_role session_file RolePorreira
+./rep_drop_role session_file RolePorreira
+./rep_list_roles session_file 
+./rep_list_role_subjetcs session_file managers
+./rep_list_role_subjetcs session_file RolePorreira '

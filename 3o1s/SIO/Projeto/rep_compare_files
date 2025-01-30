@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 client.py rep_compare_files $1

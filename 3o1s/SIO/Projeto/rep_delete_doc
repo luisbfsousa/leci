@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 client.py rep_delete_doc $1 $2

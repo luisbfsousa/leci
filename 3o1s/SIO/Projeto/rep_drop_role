@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 client.py rep_drop_role $1 $2

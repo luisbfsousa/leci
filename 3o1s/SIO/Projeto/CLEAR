@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#cd /home/luisbfsousa/sio-2425-project-airsense_sio/delivery2 || exit
+
+root=("Report_108583_97783_104327.pdf" "CLEAR" "COMANDOS" "client.py" "repository.py" "eavesdropping.py" "rep_list_subject_roles" "rep_acl_doc" "rep_activate_subject" "rep_add_doc" "rep_add_permission" "rep_add_role" "rep_add_subject" "rep_assume_role" "rep_compare_files" "rep_create_org" "rep_create_session" "rep_decrypt_file" "rep_delete_doc" "rep_delete_doc_from_rep" "rep_drop_role" "rep_get_doc_file" "rep_get_doc_metadata" "rep_get_file" "rep_list_docs" "rep_list_orgs" "rep_list_permission_roles" "rep_list_role_permissions" "rep_list_roles" "rep_list_role_subjetcs" "rep_list_subjects" "rep_list_subjects_roles" "rep_reactivate_role" "rep_remove_permission" "rep_subject_credentials" "rep_suspend_role" "rep_suspend_subject" "requirements.txt" "README.md")
+
+roots=(".")
+
+find . -type f | while read -r file; do
+    if ! [[ " ${root[@]} " =~ $(basename "$file") ]]; then
+        rm -f "$file"
+    fi
+done
+
+find . -type d | while read -r dir; do
+    if ! [[ " ${roots[@]} " =~ $(basename "$dir") ]]; then
+        if [[ "$dir" != "." ]]; then
+            rm -rf "$dir"
+        fi
+    fi
+done
+
+echo
+echo "CLEARED"
