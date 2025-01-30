@@ -1,0 +1,52 @@
+root:x:0:0:Super User:/root:/bin/bash
+bin:x:1:1:bin:/bin:/usr/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/usr/sbin/nologin
+adm:x:3:4:adm:/var/adm:/usr/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/usr/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/usr/sbin/nologin
+operator:x:11:0:operator:/root:/usr/sbin/nologin
+games:x:12:100:games:/usr/games:/usr/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/usr/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/usr/sbin/nologin
+dbus:x:81:81:System Message Bus:/:/usr/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/:/usr/sbin/nologin
+systemd-coredump:x:998:998:systemd Core Dumper:/:/usr/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/usr/sbin/nologin
+systemd-oom:x:997:997:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/usr/sbin/nologin
+systemd-timesync:x:996:996:systemd Time Synchronization:/:/usr/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+polkitd:x:114:114:User for polkitd:/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+geoclue:x:995:994:User for geoclue:/var/lib/geoclue:/sbin/nologin
+nm-openconnect:x:994:993:NetworkManager user for OpenConnect:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+gluster:x:993:992:GlusterFS daemons:/run/gluster:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:992:990:PipeWire System Daemon:/run/pipewire:/usr/sbin/nologin
+saslauth:x:991:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+chrony:x:990:989:chrony system user:/var/lib/chrony:/sbin/nologin
+dnsmasq:x:989:988:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/usr/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+openvpn:x:988:987:OpenVPN:/etc/openvpn:/sbin/nologin
+nm-openvpn:x:987:986:Default user for running openvpn spawned by NetworkManager:/:/sbin/nologin
+colord:x:986:985:User for colord:/var/lib/colord:/sbin/nologin
+unbound:x:985:984:Unbound DNS resolver:/var/lib/unbound:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+flatpak:x:984:982:Flatpak system helper:/:/usr/sbin/nologin
+gdm:x:42:42:GNOME Display Manager:/var/lib/gdm:/usr/sbin/nologin
+gnome-initial-setup:x:983:981::/run/gnome-initial-setup/:/sbin/nologin
+vboxadd:x:982:1::/var/run/vboxadd:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/usr/sbin/nologin
+tcpdump:x:72:72:tcpdump:/:/usr/sbin/nologin
+luisbfsousa:x:1000:1000:Luis Sousa:/home/luisbfsousa:/bin/bash
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/sbin/nologin
+pkg-build:x:981:976:lpf local package build user:/var/lib/lpf:/sbin/nologin
+wsdd:x:980:975:Web Services Dynamic Discovery host daemon:/:/sbin/nologin
+gnome-remote-desktop:x:974:974:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+passim:x:973:973:Local Caching Server:/usr/share/empty:/usr/sbin/nologin

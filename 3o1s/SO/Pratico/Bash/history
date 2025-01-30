@@ -1,0 +1,218 @@
+touch .dummy
+ls
+ls -A
+ls -l
+ls -la
+ls -lt
+help
+help cd
+echo ola
+echo ola>z
+echo ola >> z
+ls
+rm -f zzz
+cat zzz
+cat zzz 2> z
+cat zzz 2>>z
+cat z
+cat zzz > z
+ls
+gedit z
+nano z
+cd SO/Bash/
+cat /etc/passwd
+cat /etc/passwd | wc -l
+rm -f zzz
+cat zzz > err
+cat zzz > err 2>&1
+car err
+cat err
+cat /etc/passwd 2>z
+cat /etc/passwd 2>z>&2
+cat z
+mkdir dir1
+cd dir1/
+touch a a1 a2 a3 a11 b b1 b11 b12 b21
+ls -A
+ls a*
+ls *1
+ls?
+ls a?
+ls b??
+ls b?
+ls b?*
+ls *
+touch a a1 a2 a3 a11 b b1 b11 c c11
+ls [ac]
+ls [a-c]
+ls [a-c]?
+ls[ab]*
+ls [ab]*
+cd SO/Bash/dir1/
+ls -A
+touch a1 a2 a3 a4 a22
+ls -A
+clear
+echo a*
+echo a\*
+echo a?
+echo a\?
+echo a\[
+echo a\\
+touch a1 a2 a3 a4 a22
+echo a*
+echo "a*"
+echo 'a*'
+x=abc
+xx=0123456789
+echo ${x}
+echo $x
+echo ${xx}
+echo $xx
+echo ${x}x
+echo x${x}
+echo x$x
+x
+echo x
+echo ${x}
+touch a1 a2 a3 a4 a22
+z=a*
+echo {x}
+echo ${x}
+ls $z
+echo $z
+touch a1 a2 a3 a4 a22
+z=a*
+echo $z
+echo "$z"
+echo '$z'
+x=0123456789
+echo ${x:2:4}
+echo ${x/123/ccc}
+man bash
+myls() {  ls -ltrh; <0; }
+myls
+myls() {ls -ltrh}
+myls() {  ls -ltrh; }
+myls
+myls | wc -l
+y() { echo $#
+echo $1; echo $2; echo $*; echo $@; echo "$*"; echo #$@"
+}
+y a bb ccc dddd eeeee
+y a "b b" ccc ’dd dd’ eeeee
+{ ls; echo ========================; ls; } >z
+cat z
+( ls; echo ========================; ls; ) > z
+cat z
+zzz = abc
+echo "$zzz (out of group)"
+{ echo "$zzz (within group)"; zzz=xpto; echo "$zzz (within group)"; }
+echo "$zzz (out of group)"
+zzz=abc
+echo "$zzz (out of group)"
+( echo "zzz (within group)"; zzz=xpto; echo "$zzz (within group)"; )
+echo "$zzz (out of group)"
+ls
+echo $?
+rm zzz
+echo $?
+rm zzz
+echo $?
+test -f zzz
+echo $?
+touch zzz
+test -f zzz
+echo $?
+touch zzz
+if test -f zzz; then echo "File zzz exists"; else echo "File zzz does not exist"; fi
+check() { if test -f $1; then echo -e "\e[33mFile zzz exists\e[0m"; else echo -e "\e[31mFile zzz does not exist\e[0m"; fi; }
+touch zzz
+check zzz
+rm -f zzz
+check zzz
+touch zzz
+check zzz
+check() { if [ -f $1 ]; then echo -e "\e[33mFile zzz exists\e[0m"; else echo -e "\e[31mFile zzz does not exist\e[0m"; fi; }
+ls
+check zzz
+rm -f zzz
+check zzz
+ls
+ls z
+ls z*
+ls zzz
+touch zzz
+ls z*
+ls z
+rm -f zzz
+if ! test -f zzz; then echo "File zzz does not exist"; fi
+touch zzz
+test -f zzz && echo "File zzz exists"
+rm -f zzz
+test -f zzz || echo "File zzz does not exist"
+z() { case $# in
+0) echo "No arguments were given"
+;; 1) echo "One argument was given"; ;; 2|3)
+echo "Two or three arguments were given"; ;; *)
+echo "More than three arguments were given"; ;; esac; }
+z
+z aa
+z aa bb
+z aa bb cc
+z aa bb cc dd
+z aa bb cc dd ee
+touch a1 a2 a77 abc b1 c12 ddd
+ls
+ls _a
+ls -A
+prefix="_a_"
+for f in a1 a2 a77 abc b1 c12 ddd; do echo "changing the name of \"$f\""; mv $f $prefix$f; done
+ls
+f1() { for file in $*; do  echo "==== $file ====" > $file; done; }
+f1 abc xpto zzz
+cat xpto
+cat abc
+cat zzz
+f2() { while [ $# -gt 0 ]; do echo "==== $1 ====" > $1; shift; done; }
+rm -f abc xpto zzz
+f2 abc xpto zzz
+cat xpto
+cat abc
+cat zzz
+f3() { until [ $# -eq 0 ]; do echo "==== $1 ====" > $1; shift; done; }
+rm -f abc xpto zzz
+f3 abc xpto zzz
+cat xpto
+cat abc
+cat zzz
+gedit myscript.bash
+bash myscript.bash 
+bash myscript.bash xpto abc zzz
+rm -f abc
+bash myscript.bash abc
+seq -w 100 -1 1 > xpto
+cat xpto
+bash myscript.bash xpto
+chmod +x myscript.bash 
+./myscript.bash xpto
+a[1] = aaa
+echo ${a[1]}
+declare -a a[2]=bbb
+a[2+3]=eee
+echo ${a[*]}
+echo ${#a[*]}
+echo ${!a[*]}
+for v in ${a[*]}; do echo $v; done
+for i in ${!a[*]}; do echo "a[$i] = ${a[$i]}"; done
+declare -A arr
+arr["homem"]=man
+arr["papel"]=paper
+arr["ol´a"]=hello
+arr["li¸c~ao"]=lesson
+echo ${arr[*]}
+echo ${#arr[*]}
+echo ${!arr[*]}
+for i in ${!arr[*]}; do  echo "The mapping of \"$i\" is \"${arr[$i]}\""; done
+ls -A
+pwd
