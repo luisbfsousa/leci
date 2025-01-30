@@ -1,0 +1,15 @@
+client_id,numbers_length,result
+luis,3,min:12 max:64
+1,0,QUIT
+1,3,min:1 max:3
+123,3,QUIT
+123,3,min:1 max:3
+1,0,QUIT
+1,3,min:1 max:3
+123,3,QUIT
+123,3,min:1 max:3
+1,0,QUIT
+1,3,min:1 max:3
+123,3,QUIT
+123,3,min:1 max:3
+luis,5,min:-36266 max:5161
