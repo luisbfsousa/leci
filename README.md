@@ -1,6 +1,4 @@
-# Leci's Vault
-
-## Exames/Testes/Fichas/Exercícios
+# Exames/Testes/Fichas/Exercícios
 
 Os testes não sao meus
 
