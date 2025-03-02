@@ -1,0 +1,42 @@
+#!/bin/bash
+
+run_tests() {
+    local num=$1
+    local examples_path="../examples"
+    local bin_path="/home/luisbfsousa/somm24nm-so-g16/bin"
+
+    echo "$num"
+
+    cd $bin_path || { echo "Path error: $bin_path"; exit 1; }
+
+    for i in {1..5}; do
+        ./main -b -r $num -i $examples_path/ex0${i}.cfg > output_${i}_${num}.txt
+    done
+
+    for i in {1..5}; do
+        ./main -b $num -i $examples_path/ex0${i}.cfg > output_${i}_og_${num}.txt
+    done
+
+    echo
+    count=0
+    for file in output_*${num}*.txt; do
+        size=$(stat --printf="%s" "$file")
+        printf "%-40s %10d bytes\n" "$file" "$size"
+        count=$((count + 1))
+        if (( count % 2 == 0 )); then
+            echo "-----------------------------------------------------------"
+        fi
+    done
+
+    rm -f output_*${num}*.txt
+}
+
+if [[ $# -ne 1 ]]; then
+    echo "$0 <function>"
+    exit 1
+fi
+
+NUM=$1
+
+run_tests $NUM
+

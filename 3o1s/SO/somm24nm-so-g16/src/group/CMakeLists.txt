@@ -1,0 +1,6 @@
+add_subdirectory(sim)
+add_subdirectory(jdt)
+add_subdirectory(pct)
+add_subdirectory(mem)
+add_subdirectory(rdy)
+add_subdirectory(swp)
