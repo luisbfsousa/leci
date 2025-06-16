@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil | Study Room</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-black to-black text-white">
+    <div id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="text-white text-2xl absolute top-4 right-4">✖</button>
+        <div class="sidebar-content p-6 flex flex-col h-full">
+            <div class="mb-8">
+                <h2 class="text-xl font-bold mb-6">Menu</h2>
+                <ul class="space-y-4">
+                    <li><a href="dashboard.html" class="block hover:text-purple-400">Dashboard</a></li>
+                    <!-- <li><a href="groups.html" class="block hover:text-purple-400">Salas Conjuntas</a></li> -->
+                    <li><a href="salaindividual.html" class="block hover:text-purple-400">Sala Individual</a></li>
+                    <li><a href="friends.html" class="block hover:text-purple-400">Amigos</a></li>
+                    <li><a href="profile.html" class="block hover:text-purple-400">Perfil</a></li>
+                </ul>
+            </div>
+            <div class="mb-8 pt-6 border-t border-gray-700">
+                <h2 class="text-xl font-bold mb-6">Ajuda</h2>
+                <ul class="space-y-4">
+                    <li><a href="ajuda.html" class="block hover:text-purple-400">Sobre Nós</a></li>
+                    <li><a href="faq.html" class="block hover:text-purple-400">FAQ</a></li>
+                    <li><a href="contact.html" class="block hover:text-purple-400">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="mt-auto pt-6 border-t border-gray-700">
+                <ul>
+                    <li class="logout-item"><a href="login.html" class="block text-red-400 hover:text-red-500 font-semibold">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <button id="openSidebar" class="fixed top-4 left-4 text-white text-3xl z-50">☰</button>
+
+    <div class="main-content">
+        <div class="profile-container">
+            <div class="avatar-section">
+                <div class="avatar-container">
+                    <img src="images/user.webp" alt="Profile Avatar" class="avatar-image">
+                    <button class="change-avatar-btn">Mudar foto</button>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h1 class="profile-title">Informação do perfil</h1>
+                
+                <div class="info-group">
+                    <label>Nome Completo</label>
+                    <div class="info-value" id="fullName"></div>
+                </div>
+
+                <div class="info-group">
+                    <label>Nome Abreviado</label>
+                    <div class="info-value" id="shortName"></div>
+                </div>
+
+                <div class="info-group">
+                    <label>Email</label>
+                    <div class="info-value" id="email"></div>
+                </div>
+
+                <div class="info-group">
+                    <label>Data de Nascimento</label>
+                    <div class="info-value" id="birthDate"></div>
+                </div>
+
+                <div class="info-group">
+                    <label>Número de Telefone</label>
+                    <div class="info-value" id="phoneNumber"></div>
+                </div>
+
+                <div class="info-group">
+                    <label>Hashtag</label>
+                    <div class="info-value" id="hashtag"></div>
+                </div>
+
+                <div class="stats-section">
+                    <h2 class="stats-title">Estatisticas</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-label">Sessoes de estudo</span>
+                            <span class="stat-value">24</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Horas Totais</span>
+                            <span class="stat-value">48</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Sessoes de grupo</span>
+                            <span class="stat-value">12</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">objetivos cumpridos</span>
+                            <span class="stat-value">36</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <button class="edit-profile-btn">Editar perfil</button> -->
+            </div>
+        </div>
+    </div>
+    <script src="js/profile.js"></script>
+</body>
+</html>

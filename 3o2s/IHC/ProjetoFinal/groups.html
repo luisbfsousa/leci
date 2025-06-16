@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala de Estudo Conjunta | Study Room</title>
+    <link rel="stylesheet" href="css/groups.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-black to-black text-white">
+    <div id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="text-white text-2xl absolute top-4 right-4">✖</button>
+        <div class="sidebar-content p-6 flex flex-col h-full">
+            <div class="mb-8">
+                <h2 class="text-xl font-bold mb-6">Menu</h2>
+                <ul class="space-y-4">
+                    <li><a href="dashboard.html" class="block hover:text-purple-400">Dashboard</a></li>
+                    <!-- <li><a href="groups.html" class="block hover:text-purple-400">Salas Conjuntas</a></li> -->
+                    <li><a href="salaindividual.html" class="block hover:text-purple-400">Sala Individual</a></li>
+                    <li><a href="friends.html" class="block hover:text-purple-400">Amigos</a></li>
+                    <li><a href="profile.html" class="block hover:text-purple-400">Perfil</a></li>
+                </ul>
+            </div>
+            <div class="mb-8 pt-6 border-t border-gray-700">
+                <h2 class="text-xl font-bold mb-6">Ajuda</h2>
+                <ul class="space-y-4">
+                    <li><a href="ajuda.html" class="block hover:text-purple-400">Sobre Nós</a></li>
+                    <li><a href="faq.html" class="block hover:text-purple-400">FAQ</a></li>
+                    <li><a href="contact.html" class="block hover:text-purple-400">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="mt-auto pt-6 border-t border-gray-700">
+                <ul>
+                    <li><a href="login.html" class="block text-red-400 hover:text-red-500 font-semibold">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <button id="openSidebar" class="fixed top-4 left-4 text-white text-3xl z-50">☰</button>
+
+    <div class="main-content">
+        <div class="file-sharing-container">
+            <h3 class="text-xl font-bold mb-4">Ficheiros Partilhados</h3>
+            <div class="groups-grid">
+                <button type="button" id="fileInput-button" class="add-file-button">
+                    <input type="file" id="fileInput" class="hidden">
+                    <div class="plus-circle">
+                        <span>+</span>
+                    </div>
+                    <span class="add-text">Adicionar ficheiro</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="chat-input-container">
+                <input type="text" id="chatInput" placeholder="Escreva a mensagem..." class="chat-input">
+                <button id="sendMessage" class="chat-send-btn">Enviar</button>
+            </div>
+        </div>
+
+        <div class="participants-container">
+            <h3 class="text-xl font-bold mb-4">Participantes</h3>
+            <div class="participants-list"></div>
+            <button class="add-friend-btn">
+                <img src="images/add.png" alt="Add Member">
+                <span>Adicionar Membro</span>
+            </button>
+            <div id="addParticipantPopup" class="popup-overlay hidden">
+                <div class="popup-content">
+                    <h3 class="text-xl font-bold mb-4">Adicionar Membro</h3>
+                    <div class="popup-input-container">
+                        <input type="text" id="newParticipantName" placeholder="Hastag do Membro..." class="popup-input">
+                    </div>
+                    <div class="popup-buttons">
+                        <button id="confirmAddParticipant" class="popup-btn confirm-btn">Adicionar</button>
+                        <button id="cancelAddParticipant" class="popup-btn cancel-btn">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/users.js"></script>
+    <script src="js/groups.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Amigos | Study Room</title>
+    <link rel="stylesheet" href="css/friends.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-black to-black text-white">
+  <div id="sidebar" class="sidebar">
+    <button id="closeSidebar" class="text-white text-2xl absolute top-4 right-4">✖</button>
+    <div class="sidebar-content p-6 flex flex-col h-full">
+      <div class="mb-8">
+        <h2 class="text-xl font-bold mb-6">Menu</h2>
+        <ul class="space-y-4">
+          <li><a href="dashboard.html" class="block hover:text-purple-400">Dashboard</a></li>
+                    <!-- <li><a href="groups.html" class="block hover:text-purple-400">Salas Conjuntas</a></li> -->
+          <li><a href="salaindividual.html" class="block hover:text-purple-400">Sala Individual</a></li>
+          <li><a href="friends.html" class="block hover:text-purple-400">Amigos</a></li>
+          <li><a href="profile.html" class="block hover:text-purple-400">Perfil</a></li>
+        </ul>
+      </div>
+      <div class="mb-8 pt-6 border-t border-gray-700">
+        <h2 class="text-xl font-bold mb-6" style="margin-top: 30px;">Ajuda</h2>
+        <ul class="space-y-4">
+          <li><a href="ajuda.html" class="block hover:text-purple-400">Sobre Nós</a></li>
+          <li><a href="faq.html" class="block hover:text-purple-400">FAQ</a></li>
+          <li><a href="contact.html" class="block hover:text-purple-400">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="mt-auto pt-6 border-t border-gray-700">
+        <ul>
+          <li>
+            <a href="login.html" class="block text-red-400 hover:text-red-500 font-semibold">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <button id="openSidebar" class="fixed top-4 left-4 text-white text-3xl z-50">☰</button>
+  
+  <div class="main-content">
+    <div class="content-wrapper">
+      <div class="your-friends">
+        <h1>Your Friends</h1>
+        <div class="friend-search">
+          <input
+            type="text"
+            id="friendSearch"
+            class="friend-search-input"
+            placeholder="Procurar amigos"
+          />
+        </div>
+        <div class="friend-list">
+          <button type="button" class="friend-item">
+            <img src="images/user.webp" alt="Diogo Carvalho" class="friend-avatar">
+            <h1 class="friend-user">Diogo Carvalho</h1>
+          </button>
+          <button type="button" class="friend-item">
+            <img src="images/user.webp" alt="Luis Sousa" class="friend-avatar">
+            <h1 class="friend-user">Luis Sousa</h1>
+          </button>
+          <button type="button" class="friend-item">
+            <img src="images/user.webp" alt="Rui Rosmaninho" class="friend-avatar">
+            <h1 class="friend-user">Rui Rosmaninho</h1>
+          </button>
+          <button type="button" class="friend-item">
+            <img src="images/user.webp" alt="Simão Almeida" class="friend-avatar">
+            <h1 class="friend-user">Simão Almeida</h1>
+          </button>
+          <button type="button" class="friend-item">
+            <img src="images/user.webp" alt="Simão Almeida" class="friend-avatar">
+            <h1 class="friend-user">RANDOM</h1>
+          </button>
+        </div>
+        <button class="add-friend-btn">
+          <img src="images/add.png" alt="Add Friend">
+          <span>Add Friend</span>
+        </button>
+        <div id="addFriendPopup" class="popup-overlay hidden">
+          <div class="popup-content">
+            <h3 class="text-xl font-bold mb-4">Add Friend</h3>
+            <div class="popup-input-container">
+              <input type="text" id="newFriendName" placeholder="Hastag do amigo" class="popup-input">
+              <ul id="autocompleteList" class="autocomplete-list"></ul>
+            </div>
+            <div class="popup-buttons">
+              <button id="confirmAddFriend" class="popup-btn confirm-btn">Add</button>
+              <button id="cancelAddFriend" class="popup-btn cancel-btn">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-panel">
+        <div class="chat-header">
+          <h2>Chat</h2>
+        </div>
+        <div class="chat-messages">
+        </div>
+        <div class="chat-input">
+          <input type="text" placeholder="Escreva uma mensagem..." class="chat-input-field"/>
+          <button type="button" class="chat-send-btn">></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/users.js"></script>
+  <script src="js/friends.js"></script>
+</body>
+</html>

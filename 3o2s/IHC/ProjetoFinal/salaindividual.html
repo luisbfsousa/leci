@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Sala Individual | Study Room</title>
+  <link rel="stylesheet" href="css/salaindividual.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-black to-black text-white">
+  <img id="bgImage" class="gif-bg" src="etc/black.gif">
+  
+  <div id="sidebar" class="sidebar">
+    <button id="closeSidebar" class="text-white text-2xl absolute top-4 right-4">✖</button>
+    <div class="sidebar-content p-6 flex flex-col h-full">
+      <div class="mb-8">
+        <h2 class="text-xl font-bold mb-6">Menu</h2>
+        <ul class="space-y-4">
+          <li><a href="dashboard.html" class="block hover:text-purple-400">Dashboard</a></li>
+          <!-- <li><a href="groups.html" class="block hover:text-purple-400">Salas Conjuntas</a></li> -->
+
+          <li><a href="salaindividual.html" class="block hover:text-purple-400">Sala Individual</a></li>
+          <li><a href="friends.html" class="block hover:text-purple-400">Amigos</a></li>
+          <li><a href="profile.html" class="block hover:text-purple-400">Perfil</a></li>
+        </ul>
+      </div>
+      <div class="mb-8 pt-6 border-t border-gray-700">
+        <h2 class="text-xl font-bold mb-6" style="margin-top: 30px;">Ajuda</h2>
+        <ul class="space-y-4">
+          <li><a href="ajuda.html" class="block hover:text-purple-400">Sobre Nós</a></li>
+          <li><a href="faq.html" class="block hover:text-purple-400">FAQ</a></li>
+          <li><a href="contact.html" class="block hover:text-purple-400">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="mt-auto pt-6 border-t border-gray-700">
+        <ul>
+          <li>
+            <a href="login.html" class="block text-red-400 hover:text-red-500 font-semibold">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <button id="openSidebar" class="fixed top-4 left-4 text-white text-3xl z-50">☰</button>
+  
+  <div class="timer-container">
+    <div class="timer-circle" id="clockDisplay">25:00</div>
+    <div class="timer-controls">
+      <div class="input-container">
+        <input id="customMinutes" type="number" min="1" placeholder="Minutos" class="text-black px-3 py-2 rounded w-32" />
+      </div>
+      <div class="buttons-container">
+        <button id="startBtn" class="bg-green-600 px-4 py-2 rounded hover:bg-green-700">▶</button>
+        <button id="continueBtn" class="bg-green-600 px-4 py-2 rounded hover:bg-green-700 hidden">▶</button>
+        <button id="stopBtn" class="bg-yellow-600 px-4 py-2 rounded hover:bg-yellow-700 hidden">⏸</button>
+        <button id="resetBtn" class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">Reset</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="session-goals">
+    <h2 class="session-title">Session Goals</h2>
+    <div class="goals-container">
+      <div class="goal-input-container">
+        <input type="text" id="newGoal" placeholder="Adicionar Objetivo" class="goal-input">
+        <button id="addGoalBtn" class="add-goal-btn">+</button>
+      </div>
+      <div id="goalsList" class="goals-list"></div>
+    </div>
+    <div class="quote-container">
+      <p class="quote">"faz hoje o que te vai dar orgulho amanha"</p>
+      <p class="quote-author">Diogo Carvalho</p>
+    </div>
+  </div>
+  
+  <div class="theme-thumbnails">
+    <img class="thumbnail active" src="etc/black.gif" data-theme="black">
+    <img class="thumbnail" src="etc/beach.gif" data-theme="beach">
+    <img class="thumbnail" src="etc/purple.gif" data-theme="purple">
+    <img class="thumbnail" src="etc/rickroll.gif" data-theme="rickroll">
+    <img class="thumbnail" src="etc/focus.gif" data-theme="focus">
+  </div>
+  
+  <div class="youtube-player">
+    <input type="text" id="youtubeUrl" placeholder="YouTube URL" class="youtube-input" autocomplete="off">
+    <div class="youtube-controls">
+      <button id="playYoutubeBtn" class="youtube-btn" disabled>Comecar</button>
+      <button id="pauseYoutubeBtn" class="youtube-btn" disabled>Parar</button>
+      <button id="stopYoutubeBtn" class="youtube-btn" disabled>Matar</button>
+      <button id="continueYoutubeBtn" class="youtube-btn hidden">Continuar</button>
+    </div>
+    <div id="youtubePlayer"></div>
+    <div id="youtubeLoading" class="youtube-loading">A carregar o player do youtube</div>
+    <div id="youtubeError" class="youtube-error" style="display: none;"></div>
+  </div>
+  
+  <script src="js/salaindividual.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=NrCV4b7Ln80 -->
+ 
+<!-- https://www.youtube.com/watch?v=IX0r4H2i9uY -->

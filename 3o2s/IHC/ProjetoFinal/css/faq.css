@@ -1,0 +1,195 @@
+
+body {
+  background-color: rgb(62, 57, 115);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 256px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 1.5rem;
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sidebar-content h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.sidebar-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-content li a {
+  display: block;
+  color: white;
+  transition: color 0.2s ease;
+  padding: 0.5rem 0;
+  text-decoration: none;
+}
+
+.sidebar-content li a:hover {
+  color: #9333ea;
+}
+
+
+.sidebar-content > div {
+  margin-bottom: 2rem;
+}
+
+.sidebar-content > div:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+
+.sidebar-content .logout-section {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-content .mt-auto li a {
+  color: #f87171;
+  font-weight: 600;
+}
+
+.sidebar-content .logout-section a:hover {
+  color: #ef4444 !important;
+}
+
+
+#openSidebar {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  z-index: 1100;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#openSidebar:hover {
+  transform: scale(1.1);
+}
+
+#closeSidebar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#closeSidebar:hover {
+  transform: scale(1.1);
+}
+
+
+.glass {
+  background: rgba(30, 30, 30, 0.45);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.faq-item {
+  background: rgba(31, 41, 55, 0.3);
+  border: 1px solid rgba(55, 65, 81);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.faq-item:hover {
+  border-color: #9333ea;
+}
+
+.faq-item h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 500px;
+  opacity: 1;
+  margin-top: 1rem;
+}
+
+
+.main-content {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+  .sidebar {
+      width: 80%;
+  }
+  
+  .glass {
+      padding: 1.5rem;
+  }
+}
+
+.hover\:text-red-500:hover {
+  color: #ef4444;
+}
+
+.text-red-400 {
+  color: #f87171;
+}

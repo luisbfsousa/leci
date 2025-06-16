@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400');
+
+html, body {
+    overflow: hidden;
+}
+
+body {
+  background: linear-gradient(to bottom right, #9333ea, #000000);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.register-wrapper {
+  max-width: 100%;
+  max-width: 480px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-card {
+  background: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.register-header img {
+  max-width: 80px;
+  margin-bottom: 1rem;
+}
+
+.register-header h1 {
+  font-size: 1.75rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+  padding: 0 0.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  padding-left: 0.25rem;
+}
+
+.register-input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.register-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: #9333ea;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.register-input[type="date"] {
+  color-scheme: dark;
+  position: relative;
+  appearance: none;
+}
+
+.register-input[type="date"]:not(:focus):invalid {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.register-input[type="date"]::-webkit-datetime-edit {
+  color: white;
+}
+
+.register-input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+  padding: 0;
+}
+
+.register-input[type="date"]::-webkit-datetime-edit-text {
+  color: white;
+  padding: 0 0.2rem;
+}
+
+.register-input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.5) brightness(1.5);
+  cursor: pointer;
+  padding: 0.2rem;
+  opacity: 0.8;
+}
+
+.password-hint {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.register-button {
+  width: calc(100% - 1rem);
+  margin: 0 0.5rem;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  background: #9333ea;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.register-button:hover {
+  background: #7e22ce;
+}
+
+.login-prompt {
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.login-prompt a {
+  color: #9333ea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-prompt a:hover {
+  text-decoration: underline;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.error-popup {
+  background-color: #ff4444;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.error-popup.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (max-height: 700px) {
+  .register-wrapper {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+}
+
+.register-input[type="date"] {
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.05); 
+}
+  
+.register-input[type="date"]::-webkit-datetime-edit {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.register-input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.5) brightness(1.5);
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.register-input[type="date"]::-webkit-datetime-edit-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.password-container {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.password-input-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.password-input-wrapper.invalid {
+  border: 1px solid #ff4444;
+  border-radius: 8px;
+}
+
+.register-input#password {
+  padding-right: 30px;
+}
+
+.warning-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ff4444;
+  display: none;
+  pointer-events: none;
+}
+
+.password-hint-tooltip {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    background-color: #870909;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 200px;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.password-hint-tooltip::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #870909 transparent transparent;
+}
+
+.password-criteria {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+.password-criteria li {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.password-criteria li::before {
+  content: '✗';
+  color: white;
+  margin-right: 5px;
+}
+
+.password-criteria li.valid::before {
+  content: '✓';
+  color: #4CAF50;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #ff4444;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  right: 0;
+  top: 60px;
+  width: 100%;
+  max-width: 250px;
+  z-index: 10;
+  display: none;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 15px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #ff4444 transparent;
+}
+
+.register-input#confirmPassword {
+  padding-right: 30px;
+}
+
+.confirm-password-container {
+  position: relative;
+}
+
+.confirm-password-wrapper {
+  position: relative;
+}
+
+.confirm-password-wrapper.invalid {
+  border: 1px solid #ff4444;
+  border-radius: 8px;
+}
+
+.register-input#confirmPassword {
+  padding-right: 30px;
+}
+
+.confirm-warning-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ff4444;
+  display: none;
+}
+
+.confirm-password-tooltip {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    background-color: #870909;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 200px;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.confirm-password-tooltip::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #870909 transparent transparent;
+}

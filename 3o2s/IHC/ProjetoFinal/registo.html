@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registo | Study Room</title>
+    <link rel="stylesheet" href="css/registo.css">
+</head>
+<body>
+    <div class="register-wrapper">
+        <div class="register-card">
+            <div class="register-header">
+                <h1 style="padding-top: 20px;">Criar Conta</h1>
+            </div>
+            
+            <div class="form-group">
+                <label for="fullName">Nome Completo</label>
+                <input type="text" id="fullName" class="register-input" placeholder="Nome Completo">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="register-input" placeholder="Email">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <div class="password-input-wrapper">
+                        <input type="password" id="password" class="register-input" placeholder="Password">
+                        <span class="warning-icon">⚠</span>
+                    </div>
+                    <div class="password-hint-tooltip">
+                        <ul class="password-criteria">
+                            <li id="length-criteria">6-16 caracteres</li>
+                            <li id="uppercase-criteria">1 letra maiúscula</li>
+                            <li id="number-criteria">1 número</li>
+                            <!--<li id="special-criteria">1 caractere especial</li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="confirmPassword">Confirmar Password</label>
+                <div class="confirm-password-container">
+                    <div class="confirm-password-wrapper">
+                        <input type="password" id="confirmPassword" class="register-input" placeholder="Confirmar Password">
+                        <span class="confirm-warning-icon">⚠</span>
+                    </div>
+                    <div class="confirm-password-tooltip">
+                        As passwords não são iguais
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="birthDate">Data de Nascimento</label>
+                <input type="date" id="birthDate" class="register-input">
+            </div>
+            
+            <div class="form-group">
+                <label for="phoneNumber">Número de Telefone</label>
+                <input type="tel" id="phoneNumber" class="register-input" placeholder="Número de Telefone">
+            </div>
+            
+            <button class="register-button" id="registerBtn">Registrar</button>
+            
+            <div class="login-prompt">
+                <p>Já tem conta? <a href="login.html">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/registo.js"></script>
+</body>
+</html>

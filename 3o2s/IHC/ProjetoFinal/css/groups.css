@@ -1,0 +1,347 @@
+@import url('dashboard.css');
+
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2.35fr 1.35fr 0.30fr;
+  gap: 20px;
+  padding: 20px;
+  height: calc(100vh - 4rem);
+}
+
+.file-sharing-container,
+.chat-container {
+  background-color: rgba(50, 50, 50, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: calc(100vh - 9rem);
+}
+
+
+.participants-container {
+  background-color: rgba(50, 50, 50, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: calc(100vh - 9rem);
+  width: 200px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+.chat-input-container {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.participants-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.file-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.file-item span {
+  color: white;
+  text-align: center;
+  word-break: break-word;
+}
+
+.add-file-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  color: white;
+}
+
+.add-file-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.enter-btn {
+    padding: 8px 16px;
+    background-color: #9333ea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.enter-btn:hover {
+    background-color: #7e22ce;
+}
+
+.message {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 15px;
+  max-width: 80%;
+}
+
+.message.outgoing {
+  align-self: flex-end;
+  background-color: rgba(147, 51, 234, 0.3);
+}
+
+.message.incoming {
+  align-self: flex-start;
+}
+
+.sender {
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #9333ea;
+}
+
+.text {
+  margin: 5px 0;
+}
+
+.time {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+}
+
+.chat-input {
+  flex-grow: 1;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.chat-send-btn {
+  padding: 12px 20px;
+  background-color: #9333ea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.participants-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.participant-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.participant-circle {
+  width: 40px;
+  height: 40px;
+  min-width: 40px; /* Prevent avatar from shrinking */
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.participant-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.add-participant .participant-circle {
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-participant .participant-circle span {
+  color: #9333ea;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.add-participant:hover .participant-circle {
+  background-color: #f0f0f0;
+}
+
+.participant-name {
+  color: white;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: calc(100% - 52px); /* Full width minus avatar width and gap */
+}
+
+.add-participant .participant-name {
+  text-overflow: clip; /* Don't add ellipsis to "Add Member" text */
+  white-space: normal;
+}
+
+.participant-profile-popup {
+    position: absolute;
+    background: rgba(20, 20, 20, 0.95);
+    border-radius: 8px;
+    padding: 15px;
+    min-width: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: translateX(calc(-100% - 10px)); /* Move popup to the left */
+}
+
+.participant-profile-popup.active {
+    display: block;
+}
+
+.participant-full-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.participant-full-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.participant-email {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.close-profile {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.close-profile:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.add-friend-btn {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #9333ea;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+
+.add-friend-btn:hover {
+    background: #6100bb;
+}
+
+.add-friend-btn img {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+
+
+@media (max-width: 1024px) {
+  .main-content {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .participants-container {
+    grid-column: span 2;
+    height: auto;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  
+  .file-sharing-container,
+  .chat-container,
+  .participants-container {
+    height: auto;
+    max-height: none;
+  }
+  
+  body.sidebar-open .main-content {
+    transform: translateX(256px);
+    width: calc(100% - 256px);
+    overflow: hidden;
+  }
+}

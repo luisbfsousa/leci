@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós | Study Room</title>
+    <link rel="stylesheet" href="css/ajuda.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-black to-black text-white min-h-screen">
+    <div id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="text-white text-2xl absolute top-4 right-4">✖</button>
+        <div class="sidebar-content p-6 flex flex-col h-full">
+            <div class="mb-8">
+                <h2 class="text-xl font-bold mb-6">Menu</h2>
+                <ul class="space-y-4">
+                    <li><a href="dashboard.html" class="block hover:text-purple-400">Dashboard</a></li>
+                    <!-- <li><a href="groups.html" class="block hover:text-purple-400">Salas Conjuntas</a></li> -->
+                    <li><a href="salaindividual.html" class="block hover:text-purple-400">Sala Individual</a></li>
+                    <li><a href="friends.html" class="block hover:text-purple-400">Amigos</a></li>
+                    <li><a href="profile.html" class="block hover:text-purple-400">Perfil</a></li>
+                </ul>
+            </div>
+            <div class="mb-8 pt-6 border-t border-gray-700">
+                <h2 class="text-xl font-bold mb-6">Ajuda</h2>
+                <ul class="space-y-4">
+                    <li><a href="ajuda.html" class="block hover:text-purple-400">Sobre Nós</a></li>
+                    <li><a href="faq.html" class="block hover:text-purple-400">FAQ</a></li>
+                    <li><a href="contact.html" class="block hover:text-purple-400">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="mt-auto pt-6 border-t border-gray-700">
+                <ul>
+                    <li><a href="login.html" class="block text-red-400 hover:text-red-500 font-semibold">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button id="openSidebar" class="fixed top-4 left-4 text-white text-3xl z-50">☰</button>
+    <div class="main-content flex flex-col items-center justify-center min-h-screen px-4 py-10">
+        <div class="glass z-10 p-10 rounded-2xl shadow-2xl w-full max-w-4xl">
+            <h1 class="text-5xl font-extrabold mb-6 tracking-tight bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 text-transparent bg-clip-text text-center">Sobre a Study Room</h1>
+            <p class="text-lg text-gray-300 mb-10 text-center">Study Room é um espaço digital projetado para alunos que desejam manter o foco, acompanhar o progresso e criar uma rotina consistente.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left text-gray-300">
+                <div class="bg-gray-800/30 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-bold text-purple-300 mb-2">Porquê que existimos</h3>
+                    <p>Todos nós já sofremos com procrastinação, distração e esgotamento. O Study Room ajuda você a superar esses desafios.
+                    </p>
+                </div>
+                <div class="bg-gray-800/30 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-bold text-blue-300 mb-2">O que nos torna diferentes</h3>
+                    <p>Esta não é apenas mais uma plataforma de estudo. A plataforma é feita sob medida para foco profundo e responsabilidade.
+                    </p>
+                </div>
+                <div class="bg-gray-800/30 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-bold text-pink-300 mb-2">Para quem é</h3>
+                    <p>Seja você um estudante, um autodidata ou um trabalhador remoto, o Study Room é para qualquer pessoa que queira aumentar a produtividade.
+                    </p>
+                </div>
+                <div class="bg-gray-800/30 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-bold text-green-300 mb-2">A nossa missão</h3>
+                    <p>Para tornar o aprendizado focado acessível, tranquilo e voltado para objetivos — a qualquer hora e em qualquer lugar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs | Study Room</title>
+    <link rel="stylesheet" href="css/faq.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-black to-black text-white min-h-screen">
+    <div id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="text-white text-2xl absolute top-4 right-4">✖</button>
+        <div class="sidebar-content p-6 flex flex-col h-full">
+            <div class="mb-8">
+                <h2 class="text-xl font-bold mb-6">Menu</h2>
+                <ul class="space-y-4">
+                    <li><a href="dashboard.html" class="block hover:text-purple-400">Dashboard</a></li>
+                    <!-- <li><a href="groups.html" class="block hover:text-purple-400">Salas Conjuntas</a></li> -->
+                    <li><a href="salaindividual.html" class="block hover:text-purple-400">Sala Individual</a></li>
+                    <li><a href="friends.html" class="block hover:text-purple-400">Amigos</a></li>
+                    <li><a href="profile.html" class="block hover:text-purple-400">Perfil</a></li>
+                </ul>
+            </div>
+            <div class="mb-8 pt-6 border-t border-gray-700">
+                <h2 class="text-xl font-bold mb-6" style="margin-top: 30px;">Ajuda</h2>
+                <ul class="space-y-4">
+                    <li><a href="ajuda.html" class="block hover:text-purple-400">Sobre Nós</a></li>
+                    <li><a href="faq.html" class="block hover:text-purple-400">FAQ</a></li>
+                    <li><a href="contact.html" class="block hover:text-purple-400">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="mt-auto pt-6 border-t border-gray-700">
+                <ul>
+                    <li><a href="login.html" class="block text-red-400 hover:text-red-500 font-semibold">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button id="openSidebar" class="fixed top-4 left-4 text-white text-3xl z-50">☰</button>
+    <div class="main-content flex flex-col items-center justify-center min-h-screen px-4 py-10">
+        <div class="glass z-10 p-10 rounded-2xl shadow-2xl w-full max-w-4xl">
+            <h1 class="text-5xl font-extrabold mb-6 tracking-tight bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 text-transparent bg-clip-text text-center">Duvidas Frequentes</h1>
+            <p class="text-lg text-gray-300 mb-10 text-center">Precisa de ajuda? aqui estão algumas perguntas frequentes sobre a Study Room</p>
+            <div class="space-y-4">
+                <div class="faq-item bg-gray-800/30 p-4 rounded-lg cursor-pointer border border-gray-700">
+                    <h3 class="text-lg font-semibold text-purple-300">O que é a Study Room?</h3>
+                    <div class="faq-answer text-sm text-gray-300 mt-2">É uma plataforma online que permite qualquer pessoa ter uma ambiente colaborativo ou isolado para estudar</div>
+                </div>
+                <div class="faq-item bg-gray-800/30 p-4 rounded-lg cursor-pointer border border-gray-700">
+                    <h3 class="text-lg font-semibold text-blue-300">A minha informação está segura?</h3>
+                    <div class="faq-answer text-sm text-gray-300 mt-2">Sim, toda a informação pessoal e ficheiros são guardados de forma segura e encriptada para evitar roubo de informação</div>
+                </div>
+                <div class="faq-item bg-gray-800/30 p-4 rounded-lg cursor-pointer border border-gray-700">
+                    <h3 class="text-lg font-semibold text-green-300">Posso utilizar a plataforma sem conta?</h3>
+                    <div class="faq-answer text-sm text-gray-300 mt-2">Infelizmente não, todos os utilizadores precisam de ter uma conta de modo a evitar abusos e roubo de identidade</div>
+                </div>
+                <div class="faq-item bg-gray-800/30 p-4 rounded-lg cursor-pointer border border-gray-700">
+                    <h3 class="text-lg font-semibold text-pink-300">No futuro haverá mais funcionalidades?</h3>
+                    <div class="faq-answer text-sm text-gray-300 mt-2">Sim! De momento a nossa equipa encontra-se a desenvolver mais funcionalidades que irão proporcionar um melhor ambiente de estudo com o intuito de melhorar este projeto</div>
+                </div>
+                <div class="faq-item bg-gray-8/30 p-4 rounded-lg cursor-pointer border border-gray-700">
+                    <h3 class="text-lg font-semibold text-yellow-300">O uso é gratuito?</h3>
+                    <div class="faq-answer text-sm text-gray-300 mt-2">Sim o uso da Study Room é de livre utilização sem custos involvidos</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/faq.js"></script>
+</body>
+</html>
