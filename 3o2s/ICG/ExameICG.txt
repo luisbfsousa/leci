@@ -1,0 +1,207 @@
+O Método de Ray-Tracing permite a geração de imagens realistas pixel a pixel, uma vez que:
+Pergunta 1 Selecione uma opção:a.         Contempla os efeitos óticos de reflexão e refração. 
+b.       Todas as outras alternativas estão corretas. 
+c. Efetua a remoção das superfícies ocultas.
+ 
+d.         Permite a determinação de sombras.
+
+------------------------------------------------------
+
+A Projeção (ou Perspetiva) Isométrica é muito usada na prática para esboçar rapidamente objetos.Pergunta 2 Selecione uma opção:a. Não permite medir diretamente comprimentos de arestas, quaisquer que elas sejam. 
+b. É um tipo de Projeção Paralela Oblíqua.
+
+ 
+c. Nenhuma das outras alternativas está correta. 
+d. Há duas alternativas corretas.
+
+------------------------------------------------------
+
+Considere uma cena 3D composta por vários modelos:Pergunta 3 Selecione uma opção:a. A oclusão total ou parcial de modelos pode resultar da operação de “clipping” relativamente ao volume de visualização.  
+b. Todas as outras alternativas estão corretas. 
+c. A oclusão total ou parcial de modelos pode resultar da sua posição e orientação relativas, atendendo à posição do observador.  
+d. Para uma representação correta dos vários modelos, é necessário determinar, para cada modelo, as arestas e superfícies visíveis.
+
+------------------------------------------------------
+
+Na representação de modelos 3D usando uma Projeção Central (ou Perspetiva),Pergunta 5 Selecione uma opção:a. O tamanho da projeção de um modelo não depende da sua distância ao plano de projeção.
+ 
+b. As projeções de todas as arestas (do modelo original) paralelas entre si permanecem paralelas.
+ 
+c. A projeção de cada modelo é uma sua representação realista, mas poderá haver valores de distâncias e amplitudes de ângulos que não podem ser diretamente medidos.  
+ 
+d.       Nenhuma das outras alternativas está correta.
+
+------------------------------------------------------
+
+Na representação da superfície de um modelo 3D usando uma malha poligonal:
+
+Pergunta 6 Selecione uma opção:a.      É habitual armazenar as coordenadas dos vértices definindo a malha, bem como informação topológica (ou de conectividade) permitindo, por exemplo, saber rapidamente que vértices definem cada polígono.
+ 
+b.      Nenhuma das outras alternativas está correta. 
+c.      Há duas alternativas corretas. 
+d.      Fica definida uma coleção de vértices, de arestas e de faces, de tal modo que cada aresta pode ser partilhada por mais do que dois polígonos.
+
+------------------------------------------------------
+
+Nas aplicações gráficas 3D, estão habitualmente definidos modelos-padrão. Pergunta 7 Selecione uma opção:a. Nenhuma das outras alternativas está correta. 
+b. Há duas alternativas corretas. 
+c. Os modelos representados em cada cena 3D são habitualmente instanciados a partir desses modelos-padrão, por especificação da sua posição, orientação e tamanho. 
+ 
+d. Esses modelos-padrão são habitualmente definidos como centrados na origem, orientados segundo os eixos coordenados e com um tamanho normalizado.
+
+------------------------------------------------------
+
+A representação da superfície de um modelo 3D usando uma malha triangular:
+Pergunta 8 Selecione uma opção:a. Não permite aplicar qualquer técnica de sombreamento. 
+b. Permite aproximar superfícies curvas. 
+c.       Pode ser apenas efetuada se o modelo original for limitado por faces planas. 
+
+
+ 
+d.       Nenhuma das outras alternativas está correta
+
+------------------------------------------------------
+
+Na representação de modelos 3D usando uma Projeção Paralela Ortogonal,Pergunta 9 Selecione uma opção:a. Considera-se o centro de projeção situado a uma distância finita do plano de projeção.
+ 
+b. O tamanho da projeção de um modelo não depende da sua distância ao plano de projeção.
+ 
+c. As retas projetantes não são sempre perpendiculares ao plano de projeção. 
+ 
+d.       Nenhuma das outras alternativas está correta.
+
+------------------------------------------------------
+
+Em Computação Gráfica, a representação de pontos 3D usando Coordenadas HomogéneasPergunta 12 Selecione uma opção:a. Não permite aplicar todas as transformações geométricas habituais efectuando apenas produtos matriciais. 
+ 
+b. Nenhuma das outras alternativas está correta. 
+c. Há duas alternativas corretas. 
+d. É habitualmente efetuada acrescentando às coordenadas cartesianas uma coordenada homogénea de valor nulo.
+
+------------------------------------------------------
+
+Num sistema gráfico interativo:Pergunta 14 Selecione uma opção:a. Nenhuma das outras alternativas está correta. 
+b. O utilizador controla o ponto de vista e/ou o conteúdo da cena que lhe é apresentada.
+ 
+c. O “feedback” visual não deve sofrer qualquer atraso significativo, que possa fazer o utilizador duvidar quanto ao resultado das operações selecionadas 
+d. Há duas alternativas corretas.
+
+------------------------------------------------------
+
+Num sistema gráfico interativo:Pergunta 14 Selecione uma opção:a. Nenhuma das outras alternativas está correta. 
+b. O utilizador controla o ponto de vista e/ou o conteúdo da cena que lhe é apresentada.
+ 
+c. O “feedback” visual não deve sofrer qualquer atraso significativo, que possa fazer o utilizador duvidar quanto ao resultado das operações selecionadas 
+d. Há duas alternativas corretas.
+
+------------------------------------------------------
+
+A Fórmula de Euler para um modelo poliédrico e convexo:
+
+Pergunta 15 Selecione uma opção:a. Relaciona o número de vértices, arestas e faces que definem a malha poligonal que representa a superfície do modelo 3D.  
+ 
+b.        Nenhuma das alternativas está correta. 
+c. É expressa habitualmente como V + F + E = 2, em que V representa o número de vértices da malha, F o número de faces e E o número de arestas.
+
+ 
+d. Há duas alternativas corretas.
+
+------------------------------------------------------
+
+Considerando que um ponto no espaço 3D se pode representar por um vetor coluna, a matriz de transformação T, resultante da concatenação das matrizes de transformação T1, T2 e T3, pode obter-se:Pergunta 17 Selecione uma opção:a.       De qualquer das formas, que são equivalentes. 
+b. Efetuando o produto T = T1 T2 T3, em que T1 corresponde à primeira transformação a aplicar, T2 à segunda e T3 à terceira.
+
+ 
+c.       Nenhuma das outras alternativas está correta. 
+d.       Efetuando o produto T = T3 T2 T1, em que T1 corresponde à primeira   transformação a aplicar, T2 à segunda e T3 à terceira.
+
+------------------------------------------------------
+
+Quando se usa um modelo de reflexão, a cor num dado ponto de uma superfície é determinada combinando:Pergunta 18 Selecione uma opção:a. No caso de um modelo de reflexão global, a luz emitida pelos diversos focos com a luz transmitida ou refletida por essa e outras superfícies. 
+b. Nenhuma das outras alternativas está correta. 
+c. Há duas alternativas corretas. 
+d. No caso de um modelo de reflexão local, apenas a luz emitida pelos diversos focos e incidente nesse ponto.
+
+------------------------------------------------------
+
+Em geral, nas rotações num espaço tridimensional, utiliza-se a seguinte convenção: ângulos de rotação positivos em torno de um eixo coordenado correspondem a rotações no sentido contrário ao dos ponteiros do relógio.Pergunta 19 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+Em Computação Gráfica, a representação de pontos 3D usando Coordenadas Cartesianas permite aplicar todas as transformações geométricas habituais efetuando apenas produtos matriciais.Pergunta 20 Selecione uma opção:a. Falso 
+b. Verdadeiro
+
+------------------------------------------------------
+
+Considere que se aplicam duas transformações a um dado ponto: uma rotação seguida da correspondente rotação inversa. A matriz global de transformação que resulta da concatenação dessas duas transformações é a matriz identidade.Pergunta 21 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+Um modelo poliédrico pode ser representado de modo exato usando uma malha de triângulos.Pergunta 22 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+Em alguns casos particulares a multiplicação de duas matrizes de transformação é comutativa, como, por exemplo, no caso de uma translação e de uma mudança de escala sucessivas, quaisquer que estas sejam.Pergunta 23 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+As projeções paralelas produzem imagens mais realistas e exigem maior esforço computacional que as projeções perspetivas.Pergunta 24 Selecione uma opção:a. Falso 
+b. Verdadeiro
+
+------------------------------------------------------
+
+Uma superfície curva não é representável de modo exato usando uma malha de triângulos.Pergunta 25 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+A utilização de texturas permite simular efeitos de iluminação complexos, à custa de um muito maior esforço computacional.Pergunta 26 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+A utilização de “Bump-Mapping” conduz à perceção da rugosidade da superfície de um modelo, e essa rugosidade está também representada na malha poligonal que descreve a superfície. Pergunta 27 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+Um modelo de iluminação permite calcular a cor de um dado ponto de uma cena 3D, tal como percebida pelo utilizador.Pergunta 28 Selecione uma opção:a. Falso 
+b. Verdadeiro
+
+------------------------------------------------------
+
+Para o  elo de iluminação de Phong, um modelo de cobre polido tem um menor coeficiente de Phong do que um modelo de cobre.Pergunta 29 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+A representação de modelos geométricos usando diferentes níveis de detalhe (LOD — “Level-of-Detail”) é uma técnica útil, mas aumenta o esforço computacional associado à representação de uma cena 3D. Pergunta 30 Selecione uma opção:a. Verdadeiro 
+b. Falso
+
+------------------------------------------------------
+
+Considere uma cena 3D animada, contendo apenas um único modelo: um anel (“donut”) representado usando uma malha de triângulos, centrado na origem rodando livremente em torno dos eixos coordenados. Para garantir que não são representados triângulos (total ou parcialmente) ocultos é suficiente usar “Back-Face Culling”.Pergunta 31 Selecione uma opção:a. Falso 
+b. Verdadeiro
+
+------------------------------------------------------
+
+Considerando a representação em Coordenadas Homogéneas de pontos 3D:Pergunta 16 Selecione uma opção:a. O ponto de coordenadas cartesianas (1, 2, 3) pode, por exemplo, ser representado pelos pontos de coordenadas homogéneas (1, 2, 3, 1) ou (2, 4, 6, 2).
+ 
+b. O tuplo de coordenadas (x, y, z, 0) representa, em coordenadas homogéneas, um ponto 3D válido. 
+ 
+c. Nenhuma das outras alternativas está correta. 
+d. Há duas alternativas corretas.
+
+------------------------------------------------------
+
+As superfícies metálicas e brilhantes tendem a refletir luz em direções próximas da direção de reflexão ideal, o que corresponde, num modelo de iluminação, ao componente de:Pergunta 13 Selecione uma opção:a. Reflexão especular. 
+b. Reflexão difusa. 
+c.       Nenhuma das outras alternativas está correta. 
+d. Iluminação ambiente.
+ 
+Limpar a minha escolha
+
