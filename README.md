@@ -4,7 +4,7 @@
 
 Todo o material do curso que facilitará o estudo.
 
-Aqui tens todo o material que fui encontrando e fazendo ao longo da licenciatura. Atenção que nem tudo o que está aqui é da minha autoria principalmente momentos de avaliação e exames
+Aqui tens todo o material que fui encontrando e fazendo ao longo da licenciatura. Momentos de avaliação como exames, questoões aula e mini testes não são da minha autoria
 
 
 
@@ -12,17 +12,17 @@ Aqui tens todo o material que fui encontrando e fazendo ao longo da licenciatura
 
 <table>
   <tr>
-    <th colspan="2">1st Year</th>
-    <th colspan="2">2nd Year</th>
-    <th colspan="2">3rd Year</th>
+    <th colspan="2">1o Ano</th>
+    <th colspan="2">2o Ano</th>
+    <th colspan="2">3o Ano</th>
   </tr>
   <tr>
-    <th>1st Semester</th>
-    <th>2nd Semester</th>
-    <th>1st Semester</th>
-    <th>2nd Semester</th>
-    <th>1st Semester</th>
-    <th>2nd Semester</th>
+    <th>1o Semestre</th>
+    <th>2o Semestre</th>
+    <th>1o Semestre</th>
+    <th>2o Semestre</th>
+    <th>1o Semestre</th>
+    <th>2o Semestre</th>
   </tr>
   <tr>
     <td>ALGA</td>
