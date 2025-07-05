@@ -71,7 +71,7 @@ Aqui tens todo o material que fui encontrando e fazendo ao longo da licenciatura
 IEI > IECI (em principio igual)<br>
 ~~LABI~~ > LSS (disciplina nova)<br>
 ~~SSE~~ > SS (disciplina nova)<br>
-AS <-> LABI (troca de semestre)<br>
+AS <-> LABI (troca direta de semestre/ano)<br>
 DC (disciplina nova do Diogo Gomes, boa sorte)<br>
 C > LFA (em principio igual)<br>
 IHC foi para disciplina de opção
