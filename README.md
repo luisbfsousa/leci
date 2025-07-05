@@ -4,7 +4,9 @@
 
 Todo o material do curso que facilitará o estudo.
 
-Aqui tens todo o material que fui encontrando e fazendo ao longo da licenciatura. Momentos de avaliação como exames, questoões aula e mini testes não são da minha autoria
+Aqui tens todo o material que fui encontrando e fazendo ao longo da licenciatura. Momentos de avaliação como exames, questoões aula e mini testes não são da minha autoria.
+
+Uma boa parte dos projetos encontram-se na minha página principal do github e não aqui.
 
 
 
