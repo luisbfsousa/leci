@@ -72,6 +72,6 @@ IEI > IECI (em principio igual)<br>
 ~~LABI~~ > LSS (disciplina nova)<br>
 ~~SSE~~ > SS (disciplina nova)<br>
 AS <-> LABI (troca direta de semestre/ano)<br>
-DC (disciplina nova do Diogo Gomes, boa sorte)<br>
+DC (disciplina nova do Diogo Gomes, boa sorte que vão precisar em principio)<br>
 C > LFA (em principio igual)<br>
 IHC foi para disciplina de opção
