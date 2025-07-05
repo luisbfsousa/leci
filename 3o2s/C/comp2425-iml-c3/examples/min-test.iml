@@ -1,0 +1,6 @@
+// load image from a given path (input)
+image i is load from read "Path: "
+image k is load from "images/kernel00.pgm"
+
+// create empty list of images
+list of image l is []

@@ -1,0 +1,4 @@
+// create a new image
+image size 5 by 5 background 0
+//place a cross at the center 
+place rect width 5 height 5 at 3 3 with intensity 1

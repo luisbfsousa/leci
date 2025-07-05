@@ -1,0 +1,3 @@
+//ERROR: Undefined variable: nonexistent
+
+output nonexistent  

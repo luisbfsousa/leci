@@ -1,0 +1,4 @@
+//ERROR: Undefined variable: j
+
+image i is load from "images/sample00.pgm"
+draw j

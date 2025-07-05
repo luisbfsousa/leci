@@ -1,0 +1,6 @@
+//ERROR: Numeric operator + requires numeric operands
+//ERROR: expression is null
+
+
+image i is load from "images/sample00.pgm"  
+number result is "hello" + 10  

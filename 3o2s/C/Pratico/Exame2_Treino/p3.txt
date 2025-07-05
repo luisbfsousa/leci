@@ -1,0 +1,5 @@
+-- p3.txt
+display read "x"; -- pede uma fracção ao utilizador apresentando o texto "x: " e escreve-a na consola
+media <= (read "f1" + read "f2"):2;
+display media;
+

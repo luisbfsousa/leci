@@ -1,0 +1,3 @@
+print "Bom dia!"  // escreve na consola a expressão ”Bom dia!”
+t1 : "Miguel"     // define variável t1 com o conteúdo ”Miguel”
+print t1            // escreve na consola o conteúdo da expressão t1

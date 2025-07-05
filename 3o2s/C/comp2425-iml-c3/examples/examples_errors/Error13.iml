@@ -1,0 +1,8 @@
+//desejaveis
+
+// line 6:5 mismatched input 'l' expecting 'of'
+// line 6:10 extraneous input 'of' expecting {'(', 'load', 'run', 'columns', 'rows', '-', '|', '+', 'any', 'all', 'count', 'string', 'number', 'read', '[', ID, STRING, PERCENTAGE, NUMBER}
+
+
+image i is load from "images/sample00.pgm"  
+list of number l is [10, 20, i]  

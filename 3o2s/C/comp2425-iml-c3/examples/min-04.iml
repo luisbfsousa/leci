@@ -1,0 +1,11 @@
+// load image from file
+image i is load from "images/sample03.pgm"
+// generate an image with the secundary language
+image k is run from read "Path: "
+
+// sample morphological operation example
+// applying by this order removes slat pepper noise
+image r is (i open by k) close by k
+
+// store the resulting image
+r store into "images/clean.pgm"

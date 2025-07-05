@@ -1,0 +1,164 @@
+fileTemplate(content) ::= <<
+import cv2
+import imageio
+import numpy as np
+from IIml.IImlVisitor import load_iiml
+
+def morphologyfunction(i, k, operation):
+    if isinstance(i, list):
+        i = np.array(i, dtype=np.uint8)
+    if isinstance(k, list):
+        k = np.array(k, dtype=np.uint8)
+    if i.dtype != np.uint8:
+        i = (i * 255).astype(np.uint8)
+    if k.dtype != np.uint8:
+        k = (k * 255).astype(np.uint8)
+
+    if operation == "erode":
+        return cv2.erode(i, k, iterations=1)
+    elif operation == "dilate":
+        return cv2.dilate(i, k, iterations=1)
+    else:
+        return cv2.morphologyEx(i, operation, k)
+
+def flipfuntion(i, flip_code):
+    if i.dtype != np.uint8:
+        i = (i * 255).astype(np.uint8)
+    return cv2.flip(i, flip_code)
+
+def save_image(i, filename):
+    if filename.lower().endswith('.gif'):
+        # Verifica se é uma lista de imagens
+        if isinstance(i, list):
+            frames = []
+            for img in i:
+                if img.dtype != np.uint8:
+                    img = (img * 255).clip(0, 255).astype(np.uint8)
+                frames.append(img)
+            imageio.mimsave(filename, frames, duration=0.2)
+            return True
+        else:
+            raise TypeError("Para salvar como .gif, 'i' deve ser uma lista de imagens.")
+    else:
+        # Guardar imagem única
+        return cv2.imwrite(filename, (i * 255).astype(np.uint8))
+        #if i.dtype != np.uint8:
+        #    return cv2.imwrite(filename, (i * 255).astype(np.uint8))
+        #else:
+        #    return cv2.imwrite(filename, i)
+
+def showimage(i, title):
+    if i.dtype != np.uint8:
+        cv2.imshow(title, (i * 255).astype(np.uint8))
+    else:
+        cv2.imshow(title, i)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+def main():
+    <content>
+
+if __name__ == "__main__":
+    main()
+>>
+
+assignStatTemplate(var_name, expr) ::= <<
+<var_name> = <expr>
+
+>>
+
+loadImageExprTemplate(expr) ::= "cv2.imread(<expr>, cv2.IMREAD_GRAYSCALE).astype(np.float32) / 255.0"
+
+outputImageTemplate(var_name) ::= <<
+# Output metadata
+print("Image Metadata:")
+print(f"Shape: {<var_name>.shape}")
+print(f"Pixel range: [{<var_name>.min():.2f}, {<var_name>.max():.2f}]")
+
+>>
+
+outputStringTemplate(text) ::= "print(<text>)"
+outputExpressionTemplate(expr) ::= "print(<expr>)"
+
+plotImageTemplate(var_name) ::= <<
+showimage(<var_name>, "Image Display")
+
+>>
+
+storeImageTemplate(var_name, image_path) ::= "save_image(<var_name>, <image_path>)"
+
+imageColumnsRowsExprTemplate(image_var, dimension) ::= <<
+<image_var>.shape[<dimension>]
+>>
+
+ifStatTemplate(condition, then_block, else_block) ::= <<
+if <condition>:
+    <then_block>
+<if(else_block)>
+else:
+    <else_block>
+<endif>
+>>
+
+binaryOpTemplate(left, op, right) ::= "<left> <op> <right>"
+
+variableExprTemplate(name) ::= "<name>"
+
+parenExprTemplate(expr) ::= "(<expr>)"
+
+pixelBinaryOpHp_pixelMultiplyTemplate(expr0, expr1) ::= "np.clip(<expr0> * <expr1>, 0, 1)"
+pixelBinaryOpLp_pixelAddTemplate(expr0, expr1) ::= "np.clip(<expr0> + <expr1>, 0, 1)"
+pixelBinaryOpLp_pixelSubtractTemplate(expr0, expr1) ::= "np.clip(<expr0> - <expr1>, 0, 1)"
+
+pixelBinaryOpLp_pixelGreaterTemplate(expr0, expr1) ::= "<expr0> > <expr1>"
+pixelBinaryOpLp_pixelLessTemplate(expr0, expr1) ::= "<expr0> \< <expr1>"
+
+scaleBinaryOpLp_horizontalScaleTemplate(expr0, expr1) ::= "cv2.resize(<expr0>, None, fx=<expr1>, fy=1.0, interpolation=cv2.INTER_LINEAR)"
+scaleBinaryOpLp_verticalScaleTemplate(expr0, expr1) ::= "cv2.resize(<expr0>, None, fx=1.0, fy=<expr1>, interpolation=cv2.INTER_LINEAR)"
+scaleBinaryOpLp_bothAxesScaleTemplate(expr0, expr1) ::= "cv2.resize(<expr0>, None, fx=<expr1>, fy=<expr1>, interpolation=cv2.INTER_LINEAR)"
+
+numberLiteralTemplate(value) ::= "<value>"
+stringLiteralTemplate(text) ::= "<text>"
+percentageLiteralTemplate(value) ::= "<value>"
+
+morphExpression_OpenTemplate(expr, var_name) ::= "morphologyfunction(<expr>, <var_name>, cv2.MORPH_OPEN)"
+morphExpression_CloseTemplate(expr, var_name) ::= "morphologyfunction(<expr>, <var_name>, cv2.MORPH_CLOSE)"
+morphExpression_TOP_HATTemplate(expr, var_name) ::= "morphologyfunction(<expr>, <var_name>, cv2.MORPH_TOPHAT)"
+morphExpression_BLACK_HATTemplate(expr, var_name) ::= "morphologyfunction(<expr>, <var_name>, cv2.MORPH_BLACKHAT)"
+morphExpression_ErodeTemplate(expr, var_name) ::= "morphologyfunction(<expr>, <var_name>, 'erode')"
+morphExpression_DilateTemplate(expr, var_name) ::= "morphologyfunction(<expr>, <var_name>, 'dilate')"
+
+flipImageExpr_horizontalFlipTemplate(expr) ::= "flipfuntion(<expr>, 1)"
+flipImageExpr_verticalFlipTemplate(expr) ::= "flipfuntion(<expr>, 0)"
+flipImageExpr_bothAxesFlipTemplate(expr) ::= "flipfuntion(<expr>, -1)"
+
+runFromReadExprTemplate(expr) ::= "load_iiml(<expr>)"
+
+readInputTemplate(string) ::= "input(<string>)"
+
+convertExprTemplate(type, expr) ::= <<
+<type>(<expr>)
+>>
+
+anyPixelExprTemplate(expr) ::= "np.any(<expr>)"
+allPixelExprTemplate(expr) ::= "np.all(<expr>)"
+
+untilStatTemplate(condition, commands) ::= <<
+while not <condition>:
+    <commands>
+>>
+
+forStatTemplate(var_name, collection_var, commands) ::= <<
+for <var_name> in <collection_var>:
+    <commands>
+>>
+
+listLiteralTemplate(elements) ::= <<
+[<elements; separator=", ">]
+>>
+
+listAppendTemplate(list_name, expr) ::= <<
+<list_name>.append(<expr>)
+>>
+
+countPixelExprTemplate(pixel_expr,in_expr) ::= "np.sum(<in_expr> == <pixel_expr>)"

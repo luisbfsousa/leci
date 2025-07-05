@@ -1,0 +1,6 @@
+//ERROR: Expected LIST or IMAGE for collection 'n', found NUMBER
+
+number n is 42
+for x within n do
+   output x
+done

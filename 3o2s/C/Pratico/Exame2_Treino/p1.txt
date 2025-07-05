@@ -1,0 +1,6 @@
+-- p1.txt
+
+display 2/3;  -- escreve na consola a fracção 2/3
+display 4;    -- escreve na consola a fracção 4
+c <= 1/4;     -- guarda a fracção 1/4 na variável c
+display c;    -- escreve na consola a fracção armazenado na variável c

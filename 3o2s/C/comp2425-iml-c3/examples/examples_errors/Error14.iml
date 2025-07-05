@@ -1,0 +1,3 @@
+number n is 10  
+string s is "hello"  
+image result is n .+ s

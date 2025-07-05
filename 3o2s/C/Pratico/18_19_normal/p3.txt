@@ -1,0 +1,5 @@
+# p3.txt
+2*[1,2] -> x;            # guarda na variavel x o valor [2.0,4.0]
+show x*(0.5*1);          # escreve na consola o valor [1.0,2.0]
+show [1,2].[2,1];        # escreve na consola o valor 4.0
+show x+[5,5]*3;          # escreve na consola o valor [17.0,19.0]

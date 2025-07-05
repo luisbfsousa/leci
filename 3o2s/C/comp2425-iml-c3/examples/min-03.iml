@@ -1,0 +1,11 @@
+// load image from file
+image i is load from "images/sample03.pgm"
+// load kernel from a file
+image k is load from "images/kernel00.pgm"
+
+// sample morphological operation example
+// applying by this order removes slat pepper noise
+image r is (i open by k) close by k
+
+// store the resulting image
+r store into "images/clean.pgm"

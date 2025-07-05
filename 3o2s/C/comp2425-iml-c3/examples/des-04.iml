@@ -1,0 +1,16 @@
+// load images from a given path (input)
+image i is load from read "Path: "
+image k is run from read "Path: "
+
+// morphological gradient: dilate minus erode
+// extract the edges of one object
+image d is i dilate by k 
+image e is i erode by k
+image r is d .- e
+
+// crude perimeter estimation
+number p is count pixel 1.0 in r
+output "The perimeter is: " + string(p)
+
+// store the edges image
+r store into "images/edges.pgm"

@@ -1,0 +1,3 @@
+t:"Whatever"
+x:"c"
+print ( "kjsahsdabckjfabc fd" / ("a"+"b"+x/t/"") / "-" )

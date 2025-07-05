@@ -1,0 +1,12 @@
+-- p2.txt
+
+display 1/2-4+5+8/4;
+n  <=  2;
+m <=  1/8;
+display n*n*m;
+display n+m:m-n;
+display -n;
+display -m;
+o<= 1-1/1;
+p<=-(o+n  -  m*5);
+display p;

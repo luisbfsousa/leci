@@ -1,0 +1,7 @@
+# p1.txt
+show [1,2]; # escreve na consola o vector [1.0,2.0]
+[3] -> v1;  # guarda na variavel v1 o vector [3.0]
+show v1;    # escreve na consola o valor armazenado na variavel v1
+show 3;     # escreve na consola o escalar 3.0
+5.5 -> e1;  # guarda na variavel e1 o valor escalar 5.5
+show e1;    # escreve na consola o valor armamzenado na variavel e1

@@ -1,0 +1,6 @@
+//ERROR: Condition in if statement must be BOOLEAN, found IMAGE
+
+image i is load from "images/sample00.pgm"
+if i then
+   output "hello"
+done

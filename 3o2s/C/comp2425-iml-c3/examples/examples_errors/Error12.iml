@@ -1,0 +1,4 @@
+//ERROR: Expected LIST type for n, found NUMBER
+
+number n is 10  
+n append 20 

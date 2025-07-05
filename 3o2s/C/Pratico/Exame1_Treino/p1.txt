@@ -1,0 +1,7 @@
+// p1.txt
+t1: "Miguel"          // define variável t1 com o conteúdo "Miguel"
+print t1              // escreve na consola o conteúdo da expressão t1
+t2 : input("Nome: ")  // define variável t2 com uma linha de texto pedida ao utilizador
+print t2              // escreve na consola o conteúdo da expressão t2
+
+

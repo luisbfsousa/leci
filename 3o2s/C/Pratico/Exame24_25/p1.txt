@@ -1,0 +1,12 @@
+::- comment ::-
+write 2h30m10s;  ::- qualquer coisa ::-
+write 7h23m9s;   ::- comment ::-
+t := 8h19m55s;   ::- comment ::-
+write t;        ::- comment ::-
+write;          ::- comment ::-
+write t,2h30m9s; ::- comment ::-
+::- comment ::-
+
+::- 2h30m9s tem que passar para 02h30m09s ::-
+
+::- nao me lembro dos outros exemplos mas tinha operacoes logicas, + - unario (unario era para subtrair tempo) parenteses, podia se dar "write read ..." ::-

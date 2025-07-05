@@ -1,0 +1,19 @@
+// load images from files
+image i0 is load from "images/sample00.pgm"
+image i1 is load from "images/sample01.pgm"
+
+// ajust horizontal scale
+number i0cols is columns of i0
+number i1cols is columns of i1 
+i0 is i0 -* (i1cols / i0cols)
+
+// ajust vertical scale if needed
+number i0rows is rows of i0
+number i1rows is rows of i1 
+i0 is i0 |* (i1rows / i0rows)
+
+// blend two images together
+image r is i0 .* 30% .+ 70% .* i1
+
+// store the resulting image
+r store into "images/blend.pgm"

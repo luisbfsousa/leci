@@ -1,0 +1,36 @@
+// load images from files
+image i0 is load from "images/sample00.pgm"
+image i1 is load from "images/sample01.pgm"
+
+// compute image areas
+number area_i0 is (rows of i0) * (rows of i0)
+number area_i1 is (rows of i1) * (rows of i1)
+
+// update references to have smaller at i0
+if area_i0 > area_i1 then
+    image temp is i0
+    i0 is i1
+    i1 is temp
+done
+
+// ajust horizontal scale to larger image
+number i0cols is columns of i0
+number i1cols is columns of i1 
+
+if i0cols != i1cols then
+    i0 is i0 -* (i1cols / i0cols)
+done 
+
+// ajust vertical scale to larger
+number i0rows is rows of i0
+number i1rows is rows of i1 
+
+if i0rows != i1rows then
+    i0 is i0 |* (i1rows / i0rows)
+done 
+
+// blend two images together
+image r is i0 .* 30% .+ 70% .* i1
+
+// store the resulting image
+r store into "images/blend.pgm"

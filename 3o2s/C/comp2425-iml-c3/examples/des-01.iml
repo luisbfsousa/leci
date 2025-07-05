@@ -1,0 +1,16 @@
+// load images from files
+image i is load from "images/sample00.pgm"
+image k is load from "images/kernel00.pgm"
+
+// Opening operation clean noise
+image r is (i open by k) close by k
+
+if any pixel r .> 0 then 
+    output "Image contains at least one object."
+else
+    output "Image does not contains any object."
+done
+
+draw r
+
+r store into "images/result.pgm"

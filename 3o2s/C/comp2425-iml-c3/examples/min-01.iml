@@ -1,0 +1,11 @@
+// loads an image from pgm file
+image i is load from "images/sample00.pgm"
+
+// print image metadata
+output i
+
+// plot image
+draw i
+
+// saves a copy of image i
+i store into "images/copy_sample00.pgm"

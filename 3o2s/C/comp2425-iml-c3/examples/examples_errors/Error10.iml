@@ -1,0 +1,5 @@
+//ERROR: Pixel operation requires IMAGE with IMAGE or numeric
+//ERROR: expression is null
+
+image i is load from "images/sample00.pgm"
+i is i .* "2.0"

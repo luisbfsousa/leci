@@ -1,0 +1,6 @@
+//ERROR: Type mismatch for variable 'n': expected NUMBER, found IMAGE
+
+//it compiles intead of error
+
+image i is load from "images/sample00.pgm"
+number n is i

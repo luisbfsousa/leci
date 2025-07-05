@@ -1,0 +1,5 @@
+//ERROR: Undefined collection: nonexistent
+
+for x within nonexistent do  
+   output x  
+done  

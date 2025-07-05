@@ -1,0 +1,9 @@
+// read image size from input
+number l is number(read "Size: ")
+// create a new image
+image size l by l background 0
+// read circle radius from input
+number r is number(read "Radius: ")
+// place a circle in the image
+// other forms are: rect, cross, plus
+place circle radius r at l/2 l/2 with intensity 1

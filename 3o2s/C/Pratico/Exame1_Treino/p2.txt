@@ -1,0 +1,11 @@
+// p2.txt
+t1: "Miguel"                   // define variável t1 com o conteúdo "Miguel"
+print t1                       // escreve na consola o conteúdo da expressão t1
+t2 : input("Nome: ")           // define variável t2 com uma linha de texto pedida ao utilizador
+print t2                       // escreve na consola o conteúdo da expressão t1
+print t1+" "+t2                // concatena o conteúdo de t1 com " " e t2 e escreve o resultado
+                               // na consola
+print (t1/"i"/"iii")           // substitui o texto "i" no conteúdo de t1 por "iii" e escreve o
+                               // resultado na consola
+t1: trim"  "+(t1 - "igu")+" "  // resultado: "Mel"
+print t1                       // escreve na consola o conteúdo da expressão t1

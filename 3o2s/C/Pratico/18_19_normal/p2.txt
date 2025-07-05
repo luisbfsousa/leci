@@ -1,0 +1,5 @@
+# p2.txt
+show [1,2]+[3,4];                 # escreve na consola o vector [4.0,6.0]
+[1,1]+[2,2]-([7,8] - [8,7]) -> x; # guarda na variavel x o vector [4,2]
+show x-([2,2]);                   # escreve na consola o vector [2.0, 0.0]
+show 1+2-3;                       # escreve na consola o escalar 0

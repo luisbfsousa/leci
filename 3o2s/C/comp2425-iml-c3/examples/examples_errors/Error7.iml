@@ -1,0 +1,8 @@
+//ERROR: Type mismatch in list: expected PERCENTAGE, found STRING
+
+//line 3:5 extraneous input 'l' expecting 'of'
+//line 3:21 missing ID at 'is'
+
+//desejaveis
+
+list of percentage l is [10%, 5]

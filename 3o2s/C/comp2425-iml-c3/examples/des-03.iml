@@ -1,0 +1,12 @@
+// load image from a given path (input)
+image i is load from read "Path: "
+
+list of percentage l is 
+[100%, 90%, 80%, 70%, 60%,
+50%, 40%, 30%, 20%, 10%]
+
+// plot a vanishing image
+for percentage p within l do
+    image r is i .* p
+    draw r
+done

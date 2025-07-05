@@ -1,0 +1,18 @@
+// load images from a given path (input)
+image i is load from read "Path: "
+
+// build a kernel as a list of lists
+list of list of number k is []
+
+// define a plus kernel manualy
+k append [0, 1, 0]
+k append [1, 1, 1]
+k append [0, 1, 0]
+
+// Enhance image contrast
+image t is i top hat by k 
+image b is i black hat by k
+image r is i .+ t .- b
+
+// store the enhanced image
+r store into "images/enhanced.pgm"

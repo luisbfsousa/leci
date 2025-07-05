@@ -1,0 +1,6 @@
+//ERROR: Variable 'n' is not of type IMAGE
+//ERROR: expression is null
+
+image i is load from "images/sample00.pgm"
+number n is 10
+image r is i open by n
