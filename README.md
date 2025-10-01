@@ -73,7 +73,7 @@ Uma boa parte dos projetos encontram-se na minha página principal do github e n
 IEI > IECI (em principio igual)<br>
 ~~LABI~~ > LSS (disciplina nova)<br>
 ~~SSE~~ > SS (disciplina nova)<br>
-AS <-> LABI (troca direta de semestre/ano)<br>
+AS <-> MPEI (troca direta de semestre/ano)<br>
 DC (disciplina nova do Diogo Gomes, boa sorte que vão precisar em principio)<br>
 C > LFA (em principio igual)<br>
 IHC foi para disciplina de opção
