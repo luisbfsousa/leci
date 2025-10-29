@@ -1,3 +1,5 @@
+// brief simulation parameter values.
+
 #ifndef SETTINGS_H
 #define SETTINGS_H
 
